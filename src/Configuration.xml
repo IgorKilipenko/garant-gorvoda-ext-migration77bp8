@@ -65,6 +65,7 @@
 			<Language>Русский</Language>
 			<Catalog>КВП_Счетчики</Catalog>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
+			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
