@@ -63,6 +63,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Catalog>КВП_Счетчики</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
