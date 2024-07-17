@@ -64,6 +64,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Catalog>КВП_Счетчики</Catalog>
+			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
