@@ -7,7 +7,8 @@
 		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="67b66f61756621913417805a4153622b4c7eeb49"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
-		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="e5a86cafd54baf33559934384bfaa1aa52908934"/>
+		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="c5c31f592e33b8fc9425a79e65a3afe7f9dff7f3"/>
+		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.ManagerModule" id="044cc305-d691-4420-9791-59a08b431474.2" configVersion="d6b7d14cf0f4d11f253cb0ba6b56f479263ee1c5"/>
 		<Metadata name="Language.Русский" id="c3c394d0-b318-43d9-98e9-ef4a53c675d4" configVersion="71f19288c042d76801198cf8dce6870368fa487e"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
