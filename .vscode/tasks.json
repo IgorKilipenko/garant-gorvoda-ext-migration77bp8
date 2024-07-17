@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "shell",
+            "command": "gitsync",
+            "args": [
+                "sync",
+                "-u",
+                "ГП_Разработчик3",
+                "-e",
+                "ГП_МиграцияБП77_Разработка",
+                "../../storages/ХК_ГП_МиграцияБП77_Разработка",
+                "${workspaceRoot}/src",
+            ],
+            "group": "none",
+            "label": "oscript gitsync: sync"
+        }
+    ]
+}
