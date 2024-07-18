@@ -7,12 +7,13 @@
 		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="c8bf422ee16561b65885f6cb516886d4a2b28a6f"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
-		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="c5c31f592e33b8fc9425a79e65a3afe7f9dff7f3"/>
-		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.ManagerModule" id="044cc305-d691-4420-9791-59a08b431474.2" configVersion="d6b7d14cf0f4d11f253cb0ba6b56f479263ee1c5"/>
-		<Metadata name="InformationRegister.ГП_СчетчикиБП77" id="01598aca-77d6-40b0-8985-c5f032090ef3" configVersion="8e76b0d165bedd38dc75d8777fb0dd8896d8090b">
+		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="bd07723e08d0de717c2dd376fddfe165312a8d11"/>
+		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.ManagerModule" id="044cc305-d691-4420-9791-59a08b431474.2" configVersion="140a441ce1fe7971e2c570a7df90cae504519b89"/>
+		<Metadata name="InformationRegister.ГП_СчетчикиБП77" id="01598aca-77d6-40b0-8985-c5f032090ef3" configVersion="2d4013bcf4b5a2e504b8073e6f58542d4f2e2ea9">
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Resource.ДатаУстановки" id="0c950b37-b259-4c88-b51e-7b669eec3a77"/>
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Attribute.КонтрагентИНН" id="146f4c78-3b5d-4053-b105-2a523c9d2ae3"/>
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Resource.ДатаПоверки" id="1640a30f-a3df-4062-aef8-7cacdd4db1fe"/>
+			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Dimension.СчетчикБП8" id="222f7f18-95db-48f7-8ec6-88247a0a913a"/>
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Attribute.ДоговорНаименование" id="32c089d6-7953-49ee-80dc-a8977b0e2651"/>
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Resource.ДоговорКод" id="3e24db9c-2527-42a5-ab40-854cce8f1e47"/>
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Resource.МаксимальныйПоказатель" id="3e657364-2cb3-4a60-9c12-5d267f6c0a2e"/>
