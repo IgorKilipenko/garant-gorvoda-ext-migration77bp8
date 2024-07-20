@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>0.0.0.0</Version>
+			<Version>0.1.0.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -64,6 +64,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Catalog>КВП_Счетчики</Catalog>
+			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 		</ChildObjects>
