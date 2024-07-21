@@ -150,43 +150,50 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаОбновлениеРасширеннаяПодсказка" id="27"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаПериод" id="30">
+						<LabelDecoration name="ДекорацияПустая2" id="35">
+							<ContextMenu name="ДекорацияПустая2КонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ДекорацияПустая2РасширеннаяПодсказка" id="37"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаКнопки" id="30">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа период</v8:content>
+									<v8:content>Группа кнопки</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа период</v8:content>
+									<v8:content>Группа кнопки</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаПериодРасширеннаяПодсказка" id="31"/>
+							<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="31"/>
+							<ChildItems>
+								<Button name="ОбновитьСчетчикиИзРегистра" id="28">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ОбновитьСчетчикиИзРегистра</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.GoForward</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновить счетчики</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОбновитьСчетчикиИзРегистраРасширеннаяПодсказка" id="29"/>
+								</Button>
+								<Button name="УдалитьВсеСчетчикиБП77" id="47">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.УдалитьВсеСчетчикиБП77</CommandName>
+									<ExtendedTooltip name="УдалитьВсеСчетчикиБП77РасширеннаяПодсказка" id="48"/>
+								</Button>
+							</ChildItems>
 						</UsualGroup>
-						<LabelDecoration name="ДекорацияПустая2" id="35">
-							<ContextMenu name="ДекорацияПустая2КонтекстноеМеню" id="36"/>
-							<ExtendedTooltip name="ДекорацияПустая2РасширеннаяПодсказка" id="37"/>
-						</LabelDecoration>
-						<Button name="ОбновитьСчетчикиИзРегистра" id="28">
-							<Type>UsualButton</Type>
-							<Representation>PictureAndText</Representation>
-							<CommandName>Form.Command.ОбновитьСчетчикиИзРегистра</CommandName>
-							<Picture>
-								<xr:Ref>StdPicture.GoForward</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Обновить счетчики</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="ОбновитьСчетчикиИзРегистраРасширеннаяПодсказка" id="29"/>
-						</Button>
 						<LabelDecoration name="ДекорацияПустая4" id="44">
 							<ContextMenu name="ДекорацияПустая4КонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="ДекорацияПустая4РасширеннаяПодсказка" id="46"/>
@@ -377,6 +384,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьСчетчикиИзРегистра</Action>
+		</Command>
+		<Command name="УдалитьВсеСчетчикиБП77" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить все счетчики БП 7.7</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить все счетчики б п77</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьВсеСчетчикиБП77</Action>
 		</Command>
 	</Commands>
 </Form>
