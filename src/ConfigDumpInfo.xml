@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
-		<Metadata name="Catalog.КВП_Счетчики" id="08472706-aead-4e80-b13a-5fad52d26adf" configVersion="61d441cae0c0a3f06581f66f066eb98d7bed2c48">
+		<Metadata name="Catalog.КВП_Счетчики" id="08472706-aead-4e80-b13a-5fad52d26adf" configVersion="7752330801acb334a67ee7d59168b10e58065538">
+			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_ДатаУстановки" id="442d3761-6648-41c1-8a5a-5a3edd7cf5c5"/>
 			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_ИдентификаторБП77" id="72ea4b37-291e-4e1c-8b27-dcca3125800c"/>
+			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_Комментарий" id="c2f6ad13-c0fe-4259-a30f-dd19eaab8540"/>
 		</Metadata>
 		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="bdd8a21e0a3838ce09ec4876af7b883862dad77d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
