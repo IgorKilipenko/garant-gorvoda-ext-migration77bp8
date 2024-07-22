@@ -6,7 +6,7 @@
 			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_ИдентификаторБП77" id="72ea4b37-291e-4e1c-8b27-dcca3125800c"/>
 			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_Комментарий" id="c2f6ad13-c0fe-4259-a30f-dd19eaab8540"/>
 		</Metadata>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="bbefda3dacc2d5163167ab3f4bf0798b9dfcc65f"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="6c299824c5614cb3291f86a63717eccd722260a6"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="7e9a84bd8a63c85917761e08106a68e43a1606d6"/>
