@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаРазрешитьРедактирование" id="82">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.РазрешитьРедактирование</CommandName>
+				<ExtendedTooltip name="ФормаРазрешитьРедактированиеРасширеннаяПодсказка" id="83"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="КонтрагентКод" id="1">
+			<DataPath>Запись.КонтрагентКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КонтрагентКодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ОбъектАбонентаКод" id="4">
+			<DataPath>Запись.ОбъектАбонентаКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбъектАбонентаКодКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ОбъектАбонентаКодРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="СчетчикКод" id="7">
+			<DataPath>Запись.СчетчикКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СчетчикКодКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СчетчикКодРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Счетчик" id="10">
+			<DataPath>Запись.Счетчик</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СчетчикКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СчетчикРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="СчетчикНаименование" id="13">
+			<DataPath>Запись.СчетчикНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СчетчикНаименованиеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СчетчикНаименованиеРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ДоговорКод" id="16">
+			<DataPath>Запись.ДоговорКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорКодКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДоговорКодРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ТипСчетчикаКод" id="19">
+			<DataPath>Запись.ТипСчетчикаКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипСчетчикаКодКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ТипСчетчикаКодРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ПериодичностьПоверки" id="22">
+			<DataPath>Запись.ПериодичностьПоверки</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПериодичностьПоверкиКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ПериодичностьПоверкиРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="КоэффициентПересчета" id="25">
+			<DataPath>Запись.КоэффициентПересчета</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КоэффициентПересчетаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="КоэффициентПересчетаРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="МаксимальныйПоказатель" id="28">
+			<DataPath>Запись.МаксимальныйПоказатель</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МаксимальныйПоказательКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="МаксимальныйПоказательРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ВидСчетчика" id="31">
+			<DataPath>Запись.ВидСчетчика</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидСчетчикаКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ВидСчетчикаРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="МетодРасчетаХВ" id="34">
+			<DataPath>Запись.МетодРасчетаХВ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МетодРасчетаХВКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="МетодРасчетаХВРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="МетодРасчетаГВ" id="37">
+			<DataPath>Запись.МетодРасчетаГВ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МетодРасчетаГВКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="МетодРасчетаГВРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="МетодРасчетаКан" id="40">
+			<DataPath>Запись.МетодРасчетаКан</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МетодРасчетаКанКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="МетодРасчетаКанРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<CheckBoxField name="ТолькоДляКанализации" id="43">
+			<DataPath>Запись.ТолькоДляКанализации</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ТолькоДляКанализацииКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ТолькоДляКанализацииРасширеннаяПодсказка" id="45"/>
+		</CheckBoxField>
+		<InputField name="ДатаУстановки" id="46">
+			<DataPath>Запись.ДатаУстановки</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаУстановкиКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="ДатаУстановкиРасширеннаяПодсказка" id="48"/>
+		</InputField>
+		<InputField name="ДатаПоверки" id="49">
+			<DataPath>Запись.ДатаПоверки</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаПоверкиКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ДатаПоверкиРасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<InputField name="ЗначенияПоказаний" id="52">
+			<DataPath>Запись.ЗначенияПоказаний</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗначенияПоказанийКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="ЗначенияПоказанийРасширеннаяПодсказка" id="54"/>
+		</InputField>
+		<InputField name="КонтрагентИНН" id="55">
+			<DataPath>Запись.КонтрагентИНН</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентИННКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="КонтрагентИННРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<InputField name="КонтрагентНаименование" id="58">
+			<DataPath>Запись.КонтрагентНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентНаименованиеКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="КонтрагентНаименованиеРасширеннаяПодсказка" id="60"/>
+		</InputField>
+		<InputField name="ОбъектАбонентаНаименование" id="61">
+			<DataPath>Запись.ОбъектАбонентаНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбъектАбонентаНаименованиеКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="ОбъектАбонентаНаименованиеРасширеннаяПодсказка" id="63"/>
+		</InputField>
+		<InputField name="ДоговорНаименование" id="64">
+			<DataPath>Запись.ДоговорНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорНаименованиеКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="ДоговорНаименованиеРасширеннаяПодсказка" id="66"/>
+		</InputField>
+		<InputField name="ДоговорНомер" id="67">
+			<DataPath>Запись.ДоговорНомер</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорНомерКонтекстноеМеню" id="68"/>
+			<ExtendedTooltip name="ДоговорНомерРасширеннаяПодсказка" id="69"/>
+		</InputField>
+		<InputField name="ТипСчетчикаНаименование" id="70">
+			<DataPath>Запись.ТипСчетчикаНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипСчетчикаНаименованиеКонтекстноеМеню" id="71"/>
+			<ExtendedTooltip name="ТипСчетчикаНаименованиеРасширеннаяПодсказка" id="72"/>
+		</InputField>
+		<InputField name="Комментарий" id="73">
+			<DataPath>Запись.Комментарий</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="74"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="75"/>
+		</InputField>
+		<InputField name="ДатаПоказаний" id="76">
+			<DataPath>Запись.ДатаПоказаний</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаПоказанийКонтекстноеМеню" id="77"/>
+			<ExtendedTooltip name="ДатаПоказанийРасширеннаяПодсказка" id="78"/>
+		</InputField>
+		<InputField name="ДатаБудущейПоверки" id="79">
+			<DataPath>Запись.ДатаБудущейПоверки</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаБудущейПоверкиКонтекстноеМеню" id="80"/>
+			<ExtendedTooltip name="ДатаБудущейПоверкиРасширеннаяПодсказка" id="81"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ГП_СчетчикиБП77</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РазрешитьРедактирование" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разрешить редактирование</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разрешить редактирование</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>РазрешитьРедактирование</Action>
+		</Command>
+	</Commands>
+</Form>

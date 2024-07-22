@@ -40,7 +40,7 @@
 					<v8:content>Миграция БП 7.7</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>// Гарант+ [F00225713]</Comment>
+			<Comment>// Гарант+ [F00225713] Перенос счтчиков</Comment>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>ГП_</NamePrefix>
@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>0.0.0.0</Version>
+			<Version>1.0.0.1-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -64,7 +64,9 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Catalog>КВП_Счетчики</Catalog>
+			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
+			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

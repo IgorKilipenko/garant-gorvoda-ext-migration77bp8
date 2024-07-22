@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрагентКод</dataPath>
+			<field>КонтрагентКод</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПоказаний</dataPath>
+			<field>ДатаПоказаний</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектАбонентаКод</dataPath>
+			<field>ОбъектАбонентаКод</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначенияПоказаний</dataPath>
+			<field>ЗначенияПоказаний</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетчикКод</dataPath>
+			<field>СчетчикКод</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счетчик</dataPath>
+			<field>Счетчик</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоэффициентПересчета</dataPath>
+			<field>КоэффициентПересчета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоговорКод</dataPath>
+			<field>ДоговорКод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодичностьПоверки</dataPath>
+			<field>ПериодичностьПоверки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСчетчикаКод</dataPath>
+			<field>ТипСчетчикаКод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоговорНомер</dataPath>
+			<field>ДоговорНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрагентНаименование</dataPath>
+			<field>КонтрагентНаименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаксимальныйПоказатель</dataPath>
+			<field>МаксимальныйПоказатель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидСчетчика</dataPath>
+			<field>ВидСчетчика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МетодРасчетаХВ</dataPath>
+			<field>МетодРасчетаХВ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МетодРасчетаГВ</dataPath>
+			<field>МетодРасчетаГВ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МетодРасчетаКан</dataPath>
+			<field>МетодРасчетаКан</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТолькоДляКанализации</dataPath>
+			<field>ТолькоДляКанализации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаУстановки</dataPath>
+			<field>ДатаУстановки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПоверки</dataPath>
+			<field>ДатаПоверки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрагентИНН</dataPath>
+			<field>КонтрагентИНН</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектАбонентаНаименование</dataPath>
+			<field>ОбъектАбонентаНаименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоговорНаименование</dataPath>
+			<field>ДоговорНаименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСчетчикаНаименование</dataPath>
+			<field>ТипСчетчикаНаименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаБудущейПоверки</dataPath>
+			<field>ДатаБудущейПоверки</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    ГП_СчетчикиБП77.КонтрагентКод КАК КонтрагентКод,
+    ГП_СчетчикиБП77.ОбъектАбонентаКод КАК ОбъектАбонентаКод,
+    ГП_СчетчикиБП77.СчетчикКод КАК СчетчикКод,
+    ГП_СчетчикиБП77.Счетчик КАК Счетчик,
+    ГП_СчетчикиБП77.ДоговорКод КАК ДоговорКод,
+    ГП_СчетчикиБП77.ТипСчетчикаКод КАК ТипСчетчикаКод,
+    ГП_СчетчикиБП77.ПериодичностьПоверки КАК ПериодичностьПоверки,
+    ГП_СчетчикиБП77.КоэффициентПересчета КАК КоэффициентПересчета,
+    ГП_СчетчикиБП77.МаксимальныйПоказатель КАК МаксимальныйПоказатель,
+    ГП_СчетчикиБП77.ВидСчетчика КАК ВидСчетчика,
+    ГП_СчетчикиБП77.МетодРасчетаХВ КАК МетодРасчетаХВ,
+    ГП_СчетчикиБП77.МетодРасчетаГВ КАК МетодРасчетаГВ,
+    ГП_СчетчикиБП77.МетодРасчетаКан КАК МетодРасчетаКан,
+    ГП_СчетчикиБП77.ТолькоДляКанализации КАК ТолькоДляКанализации,
+    ГП_СчетчикиБП77.ДатаУстановки КАК ДатаУстановки,
+    ГП_СчетчикиБП77.ДатаПоверки КАК ДатаПоверки,
+    ГП_СчетчикиБП77.ЗначенияПоказаний КАК ЗначенияПоказаний,
+    ГП_СчетчикиБП77.КонтрагентИНН КАК КонтрагентИНН,
+    ГП_СчетчикиБП77.КонтрагентНаименование КАК КонтрагентНаименование,
+    ГП_СчетчикиБП77.ОбъектАбонентаНаименование КАК ОбъектАбонентаНаименование,
+    ГП_СчетчикиБП77.ДоговорНаименование КАК ДоговорНаименование,
+    ГП_СчетчикиБП77.ДоговорНомер КАК ДоговорНомер,
+    ГП_СчетчикиБП77.ТипСчетчикаНаименование КАК ТипСчетчикаНаименование,
+    ГП_СчетчикиБП77.Комментарий КАК Комментарий,
+    ГП_СчетчикиБП77.ДатаПоказаний КАК ДатаПоказаний,
+    ГП_СчетчикиБП77.ДатаБудущейПоверки КАК ДатаБудущейПоверки
+ИЗ
+    РегистрСведений.ГП_СчетчикиБП77 КАК ГП_СчетчикиБП77
+{ГДЕ
+    (ВЫБОР
+            КОГДА &amp;ТолькоНеСозданные
+                ТОГДА ГП_СчетчикиБП77.Счетчик = &amp;ПустойСчетчик
+            ИНАЧЕ ИСТИНА
+        КОНЕЦ)}</query>
+	</dataSet>
+	<parameter>
+		<name>ПустойСчетчик</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Пустой счетчик</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.КВП_Счетчики</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.КВП_Счетчики.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+		<inputParameters>
+			<dcscor:item>
+				<dcscor:parameter>ВыборГруппИЭлементов</dcscor:parameter>
+				<dcscor:value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d5p1:FoldersAndItemsUse">Items</dcscor:value>
+			</dcscor:item>
+		</inputParameters>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ТолькоНеСозданные</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Только не созданные</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КонтрагентНаименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектАбонентаНаименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидСчетчика</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипСчетчикаНаименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Счетчик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаУстановки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПоверки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПоказаний</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаБудущейПоверки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначенияПоказаний</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоэффициентПересчета</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаксимальныйПоказатель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МетодРасчетаГВ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МетодРасчетаКан</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МетодРасчетаХВ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПериодичностьПоверки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТолькоДляКанализации</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ТолькоНеСозданные</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					<dcsset:userSettingID>4ab42b9f-bd0b-4fba-86db-d084508b0967</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>КонтрагентНаименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ОбъектАбонентаНаименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КонтрагентНаименование</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ОбъектАбонентаНаименование</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ТипСчетчикаНаименование</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>
