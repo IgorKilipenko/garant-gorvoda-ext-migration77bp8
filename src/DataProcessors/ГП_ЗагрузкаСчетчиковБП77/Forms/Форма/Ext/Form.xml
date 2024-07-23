@@ -18,6 +18,9 @@
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<Pages name="ГруппаПанели" id="53">
 			<Title>
@@ -317,35 +320,87 @@
 							<VerticalStretch>true</VerticalStretch>
 							<ExtendedTooltip name="ГруппаПанелиУслугРасширеннаяПодсказка" id="60"/>
 							<ChildItems>
-								<Page name="ГруппаОбновлениеУслуг" id="61">
+								<Page name="ГруппаСозданиеУслуг" id="61">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Обновление</v8:content>
+											<v8:content>Создание</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа обновление услуг</v8:content>
+											<v8:content>Группа создание услуг</v8:content>
 										</v8:item>
 									</ToolTip>
-									<ExtendedTooltip name="ГруппаОбновлениеУслугРасширеннаяПодсказка" id="62"/>
+									<ExtendedTooltip name="ГруппаСозданиеУслугРасширеннаяПодсказка" id="62"/>
 									<ChildItems>
-										<LabelDecoration name="ДекорацияПустая5" id="65">
-											<ContextMenu name="ДекорацияПустая5КонтекстноеМеню" id="66"/>
-											<ExtendedTooltip name="ДекорацияПустая5РасширеннаяПодсказка" id="67"/>
-										</LabelDecoration>
-										<Button name="ОбновитьНазначенияУслуг" id="63">
-											<Type>UsualButton</Type>
-											<Representation>PictureAndText</Representation>
-											<CommandName>Form.Command.ОбновитьНазначенияУслуг</CommandName>
-											<Picture>
-												<xr:Ref>StdPicture.Refresh</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
-											</Picture>
-											<ExtendedTooltip name="ОбновитьНазначенияУслугРасширеннаяПодсказка" id="64"/>
-										</Button>
+										<UsualGroup name="ГруппаСоданиеУправленияУслугами" id="75">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа содание управления услугами</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа содание управления услугами</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаСоданиеУправленияУслугамиРасширеннаяПодсказка" id="76"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаНастрокиСозданияДокументаУправленияУслугами" id="70">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настроки:</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настроки создания документа управления услугами</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Behavior>Collapsible</Behavior>
+													<ExtendedTooltip name="ГруппаНастрокиСозданияДокументаУправленияУслугамиРасширеннаяПодсказка" id="71"/>
+													<ChildItems>
+														<InputField name="СписокВидовУслугДляУправленияУслугами" id="72">
+															<DataPath>СписокВидовУслугДляУправленияУслугами</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Список услуг</v8:content>
+																</v8:item>
+															</Title>
+															<ListChoiceMode>true</ListChoiceMode>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ChooseType>false</ChooseType>
+															<ContextMenu name="СписокВидовУслугДляУправленияУслугамиКонтекстноеМеню" id="73"/>
+															<ExtendedTooltip name="СписокВидовУслугДляУправленияУслугамиРасширеннаяПодсказка" id="74"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<LabelDecoration name="ДекорацияПустая5" id="65">
+													<ContextMenu name="ДекорацияПустая5КонтекстноеМеню" id="66"/>
+													<ExtendedTooltip name="ДекорацияПустая5РасширеннаяПодсказка" id="67"/>
+												</LabelDecoration>
+												<Button name="СоздатьДокументыУправленияУслугами" id="68">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.СоздатьДокументыУправленияУслугами</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.DataCompositionNewGroup</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="СоздатьДокументыУправленияУслугамиРасширеннаяПодсказка" id="69"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 							</ChildItems>
@@ -476,6 +531,17 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="СписокВидовУслугДляУправленияУслугами" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список видов услуг для управления услугами</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ОткрытьФайлДляЧтения" id="1">
@@ -553,20 +619,20 @@
 			</ToolTip>
 			<Action>СопоставитьСчетчики</Action>
 		</Command>
-		<Command name="ОбновитьНазначенияУслуг" id="6">
+		<Command name="СоздатьДокументыУправленияУслугами" id="6">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить назначения услуг</v8:content>
+					<v8:content>Создать документы управления услугами</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить назначения услуг</v8:content>
+					<v8:content>Создать документы управления услугами</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ОбновитьНазначенияУслуг</Action>
+			<Action>СоздатьДокументыУправленияУслугами</Action>
 		</Command>
 	</Commands>
 </Form>
