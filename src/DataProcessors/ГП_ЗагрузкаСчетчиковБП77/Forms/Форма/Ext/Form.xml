@@ -18,8 +18,11 @@
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
-		<Pages name="ГруппаПанели" id="22">
+		<Pages name="ГруппаПанели" id="53">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -32,223 +35,376 @@
 					<v8:content>Группа панели</v8:content>
 				</v8:item>
 			</ToolTip>
-			<HorizontalStretch>true</HorizontalStretch>
-			<ExtendedTooltip name="ГруппаПанелиРасширеннаяПодсказка" id="23"/>
+			<ExtendedTooltip name="ГруппаПанелиРасширеннаяПодсказка" id="54"/>
 			<ChildItems>
-				<Page name="ГруппаЗагрузка" id="24">
+				<Page name="ГруппаСчетчики" id="55">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Загрузка</v8:content>
+							<v8:content>Счетчики</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа загрузка</v8:content>
+							<v8:content>Группа счетчики</v8:content>
 						</v8:item>
 					</ToolTip>
-					<ExtendedTooltip name="ГруппаЗагрузкаРасширеннаяПодсказка" id="25"/>
+					<ExtendedTooltip name="ГруппаСчетчикиРасширеннаяПодсказка" id="56"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаФайл" id="8">
+						<Pages name="ГруппаПанелиСчетчиков" id="22">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа файл</v8:content>
+									<v8:content>Панели счетчиков</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа файл</v8:content>
+									<v8:content>Группа панели счетчиков</v8:content>
 								</v8:item>
 							</ToolTip>
-							<Group>AlwaysHorizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаФайлРасширеннаяПодсказка" id="9"/>
-							<ChildItems>
-								<LabelDecoration name="ДекорацияЗаголовок1" id="10">
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Файл:</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="ДекорацияЗаголовок1КонтекстноеМеню" id="11"/>
-									<ExtendedTooltip name="ДекорацияЗаголовок1РасширеннаяПодсказка" id="12"/>
-								</LabelDecoration>
-								<InputField name="ПутьКФайлу" id="5">
-									<DataPath>ИмяВыбранногоФайла</DataPath>
-									<Enabled>false</Enabled>
-									<ReadOnly>true</ReadOnly>
-									<TitleLocation>None</TitleLocation>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ПутьКФайлуКонтекстноеМеню" id="6"/>
-									<ExtendedTooltip name="ПутьКФайлуРасширеннаяПодсказка" id="7"/>
-								</InputField>
-								<Button name="ОткрытьФайлДляЧтения" id="1">
-									<Type>UsualButton</Type>
-									<Representation>Text</Representation>
-									<CommandName>Form.Command.ОткрытьФайлДляЧтения</CommandName>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>...</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ОткрытьФайлДляЧтенияРасширеннаяПодсказка" id="2"/>
-								</Button>
-							</ChildItems>
-						</UsualGroup>
-						<LabelDecoration name="ДекорацияПустая1" id="19">
-							<ContextMenu name="ДекорацияПустая1КонтекстноеМеню" id="20"/>
-							<ExtendedTooltip name="ДекорацияПустая1РасширеннаяПодсказка" id="21"/>
-						</LabelDecoration>
-						<Button name="ЗагрузитьСчетчики" id="3">
-							<Type>UsualButton</Type>
-							<Representation>PictureAndText</Representation>
-							<CommandName>Form.Command.ЗагрузитьСчетчики</CommandName>
-							<Picture>
-								<xr:Ref>StdPicture.GoForward</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<ExtendedTooltip name="ЗагрузитьСчетчикиРасширеннаяПодсказка" id="4"/>
-						</Button>
-						<LabelDecoration name="ДекорацияПустая3" id="38">
-							<ContextMenu name="ДекорацияПустая3КонтекстноеМеню" id="39"/>
-							<ExtendedTooltip name="ДекорацияПустая3РасширеннаяПодсказка" id="40"/>
-						</LabelDecoration>
-						<InputField name="ТекстСообщенияРезультатОперации" id="13">
-							<DataPath>ТекстСообщенияРезультатОперации</DataPath>
-							<ReadOnly>true</ReadOnly>
-							<TitleLocation>None</TitleLocation>
-							<AutoMaxWidth>false</AutoMaxWidth>
 							<HorizontalStretch>true</HorizontalStretch>
-							<VerticalStretch>false</VerticalStretch>
-							<MultiLine>true</MultiLine>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<TextColor>style:ActivityColor</TextColor>
-							<BorderColor>style:FormBackColor</BorderColor>
-							<ContextMenu name="ТекстСообщенияРезультатОперацииКонтекстноеМеню" id="14"/>
-							<ExtendedTooltip name="ТекстСообщенияРезультатОперацииРасширеннаяПодсказка" id="15"/>
-						</InputField>
-					</ChildItems>
-				</Page>
-				<Page name="ГруппаОбновление" id="26">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обновление счетчиков</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа обновление</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ГруппаОбновлениеРасширеннаяПодсказка" id="27"/>
-					<ChildItems>
-						<LabelDecoration name="ДекорацияПустая2" id="35">
-							<ContextMenu name="ДекорацияПустая2КонтекстноеМеню" id="36"/>
-							<ExtendedTooltip name="ДекорацияПустая2РасширеннаяПодсказка" id="37"/>
-						</LabelDecoration>
-						<UsualGroup name="ГруппаКнопки" id="30">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа кнопки</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа кнопки</v8:content>
-								</v8:item>
-							</ToolTip>
-							<HorizontalStretch>false</HorizontalStretch>
-							<Group>Vertical</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="31"/>
+							<ExtendedTooltip name="ГруппаПанелиСчетчиковРасширеннаяПодсказка" id="23"/>
 							<ChildItems>
-								<Button name="ОбновитьСчетчикиИзРегистра" id="28">
-									<Type>UsualButton</Type>
-									<Representation>PictureAndText</Representation>
-									<CommandName>Form.Command.ОбновитьСчетчикиИзРегистра</CommandName>
-									<Picture>
-										<xr:Ref>StdPicture.Reread</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-									</Picture>
+								<Page name="ГруппаЗагрузка" id="24">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Обновить счетчики</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ОбновитьСчетчикиИзРегистраРасширеннаяПодсказка" id="29"/>
-								</Button>
-								<UsualGroup name="ГруппаДополнительныеДействия" id="49">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Дополнительные действия</v8:content>
+											<v8:content>Загрузка</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа дополнительные действия</v8:content>
+											<v8:content>Группа загрузка</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Group>AlwaysHorizontal</Group>
-									<Behavior>Collapsible</Behavior>
-									<Representation>None</Representation>
-									<ExtendedTooltip name="ГруппаДополнительныеДействияРасширеннаяПодсказка" id="50"/>
+									<ExtendedTooltip name="ГруппаЗагрузкаРасширеннаяПодсказка" id="25"/>
 									<ChildItems>
-										<Button name="УдалитьВсеСчетчикиБП77" id="47">
+										<UsualGroup name="ГруппаФайл" id="8">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа файл</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа файл</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаФайлРасширеннаяПодсказка" id="9"/>
+											<ChildItems>
+												<LabelDecoration name="ДекорацияЗаголовок1" id="10">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Файл:</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияЗаголовок1КонтекстноеМеню" id="11"/>
+													<ExtendedTooltip name="ДекорацияЗаголовок1РасширеннаяПодсказка" id="12"/>
+												</LabelDecoration>
+												<InputField name="ПутьКФайлу" id="5">
+													<DataPath>ИмяВыбранногоФайла</DataPath>
+													<Enabled>false</Enabled>
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПутьКФайлуКонтекстноеМеню" id="6"/>
+													<ExtendedTooltip name="ПутьКФайлуРасширеннаяПодсказка" id="7"/>
+												</InputField>
+												<Button name="ОткрытьФайлДляЧтения" id="1">
+													<Type>UsualButton</Type>
+													<Representation>Text</Representation>
+													<CommandName>Form.Command.ОткрытьФайлДляЧтения</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>...</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ОткрытьФайлДляЧтенияРасширеннаяПодсказка" id="2"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<LabelDecoration name="ДекорацияПустая1" id="19">
+											<ContextMenu name="ДекорацияПустая1КонтекстноеМеню" id="20"/>
+											<ExtendedTooltip name="ДекорацияПустая1РасширеннаяПодсказка" id="21"/>
+										</LabelDecoration>
+										<Button name="ЗагрузитьСчетчики" id="3">
 											<Type>UsualButton</Type>
 											<Representation>PictureAndText</Representation>
-											<CommandName>Form.Command.УдалитьВсеСчетчикиБП77</CommandName>
+											<CommandName>Form.Command.ЗагрузитьСчетчики</CommandName>
 											<Picture>
-												<xr:Ref>StdPicture.MarkToDelete</xr:Ref>
+												<xr:Ref>StdPicture.GoForward</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
-											<ExtendedTooltip name="УдалитьВсеСчетчикиБП77РасширеннаяПодсказка" id="48"/>
+											<ExtendedTooltip name="ЗагрузитьСчетчикиРасширеннаяПодсказка" id="4"/>
 										</Button>
-										<Button name="СопоставитьСчетчики" id="51">
-											<Type>UsualButton</Type>
-											<Representation>PictureAndText</Representation>
-											<CommandName>Form.Command.СопоставитьСчетчики</CommandName>
-											<Picture>
-												<xr:Ref>StdPicture.ExternalDataSourceFunction</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
-											</Picture>
-											<ExtendedTooltip name="СопоставитьСчетчикиРасширеннаяПодсказка" id="52"/>
-										</Button>
+										<LabelDecoration name="ДекорацияПустая3" id="38">
+											<ContextMenu name="ДекорацияПустая3КонтекстноеМеню" id="39"/>
+											<ExtendedTooltip name="ДекорацияПустая3РасширеннаяПодсказка" id="40"/>
+										</LabelDecoration>
+										<InputField name="ТекстСообщенияРезультатОперации" id="13">
+											<DataPath>ТекстСообщенияРезультатОперации</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleLocation>None</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<MultiLine>true</MultiLine>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<TextColor>style:ActivityColor</TextColor>
+											<BorderColor>style:FormBackColor</BorderColor>
+											<ContextMenu name="ТекстСообщенияРезультатОперацииКонтекстноеМеню" id="14"/>
+											<ExtendedTooltip name="ТекстСообщенияРезультатОперацииРасширеннаяПодсказка" id="15"/>
+										</InputField>
 									</ChildItems>
-								</UsualGroup>
+								</Page>
+								<Page name="ГруппаОбновление" id="26">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновление счетчиков</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа обновление</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаОбновлениеРасширеннаяПодсказка" id="27"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияПустая2" id="35">
+											<ContextMenu name="ДекорацияПустая2КонтекстноеМеню" id="36"/>
+											<ExtendedTooltip name="ДекорацияПустая2РасширеннаяПодсказка" id="37"/>
+										</LabelDecoration>
+										<UsualGroup name="ГруппаКнопки" id="30">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа кнопки</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа кнопки</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HorizontalStretch>false</HorizontalStretch>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="31"/>
+											<ChildItems>
+												<Button name="ОбновитьСчетчикиИзРегистра" id="28">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.ОбновитьСчетчикиИзРегистра</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.Reread</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Обновить счетчики</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ОбновитьСчетчикиИзРегистраРасширеннаяПодсказка" id="29"/>
+												</Button>
+												<UsualGroup name="ГруппаДополнительныеДействия" id="49">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Дополнительные действия</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа дополнительные действия</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Behavior>Collapsible</Behavior>
+													<Representation>None</Representation>
+													<ExtendedTooltip name="ГруппаДополнительныеДействияРасширеннаяПодсказка" id="50"/>
+													<ChildItems>
+														<Button name="УдалитьВсеСчетчикиБП77" id="47">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Form.Command.УдалитьВсеСчетчикиБП77</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.MarkToDelete</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<ExtendedTooltip name="УдалитьВсеСчетчикиБП77РасширеннаяПодсказка" id="48"/>
+														</Button>
+														<Button name="СопоставитьСчетчики" id="51">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Form.Command.СопоставитьСчетчики</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.ExternalDataSourceFunction</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<ExtendedTooltip name="СопоставитьСчетчикиРасширеннаяПодсказка" id="52"/>
+														</Button>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<LabelDecoration name="ДекорацияПустая4" id="44">
+											<ContextMenu name="ДекорацияПустая4КонтекстноеМеню" id="45"/>
+											<ExtendedTooltip name="ДекорацияПустая4РасширеннаяПодсказка" id="46"/>
+										</LabelDecoration>
+										<InputField name="ТекстСообщенияРезультатОперацииОбновления" id="41">
+											<DataPath>ТекстСообщенияРезультатОперации</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleLocation>None</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<MultiLine>true</MultiLine>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<TextColor>style:ActivityColor</TextColor>
+											<BorderColor>style:FormBackColor</BorderColor>
+											<ContextMenu name="ТекстСообщенияРезультатОперацииОбновленияКонтекстноеМеню" id="42"/>
+											<ExtendedTooltip name="ТекстСообщенияРезультатОперацииОбновленияРасширеннаяПодсказка" id="43"/>
+										</InputField>
+									</ChildItems>
+								</Page>
 							</ChildItems>
-						</UsualGroup>
-						<LabelDecoration name="ДекорацияПустая4" id="44">
-							<ContextMenu name="ДекорацияПустая4КонтекстноеМеню" id="45"/>
-							<ExtendedTooltip name="ДекорацияПустая4РасширеннаяПодсказка" id="46"/>
-						</LabelDecoration>
-						<InputField name="ТекстСообщенияРезультатОперацииОбновления" id="41">
-							<DataPath>ТекстСообщенияРезультатОперации</DataPath>
-							<ReadOnly>true</ReadOnly>
-							<TitleLocation>None</TitleLocation>
-							<AutoMaxWidth>false</AutoMaxWidth>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаУслуги" id="57">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Услуги</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа услуги</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаУслугиРасширеннаяПодсказка" id="58"/>
+					<ChildItems>
+						<Pages name="ГруппаПанелиУслуг" id="59">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панели услуг</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа панели услуг</v8:content>
+								</v8:item>
+							</ToolTip>
 							<HorizontalStretch>true</HorizontalStretch>
-							<VerticalStretch>false</VerticalStretch>
-							<MultiLine>true</MultiLine>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<TextColor>style:ActivityColor</TextColor>
-							<BorderColor>style:FormBackColor</BorderColor>
-							<ContextMenu name="ТекстСообщенияРезультатОперацииОбновленияКонтекстноеМеню" id="42"/>
-							<ExtendedTooltip name="ТекстСообщенияРезультатОперацииОбновленияРасширеннаяПодсказка" id="43"/>
-						</InputField>
+							<VerticalStretch>true</VerticalStretch>
+							<ExtendedTooltip name="ГруппаПанелиУслугРасширеннаяПодсказка" id="60"/>
+							<ChildItems>
+								<Page name="ГруппаСозданиеУслуг" id="61">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Создание</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа создание услуг</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаСозданиеУслугРасширеннаяПодсказка" id="62"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаСоданиеУправленияУслугами" id="75">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа содание управления услугами</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа содание управления услугами</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаСоданиеУправленияУслугамиРасширеннаяПодсказка" id="76"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаНастрокиСозданияДокументаУправленияУслугами" id="70">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настроки:</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настроки создания документа управления услугами</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Behavior>Collapsible</Behavior>
+													<ExtendedTooltip name="ГруппаНастрокиСозданияДокументаУправленияУслугамиРасширеннаяПодсказка" id="71"/>
+													<ChildItems>
+														<InputField name="СписокВидовУслугДляУправленияУслугами" id="72">
+															<DataPath>СписокВидовУслугДляУправленияУслугами</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Список услуг</v8:content>
+																</v8:item>
+															</Title>
+															<ListChoiceMode>true</ListChoiceMode>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ChooseType>false</ChooseType>
+															<ContextMenu name="СписокВидовУслугДляУправленияУслугамиКонтекстноеМеню" id="73"/>
+															<ExtendedTooltip name="СписокВидовУслугДляУправленияУслугамиРасширеннаяПодсказка" id="74"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<LabelDecoration name="ДекорацияПустая5" id="65">
+													<ContextMenu name="ДекорацияПустая5КонтекстноеМеню" id="66"/>
+													<ExtendedTooltip name="ДекорацияПустая5РасширеннаяПодсказка" id="67"/>
+												</LabelDecoration>
+												<Button name="СоздатьДокументыУправленияУслугами" id="68">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.СоздатьДокументыУправленияУслугами</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.DataCompositionNewGroup</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="СоздатьДокументыУправленияУслугамиРасширеннаяПодсказка" id="69"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
 					</ChildItems>
 				</Page>
 			</ChildItems>
@@ -375,6 +531,17 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="СписокВидовУслугДляУправленияУслугами" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список видов услуг для управления услугами</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ОткрытьФайлДляЧтения" id="1">
@@ -451,6 +618,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СопоставитьСчетчики</Action>
+		</Command>
+		<Command name="СоздатьДокументыУправленияУслугами" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документы управления услугами</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документы управления услугами</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьДокументыУправленияУслугами</Action>
 		</Command>
 	</Commands>
 </Form>
