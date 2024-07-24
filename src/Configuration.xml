@@ -69,6 +69,7 @@
 			<Catalog>КВП_ЛицевыеСчета</Catalog>
 			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
+			<DataProcessor>ГП_ЗаполнениеЗависимостейУслуг</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 		</ChildObjects>
