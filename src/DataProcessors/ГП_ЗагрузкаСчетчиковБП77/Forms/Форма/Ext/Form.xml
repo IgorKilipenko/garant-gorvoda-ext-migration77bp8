@@ -729,6 +729,7 @@
 					<v8:content>Загрузить услуги</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ЗагрузитьУслуги</Action>
 		</Command>
 	</Commands>
 </Form>
