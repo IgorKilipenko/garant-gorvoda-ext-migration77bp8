@@ -320,6 +320,88 @@
 							<VerticalStretch>true</VerticalStretch>
 							<ExtendedTooltip name="ГруппаПанелиУслугРасширеннаяПодсказка" id="60"/>
 							<ChildItems>
+								<Page name="ГруппаЗагрузкаУслуг" id="77">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Загрузка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа загрузка услуг</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаЗагрузкаУслугРасширеннаяПодсказка" id="78"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаФайлУслуги" id="79">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа файл</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа файл</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаФайлУслугиРасширеннаяПодсказка" id="80"/>
+											<ChildItems>
+												<LabelDecoration name="ДекорацияЗаголовок2" id="81">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Файл:</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияЗаголовок2КонтекстноеМеню" id="82"/>
+													<ExtendedTooltip name="ДекорацияЗаголовок2РасширеннаяПодсказка" id="83"/>
+												</LabelDecoration>
+												<InputField name="ПутьКФайлу1" id="84">
+													<DataPath>ИмяВыбранногоФайла</DataPath>
+													<Enabled>false</Enabled>
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПутьКФайлу1КонтекстноеМеню" id="85"/>
+													<ExtendedTooltip name="ПутьКФайлу1РасширеннаяПодсказка" id="86"/>
+												</InputField>
+												<Button name="ОткрытьФайлДляЧтенияУслуг" id="87">
+													<Type>UsualButton</Type>
+													<Representation>Text</Representation>
+													<CommandName>Form.Command.ОткрытьФайлДляЧтения</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>...</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ОткрытьФайлДляЧтенияУслугРасширеннаяПодсказка" id="88"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<LabelDecoration name="ДекорацияПустая6" id="91">
+											<ContextMenu name="ДекорацияПустая6КонтекстноеМеню" id="92"/>
+											<ExtendedTooltip name="ДекорацияПустая6РасширеннаяПодсказка" id="93"/>
+										</LabelDecoration>
+										<Button name="ЗагрузитьУслуги" id="89">
+											<Type>UsualButton</Type>
+											<Representation>PictureAndText</Representation>
+											<CommandName>Form.Command.ЗагрузитьУслуги</CommandName>
+											<Picture>
+												<xr:Ref>StdPicture.GoForward</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="ЗагрузитьУслугиРасширеннаяПодсказка" id="90"/>
+										</Button>
+									</ChildItems>
+								</Page>
 								<Page name="ГруппаСозданиеУслуг" id="61">
 									<Title>
 										<v8:item>
@@ -633,6 +715,20 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьДокументыУправленияУслугами</Action>
+		</Command>
+		<Command name="ЗагрузитьУслуги" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить услуги</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить услуги</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 </Form>

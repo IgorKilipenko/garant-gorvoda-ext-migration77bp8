@@ -65,6 +65,7 @@
 			<Language>Русский</Language>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
 			<Catalog>КВП_Счетчики</Catalog>
+			<Catalog>КВП_ЛицевыеСчета</Catalog>
 			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
