@@ -8,15 +8,16 @@
 			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_Комментарий" id="c2f6ad13-c0fe-4259-a30f-dd19eaab8540"/>
 		</Metadata>
 		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587" configVersion="546c6d2a53b7721c3fe93ffe0b1bdf164d5b94e8"/>
-		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета.Module" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587.0" configVersion="574a7fcce01bf51a0f481405567bfd3e5fd1d071"/>
+		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета.Module" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587.0" configVersion="a6cd54515d25c5e6e81d8c8aca3e90670adfd5a9"/>
 		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="df5785a1b4b9c8fc3c4d9b1f76308f51a7b5d2e3"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
-		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="9d3408e7157a2f362bf44a89736d1d7ccd2f6ae9"/>
-		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.ManagerModule" id="044cc305-d691-4420-9791-59a08b431474.2" configVersion="1f3dbd85cf9743f323a8d46998e5a14d74773714"/>
+		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="aff1bf80c6c398e3879cca472aa83dfe6b47aeb1"/>
+		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.ManagerModule" id="044cc305-d691-4420-9791-59a08b431474.2" configVersion="149c396dd07553e6540aadb3dadaa2687e30d53a"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг" id="10e651c1-9ab3-4b1d-87a9-574597323241" configVersion="4c8b752c7cc0f31f6abb8776daa473d59a8fde0b"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.Form.Форма" id="2651ee4d-805d-4bb5-bf32-f4951e3c132f" configVersion="c4d538931507b2615982c7f5f3f37f1dec036d0f"/>
-		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.Form.Форма.Form" id="2651ee4d-805d-4bb5-bf32-f4951e3c132f.0" configVersion="16b7ce3827b612229d86217ceacb94e65d4558f9"/>
+		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.Form.Форма.Form" id="2651ee4d-805d-4bb5-bf32-f4951e3c132f.0" configVersion="c7998b9ea82e3c52a99470b95e00b7d2cf3677e7"/>
+		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.ManagerModule" id="10e651c1-9ab3-4b1d-87a9-574597323241.2" configVersion="1aae58f5fc9a4d3f094c6f7d10cd5ffa4b0505ec"/>
 		<Metadata name="InformationRegister.ГП_СчетчикиБП77" id="01598aca-77d6-40b0-8985-c5f032090ef3" configVersion="a04c4a4e5d36df6b203dc1d98eccf977ba8789eb">
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Resource.ДатаУстановки" id="0c950b37-b259-4c88-b51e-7b669eec3a77"/>
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Attribute.КонтрагентИНН" id="146f4c78-3b5d-4053-b105-2a523c9d2ae3"/>
@@ -70,7 +71,7 @@
 		<Metadata name="Report.ГП_СчетчикиБП77" id="2667f2cc-0915-43fd-87d9-f851c931f9a6" configVersion="a7b11df3162d670cf065eaa0418a3a25510f24ab"/>
 		<Metadata name="Report.ГП_СчетчикиБП77.Template.ОсновнаяСхемаКомпоновкиДанных" id="6f6c2b97-2a7c-4748-bab3-b458104ebb0b" configVersion="ee2163383462af364ed80ce027050b3878bc5ab2"/>
 		<Metadata name="Report.ГП_СчетчикиБП77.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6f6c2b97-2a7c-4748-bab3-b458104ebb0b.0" configVersion="037080f405594b69a37ae8ff5c666d89f87088da"/>
-		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="344155cdd31a763c27724945ee1ea3fa9dd9eb5f"/>
+		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="f4d17854aecf03bce8627d90afec0e695bf3a403"/>
 		<Metadata name="Subsystem.ГП_МиграцияРазработка.CommandInterface" id="fdc75fdb-9bf5-4f9e-b742-33b858564549.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
