@@ -63,6 +63,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ГП_МиграцияРазработка</Subsystem>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
 			<Catalog>КВП_Счетчики</Catalog>
 			<Catalog>КВП_ЛицевыеСчета</Catalog>
