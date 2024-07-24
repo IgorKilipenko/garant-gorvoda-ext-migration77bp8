@@ -254,10 +254,6 @@
 															<Type>UsualButton</Type>
 															<Representation>PictureAndText</Representation>
 															<CommandName>Form.Command.СопоставитьСчетчики</CommandName>
-															<Picture>
-																<xr:Ref>StdPicture.ExternalDataSourceFunction</xr:Ref>
-																<xr:LoadTransparent>true</xr:LoadTransparent>
-															</Picture>
 															<ExtendedTooltip name="СопоставитьСчетчикиРасширеннаяПодсказка" id="52"/>
 														</Button>
 													</ChildItems>
@@ -394,11 +390,19 @@
 											<Type>UsualButton</Type>
 											<Representation>PictureAndText</Representation>
 											<CommandName>Form.Command.ЗагрузитьУслуги</CommandName>
-											<Picture>
-												<xr:Ref>StdPicture.GoForward</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
-											</Picture>
 											<ExtendedTooltip name="ЗагрузитьУслугиРасширеннаяПодсказка" id="90"/>
+										</Button>
+										<Button name="СопоставитьУслугиСЛицевымиСчетами" id="94">
+											<Type>UsualButton</Type>
+											<Representation>PictureAndText</Representation>
+											<CommandName>Form.Command.СопоставитьУслугиСЛицевымиСчетами</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сопоставить услуги</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СопоставитьУслугиСЛицевымиСчетамиРасширеннаяПодсказка" id="95"/>
 										</Button>
 									</ChildItems>
 								</Page>
@@ -651,7 +655,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить счетчики</v8:content>
+					<v8:content>Загрузить счетчики в регистр сведений Счетчики БП 7.7</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьСчетчики</Action>
@@ -699,6 +703,10 @@
 					<v8:content>Сопоставить счетчики</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>СопоставитьСчетчики</Action>
 		</Command>
 		<Command name="СоздатьДокументыУправленияУслугами" id="6">
@@ -726,10 +734,33 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить услуги</v8:content>
+					<v8:content>Загрузить услуги в регистр сведений Услуги БП 7.7</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>ЗагрузитьУслуги</Action>
+		</Command>
+		<Command name="СопоставитьУслугиСЛицевымиСчетами" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить услуги с лицевыми счетами</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить услуги с лицевыми счетами</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СопоставитьУслугиСЛицевымиСчетами</Action>
 		</Command>
 	</Commands>
 </Form>
