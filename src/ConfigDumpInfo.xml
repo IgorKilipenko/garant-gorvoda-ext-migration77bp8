@@ -8,7 +8,7 @@
 			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_Комментарий" id="c2f6ad13-c0fe-4259-a30f-dd19eaab8540"/>
 		</Metadata>
 		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587" configVersion="546c6d2a53b7721c3fe93ffe0b1bdf164d5b94e8"/>
-		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета.Module" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587.0" configVersion="04078a0212588a17dd3bcc879ae70dc5914a7fa2"/>
+		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета.Module" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587.0" configVersion="117698fe841226b1f24c069e82cf3ddfbe5359e0"/>
 		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="06f44d123efdf92087345e3dc0924c8df37cf303"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
@@ -21,7 +21,7 @@
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков" id="3d45d117-481f-40f1-8e6a-0ff380eb0632" configVersion="7144d1d993dcac99d0b3c57cc780412a0435b584"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.Form.Форма" id="c616b957-8cef-4c5a-aa44-b5edc4899f7c" configVersion="a50930a3305607dbacd3084d2371b45616039070"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.Form.Форма.Form" id="c616b957-8cef-4c5a-aa44-b5edc4899f7c.0" configVersion="41d76e30838d5e11a6bffa1d6c8bc349f6257f0f"/>
-		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.ManagerModule" id="3d45d117-481f-40f1-8e6a-0ff380eb0632.2" configVersion="abf46186eff9503aa11b6ab937b55ed776186e87"/>
+		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.ManagerModule" id="3d45d117-481f-40f1-8e6a-0ff380eb0632.2" configVersion="06278f2be4f369b3dc833f1d5896b56574c8a23e"/>
 		<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77" id="8c96ec59-252f-4eb9-926e-b05317bd4426" configVersion="c07e9fef1b5ce0e246c2b5f83ed7c5c15a25920b">
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Dimension.КонтрагентКод" id="1e72de90-3a69-4150-95fb-7e5f40387835"/>
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Resource.Показание" id="2b24b8ff-51c7-4458-9229-e271820f525e"/>
