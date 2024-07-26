@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Width>50</Width>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ПодменюПерейти" id="37">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перейти</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подменю перейти</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ПодменюПерейтиExtendedTooltip" id="38"/>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ГП_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаПанель" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа панель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа панель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаПанельРасширеннаяПодсказка" id="78"/>
+			<ChildItems>
+				<Page name="ГруппаОбщиеСведения" id="75">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общие сведения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа общие сведения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ГруппаОбщиеСведенияРасширеннаяПодсказка" id="76"/>
+					<ChildItems>
+						<InputField name="Родитель" id="72">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="РодительКонтекстноеМеню" id="73"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="74"/>
+						</InputField>
+						<UsualGroup name="ГруппаНаименование" id="26">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНаименованиеExtendedTooltip" id="39"/>
+							<ChildItems>
+								<InputField name="Наименование" id="3">
+									<DefaultItem>true</DefaultItem>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+									<ExtendedTooltip name="НаименованиеExtendedTooltip" id="40"/>
+								</InputField>
+								<InputField name="Код" id="1">
+									<HorizontalAlign>Right</HorizontalAlign>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="КодExtendedTooltip" id="41"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаИдентификатор" id="28">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа идентификатор</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа идентификатор</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИдентификаторExtendedTooltip" id="42"/>
+							<ChildItems>
+								<InputField name="Идентификатор" id="17">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>1</Width>
+									<ContextMenu name="ИдентификаторКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="ИдентификаторExtendedTooltip" id="43"/>
+								</InputField>
+								<Button name="ЗаполнитьИдентификаторНажатие" id="29">
+									<Type>UsualButton</Type>
+									<CommandName>0</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt;&lt;</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ЗаполнитьИдентификаторНажатиеExtendedTooltip" id="44"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Модель" id="34">
+							<ContextMenu name="МодельКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="МодельExtendedTooltip" id="45"/>
+						</InputField>
+						<InputField name="ЗаводскойНомер" id="19">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заводской номер</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>15</Width>
+							<ContextMenu name="ЗаводскойНомерКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ЗаводскойНомерExtendedTooltip" id="46"/>
+						</InputField>
+						<InputField name="ВидУслуги" id="5">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Услуга</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ChoiceParameters>
+								<app:item name="Отбор.СпособРасчета">
+									<app:value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="v8:FixedArray">
+											<v8:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчика</Value>
+											</v8:Value>
+											<v8:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчикаИНорме</Value>
+											</v8:Value>
+										</Value>
+									</app:value>
+								</app:item>
+							</ChoiceParameters>
+							<ContextMenu name="ВидУслугиКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="ВидУслугиExtendedTooltip" id="47"/>
+						</InputField>
+						<InputField name="Тарифность" id="23">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТарифностьКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ТарифностьExtendedTooltip" id="48"/>
+						</InputField>
+						<InputField name="СпособРегистрацииПоказаний" id="21">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Способ регистр. 
+показаний</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СпособРегистрацииПоказанийКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="СпособРегистрацииПоказанийExtendedTooltip" id="49"/>
+						</InputField>
+						<UsualGroup name="ГруппаРазрядность" id="27">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа разрядность</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа разрядность</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРазрядностьExtendedTooltip" id="50"/>
+							<ChildItems>
+								<InputField name="Разрядность" id="7">
+									<HorizontalAlign>Right</HorizontalAlign>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>11</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<MinValue xsi:type="xs:decimal">1</MinValue>
+									<MaxValue xsi:type="xs:decimal">15</MaxValue>
+									<ContextMenu name="РазрядностьКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="РазрядностьExtendedTooltip" id="51"/>
+								</InputField>
+								<LabelDecoration name="ДекорацияСправка" id="30">
+									<TextColor>style:FieldSelectionBackColor</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>(Не более 15)</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияСправкаКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="ДекорацияСправкаExtendedTooltip" id="52"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПоверка" id="55">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа поверка</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа поверка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПоверкаРасширеннаяПодсказка" id="56"/>
+							<ChildItems>
+								<InputField name="Коэффициент" id="9">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Коэффициент трансформации</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Left</TitleLocation>
+									<TitleHeight>2</TitleHeight>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>11</Width>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧДЦ=8</v8:content>
+										</v8:item>
+									</EditFormat>
+									<ContextMenu name="КоэффициентКонтекстноеМеню" id="10"/>
+									<ExtendedTooltip name="КоэффициентExtendedTooltip" id="53"/>
+								</InputField>
+								<LabelDecoration name="Отступ" id="57">
+									<Width>3</Width>
+									<ContextMenu name="ОтступКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ОтступРасширеннаяПодсказка" id="59"/>
+								</LabelDecoration>
+								<InputField name="ДатаПоверки" id="32">
+									<ReadOnly>true</ReadOnly>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата поверки задаётся в документе "Установка счетчика". </v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceButton>false</ChoiceButton>
+									<OpenButton>true</OpenButton>
+									<ContextMenu name="ДатаПоверкиКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="ДатаПоверкиExtendedTooltip" id="54"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<CheckBoxField name="ИспользоватьТемпературныйКоэффициент" id="66">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьТемпературныйКоэффициентКонтекстноеМеню" id="67"/>
+							<ExtendedTooltip name="ИспользоватьТемпературныйКоэффициентРасширеннаяПодсказка" id="68"/>
+						</CheckBoxField>
+						<LabelDecoration name="НадписьИспользоватьТемпературныйКоэффициент" id="69">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если требуется учитывать температурный коэффициент прибора учета, но он не поддерживает температурную компенсацию,
+то начисление услуги по показаниям такого прибора учета можно производить с учетом температурных коэффициентов,
+если для счетчика установлен признак"Использовать температурный коэффициент" счетчика. 
+Значения температурных коэффициентов задаются для участка, к которому относится данный прибор учета.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="НадписьИспользоватьТемпературныйКоэффициентКонтекстноеМеню" id="70"/>
+							<ExtendedTooltip name="НадписьИспользоватьТемпературныйКоэффициентРасширеннаяПодсказка" id="71"/>
+						</LabelDecoration>
+						<CheckBoxField name="ПризнакВыходногоСчетчика" id="60">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется в качестве "выходного" прибора учета</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПризнакВыходногоСчетчикаКонтекстноеМеню" id="61"/>
+							<ExtendedTooltip name="ПризнакВыходногоСчетчикаРасширеннаяПодсказка" id="62"/>
+						</CheckBoxField>
+						<LabelDecoration name="НадписьПризнакВыходногоСчетчика" id="63">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Начисления по показаниям такого прибора учета не производятся. 
+Прибор учета используется только для уменьшения расхода "входного" прибора учета.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="НадписьПризнакВыходногоСчетчикаКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="НадписьПризнакВыходногоСчетчикаРасширеннаяПодсказка" id="65"/>
+						</LabelDecoration>
+						<CheckBoxField name="ИспользуетсяДляПерерасчетаРасходовНаОплатуСОИ" id="120">
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользуетсяДляПерерасчетаРасходовНаОплатуСОИКонтекстноеМеню" id="121"/>
+							<ExtendedTooltip name="ИспользуетсяДляПерерасчетаРасходовНаОплатуСОИРасширеннаяПодсказка" id="122"/>
+						</CheckBoxField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСведенияДляГИСЖКХ" id="79">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения для ГИС ЖКХ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа сведения для ГИСЖКХ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСведенияДляГИСЖКХРасширеннаяПодсказка" id="80"/>
+					<ChildItems>
+						<InputField name="Марка" id="81">
+							<ContextMenu name="МаркаКонтекстноеМеню" id="82"/>
+							<ExtendedTooltip name="МаркаРасширеннаяПодсказка" id="83"/>
+						</InputField>
+						<InputField name="ДатаПервойПоверки" id="117">
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ДатаПервойПоверкиКонтекстноеМеню" id="118"/>
+							<ExtendedTooltip name="ДатаПервойПоверкиРасширеннаяПодсказка" id="119">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата первой поверки, проведенной заводом-изготовителем. Должна быть указана в паспорте счетчика.
+Поле обязательно для заполнения для коллективных приборов учета в том случае, если прибор учета не проходил поверку в ходе своей эксплуатации, и имеется только первичная поверка на заводе изготовителе.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</InputField>
+						<InputField name="МежпроверочныйИнтервал" id="90">
+							<ContextMenu name="МежпроверочныйИнтервалКонтекстноеМеню" id="91"/>
+							<ExtendedTooltip name="МежпроверочныйИнтервалРасширеннаяПодсказка" id="92"/>
+						</InputField>
+						<InputField name="ДатаОпломбированияЗаводом" id="105">
+							<ContextMenu name="ДатаОпломбированияЗаводомКонтекстноеМеню" id="106"/>
+							<ExtendedTooltip name="ДатаОпломбированияЗаводомРасширеннаяПодсказка" id="107"/>
+						</InputField>
+						<CheckBoxField name="ДатаВводаВЭксплуатациюОтличаетсяОтДатыУстановки" id="108">
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если флаг установлен, то в качестве даты ввода в эксплуатацию счетчика будет использоваться дата, введенная вручную.
+Если флаг снят - дата первой установки счетчика.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ДатаВводаВЭксплуатациюОтличаетсяОтДатыУстановкиКонтекстноеМеню" id="109"/>
+							<ExtendedTooltip name="ДатаВводаВЭксплуатациюОтличаетсяОтДатыУстановкиРасширеннаяПодсказка" id="110"/>
+						</CheckBoxField>
+						<InputField name="ДатаВводаВЭксплуатацию" id="111">
+							<ContextMenu name="ДатаВводаВЭксплуатациюКонтекстноеМеню" id="112"/>
+							<ExtendedTooltip name="ДатаВводаВЭксплуатациюРасширеннаяПодсказка" id="113"/>
+						</InputField>
+						<CheckBoxField name="ИмеетсяВозможностьДистанционногоСнятияПоказаний" id="84">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИмеетсяВозможностьДистанционногоСнятияПоказанийКонтекстноеМеню" id="85"/>
+							<ExtendedTooltip name="ИмеетсяВозможностьДистанционногоСнятияПоказанийРасширеннаяПодсказка" id="86"/>
+						</CheckBoxField>
+						<InputField name="СистемаДистанционногоСнятияПоказаний" id="87">
+							<ContextMenu name="СистемаДистанционногоСнятияПоказанийКонтекстноеМеню" id="88"/>
+							<ExtendedTooltip name="СистемаДистанционногоСнятияПоказанийРасширеннаяПодсказка" id="89"/>
+						</InputField>
+						<CheckBoxField name="ИмеетсяДатчикТемпературы" id="93">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИмеетсяДатчикТемпературыКонтекстноеМеню" id="94"/>
+							<ExtendedTooltip name="ИмеетсяДатчикТемпературыРасширеннаяПодсказка" id="95"/>
+						</CheckBoxField>
+						<InputField name="МестоположениеДатчикаТемпературы" id="96">
+							<ContextMenu name="МестоположениеДатчикаТемпературыКонтекстноеМеню" id="97"/>
+							<ExtendedTooltip name="МестоположениеДатчикаТемпературыРасширеннаяПодсказка" id="98"/>
+						</InputField>
+						<CheckBoxField name="ИмеетсяДатчикДавления" id="99">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИмеетсяДатчикДавленияКонтекстноеМеню" id="100"/>
+							<ExtendedTooltip name="ИмеетсяДатчикДавленияРасширеннаяПодсказка" id="101"/>
+						</CheckBoxField>
+						<InputField name="МестоположениеДатчикаДавления" id="102">
+							<ContextMenu name="МестоположениеДатчикаДавленияКонтекстноеМеню" id="103"/>
+							<ExtendedTooltip name="МестоположениеДатчикаДавленияРасширеннаяПодсказка" id="104"/>
+						</InputField>
+						<InputField name="НомерВГИСЖКХ" id="114">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер в ГИС ЖКХ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="НомерВГИСЖКХКонтекстноеМеню" id="115"/>
+							<ExtendedTooltip name="НомерВГИСЖКХРасширеннаяПодсказка" id="116">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Получить значение номера прибора учета в ГИС ЖКХ можно путем выполнения экспорта сведений о приборах учета.
+ </v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.18">
+		<Width>50</Width>
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Popup name="ПодменюПерейти" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перейти</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подменю перейти</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПодменюПерейтиExtendedTooltip" id="38"/>
+				</Popup>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<Pages name="ГруппаПанель" id="77">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа панель</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа панель</v8:content>
+					</v8:item>
+				</ToolTip>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
+				<ExtendedTooltip name="ГруппаПанельРасширеннаяПодсказка" id="78"/>
+				<ChildItems>
+					<Page name="ГруппаОбщиеСведения" id="75">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Общие сведения</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа общие сведения</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>HorizontalIfPossible</Group>
+						<ExtendedTooltip name="ГруппаОбщиеСведенияРасширеннаяПодсказка" id="76"/>
+						<ChildItems>
+							<InputField name="Родитель" id="72">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="РодительКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="74"/>
+							</InputField>
+							<UsualGroup name="ГруппаНаименование" id="26">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа наименование</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа наименование</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаНаименованиеExtendedTooltip" id="39"/>
+								<ChildItems>
+									<InputField name="Наименование" id="3">
+										<DefaultItem>true</DefaultItem>
+										<HorizontalAlign>Left</HorizontalAlign>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+										<ExtendedTooltip name="НаименованиеExtendedTooltip" id="40"/>
+									</InputField>
+									<InputField name="Код" id="1">
+										<HorizontalAlign>Right</HorizontalAlign>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+										<ExtendedTooltip name="КодExtendedTooltip" id="41"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаИдентификатор" id="28">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа идентификатор</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа идентификатор</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаИдентификаторExtendedTooltip" id="42"/>
+								<ChildItems>
+									<InputField name="Идентификатор" id="17">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>1</Width>
+										<ContextMenu name="ИдентификаторКонтекстноеМеню" id="18"/>
+										<ExtendedTooltip name="ИдентификаторExtendedTooltip" id="43"/>
+									</InputField>
+									<Button name="ЗаполнитьИдентификаторНажатие" id="29">
+										<Type>UsualButton</Type>
+										<CommandName>0</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>&lt;&lt;</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗаполнитьИдентификаторНажатиеExtendedTooltip" id="44"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<InputField name="Модель" id="34">
+								<ContextMenu name="МодельКонтекстноеМеню" id="35"/>
+								<ExtendedTooltip name="МодельExtendedTooltip" id="45"/>
+							</InputField>
+							<InputField name="ЗаводскойНомер" id="19">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Заводской номер</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<Width>15</Width>
+								<ContextMenu name="ЗаводскойНомерКонтекстноеМеню" id="20"/>
+								<ExtendedTooltip name="ЗаводскойНомерExtendedTooltip" id="46"/>
+							</InputField>
+							<InputField name="ВидУслуги" id="5">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Услуга</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<ChoiceParameters>
+									<app:item name="Отбор.СпособРасчета">
+										<app:value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation/>
+											<Value xsi:type="v8:FixedArray">
+												<v8:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчика</Value>
+												</v8:Value>
+												<v8:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчикаИНорме</Value>
+												</v8:Value>
+											</Value>
+										</app:value>
+									</app:item>
+								</ChoiceParameters>
+								<ContextMenu name="ВидУслугиКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="ВидУслугиExtendedTooltip" id="47"/>
+							</InputField>
+							<InputField name="Тарифность" id="23">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ТарифностьКонтекстноеМеню" id="24"/>
+								<ExtendedTooltip name="ТарифностьExtendedTooltip" id="48"/>
+							</InputField>
+							<InputField name="СпособРегистрацииПоказаний" id="21">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Способ регистр. 
+показаний</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Left</TitleLocation>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="СпособРегистрацииПоказанийКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="СпособРегистрацииПоказанийExtendedTooltip" id="49"/>
+							</InputField>
+							<UsualGroup name="ГруппаРазрядность" id="27">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа разрядность</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа разрядность</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаРазрядностьExtendedTooltip" id="50"/>
+								<ChildItems>
+									<InputField name="Разрядность" id="7">
+										<HorizontalAlign>Right</HorizontalAlign>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>11</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<MinValue xsi:type="xs:decimal">1</MinValue>
+										<MaxValue xsi:type="xs:decimal">15</MaxValue>
+										<ContextMenu name="РазрядностьКонтекстноеМеню" id="8"/>
+										<ExtendedTooltip name="РазрядностьExtendedTooltip" id="51"/>
+									</InputField>
+									<LabelDecoration name="ДекорацияСправка" id="30">
+										<TextColor>style:FieldSelectionBackColor</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>(Не более 15)</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияСправкаКонтекстноеМеню" id="31"/>
+										<ExtendedTooltip name="ДекорацияСправкаExtendedTooltip" id="52"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаПоверка" id="55">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа поверка</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа поверка</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаПоверкаРасширеннаяПодсказка" id="56"/>
+								<ChildItems>
+									<InputField name="Коэффициент" id="9">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Коэффициент трансформации</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Left</TitleLocation>
+										<TitleHeight>2</TitleHeight>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>11</Width>
+										<EditFormat>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧДЦ=8</v8:content>
+											</v8:item>
+										</EditFormat>
+										<ContextMenu name="КоэффициентКонтекстноеМеню" id="10"/>
+										<ExtendedTooltip name="КоэффициентExtendedTooltip" id="53"/>
+									</InputField>
+									<LabelDecoration name="Отступ" id="57">
+										<Width>3</Width>
+										<ContextMenu name="ОтступКонтекстноеМеню" id="58"/>
+										<ExtendedTooltip name="ОтступРасширеннаяПодсказка" id="59"/>
+									</LabelDecoration>
+									<InputField name="ДатаПоверки" id="32">
+										<ReadOnly>true</ReadOnly>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Дата поверки задаётся в документе "Установка счетчика". </v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ChoiceButton>false</ChoiceButton>
+										<OpenButton>true</OpenButton>
+										<ContextMenu name="ДатаПоверкиКонтекстноеМеню" id="33"/>
+										<ExtendedTooltip name="ДатаПоверкиExtendedTooltip" id="54"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<CheckBoxField name="ИспользоватьТемпературныйКоэффициент" id="66">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьТемпературныйКоэффициентКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="ИспользоватьТемпературныйКоэффициентРасширеннаяПодсказка" id="68"/>
+							</CheckBoxField>
+							<LabelDecoration name="НадписьИспользоватьТемпературныйКоэффициент" id="69">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Если требуется учитывать температурный коэффициент прибора учета, но он не поддерживает температурную компенсацию,
+то начисление услуги по показаниям такого прибора учета можно производить с учетом температурных коэффициентов,
+если для счетчика установлен признак"Использовать температурный коэффициент" счетчика. 
+Значения температурных коэффициентов задаются для участка, к которому относится данный прибор учета.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="НадписьИспользоватьТемпературныйКоэффициентКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="НадписьИспользоватьТемпературныйКоэффициентРасширеннаяПодсказка" id="71"/>
+							</LabelDecoration>
+							<CheckBoxField name="ПризнакВыходногоСчетчика" id="60">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Используется в качестве "выходного" прибора учета</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ПризнакВыходногоСчетчикаКонтекстноеМеню" id="61"/>
+								<ExtendedTooltip name="ПризнакВыходногоСчетчикаРасширеннаяПодсказка" id="62"/>
+							</CheckBoxField>
+							<LabelDecoration name="НадписьПризнакВыходногоСчетчика" id="63">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Начисления по показаниям такого прибора учета не производятся. 
+Прибор учета используется только для уменьшения расхода "входного" прибора учета.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="НадписьПризнакВыходногоСчетчикаКонтекстноеМеню" id="64"/>
+								<ExtendedTooltip name="НадписьПризнакВыходногоСчетчикаРасширеннаяПодсказка" id="65"/>
+							</LabelDecoration>
+							<CheckBoxField name="ИспользуетсяДляПерерасчетаРасходовНаОплатуСОИ" id="120">
+								<TitleLocation>Right</TitleLocation>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользуетсяДляПерерасчетаРасходовНаОплатуСОИКонтекстноеМеню" id="121"/>
+								<ExtendedTooltip name="ИспользуетсяДляПерерасчетаРасходовНаОплатуСОИРасширеннаяПодсказка" id="122"/>
+							</CheckBoxField>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаСведенияДляГИСЖКХ" id="79">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сведения для ГИС ЖКХ</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа сведения для ГИСЖКХ</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаСведенияДляГИСЖКХРасширеннаяПодсказка" id="80"/>
+						<ChildItems>
+							<InputField name="Марка" id="81">
+								<ContextMenu name="МаркаКонтекстноеМеню" id="82"/>
+								<ExtendedTooltip name="МаркаРасширеннаяПодсказка" id="83"/>
+							</InputField>
+							<InputField name="ДатаПервойПоверки" id="117">
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<ContextMenu name="ДатаПервойПоверкиКонтекстноеМеню" id="118"/>
+								<ExtendedTooltip name="ДатаПервойПоверкиРасширеннаяПодсказка" id="119">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата первой поверки, проведенной заводом-изготовителем. Должна быть указана в паспорте счетчика.
+Поле обязательно для заполнения для коллективных приборов учета в том случае, если прибор учета не проходил поверку в ходе своей эксплуатации, и имеется только первичная поверка на заводе изготовителе.</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</InputField>
+							<InputField name="МежпроверочныйИнтервал" id="90">
+								<ContextMenu name="МежпроверочныйИнтервалКонтекстноеМеню" id="91"/>
+								<ExtendedTooltip name="МежпроверочныйИнтервалРасширеннаяПодсказка" id="92"/>
+							</InputField>
+							<InputField name="ДатаОпломбированияЗаводом" id="105">
+								<ContextMenu name="ДатаОпломбированияЗаводомКонтекстноеМеню" id="106"/>
+								<ExtendedTooltip name="ДатаОпломбированияЗаводомРасширеннаяПодсказка" id="107"/>
+							</InputField>
+							<CheckBoxField name="ДатаВводаВЭксплуатациюОтличаетсяОтДатыУстановки" id="108">
+								<TitleLocation>Right</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Если флаг установлен, то в качестве даты ввода в эксплуатацию счетчика будет использоваться дата, введенная вручную.
+Если флаг снят - дата первой установки счетчика.</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ДатаВводаВЭксплуатациюОтличаетсяОтДатыУстановкиКонтекстноеМеню" id="109"/>
+								<ExtendedTooltip name="ДатаВводаВЭксплуатациюОтличаетсяОтДатыУстановкиРасширеннаяПодсказка" id="110"/>
+							</CheckBoxField>
+							<InputField name="ДатаВводаВЭксплуатацию" id="111">
+								<ContextMenu name="ДатаВводаВЭксплуатациюКонтекстноеМеню" id="112"/>
+								<ExtendedTooltip name="ДатаВводаВЭксплуатациюРасширеннаяПодсказка" id="113"/>
+							</InputField>
+							<CheckBoxField name="ИмеетсяВозможностьДистанционногоСнятияПоказаний" id="84">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИмеетсяВозможностьДистанционногоСнятияПоказанийКонтекстноеМеню" id="85"/>
+								<ExtendedTooltip name="ИмеетсяВозможностьДистанционногоСнятияПоказанийРасширеннаяПодсказка" id="86"/>
+							</CheckBoxField>
+							<InputField name="СистемаДистанционногоСнятияПоказаний" id="87">
+								<ContextMenu name="СистемаДистанционногоСнятияПоказанийКонтекстноеМеню" id="88"/>
+								<ExtendedTooltip name="СистемаДистанционногоСнятияПоказанийРасширеннаяПодсказка" id="89"/>
+							</InputField>
+							<CheckBoxField name="ИмеетсяДатчикТемпературы" id="93">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИмеетсяДатчикТемпературыКонтекстноеМеню" id="94"/>
+								<ExtendedTooltip name="ИмеетсяДатчикТемпературыРасширеннаяПодсказка" id="95"/>
+							</CheckBoxField>
+							<InputField name="МестоположениеДатчикаТемпературы" id="96">
+								<ContextMenu name="МестоположениеДатчикаТемпературыКонтекстноеМеню" id="97"/>
+								<ExtendedTooltip name="МестоположениеДатчикаТемпературыРасширеннаяПодсказка" id="98"/>
+							</InputField>
+							<CheckBoxField name="ИмеетсяДатчикДавления" id="99">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИмеетсяДатчикДавленияКонтекстноеМеню" id="100"/>
+								<ExtendedTooltip name="ИмеетсяДатчикДавленияРасширеннаяПодсказка" id="101"/>
+							</CheckBoxField>
+							<InputField name="МестоположениеДатчикаДавления" id="102">
+								<ContextMenu name="МестоположениеДатчикаДавленияКонтекстноеМеню" id="103"/>
+								<ExtendedTooltip name="МестоположениеДатчикаДавленияРасширеннаяПодсказка" id="104"/>
+							</InputField>
+							<InputField name="НомерВГИСЖКХ" id="114">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Номер в ГИС ЖКХ</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<ContextMenu name="НомерВГИСЖКХКонтекстноеМеню" id="115"/>
+								<ExtendedTooltip name="НомерВГИСЖКХРасширеннаяПодсказка" id="116">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Получить значение номера прибора учета в ГИС ЖКХ можно путем выполнения экспорта сведений о приборах учета.
+ </v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</InputField>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

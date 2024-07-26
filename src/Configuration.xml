@@ -64,9 +64,11 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ГП_МиграцияРазработка</Subsystem>
+			<StyleItem>УПЖКХ_ТекстСправочнойНадписи</StyleItem>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
 			<Catalog>КВП_Счетчики</Catalog>
 			<Catalog>КВП_ЛицевыеСчета</Catalog>
+			<Enum>КВП_СпособыРасчета</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеЗависимостейУслуг</DataProcessor>
