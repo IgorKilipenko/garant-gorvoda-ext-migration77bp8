@@ -214,27 +214,85 @@
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="31"/>
 											<ChildItems>
-												<Button name="ОбновитьСчетчикиИзРегистра" id="28">
-													<Type>UsualButton</Type>
-													<Representation>PictureAndText</Representation>
-													<CommandName>Form.Command.ОбновитьСчетчикиИзРегистра</CommandName>
-													<Picture>
-														<xr:Ref>StdPicture.Reread</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
-													</Picture>
+												<UsualGroup name="ГруппаОсновныеДействияОбновленияСчетчиков" id="103">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Обновить счетчики</v8:content>
+															<v8:content>Основные действия</v8:content>
 														</v8:item>
 													</Title>
-													<ExtendedTooltip name="ОбновитьСчетчикиИзРегистраРасширеннаяПодсказка" id="29"/>
-												</Button>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа основные действия обновления счетчиков</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Representation>StrongSeparation</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаОсновныеДействияОбновленияСчетчиковРасширеннаяПодсказка" id="104"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаНастройкиОбновленияСчетчиков" id="98">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Настройки:</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа настройки обновления счетчиков</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Behavior>Collapsible</Behavior>
+															<ExtendedTooltip name="ГруппаНастройкиОбновленияСчетчиковРасширеннаяПодсказка" id="99"/>
+															<ChildItems>
+																<CheckBoxField name="СоздаватьНовыеСчетчикиПриОбновлении" id="100">
+																	<DataPath>СоздаватьНовыеСчетчикиПриОбновлении</DataPath>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СоздаватьНовыеСчетчикиПриОбновленииКонтекстноеМеню" id="101"/>
+																	<ExtendedTooltip name="СоздаватьНовыеСчетчикиПриОбновленииРасширеннаяПодсказка" id="102"/>
+																</CheckBoxField>
+															</ChildItems>
+														</UsualGroup>
+														<LabelDecoration name="ДекорацияПустая8" id="108">
+															<ContextMenu name="ДекорацияПустая8КонтекстноеМеню" id="109"/>
+															<ExtendedTooltip name="ДекорацияПустая8РасширеннаяПодсказка" id="110"/>
+														</LabelDecoration>
+														<Button name="СопоставитьСчетчики" id="51">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Form.Command.СопоставитьСчетчики</CommandName>
+															<ExtendedTooltip name="СопоставитьСчетчикиРасширеннаяПодсказка" id="52"/>
+														</Button>
+														<Button name="ОбновитьСчетчикиИзРегистра" id="28">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Form.Command.ОбновитьСчетчикиИзРегистра</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.Reread</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Обновить счетчики</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ОбновитьСчетчикиИзРегистраРасширеннаяПодсказка" id="29"/>
+														</Button>
+													</ChildItems>
+												</UsualGroup>
+												<LabelDecoration name="ДекорацияПустая7" id="105">
+													<ContextMenu name="ДекорацияПустая7КонтекстноеМеню" id="106"/>
+													<ExtendedTooltip name="ДекорацияПустая7РасширеннаяПодсказка" id="107"/>
+												</LabelDecoration>
 												<UsualGroup name="ГруппаДополнительныеДействия" id="49">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Дополнительные действия</v8:content>
+															<v8:content>Дополнительные действия:</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTip>
@@ -243,9 +301,9 @@
 															<v8:content>Группа дополнительные действия</v8:content>
 														</v8:item>
 													</ToolTip>
-													<Group>AlwaysHorizontal</Group>
-													<Behavior>Collapsible</Behavior>
-													<Representation>None</Representation>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>StrongSeparation</Representation>
 													<ExtendedTooltip name="ГруппаДополнительныеДействияРасширеннаяПодсказка" id="50"/>
 													<ChildItems>
 														<Button name="УдалитьВсеСчетчикиБП77" id="47">
@@ -257,12 +315,6 @@
 																<xr:LoadTransparent>true</xr:LoadTransparent>
 															</Picture>
 															<ExtendedTooltip name="УдалитьВсеСчетчикиБП77РасширеннаяПодсказка" id="48"/>
-														</Button>
-														<Button name="СопоставитьСчетчики" id="51">
-															<Type>UsualButton</Type>
-															<Representation>PictureAndText</Representation>
-															<CommandName>Form.Command.СопоставитьСчетчики</CommandName>
-															<ExtendedTooltip name="СопоставитьСчетчикиРасширеннаяПодсказка" id="52"/>
 														</Button>
 													</ChildItems>
 												</UsualGroup>
@@ -634,6 +686,17 @@
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СоздаватьНовыеСчетчикиПриОбновлении" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создавать новые счетчики при обновлении</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
