@@ -66,6 +66,8 @@
 			<Subsystem>ГП_МиграцияРазработка</Subsystem>
 			<StyleItem>УПЖКХ_ТекстСправочнойНадписи</StyleItem>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
+			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
+			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Catalog>КВП_Счетчики</Catalog>
 			<Catalog>КВП_ЛицевыеСчета</Catalog>
 			<Enum>КВП_СпособыРасчета</Enum>
