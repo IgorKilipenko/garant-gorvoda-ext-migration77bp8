@@ -126,7 +126,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77</MainTable>
+				<MainTable>InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

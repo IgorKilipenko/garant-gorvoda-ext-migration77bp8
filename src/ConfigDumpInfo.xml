@@ -30,16 +30,16 @@
 			<Metadata name="Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчикаИНорме" id="27a169e8-69ad-40a8-bbf1-8dec1fe78470"/>
 			<Metadata name="Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчика" id="bddc26ad-404b-4a95-927a-2e3e2d408317"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77" id="0e582635-1e20-4f4e-b8db-896d1cef26a0" configVersion="1323246d64a9687ec82497b06ce09fd98392abf6">
-			<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Resource.Использовать" id="88e8e4a6-05cd-475b-8ec2-8c28a88dc801"/>
-			<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Dimension.КонтрагентКод" id="89f8ae83-c9e1-4f35-b450-80019fe8e9df"/>
-			<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Dimension.ОбъектАбонентаКод" id="b3095e19-1015-45c7-a45d-fa5076caa326"/>
-			<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Dimension.СчетчикКод" id="d73ee198-1480-4934-a994-25c37d81c8e3"/>
+		<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77" id="0e582635-1e20-4f4e-b8db-896d1cef26a0" configVersion="bf3195d7a90352737781cfe6b09d5e4d990dd3f5">
+			<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Resource.Использовать" id="88e8e4a6-05cd-475b-8ec2-8c28a88dc801"/>
+			<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Dimension.КонтрагентКод" id="89f8ae83-c9e1-4f35-b450-80019fe8e9df"/>
+			<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Dimension.ОбъектАбонентаКод" id="b3095e19-1015-45c7-a45d-fa5076caa326"/>
+			<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Dimension.СчетчикКод" id="d73ee198-1480-4934-a994-25c37d81c8e3"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаЗаписи" id="59e6b33a-52d1-417e-8acf-e970349ebd61" configVersion="b0f3755308576167242130d22150bd7cbf710da3"/>
-		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаЗаписи.Form" id="59e6b33a-52d1-417e-8acf-e970349ebd61.0" configVersion="f3bb0defd93c261fa71bd5c7f0f95c23e5e464ca"/>
-		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаСписка" id="996027af-b7a1-4cee-95ec-294ed0a0a9c6" configVersion="02c5f5a299286ba9d6b1f5c785a7f05add133383"/>
-		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаСписка.Form" id="996027af-b7a1-4cee-95ec-294ed0a0a9c6.0" configVersion="7b4ae4328f8f3cff962a655d0cdc9ca3736bd441"/>
+		<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Form.ФормаЗаписи" id="59e6b33a-52d1-417e-8acf-e970349ebd61" configVersion="b0f3755308576167242130d22150bd7cbf710da3"/>
+		<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Form.ФормаЗаписи.Form" id="59e6b33a-52d1-417e-8acf-e970349ebd61.0" configVersion="f3bb0defd93c261fa71bd5c7f0f95c23e5e464ca"/>
+		<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Form.ФормаСписка" id="996027af-b7a1-4cee-95ec-294ed0a0a9c6" configVersion="02c5f5a299286ba9d6b1f5c785a7f05add133383"/>
+		<Metadata name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Form.ФормаСписка.Form" id="996027af-b7a1-4cee-95ec-294ed0a0a9c6.0" configVersion="7b4ae4328f8f3cff962a655d0cdc9ca3736bd441"/>
 		<Metadata name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77" id="f0de9e39-e8ac-4653-8827-96467931f913" configVersion="cc7a41d0d2f28dc2130bdf657f2f994d31800a24">
 			<Metadata name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.Dimension.СчетчикКод" id="66f8351d-6035-4c97-91e3-a07f27538628"/>
 			<Metadata name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.Dimension.ОбъектАбонентаКод" id="75fb90c1-a16f-4882-bc61-6e891cc47890"/>

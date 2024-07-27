@@ -23,7 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ГП_ЗаполнениеЗависимостейУслуг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ПоказанияСчетчиковБП77</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77</xr:Item>
 			</Content>
 		</Properties>

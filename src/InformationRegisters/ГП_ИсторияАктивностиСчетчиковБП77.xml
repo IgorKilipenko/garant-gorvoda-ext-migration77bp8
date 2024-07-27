@@ -2,37 +2,37 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<InformationRegister uuid="0e582635-1e20-4f4e-b8db-896d1cef26a0">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.ГП_ИстоияАктивностиСчетчиковБП77" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.ГП_ИсторияАктивностиСчетчиковБП77" category="Record">
 				<xr:TypeId>b3967860-e366-4912-9618-3dde642b90fc</xr:TypeId>
 				<xr:ValueId>200a1f04-6231-432c-bc8b-34acc3b011e8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.ГП_ИстоияАктивностиСчетчиковБП77" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.ГП_ИсторияАктивностиСчетчиковБП77" category="Manager">
 				<xr:TypeId>0d914da6-46e8-483f-bb32-391e710fe306</xr:TypeId>
 				<xr:ValueId>e1967997-b8e7-4c8e-91d2-b0a96a5a418b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.ГП_ИстоияАктивностиСчетчиковБП77" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.ГП_ИсторияАктивностиСчетчиковБП77" category="Selection">
 				<xr:TypeId>1d0fed91-fb89-442d-9229-d5418d5014ef</xr:TypeId>
 				<xr:ValueId>e577e27c-26fb-4220-8369-8be6bad49825</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.ГП_ИстоияАктивностиСчетчиковБП77" category="List">
+			<xr:GeneratedType name="InformationRegisterList.ГП_ИсторияАктивностиСчетчиковБП77" category="List">
 				<xr:TypeId>972cc2dd-049a-4cac-a615-f11a192cf4f9</xr:TypeId>
 				<xr:ValueId>9b42474c-41ca-4a6c-9d58-102644f613a8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.ГП_ИстоияАктивностиСчетчиковБП77" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.ГП_ИсторияАктивностиСчетчиковБП77" category="RecordSet">
 				<xr:TypeId>9c4d4e46-8709-40a2-a93d-968f5c4ab44c</xr:TypeId>
 				<xr:ValueId>ad81ef4a-7a5b-44bb-a0b9-224431734b11</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.ГП_ИстоияАктивностиСчетчиковБП77" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.ГП_ИсторияАктивностиСчетчиковБП77" category="RecordKey">
 				<xr:TypeId>0888444c-4252-4063-b0bd-ca4d2784ba99</xr:TypeId>
 				<xr:ValueId>fc801e22-617d-4d03-add9-66c78af94531</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.ГП_ИстоияАктивностиСчетчиковБП77" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.ГП_ИсторияАктивностиСчетчиковБП77" category="RecordManager">
 				<xr:TypeId>0cdfde90-955c-4942-9ce8-273d62ffae10</xr:TypeId>
 				<xr:ValueId>b310f060-d711-4f71-a76b-401fbc8e025e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ГП_ИстоияАктивностиСчетчиковБП77</Name>
+			<Name>ГП_ИсторияАктивностиСчетчиковБП77</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -42,8 +42,8 @@
 			<Comment>// Гарант+  [F00226454]</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm>InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаЗаписи</DefaultRecordForm>
-			<DefaultListForm>InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаСписка</DefaultListForm>
+			<DefaultRecordForm>InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Form.ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm>InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<StandardAttributes>
