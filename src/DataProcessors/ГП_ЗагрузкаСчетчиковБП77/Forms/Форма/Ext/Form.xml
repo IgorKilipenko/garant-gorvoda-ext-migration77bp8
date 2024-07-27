@@ -149,31 +149,40 @@
 											</Picture>
 											<ExtendedTooltip name="ЗагрузитьСчетчикиРасширеннаяПодсказка" id="4"/>
 										</Button>
-										<Button name="ЗагрузитьПоказанияСчетчиков" id="96">
-											<Type>UsualButton</Type>
-											<Representation>PictureAndText</Representation>
-											<Enabled>false</Enabled>
-											<CommandName>Form.Command.ЗагрузитьПоказанияСчетчиков</CommandName>
-											<ExtendedTooltip name="ЗагрузитьПоказанияСчетчиковРасширеннаяПодсказка" id="97"/>
-										</Button>
-										<LabelDecoration name="ДекорацияПустая3" id="38">
-											<ContextMenu name="ДекорацияПустая3КонтекстноеМеню" id="39"/>
-											<ExtendedTooltip name="ДекорацияПустая3РасширеннаяПодсказка" id="40"/>
-										</LabelDecoration>
-										<InputField name="ТекстСообщенияРезультатОперации" id="13">
-											<DataPath>ТекстСообщенияРезультатОперации</DataPath>
-											<ReadOnly>true</ReadOnly>
-											<TitleLocation>None</TitleLocation>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<HorizontalStretch>true</HorizontalStretch>
-											<VerticalStretch>false</VerticalStretch>
-											<MultiLine>true</MultiLine>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<TextColor>style:ActivityColor</TextColor>
-											<BorderColor>style:FormBackColor</BorderColor>
-											<ContextMenu name="ТекстСообщенияРезультатОперацииКонтекстноеМеню" id="14"/>
-											<ExtendedTooltip name="ТекстСообщенияРезультатОперацииРасширеннаяПодсказка" id="15"/>
-										</InputField>
+										<UsualGroup name="ГруппаИсторияДанныхСчетчиков" id="113">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>История данных счетчиков:</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа история данных счетчиков</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>NormalSeparation</Representation>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ExtendedTooltip name="ГруппаИсторияДанныхСчетчиковРасширеннаяПодсказка" id="114"/>
+											<ChildItems>
+												<Button name="ЗагрузитьПоказанияСчетчиков" id="96">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьПоказанияСчетчиков</CommandName>
+													<ExtendedTooltip name="ЗагрузитьПоказанияСчетчиковРасширеннаяПодсказка" id="97"/>
+												</Button>
+												<Button name="ЗагрузитьИсториюСостоянийСчетчиков" id="111">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьИсториюСостоянийСчетчиков</CommandName>
+													<ExtendedTooltip name="ЗагрузитьИсториюСостоянийСчетчиковРасширеннаяПодсказка" id="112"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 								<Page name="ГруппаОбновление" id="26">
@@ -851,6 +860,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗагрузитьПоказанияСчетчиков</Action>
+		</Command>
+		<Command name="ЗагрузитьИсториюСостоянийСчетчиков" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить историю состояний счетчиков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить историю состояний счетчиков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DataCompositionSelection</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьИсториюСостоянийСчетчиков</Action>
 		</Command>
 	</Commands>
 </Form>

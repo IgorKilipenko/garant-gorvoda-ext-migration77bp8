@@ -21,6 +21,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -54,6 +59,10 @@
 			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 		<Command name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.StandardCommand.Open">
 			<CommandGroup>CommandGroup.ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Placement>Auto</Placement>
@@ -78,6 +87,9 @@
 			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.ГП_ИсторияАктивностиСчетчиковБП77.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.StandardCommand.Open">
