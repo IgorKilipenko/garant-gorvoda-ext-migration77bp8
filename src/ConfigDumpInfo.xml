@@ -38,7 +38,7 @@
 		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаЗаписи.Form" id="59e6b33a-52d1-417e-8acf-e970349ebd61.0" configVersion="f3bb0defd93c261fa71bd5c7f0f95c23e5e464ca"/>
 		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаСписка" id="996027af-b7a1-4cee-95ec-294ed0a0a9c6" configVersion="02c5f5a299286ba9d6b1f5c785a7f05add133383"/>
 		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаСписка.Form" id="996027af-b7a1-4cee-95ec-294ed0a0a9c6.0" configVersion="7b4ae4328f8f3cff962a655d0cdc9ca3736bd441"/>
-		<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77" id="8c96ec59-252f-4eb9-926e-b05317bd4426" configVersion="dfea7d91319136f071f1cccc45199006228b9392">
+		<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77" id="8c96ec59-252f-4eb9-926e-b05317bd4426" configVersion="2f891219566188414ddae3026c9570e07ccf31fc">
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Dimension.КонтрагентКод" id="1e72de90-3a69-4150-95fb-7e5f40387835"/>
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Resource.Показание" id="2b24b8ff-51c7-4458-9229-e271820f525e"/>
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Dimension.СчетчикКод" id="67579873-9c1e-4fee-920d-ac6860f5df0c"/>
@@ -100,7 +100,7 @@
 		<Metadata name="Report.ГП_СчетчикиБП77.Template.ОсновнаяСхемаКомпоновкиДанных" id="6f6c2b97-2a7c-4748-bab3-b458104ebb0b" configVersion="ee2163383462af364ed80ce027050b3878bc5ab2"/>
 		<Metadata name="Report.ГП_СчетчикиБП77.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6f6c2b97-2a7c-4748-bab3-b458104ebb0b.0" configVersion="037080f405594b69a37ae8ff5c666d89f87088da"/>
 		<Metadata name="StyleItem.УПЖКХ_ТекстСправочнойНадписи" id="dea3fc31-b0d3-4d7d-9fd7-3992e97fc8f5" configVersion="c102855d9104bb368dd5c5803b4920f6aa12c164"/>
-		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="6db7909acdb455991a7846977deddc69737cab26"/>
+		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="5b37e9ba6f2e18f10ed4b0eb391cee7c72e84663"/>
 		<Metadata name="Subsystem.ГП_МиграцияРазработка.CommandInterface" id="fdc75fdb-9bf5-4f9e-b742-33b858564549.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
