@@ -13,7 +13,7 @@
 		<Metadata name="CommandGroup.ГП_ЗагрузкаДанныхБП77" id="759a2c0b-6337-4d70-af96-5b19a3438a63" configVersion="96126203ef26ae5aa2db426bd587c9409abf0c47"/>
 		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587" configVersion="546c6d2a53b7721c3fe93ffe0b1bdf164d5b94e8"/>
 		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета.Module" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587.0" configVersion="b39fc1e4bf100b9c60fbcf9e8deb98d1d6516eb2"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="0d35175a73e67d78bb2fdaecba8a65c004aec65f"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="f5435ad4533ef5a089a8fbf55beadac96c2ba9c3"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="819516dd729f1a05442b2ff167ac096409eda7c1"/>
@@ -40,6 +40,12 @@
 		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаЗаписи.Form" id="59e6b33a-52d1-417e-8acf-e970349ebd61.0" configVersion="f3bb0defd93c261fa71bd5c7f0f95c23e5e464ca"/>
 		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаСписка" id="996027af-b7a1-4cee-95ec-294ed0a0a9c6" configVersion="02c5f5a299286ba9d6b1f5c785a7f05add133383"/>
 		<Metadata name="InformationRegister.ГП_ИстоияАктивностиСчетчиковБП77.Form.ФормаСписка.Form" id="996027af-b7a1-4cee-95ec-294ed0a0a9c6.0" configVersion="7b4ae4328f8f3cff962a655d0cdc9ca3736bd441"/>
+		<Metadata name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77" id="f0de9e39-e8ac-4653-8827-96467931f913" configVersion="cc7a41d0d2f28dc2130bdf657f2f994d31800a24">
+			<Metadata name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.Dimension.СчетчикКод" id="66f8351d-6035-4c97-91e3-a07f27538628"/>
+			<Metadata name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.Dimension.ОбъектАбонентаКод" id="75fb90c1-a16f-4882-bc61-6e891cc47890"/>
+			<Metadata name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.Dimension.КонтрагентКод" id="b75b416e-d4ec-4330-bf47-73b44c14ba96"/>
+			<Metadata name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.Resource.ЗначенияПоказаний" id="b811db41-b478-4d9d-b2f9-de596af760cf"/>
+		</Metadata>
 		<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77" id="8c96ec59-252f-4eb9-926e-b05317bd4426" configVersion="2f891219566188414ddae3026c9570e07ccf31fc">
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Dimension.КонтрагентКод" id="1e72de90-3a69-4150-95fb-7e5f40387835"/>
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Resource.Показание" id="2b24b8ff-51c7-4458-9229-e271820f525e"/>
@@ -102,7 +108,7 @@
 		<Metadata name="Report.ГП_СчетчикиБП77.Template.ОсновнаяСхемаКомпоновкиДанных" id="6f6c2b97-2a7c-4748-bab3-b458104ebb0b" configVersion="ee2163383462af364ed80ce027050b3878bc5ab2"/>
 		<Metadata name="Report.ГП_СчетчикиБП77.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6f6c2b97-2a7c-4748-bab3-b458104ebb0b.0" configVersion="037080f405594b69a37ae8ff5c666d89f87088da"/>
 		<Metadata name="StyleItem.УПЖКХ_ТекстСправочнойНадписи" id="dea3fc31-b0d3-4d7d-9fd7-3992e97fc8f5" configVersion="c102855d9104bb368dd5c5803b4920f6aa12c164"/>
-		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="5b37e9ba6f2e18f10ed4b0eb391cee7c72e84663"/>
+		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="7a6f94d6838f888de7e06bdbdb6f9f70a6e1bba7"/>
 		<Metadata name="Subsystem.ГП_МиграцияРазработка.CommandInterface" id="fdc75fdb-9bf5-4f9e-b742-33b858564549.1" configVersion="ff0d5eed0eb328ef554404b8b18073773806676b"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

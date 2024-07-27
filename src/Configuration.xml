@@ -79,6 +79,7 @@
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
 			<InformationRegister>ГП_ИстоияАктивностиСчетчиковБП77</InformationRegister>
+			<InformationRegister>ГП_ИсторияСпособовРегистрацииСчетчиковБП77</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
