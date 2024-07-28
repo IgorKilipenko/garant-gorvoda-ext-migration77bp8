@@ -17,6 +17,13 @@
 			<ContextMenu name="ОбъектАбонентаКодКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ОбъектАбонентаКодРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="ОбъектАбонентаНаименование" id="28">
+			<DataPath>Запись.ОбъектАбонентаНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбъектАбонентаНаименованиеКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ОбъектАбонентаНаименованиеРасширеннаяПодсказка" id="30"/>
+		</InputField>
 		<InputField name="ЛицевойСчет" id="7">
 			<DataPath>Запись.ЛицевойСчет</DataPath>
 			<ReadOnly>true</ReadOnly>
@@ -66,13 +73,27 @@
 			<ContextMenu name="ПроцентГВКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="ПроцентГВРасширеннаяПодсказка" id="27"/>
 		</InputField>
-		<InputField name="ОбъектАбонентаНаименование" id="28">
-			<DataPath>Запись.ОбъектАбонентаНаименование</DataPath>
+		<CheckBoxField name="НаПодогрев" id="31">
+			<DataPath>Запись.НаПодогрев</DataPath>
 			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ОбъектАбонентаНаименованиеКонтекстноеМеню" id="29"/>
-			<ExtendedTooltip name="ОбъектАбонентаНаименованиеРасширеннаяПодсказка" id="30"/>
-		</InputField>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="НаПодогревКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="НаПодогревРасширеннаяПодсказка" id="33"/>
+		</CheckBoxField>
+		<CheckBoxField name="НеНачислять" id="34">
+			<DataPath>Запись.НеНачислять</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="НеНачислятьКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="НеНачислятьРасширеннаяПодсказка" id="36"/>
+		</CheckBoxField>
+		<CheckBoxField name="ЭтоПлатаЗаХолодноеВодоснабжениеОИ" id="37">
+			<DataPath>Запись.ЭтоПлатаЗаХолодноеВодоснабжениеОИ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЭтоПлатаЗаХолодноеВодоснабжениеОИКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ЭтоПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="39"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Запись" id="1">
