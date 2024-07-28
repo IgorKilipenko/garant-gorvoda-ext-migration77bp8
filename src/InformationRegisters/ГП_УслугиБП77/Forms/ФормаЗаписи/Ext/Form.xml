@@ -80,6 +80,13 @@
 			<ContextMenu name="НаПодогревКонтекстноеМеню" id="32"/>
 			<ExtendedTooltip name="НаПодогревРасширеннаяПодсказка" id="33"/>
 		</CheckBoxField>
+		<CheckBoxField name="НеНачислять" id="34">
+			<DataPath>Запись.НеНачислять</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="НеНачислятьКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="НеНачислятьРасширеннаяПодсказка" id="36"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Запись" id="1">

@@ -192,12 +192,35 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<CheckBoxField name="НаПодогрев" id="52">
-					<DataPath>Список.НаПодогрев</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="НаПодогревКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="НаПодогревРасширеннаяПодсказка" id="54"/>
-				</CheckBoxField>
+				<ColumnGroup name="ГруппаДополнительныеДанные" id="58">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительные данные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительные данные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаДополнительныеДанныеРасширеннаяПодсказка" id="59"/>
+					<ChildItems>
+						<CheckBoxField name="НаПодогрев" id="52">
+							<DataPath>Список.НаПодогрев</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НаПодогревКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="НаПодогревРасширеннаяПодсказка" id="54"/>
+						</CheckBoxField>
+						<CheckBoxField name="НеНачислять" id="55">
+							<DataPath>Список.НеНачислять</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НеНачислятьКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="НеНачислятьРасширеннаяПодсказка" id="57"/>
+						</CheckBoxField>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
 	</ChildItems>
