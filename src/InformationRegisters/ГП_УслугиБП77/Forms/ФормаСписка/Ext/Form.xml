@@ -192,6 +192,12 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
+				<CheckBoxField name="НаПодогрев" id="52">
+					<DataPath>Список.НаПодогрев</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="НаПодогревКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="НаПодогревРасширеннаяПодсказка" id="54"/>
+				</CheckBoxField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
