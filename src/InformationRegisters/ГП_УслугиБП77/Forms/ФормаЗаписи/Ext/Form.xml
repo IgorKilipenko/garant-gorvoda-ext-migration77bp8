@@ -87,6 +87,13 @@
 			<ContextMenu name="НеНачислятьКонтекстноеМеню" id="35"/>
 			<ExtendedTooltip name="НеНачислятьРасширеннаяПодсказка" id="36"/>
 		</CheckBoxField>
+		<CheckBoxField name="ЭтоПлатаЗаХолодноеВодоснабжениеОИ" id="37">
+			<DataPath>Запись.ЭтоПлатаЗаХолодноеВодоснабжениеОИ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЭтоПлатаЗаХолодноеВодоснабжениеОИКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ЭтоПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="39"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Запись" id="1">
