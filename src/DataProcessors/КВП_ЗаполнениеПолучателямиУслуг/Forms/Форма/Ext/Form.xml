@@ -711,6 +711,9 @@
 					<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
 					<ContextMenu name="ОбъектЛСКонтекстноеМеню" id="91"/>
 					<ExtendedTooltip name="ОбъектЛСExtendedTooltip" id="189"/>
+					<Events>
+						<Event name="ChoiceProcessing" callType="After">ГП_ОбъектЛСОбработкаВыбораПосле</Event>
+					</Events>
 				</InputField>
 				<Table name="КонтрагентыЛС" id="92">
 					<Representation>List</Representation>
