@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.2.5.0-rc1</Version>
+			<Version>1.2.5.1-rc0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -73,6 +73,9 @@
 			<Catalog>КВП_Подъезды</Catalog>
 			<Catalog>КВП_Здания</Catalog>
 			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>КВП_Услуги</Catalog>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
@@ -84,6 +87,8 @@
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
 			<InformationRegister>ГП_ИсторияАктивностиСчетчиковБП77</InformationRegister>
 			<InformationRegister>ГП_ИсторияСпособовРегистрацииСчетчиковБП77</InformationRegister>
+			<InformationRegister>КВП_ЛицевыеСчета</InformationRegister>
+			<InformationRegister>УПЖКХ_СведенияДляВзаиморасчетовПоЛС</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
