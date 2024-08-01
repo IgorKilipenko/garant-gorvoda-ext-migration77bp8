@@ -2,6 +2,49 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
+		<CommandBar name="ГруппаДополнительныеФункции" id="63">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дополнительные функции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дополнительные функции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаДополнительныеФункцииРасширеннаяПодсказка" id="64"/>
+			<ChildItems>
+				<Popup name="ГруппаЗаполнениеДанных" id="65">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение данных</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа заполнение данных</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.CreateInitialImage</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ГруппаЗаполнениеДанныхРасширеннаяПодсказка" id="66"/>
+					<ChildItems>
+						<Button name="ЗаполнитьПризнакНегативноеВоздействие" id="67">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.ЗаполнитьПризнакНегативноеВоздействие</CommandName>
+							<ExtendedTooltip name="ЗаполнитьПризнакНегативноеВоздействиеРасширеннаяПодсказка" id="68"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+			</ChildItems>
+		</CommandBar>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
 				<v8:item>
@@ -150,19 +193,6 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<CheckBoxField name="ТолькоДляКанализации" id="34">
-					<DataPath>Список.ТолькоДляКанализации</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Собственный источник ВО</v8:content>
-						</v8:item>
-					</Title>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ТолькоДляКанализацииКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="ТолькоДляКанализацииРасширеннаяПодсказка" id="36"/>
-				</CheckBoxField>
 				<ColumnGroup name="ГруппаПроценты" id="50">
 					<Title>
 						<v8:item>
@@ -190,22 +220,35 @@
 							<ContextMenu name="ПроцентГВКонтекстноеМеню" id="41"/>
 							<ExtendedTooltip name="ПроцентГВРасширеннаяПодсказка" id="42"/>
 						</LabelField>
+						<CheckBoxField name="ТолькоДляКанализации" id="34">
+							<DataPath>Список.ТолькоДляКанализации</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Собственный источник ВО</v8:content>
+								</v8:item>
+							</Title>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ТолькоДляКанализацииКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ТолькоДляКанализацииРасширеннаяПодсказка" id="36"/>
+						</CheckBoxField>
 					</ChildItems>
 				</ColumnGroup>
-				<ColumnGroup name="ГруппаДополнительныеДанные" id="58">
+				<ColumnGroup name="ГруппаДополнительныеПризнаки" id="58">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа дополнительные данные</v8:content>
+							<v8:content>Группа дополнительные признаки</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа дополнительные данные</v8:content>
+							<v8:content>Группа дополнительные признаки</v8:content>
 						</v8:item>
 					</ToolTip>
-					<ExtendedTooltip name="ГруппаДополнительныеДанныеРасширеннаяПодсказка" id="59"/>
+					<ExtendedTooltip name="ГруппаДополнительныеПризнакиРасширеннаяПодсказка" id="59"/>
 					<ChildItems>
 						<CheckBoxField name="НаПодогрев" id="52">
 							<DataPath>Список.НаПодогрев</DataPath>
@@ -219,11 +262,34 @@
 							<ContextMenu name="НеНачислятьКонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="НеНачислятьРасширеннаяПодсказка" id="57"/>
 						</CheckBoxField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ГруппаДополнительныеХарактеристики" id="69">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительные характеристики</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительные характеристики</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаДополнительныеХарактеристикиРасширеннаяПодсказка" id="70"/>
+					<ChildItems>
 						<CheckBoxField name="ЭтоПлатаЗаХолодноеВодоснабжениеОИ" id="60">
 							<DataPath>Список.ЭтоПлатаЗаХолодноеВодоснабжениеОИ</DataPath>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЭтоПлатаЗаХолодноеВодоснабжениеОИКонтекстноеМеню" id="61"/>
 							<ExtendedTooltip name="ЭтоПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="62"/>
+						</CheckBoxField>
+						<CheckBoxField name="ЭтоНегативноеВоздействиеЦСВ" id="71">
+							<DataPath>Список.ЭтоНегативноеВоздействиеЦСВ</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЭтоНегативноеВоздействиеЦСВКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ЭтоНегативноеВоздействиеЦСВРасширеннаяПодсказка" id="73"/>
 						</CheckBoxField>
 					</ChildItems>
 				</ColumnGroup>
@@ -259,4 +325,25 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьПризнакНегативноеВоздействие" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить признак негативное воздействие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить признак негативное воздействие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.BusinessProcessStart</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьПризнакНегативноеВоздействие</Action>
+		</Command>
+	</Commands>
 </Form>

@@ -94,6 +94,13 @@
 			<ContextMenu name="ЭтоПлатаЗаХолодноеВодоснабжениеОИКонтекстноеМеню" id="38"/>
 			<ExtendedTooltip name="ЭтоПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="39"/>
 		</CheckBoxField>
+		<CheckBoxField name="ЭтоНегативноеВоздействиеЦСВ" id="40">
+			<DataPath>Запись.ЭтоНегативноеВоздействиеЦСВ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЭтоНегативноеВоздействиеЦСВКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ЭтоНегативноеВоздействиеЦСВРасширеннаяПодсказка" id="42"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Запись" id="1">
