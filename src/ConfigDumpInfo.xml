@@ -18,14 +18,14 @@
 		<Metadata name="CommandGroup.ГП_ДанныеБП77" id="208ff87d-60ea-4bf4-acca-c7c9663a177c" configVersion="a3c2945d1f1dfdccd809e20c5eeaf1cfd0496b59"/>
 		<Metadata name="CommandGroup.ГП_ЗагрузкаДанныхБП77" id="759a2c0b-6337-4d70-af96-5b19a3438a63" configVersion="96126203ef26ae5aa2db426bd587c9409abf0c47"/>
 		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587" configVersion="546c6d2a53b7721c3fe93ffe0b1bdf164d5b94e8"/>
-		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета.Module" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587.0" configVersion="21d085c2e3292ac5b117a5d0cf334858ceac86fb"/>
+		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета.Module" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587.0" configVersion="c34faa07175fc9942b15b3ce59a29d0523755b31"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент" id="4c802860-cccf-4abd-9de0-d70727e6b8d7" configVersion="b1b045cc3ab676d265567ea734aca77835b25364"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент.Module" id="4c802860-cccf-4abd-9de0-d70727e6b8d7.0" configVersion="4b43a97b07014ea4a9176b55311602deefa84d80"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="f231d474328dc3e13525c0572144252036df27f9"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="dabe4d8fc4d9cfa3aa7b6c76ee77b21b0ad7696c"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="e0fe01d2ae732e28d93c6681346487b0b3b242c3"/>
-		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.ManagerModule" id="044cc305-d691-4420-9791-59a08b431474.2" configVersion="d35e1b8ea9373faecce10a4ed19be231463d01ce"/>
+		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.ManagerModule" id="044cc305-d691-4420-9791-59a08b431474.2" configVersion="581e26901e9ced0aee27e1bdd7d68ef97d658319"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг" id="10e651c1-9ab3-4b1d-87a9-574597323241" configVersion="4c8b752c7cc0f31f6abb8776daa473d59a8fde0b"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.Form.Форма" id="2651ee4d-805d-4bb5-bf32-f4951e3c132f" configVersion="c4d538931507b2615982c7f5f3f37f1dec036d0f"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.Form.Форма.Form" id="2651ee4d-805d-4bb5-bf32-f4951e3c132f.0" configVersion="8a3473808151f87c54f9cd96b2042eb771fd1a75"/>
@@ -121,8 +121,8 @@
 		<Metadata name="InformationRegister.ГП_УслугиБП77.Form.ФормаЗаписи" id="cdcaad55-b149-40fd-a561-f3862ecf78f5" configVersion="9667020e55f2d3ec738edec15fd4b3d90cda915e"/>
 		<Metadata name="InformationRegister.ГП_УслугиБП77.Form.ФормаЗаписи.Form" id="cdcaad55-b149-40fd-a561-f3862ecf78f5.0" configVersion="a79aa86186dbfe47e99762e77fef4a8bda8dc08d"/>
 		<Metadata name="InformationRegister.ГП_УслугиБП77.Form.ФормаСписка" id="8baf2a0d-7cbd-4e64-918c-9d01c870d06d" configVersion="547845403f362869e699e82c965675fedd7c839d"/>
-		<Metadata name="InformationRegister.ГП_УслугиБП77.Form.ФормаСписка.Form" id="8baf2a0d-7cbd-4e64-918c-9d01c870d06d.0" configVersion="071445fb78884e5d978b357ffeb86df564211b2b"/>
-		<Metadata name="InformationRegister.ГП_УслугиБП77.ManagerModule" id="a1438402-f3b3-4f31-84aa-88820e93a785.2" configVersion="e9ec8fa8a561d7aa174b34342e192d3dd02c8fa6"/>
+		<Metadata name="InformationRegister.ГП_УслугиБП77.Form.ФормаСписка.Form" id="8baf2a0d-7cbd-4e64-918c-9d01c870d06d.0" configVersion="f44e81c47aadc052545874346daa00618eda1f5d"/>
+		<Metadata name="InformationRegister.ГП_УслугиБП77.ManagerModule" id="a1438402-f3b3-4f31-84aa-88820e93a785.2" configVersion="cdd65257c44ceec62d7cbb4c87cc72f6682c7c67"/>
 		<Metadata name="InformationRegister.КВП_ЛицевыеСчета" id="2ce03e2a-3df2-408b-be46-f2b7ab44cd00" configVersion="0f96185390e113f58516eb3014bae5accb5d0cdb">
 			<Metadata name="InformationRegister.КВП_ЛицевыеСчета.Dimension.ЛицевойСчет" id="14ed9f63-b7c5-4a94-a185-1e06d627b916"/>
 			<Metadata name="InformationRegister.КВП_ЛицевыеСчета.Resource.Действует" id="9174469f-fa41-4e4a-9d05-a8a392d4c9d6"/>
