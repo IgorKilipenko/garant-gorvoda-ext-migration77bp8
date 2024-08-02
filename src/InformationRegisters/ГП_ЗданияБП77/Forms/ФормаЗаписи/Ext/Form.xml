@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="КонтрагентКод" id="1">
+			<DataPath>Запись.КонтрагентКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КонтрагентКодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ОбъектАбонентаКод" id="4">
+			<DataPath>Запись.ОбъектАбонентаКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбъектАбонентаКодКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ОбъектАбонентаКодРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Здание" id="7">
+			<DataPath>Запись.Здание</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗданиеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ЗданиеРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="УлицаКод" id="10">
+			<DataPath>Запись.УлицаКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="УлицаКодКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="УлицаКодРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="УлицаНаименование" id="13">
+			<DataPath>Запись.УлицаНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="УлицаНаименованиеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="УлицаНаименованиеРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="УлицаКодГорода" id="16">
+			<DataPath>Запись.УлицаКодГорода</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="УлицаКодГородаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="УлицаКодГородаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Улица2" id="19">
+			<DataPath>Запись.Улица2</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="Улица2КонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="Улица2РасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Дом" id="22">
+			<DataPath>Запись.Дом</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДомКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ДомРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="Корпус" id="25">
+			<DataPath>Запись.Корпус</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КорпусКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="КорпусРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Квартира" id="28">
+			<DataPath>Запись.Квартира</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КвартираКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="КвартираРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="КодМКД" id="31">
+			<DataPath>Запись.КодМКД</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодМКДКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="КодМКДРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="Реквизиты" id="34">
+			<DataPath>Запись.Реквизиты</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РеквизитыКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="РеквизитыРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<CheckBoxField name="ТолькоДляКанализации" id="37">
+			<DataPath>Запись.ТолькоДляКанализации</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ТолькоДляКанализацииКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ТолькоДляКанализацииРасширеннаяПодсказка" id="39"/>
+		</CheckBoxField>
+		<InputField name="ПроцентХВ" id="40">
+			<DataPath>Запись.ПроцентХВ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПроцентХВКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ПроцентХВРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<InputField name="ПроцентГВ" id="43">
+			<DataPath>Запись.ПроцентГВ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПроцентГВКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ПроцентГВРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<CheckBoxField name="ЭтоНегативноеВоздействиеЦСВ" id="46">
+			<DataPath>Запись.ЭтоНегативноеВоздействиеЦСВ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЭтоНегативноеВоздействиеЦСВКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="ЭтоНегативноеВоздействиеЦСВРасширеннаяПодсказка" id="48"/>
+		</CheckBoxField>
+		<CheckBoxField name="ЭтоПлатаЗаХолодноеВодоснабжениеОИ" id="49">
+			<DataPath>Запись.ЭтоПлатаЗаХолодноеВодоснабжениеОИ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЭтоПлатаЗаХолодноеВодоснабжениеОИКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ЭтоПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="51"/>
+		</CheckBoxField>
+		<InputField name="ДоговорКод" id="52">
+			<DataPath>Запись.ДоговорКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорКодКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="ДоговорКодРасширеннаяПодсказка" id="54"/>
+		</InputField>
+		<InputField name="ДоговорНаименование" id="55">
+			<DataPath>Запись.ДоговорНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорНаименованиеКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="ДоговорНаименованиеРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<InputField name="ВидДоговораКод" id="58">
+			<DataPath>Запись.ВидДоговораКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидДоговораКодКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="ВидДоговораКодРасширеннаяПодсказка" id="60"/>
+		</InputField>
+		<InputField name="ВидДоговораНаименование" id="61">
+			<DataPath>Запись.ВидДоговораНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидДоговораНаименованиеКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="ВидДоговораНаименованиеРасширеннаяПодсказка" id="63"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ГП_ЗданияБП77</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
