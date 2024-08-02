@@ -26,6 +26,11 @@
 						<CommandName>Form.Command.ЗаполнитьПризнакНегативноеВоздействие</CommandName>
 						<ExtendedTooltip name="ЗаполнитьПризнакНегативноеВоздействиеРасширеннаяПодсказка" id="68"/>
 					</Button>
+					<Button name="ФормаЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ" id="74">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ</CommandName>
+						<ExtendedTooltip name="ФормаЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="75"/>
+					</Button>
 				</ChildItems>
 			</Popup>
 		</ChildItems>
@@ -330,6 +335,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗаполнитьПризнакНегативноеВоздействие</Action>
+		</Command>
+		<Command name="ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить признак плата за ХВ ОИ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить признак негативное воздействие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.BusinessProcessStart</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ</Action>
 		</Command>
 	</Commands>
 </Form>
