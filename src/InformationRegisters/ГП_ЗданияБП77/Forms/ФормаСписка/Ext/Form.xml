@@ -97,6 +97,12 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
+				<LabelField name="Здание" id="22">
+					<DataPath>Список.Здание</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ЗданиеКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ЗданиеРасширеннаяПодсказка" id="24"/>
+				</LabelField>
 				<ColumnGroup name="ГруппаЗдание" id="91">
 					<Title>
 						<v8:item>
@@ -112,17 +118,16 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаЗданиеРасширеннаяПодсказка" id="92"/>
 					<ChildItems>
-						<LabelField name="Здание" id="22">
-							<DataPath>Список.Здание</DataPath>
-							<DefaultItem>true</DefaultItem>
-							<ContextMenu name="ЗданиеКонтекстноеМеню" id="23"/>
-							<ExtendedTooltip name="ЗданиеРасширеннаяПодсказка" id="24"/>
-						</LabelField>
 						<LabelField name="КодМКД" id="46">
 							<DataPath>Список.КодМКД</DataPath>
 							<DefaultItem>true</DefaultItem>
 							<ContextMenu name="КодМКДКонтекстноеМеню" id="47"/>
 							<ExtendedTooltip name="КодМКДРасширеннаяПодсказка" id="48"/>
+						</LabelField>
+						<LabelField name="КоличествоПроживающих" id="93">
+							<DataPath>Список.КоличествоПроживающих</DataPath>
+							<ContextMenu name="КоличествоПроживающихКонтекстноеМеню" id="94"/>
+							<ExtendedTooltip name="КоличествоПроживающихРасширеннаяПодсказка" id="95"/>
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
