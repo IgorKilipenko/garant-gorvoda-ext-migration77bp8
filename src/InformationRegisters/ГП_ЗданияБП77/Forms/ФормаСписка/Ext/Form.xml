@@ -118,6 +118,11 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаЗданиеРасширеннаяПодсказка" id="92"/>
 					<ChildItems>
+						<LabelField name="ОбъектАбонентаНаименование" id="96">
+							<DataPath>Список.ОбъектАбонентаНаименование</DataPath>
+							<ContextMenu name="ОбъектАбонентаНаименованиеКонтекстноеМеню" id="97"/>
+							<ExtendedTooltip name="ОбъектАбонентаНаименованиеРасширеннаяПодсказка" id="98"/>
+						</LabelField>
 						<LabelField name="КодМКД" id="46">
 							<DataPath>Список.КодМКД</DataPath>
 							<DefaultItem>true</DefaultItem>

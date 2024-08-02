@@ -37,6 +37,12 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="ОбъектАбонентаНаименование" id="71">
+			<DataPath>Запись.ОбъектАбонентаНаименование</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбъектАбонентаНаименованиеКонтекстноеМеню" id="72"/>
+			<ExtendedTooltip name="ОбъектАбонентаНаименованиеРасширеннаяПодсказка" id="73"/>
+		</InputField>
 		<InputField name="Здание" id="7">
 			<DataPath>Запись.Здание</DataPath>
 			<ReadOnly>true</ReadOnly>
