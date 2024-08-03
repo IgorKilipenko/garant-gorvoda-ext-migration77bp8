@@ -36,6 +36,11 @@
 						<CommandName>Form.Command.ЗаполнитьЗначенияНомеровДоговоров</CommandName>
 						<ExtendedTooltip name="ЗаполнитьЗначенияНомеровДоговоровРасширеннаяПодсказка" id="106"/>
 					</Button>
+					<Button name="ЗаполнитьАдресаЗданий" id="118">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьАдресаЗданий</CommandName>
+						<ExtendedTooltip name="ЗаполнитьАдресаЗданийРасширеннаяПодсказка" id="119"/>
+					</Button>
 				</ChildItems>
 			</Popup>
 			<Popup name="ГруппаУстановкаСвязей" id="114">
@@ -539,6 +544,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СопоставитьЗдания</Action>
+		</Command>
+		<Command name="ЗаполнитьАдресаЗданий" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить адреса зданий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить адреса зданий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.BusinessProcessStart</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьАдресаЗданий</Action>
 		</Command>
 	</Commands>
 </Form>
