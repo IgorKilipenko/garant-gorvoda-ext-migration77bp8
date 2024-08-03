@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="dd88f01f-baea-4367-808e-af7ede0e7df7">
+	<Catalog uuid="f4f17054-4c70-4015-b89a-49f378ea5660">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
-				<xr:TypeId>37fe7bb5-873b-4f37-889e-a167f31a1481</xr:TypeId>
-				<xr:ValueId>b28eb1e0-e3a5-4b90-aa8e-cd61cb81c45e</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.УПЖКХ_Помещения" category="Object">
+				<xr:TypeId>d29cf3b0-9ffd-458c-ba18-ec6b884d73a0</xr:TypeId>
+				<xr:ValueId>734ede16-0cd5-4c27-81a6-27719a85bdc8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
-				<xr:TypeId>33adc553-89b3-4155-8ddd-6ce66653ca91</xr:TypeId>
-				<xr:ValueId>5a35ef5e-59e6-41c4-81b3-0d8bfabe5ad2</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.УПЖКХ_Помещения" category="Ref">
+				<xr:TypeId>12c9db2b-3731-4bd7-94b7-d6a32e432453</xr:TypeId>
+				<xr:ValueId>5bfa2fe4-e0d6-4dcf-9060-c89212c2abee</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
-				<xr:TypeId>ec12807f-8339-4b82-9311-245cd886d80f</xr:TypeId>
-				<xr:ValueId>52318e1e-9aa6-4b1c-af7f-207c9a39fec3</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.УПЖКХ_Помещения" category="Selection">
+				<xr:TypeId>739bb828-150d-4c7c-b8bc-5b64faaafd8a</xr:TypeId>
+				<xr:ValueId>1f5cea93-23b0-4b5b-8815-c241897a6788</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
-				<xr:TypeId>d2eda2df-f7ab-4125-b8b5-4adf5143b29b</xr:TypeId>
-				<xr:ValueId>c395eba2-caa0-47e2-9d22-10f55a1de662</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.УПЖКХ_Помещения" category="List">
+				<xr:TypeId>e0671f28-cfab-4b09-93ff-46e3510469b3</xr:TypeId>
+				<xr:ValueId>c82a402a-2aa7-4880-9f32-58f18f0ea591</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
-				<xr:TypeId>f99b9a6e-4b7b-4c09-85c0-e5d3efddf662</xr:TypeId>
-				<xr:ValueId>c3fb693f-a4c5-497a-9613-ab4ed26443a3</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.УПЖКХ_Помещения" category="Manager">
+				<xr:TypeId>05976a08-6630-40bf-8a38-68310ed4dca1</xr:TypeId>
+				<xr:ValueId>620fa5ff-5792-4475-9a88-122924c7ce18</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Name>Контрагенты</Name>
+			<Name>УПЖКХ_Помещения</Name>
 			<Comment/>
-			<ExtendedConfigurationObject>51b9a2d4-bd53-4f40-824e-e3b4e323279e</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject>7ad4b15d-2821-4f43-87b9-b56f1074282e</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="f3464169-841c-49ba-92b2-c29f406dfe75">
+			<Attribute uuid="3703bca6-32bb-42ba-a237-cd54b4759fc2">
 				<Properties>
 					<Name>ГП_ИдентификаторБП77</Name>
 					<Synonym>
@@ -74,7 +74,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="083689f1-0582-446d-9793-7a3b4015027a">
+			<Attribute uuid="f3cb6a0f-acde-4bc8-abfa-c8fb57003078">
 				<Properties>
 					<Name>ГП_СозданАвтоматически</Name>
 					<Synonym>
