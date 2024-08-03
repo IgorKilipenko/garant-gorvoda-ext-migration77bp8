@@ -26,10 +26,36 @@
 						<CommandName>Form.Command.ЗаполнитьПризнакНегативноеВоздействие</CommandName>
 						<ExtendedTooltip name="ЗаполнитьПризнакНегативноеВоздействиеРасширеннаяПодсказка" id="68"/>
 					</Button>
-					<Button name="ФормаЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ" id="74">
+					<Button name="ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ" id="74">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ</CommandName>
-						<ExtendedTooltip name="ФормаЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="75"/>
+						<ExtendedTooltip name="ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="75"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Popup name="ГруппаУстановкаСвязей" id="76">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Связи</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа установка связей</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.GetURL</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаУстановкаСвязейРасширеннаяПодсказка" id="77"/>
+				<ChildItems>
+					<Button name="ФормаОбновитьСвязиЛицевыхСчетов" id="78">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОбновитьСвязиЛицевыхСчетов</CommandName>
+						<ExtendedTooltip name="ФормаОбновитьСвязиЛицевыхСчетовРасширеннаяПодсказка" id="79"/>
 					</Button>
 				</ChildItems>
 			</Popup>
@@ -354,6 +380,24 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ</Action>
+		</Command>
+		<Command name="ОбновитьСвязиЛицевыхСчетов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить связи лицевых счетов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить связи лицевых счетов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 		</Command>
 	</Commands>
 </Form>

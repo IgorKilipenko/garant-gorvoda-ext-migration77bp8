@@ -1,6 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ГруппаЗаполнениеДанных" id="99">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнение данных</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа заполнение данных</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.CreateInitialImage</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаЗаполнениеДанныхРасширеннаяПодсказка" id="100"/>
+				<ChildItems>
+					<Button name="ЗаполнитьПризнакНегативноеВоздействие" id="101">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьПризнакНегативноеВоздействие</CommandName>
+						<ExtendedTooltip name="ЗаполнитьПризнакНегативноеВоздействиеРасширеннаяПодсказка" id="102"/>
+					</Button>
+					<Button name="ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ" id="103">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ</CommandName>
+						<ExtendedTooltip name="ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="104"/>
+					</Button>
+					<Button name="ЗаполнитьЗначенияНомеровДоговоров" id="105">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьЗначенияНомеровДоговоров</CommandName>
+						<ExtendedTooltip name="ЗаполнитьЗначенияНомеровДоговоровРасширеннаяПодсказка" id="106"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -267,32 +306,72 @@
 							<v8:content>Группа договор</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Horizontal</Group>
 					<ExtendedTooltip name="ГруппаДоговорРасширеннаяПодсказка" id="80"/>
 					<ChildItems>
-						<LabelField name="ДоговорКод" id="67">
-							<DataPath>Список.ДоговорКод</DataPath>
-							<DefaultItem>true</DefaultItem>
-							<ContextMenu name="ДоговорКодКонтекстноеМеню" id="68"/>
-							<ExtendedTooltip name="ДоговорКодРасширеннаяПодсказка" id="69"/>
-						</LabelField>
-						<LabelField name="ДоговорНаименование" id="70">
-							<DataPath>Список.ДоговорНаименование</DataPath>
-							<DefaultItem>true</DefaultItem>
-							<ContextMenu name="ДоговорНаименованиеКонтекстноеМеню" id="71"/>
-							<ExtendedTooltip name="ДоговорНаименованиеРасширеннаяПодсказка" id="72"/>
-						</LabelField>
-						<LabelField name="ВидДоговораКод" id="73">
-							<DataPath>Список.ВидДоговораКод</DataPath>
-							<DefaultItem>true</DefaultItem>
-							<ContextMenu name="ВидДоговораКодКонтекстноеМеню" id="74"/>
-							<ExtendedTooltip name="ВидДоговораКодРасширеннаяПодсказка" id="75"/>
-						</LabelField>
-						<LabelField name="ВидДоговораНаименование" id="76">
-							<DataPath>Список.ВидДоговораНаименование</DataPath>
-							<DefaultItem>true</DefaultItem>
-							<ContextMenu name="ВидДоговораНаименованиеКонтекстноеМеню" id="77"/>
-							<ExtendedTooltip name="ВидДоговораНаименованиеРасширеннаяПодсказка" id="78"/>
-						</LabelField>
+						<ColumnGroup name="ГруппаДоговорОсновной" id="110">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа договор основной</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа договор основной</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаДоговорОсновнойРасширеннаяПодсказка" id="111"/>
+							<ChildItems>
+								<LabelField name="ДоговорКод" id="67">
+									<DataPath>Список.ДоговорКод</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<ContextMenu name="ДоговорКодКонтекстноеМеню" id="68"/>
+									<ExtendedTooltip name="ДоговорКодРасширеннаяПодсказка" id="69"/>
+								</LabelField>
+								<LabelField name="ДоговорНаименование" id="70">
+									<DataPath>Список.ДоговорНаименование</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<ContextMenu name="ДоговорНаименованиеКонтекстноеМеню" id="71"/>
+									<ExtendedTooltip name="ДоговорНаименованиеРасширеннаяПодсказка" id="72"/>
+								</LabelField>
+								<LabelField name="ДоговорНомер" id="107">
+									<DataPath>Список.ДоговорНомер</DataPath>
+									<ContextMenu name="ДоговорНомерКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="ДоговорНомерРасширеннаяПодсказка" id="109"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="ГруппаВидДоговора" id="112">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа вид договора</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа вид договора</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаВидДоговораРасширеннаяПодсказка" id="113"/>
+							<ChildItems>
+								<LabelField name="ВидДоговораКод" id="73">
+									<DataPath>Список.ВидДоговораКод</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<ContextMenu name="ВидДоговораКодКонтекстноеМеню" id="74"/>
+									<ExtendedTooltip name="ВидДоговораКодРасширеннаяПодсказка" id="75"/>
+								</LabelField>
+								<LabelField name="ВидДоговораНаименование" id="76">
+									<DataPath>Список.ВидДоговораНаименование</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<ContextMenu name="ВидДоговораНаименованиеКонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="ВидДоговораНаименованиеРасширеннаяПодсказка" id="78"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
 					</ChildItems>
 				</ColumnGroup>
 				<ColumnGroup name="ГруппаДополнительныеПризнаки" id="83">
@@ -358,4 +437,63 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьЗначенияНомеровДоговоров" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить номера договоров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить значения номеров договоров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.BusinessProcessStart</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьЗначенияНомеровДоговоров</Action>
+		</Command>
+		<Command name="ЗаполнитьПризнакНегативноеВоздействие" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить признак негативное воздействие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить признак негативное воздействие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.BusinessProcessStart</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьПризнакНегативноеВоздействие</Action>
+		</Command>
+		<Command name="ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить признак плата за ХВ ОИ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить признак негативное воздействие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.BusinessProcessStart</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ</Action>
+		</Command>
+	</Commands>
 </Form>

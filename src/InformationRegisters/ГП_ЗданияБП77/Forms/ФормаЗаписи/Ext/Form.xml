@@ -39,6 +39,7 @@
 		</UsualGroup>
 		<InputField name="ОбъектАбонентаНаименование" id="71">
 			<DataPath>Запись.ОбъектАбонентаНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ОбъектАбонентаНаименованиеКонтекстноеМеню" id="72"/>
 			<ExtendedTooltip name="ОбъектАбонентаНаименованиеРасширеннаяПодсказка" id="73"/>
@@ -50,54 +51,12 @@
 			<ContextMenu name="ЗданиеКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ЗданиеРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<InputField name="УлицаНаименование" id="13">
-			<DataPath>Запись.УлицаНаименование</DataPath>
+		<InputField name="КоличествоПроживающих" id="64">
+			<DataPath>Запись.КоличествоПроживающих</DataPath>
 			<ReadOnly>true</ReadOnly>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="УлицаНаименованиеКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="УлицаНаименованиеРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="УлицаКодГорода" id="16">
-			<DataPath>Запись.УлицаКодГорода</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="УлицаКодГородаКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="УлицаКодГородаРасширеннаяПодсказка" id="18"/>
-		</InputField>
-		<InputField name="Улица2" id="19">
-			<DataPath>Запись.Улица2</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="Улица2КонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="Улица2РасширеннаяПодсказка" id="21"/>
-		</InputField>
-		<InputField name="Дом" id="22">
-			<DataPath>Запись.Дом</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДомКонтекстноеМеню" id="23"/>
-			<ExtendedTooltip name="ДомРасширеннаяПодсказка" id="24"/>
-		</InputField>
-		<InputField name="Корпус" id="25">
-			<DataPath>Запись.Корпус</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КорпусКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="КорпусРасширеннаяПодсказка" id="27"/>
-		</InputField>
-		<InputField name="Квартира" id="28">
-			<DataPath>Запись.Квартира</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КвартираКонтекстноеМеню" id="29"/>
-			<ExtendedTooltip name="КвартираРасширеннаяПодсказка" id="30"/>
-		</InputField>
-		<InputField name="КодМКД" id="31">
-			<DataPath>Запись.КодМКД</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КодМКДКонтекстноеМеню" id="32"/>
-			<ExtendedTooltip name="КодМКДРасширеннаяПодсказка" id="33"/>
+			<ContextMenu name="КоличествоПроживающихКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="КоличествоПроживающихРасширеннаяПодсказка" id="66"/>
 		</InputField>
 		<InputField name="Реквизиты" id="34">
 			<DataPath>Запись.Реквизиты</DataPath>
@@ -106,48 +65,173 @@
 			<ContextMenu name="РеквизитыКонтекстноеМеню" id="35"/>
 			<ExtendedTooltip name="РеквизитыРасширеннаяПодсказка" id="36"/>
 		</InputField>
-		<InputField name="КоличествоПроживающих" id="64">
-			<DataPath>Запись.КоличествоПроживающих</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КоличествоПроживающихКонтекстноеМеню" id="65"/>
-			<ExtendedTooltip name="КоличествоПроживающихРасширеннаяПодсказка" id="66"/>
-		</InputField>
-		<CheckBoxField name="ТолькоДляКанализации" id="37">
-			<DataPath>Запись.ТолькоДляКанализации</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ТолькоДляКанализацииКонтекстноеМеню" id="38"/>
-			<ExtendedTooltip name="ТолькоДляКанализацииРасширеннаяПодсказка" id="39"/>
-		</CheckBoxField>
-		<InputField name="ПроцентХВ" id="40">
-			<DataPath>Запись.ПроцентХВ</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ПроцентХВКонтекстноеМеню" id="41"/>
-			<ExtendedTooltip name="ПроцентХВРасширеннаяПодсказка" id="42"/>
-		</InputField>
-		<InputField name="ПроцентГВ" id="43">
-			<DataPath>Запись.ПроцентГВ</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ПроцентГВКонтекстноеМеню" id="44"/>
-			<ExtendedTooltip name="ПроцентГВРасширеннаяПодсказка" id="45"/>
-		</InputField>
-		<CheckBoxField name="ЭтоНегативноеВоздействиеЦСВ" id="46">
-			<DataPath>Запись.ЭтоНегативноеВоздействиеЦСВ</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ЭтоНегативноеВоздействиеЦСВКонтекстноеМеню" id="47"/>
-			<ExtendedTooltip name="ЭтоНегативноеВоздействиеЦСВРасширеннаяПодсказка" id="48"/>
-		</CheckBoxField>
-		<CheckBoxField name="ЭтоПлатаЗаХолодноеВодоснабжениеОИ" id="49">
-			<DataPath>Запись.ЭтоПлатаЗаХолодноеВодоснабжениеОИ</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ЭтоПлатаЗаХолодноеВодоснабжениеОИКонтекстноеМеню" id="50"/>
-			<ExtendedTooltip name="ЭтоПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="51"/>
-		</CheckBoxField>
+		<UsualGroup name="ГруппаАдрес" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес:</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа адрес</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГруппаАдресРасширеннаяПодсказка" id="78"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаКодыАдреса" id="83">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа коды адреса</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа коды адреса</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКодыАдресаРасширеннаяПодсказка" id="84"/>
+					<ChildItems>
+						<InputField name="УлицаКодГорода" id="16">
+							<DataPath>Запись.УлицаКодГорода</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Код города</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="УлицаКодГородаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="УлицаКодГородаРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="КодМКД" id="31">
+							<DataPath>Запись.КодМКД</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КодМКДКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="КодМКДРасширеннаяПодсказка" id="33"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="Улица2" id="19">
+					<DataPath>Запись.Улица2</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="Улица2КонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="Улица2РасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="УлицаНаименование" id="13">
+					<DataPath>Запись.УлицаНаименование</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="УлицаНаименованиеКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="УлицаНаименованиеРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<UsualGroup name="ГруппаДомКвартира" id="81">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дом квартира</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дом квартира</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаДомКвартираРасширеннаяПодсказка" id="82"/>
+					<ChildItems>
+						<InputField name="Дом" id="22">
+							<DataPath>Запись.Дом</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДомКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ДомРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="Корпус" id="25">
+							<DataPath>Запись.Корпус</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КорпусКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="КорпусРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="Квартира" id="28">
+							<DataPath>Запись.Квартира</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КвартираКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="КвартираРасширеннаяПодсказка" id="30"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПоказателиУслуг" id="79">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Услуги:</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа показатели услуг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<BackColor>style:ToolTipBackColor</BackColor>
+			<ExtendedTooltip name="ГруппаПоказателиУслугРасширеннаяПодсказка" id="80"/>
+			<ChildItems>
+				<InputField name="ПроцентХВ" id="40">
+					<DataPath>Запись.ПроцентХВ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПроцентХВКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ПроцентХВРасширеннаяПодсказка" id="42"/>
+				</InputField>
+				<InputField name="ПроцентГВ" id="43">
+					<DataPath>Запись.ПроцентГВ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПроцентГВКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ПроцентГВРасширеннаяПодсказка" id="45"/>
+				</InputField>
+				<CheckBoxField name="ТолькоДляКанализации" id="37">
+					<DataPath>Запись.ТолькоДляКанализации</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТолькоДляКанализацииКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ТолькоДляКанализацииРасширеннаяПодсказка" id="39"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЭтоНегативноеВоздействиеЦСВ" id="46">
+					<DataPath>Запись.ЭтоНегативноеВоздействиеЦСВ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЭтоНегативноеВоздействиеЦСВКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ЭтоНегативноеВоздействиеЦСВРасширеннаяПодсказка" id="48"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЭтоПлатаЗаХолодноеВодоснабжениеОИ" id="49">
+					<DataPath>Запись.ЭтоПлатаЗаХолодноеВодоснабжениеОИ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЭтоПлатаЗаХолодноеВодоснабжениеОИКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ЭтоПлатаЗаХолодноеВодоснабжениеОИРасширеннаяПодсказка" id="51"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаДоговор" id="69">
 			<Title>
 				<v8:item>
@@ -162,7 +246,9 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
 			<Representation>None</Representation>
+			<BackColor>style:ToolTipBackColor</BackColor>
 			<ExtendedTooltip name="ГруппаДоговорРасширеннаяПодсказка" id="70"/>
 			<ChildItems>
 				<InputField name="ДоговорКод" id="52">
@@ -178,6 +264,13 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ДоговорНаименованиеКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="ДоговорНаименованиеРасширеннаяПодсказка" id="57"/>
+				</InputField>
+				<InputField name="ДоговорНомер" id="74">
+					<DataPath>Запись.ДоговорНомер</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДоговорНомерКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ДоговорНомерРасширеннаяПодсказка" id="76"/>
 				</InputField>
 				<InputField name="ВидДоговораКод" id="58">
 					<DataPath>Запись.ВидДоговораКод</DataPath>
