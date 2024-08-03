@@ -38,6 +38,32 @@
 					</Button>
 				</ChildItems>
 			</Popup>
+			<Popup name="ГруппаУстановкаСвязей" id="114">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Связи</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа установка связей</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.GetURL</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаУстановкаСвязейРасширеннаяПодсказка" id="115"/>
+				<ChildItems>
+					<Button name="СопоставитьЗдания" id="116">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СопоставитьЗдания</CommandName>
+						<ExtendedTooltip name="СопоставитьЗданияРасширеннаяПодсказка" id="117"/>
+					</Button>
+				</ChildItems>
+			</Popup>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -494,6 +520,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗаполнитьПризнакПлатаЗаХолодноеВодоснабжениеОИ</Action>
+		</Command>
+		<Command name="СопоставитьЗдания" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить здания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить услуги с лицевыми счетами</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СопоставитьЗдания</Action>
 		</Command>
 	</Commands>
 </Form>
