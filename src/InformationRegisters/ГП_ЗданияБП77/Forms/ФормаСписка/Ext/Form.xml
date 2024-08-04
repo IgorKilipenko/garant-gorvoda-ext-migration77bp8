@@ -72,6 +72,11 @@
 						<CommandName>Form.Command.СоздатьЗданияДляНесвязанныхЗаписей</CommandName>
 						<ExtendedTooltip name="СоздатьЗданияДляНесвязанныхЗаписейРасширеннаяПодсказка" id="121"/>
 					</Button>
+					<Button name="ОбновитьНаименованияПомещений" id="122">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОбновитьНаименованияПомещений</CommandName>
+						<ExtendedTooltip name="ОбновитьНаименованияПомещенийРасширеннаяПодсказка" id="123"/>
+					</Button>
 				</ChildItems>
 			</Popup>
 		</ChildItems>
@@ -587,6 +592,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьЗданияДляНесвязанныхЗаписей</Action>
+		</Command>
+		<Command name="ОбновитьНаименованияПомещений" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить наименования помещений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить наименования помещений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьНаименованияПомещений</Action>
 		</Command>
 	</Commands>
 </Form>
