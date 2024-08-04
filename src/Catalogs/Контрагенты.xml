@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="e25d9fe3-0fd6-49ac-8b71-ec2e28e60e4c">
+	<Catalog uuid="dd88f01f-baea-4367-808e-af7ede0e7df7">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.КВП_ЛицевыеСчета" category="Object">
-				<xr:TypeId>b186d79c-0ce6-4e7b-94cb-17009b53f710</xr:TypeId>
-				<xr:ValueId>0e451dc9-c30c-4d2d-9c49-95972cf1e3bc</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
+				<xr:TypeId>37fe7bb5-873b-4f37-889e-a167f31a1481</xr:TypeId>
+				<xr:ValueId>b28eb1e0-e3a5-4b90-aa8e-cd61cb81c45e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.КВП_ЛицевыеСчета" category="Ref">
-				<xr:TypeId>6b5d43aa-7893-4251-8e19-dd36f415fc0b</xr:TypeId>
-				<xr:ValueId>91f92f45-6428-4faa-b366-1f49c38ab95f</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
+				<xr:TypeId>33adc553-89b3-4155-8ddd-6ce66653ca91</xr:TypeId>
+				<xr:ValueId>5a35ef5e-59e6-41c4-81b3-0d8bfabe5ad2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.КВП_ЛицевыеСчета" category="Selection">
-				<xr:TypeId>b5405834-324f-41f7-a89c-ff7676a60114</xr:TypeId>
-				<xr:ValueId>6d33c2d7-d2b5-46f8-98a5-62761978c773</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
+				<xr:TypeId>ec12807f-8339-4b82-9311-245cd886d80f</xr:TypeId>
+				<xr:ValueId>52318e1e-9aa6-4b1c-af7f-207c9a39fec3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.КВП_ЛицевыеСчета" category="List">
-				<xr:TypeId>a2c44940-2dc9-4364-a8dc-2d4d92c56511</xr:TypeId>
-				<xr:ValueId>de7acc36-4f7f-4415-b612-754dd040657a</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
+				<xr:TypeId>d2eda2df-f7ab-4125-b8b5-4adf5143b29b</xr:TypeId>
+				<xr:ValueId>c395eba2-caa0-47e2-9d22-10f55a1de662</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.КВП_ЛицевыеСчета" category="Manager">
-				<xr:TypeId>ec4b8303-79f7-4b35-a383-3eaa77041f03</xr:TypeId>
-				<xr:ValueId>066ecf79-1e8b-4cc5-81ae-dcd3232e581d</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
+				<xr:TypeId>f99b9a6e-4b7b-4c09-85c0-e5d3efddf662</xr:TypeId>
+				<xr:ValueId>c3fb693f-a4c5-497a-9613-ab4ed26443a3</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Name>КВП_ЛицевыеСчета</Name>
+			<Name>Контрагенты</Name>
 			<Comment/>
-			<ExtendedConfigurationObject>f718a47e-2337-425a-ab16-ccdb9520c831</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject>51b9a2d4-bd53-4f40-824e-e3b4e323279e</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="b91a3427-02fa-4eae-86f4-39108780b395">
+			<Attribute uuid="f3464169-841c-49ba-92b2-c29f406dfe75">
 				<Properties>
 					<Name>ГП_ИдентификаторБП77</Name>
 					<Synonym>
@@ -74,7 +74,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1f213d78-ba72-4f9a-ae1c-c20bcd33031b">
+			<Attribute uuid="083689f1-0582-446d-9793-7a3b4015027a">
 				<Properties>
 					<Name>ГП_СозданАвтоматически</Name>
 					<Synonym>

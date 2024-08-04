@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="b3c2d865-454c-4501-9183-c45732e75ef5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КВП_Подъезды" category="Object">
+				<xr:TypeId>92ea3bd7-cded-4e25-96ab-f357b0f3911f</xr:TypeId>
+				<xr:ValueId>876b7dd3-4dbb-4b01-84a0-1f08fbb0e182</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КВП_Подъезды" category="Ref">
+				<xr:TypeId>e543a9d1-2b0d-4467-9d74-e35a49131dc4</xr:TypeId>
+				<xr:ValueId>dffa0fb9-c3aa-4a9a-8741-5922d1ac5b4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КВП_Подъезды" category="Selection">
+				<xr:TypeId>3821b406-6c45-439b-9698-61dc1ba78a5f</xr:TypeId>
+				<xr:ValueId>786c5ca3-5e6b-49c4-b551-cbf3d689c492</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КВП_Подъезды" category="List">
+				<xr:TypeId>f647fc6f-b93b-4aa5-a89b-255f3cff39cd</xr:TypeId>
+				<xr:ValueId>04fb4179-6f3f-4d71-89ca-536c50fef83f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КВП_Подъезды" category="Manager">
+				<xr:TypeId>41dfc5a2-75f3-4f5f-9801-454f0c49a3dd</xr:TypeId>
+				<xr:ValueId>8bc0ca47-c52b-43ea-9c3a-d3ffc9460eee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_Подъезды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9570c406-4c44-49f0-b57c-6393db911b58</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<InformationRegister uuid="2ce03e2a-3df2-408b-be46-f2b7ab44cd00">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КВП_ЛицевыеСчета" category="Record">
+				<xr:TypeId>e4362fd4-5f2a-48a4-bfd6-d7af8bc0f89d</xr:TypeId>
+				<xr:ValueId>d85f2310-017f-4080-942f-d4e96452fae6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КВП_ЛицевыеСчета" category="Manager">
+				<xr:TypeId>a0a062ba-3be5-46bd-8256-77c3d71e028c</xr:TypeId>
+				<xr:ValueId>915c764f-fe1e-4a92-968b-e14b52ecd0af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КВП_ЛицевыеСчета" category="Selection">
+				<xr:TypeId>2ddeb7ab-4ed0-4114-b582-3c29f7242fc6</xr:TypeId>
+				<xr:ValueId>3353ab0b-fed4-4322-9f0c-d73ae4b4cdee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КВП_ЛицевыеСчета" category="List">
+				<xr:TypeId>af19acdc-2d16-48d7-bdc4-a5b81874c2b6</xr:TypeId>
+				<xr:ValueId>0ecaf6ca-76b8-48e4-8968-041922db8521</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КВП_ЛицевыеСчета" category="RecordSet">
+				<xr:TypeId>b2dcb1d0-d797-4dcf-9e16-591e24093362</xr:TypeId>
+				<xr:ValueId>e76783a7-6823-4793-b59d-4effe1db87b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КВП_ЛицевыеСчета" category="RecordKey">
+				<xr:TypeId>c4d9c83f-ed91-4303-88f1-b3c441fbeca2</xr:TypeId>
+				<xr:ValueId>69e8f358-eaa7-4646-a200-8cd70f026a81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КВП_ЛицевыеСчета" category="RecordManager">
+				<xr:TypeId>09a854b6-b5b4-4177-90c5-2b2a16527b18</xr:TypeId>
+				<xr:ValueId>c040d7f6-a09b-4fca-b90a-db7e7317ee10</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_ЛицевыеСчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0d95c419-71f3-44bc-ab31-4c15d41dabaf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9174469f-fa41-4e4a-9d05-a8a392d4c9d6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Действует</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>47b73e6e-0680-4a72-956f-1711cadd4df2</ExtendedConfigurationObject>
+				</Properties>
+			</Resource>
+			<Dimension uuid="14ed9f63-b7c5-4a94-a185-1e06d627b916">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЛицевойСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0df605b6-37d1-465d-9085-4c2ec2908780</ExtendedConfigurationObject>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="c4bc4c9f-4211-495b-8157-8e7b4a4a9887">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Объект</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a69bf72e-805b-4662-a0ef-93947f75aa61</ExtendedConfigurationObject>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

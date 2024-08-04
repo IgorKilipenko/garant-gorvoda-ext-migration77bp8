@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.2.4.1-rc1</Version>
+			<Version>1.2.7.2-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -66,20 +66,34 @@
 			<Subsystem>ГП_МиграцияРазработка</Subsystem>
 			<StyleItem>УПЖКХ_ТекстСправочнойНадписи</StyleItem>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
+			<CommonModule>ГП_ОбщегоНазначенияКлиент</CommonModule>
+			<CommonModule>ГП_МиграцияОбщегоНазначения</CommonModule>
+			<CommonModule>ГП_МиграцияЗданий</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Catalog>КВП_Счетчики</Catalog>
 			<Catalog>КВП_ЛицевыеСчета</Catalog>
+			<Catalog>КВП_Подъезды</Catalog>
+			<Catalog>КВП_Здания</Catalog>
+			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>КВП_Услуги</Catalog>
+			<Catalog>УПЖКХ_Помещения</Catalog>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеЗависимостейУслуг</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеУстановкиСчетчиков</DataProcessor>
+			<DataProcessor>КВП_ЗаполнениеПолучателямиУслуг</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
 			<InformationRegister>ГП_ИсторияАктивностиСчетчиковБП77</InformationRegister>
 			<InformationRegister>ГП_ИсторияСпособовРегистрацииСчетчиковБП77</InformationRegister>
+			<InformationRegister>КВП_ЛицевыеСчета</InformationRegister>
+			<InformationRegister>УПЖКХ_СведенияДляВзаиморасчетовПоЛС</InformationRegister>
+			<InformationRegister>ГП_ЗданияБП77</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

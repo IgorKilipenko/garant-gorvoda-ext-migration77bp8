@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<InformationRegister uuid="7cd1140a-0ed2-411b-84b3-0d807685468c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.УПЖКХ_СведенияДляВзаиморасчетовПоЛС" category="Record">
+				<xr:TypeId>754dc73e-6220-43f3-8b08-82bf7a8529de</xr:TypeId>
+				<xr:ValueId>019c9583-96e1-4cc7-bf35-02fdf171cc3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.УПЖКХ_СведенияДляВзаиморасчетовПоЛС" category="Manager">
+				<xr:TypeId>c861907a-e022-4676-a82e-fa7d4b0a02f7</xr:TypeId>
+				<xr:ValueId>9a3eb15d-1605-4d10-bbb4-65e6bcfeab29</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.УПЖКХ_СведенияДляВзаиморасчетовПоЛС" category="Selection">
+				<xr:TypeId>e7912382-4dbe-4c8a-b8ab-0098da698691</xr:TypeId>
+				<xr:ValueId>0bcb9523-7a27-4f08-bbb5-d83328c56b7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.УПЖКХ_СведенияДляВзаиморасчетовПоЛС" category="List">
+				<xr:TypeId>d5e28ebe-0957-4197-8b5d-e1f90b5d7b64</xr:TypeId>
+				<xr:ValueId>63dd02e9-6a15-4191-b4e6-4e07d72e74ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.УПЖКХ_СведенияДляВзаиморасчетовПоЛС" category="RecordSet">
+				<xr:TypeId>51350081-9399-408c-8c13-3f7d240b207e</xr:TypeId>
+				<xr:ValueId>2480e9fd-31a0-4cda-8cd0-64d01ebf5685</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.УПЖКХ_СведенияДляВзаиморасчетовПоЛС" category="RecordKey">
+				<xr:TypeId>748f9ee9-38b8-4187-aef9-e76dff3baa47</xr:TypeId>
+				<xr:ValueId>2f9e9884-cc71-4dac-86cb-34e7d4c09012</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.УПЖКХ_СведенияДляВзаиморасчетовПоЛС" category="RecordManager">
+				<xr:TypeId>417e836d-3aaa-4260-971f-2507d339435b</xr:TypeId>
+				<xr:ValueId>f0156255-98e1-4722-96a1-c8eeea07a03b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УПЖКХ_СведенияДляВзаиморасчетовПоЛС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fc8dbb3c-429e-4a39-81fb-04c0bfd30d07</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="22d0ea36-2ad9-443c-bd88-fbe44aac647c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d5e7f300-2ff3-480f-85bc-2fe63b0885f5</ExtendedConfigurationObject>
+				</Properties>
+			</Resource>
+			<Resource uuid="5c167e2f-5c56-4769-aecc-0b6ff118e50d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1f58ab78-c743-4d91-b879-8eefc1ce8fbd</ExtendedConfigurationObject>
+				</Properties>
+			</Resource>
+			<Dimension uuid="690076cd-8dad-421c-ac7e-881f44fcfc82">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>72c94af0-3873-4b30-943e-410dc3df6bfc</ExtendedConfigurationObject>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1f38cdac-bd9c-4460-bd33-80702c374fea">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЛицевойСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ae526c95-63cc-4ffb-a671-64acbfee786b</ExtendedConfigurationObject>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

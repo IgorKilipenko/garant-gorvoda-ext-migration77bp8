@@ -455,24 +455,75 @@
 											<ContextMenu name="ДекорацияПустая6КонтекстноеМеню" id="92"/>
 											<ExtendedTooltip name="ДекорацияПустая6РасширеннаяПодсказка" id="93"/>
 										</LabelDecoration>
-										<Button name="ЗагрузитьУслуги" id="89">
-											<Type>UsualButton</Type>
-											<Representation>PictureAndText</Representation>
-											<CommandName>Form.Command.ЗагрузитьУслуги</CommandName>
-											<ExtendedTooltip name="ЗагрузитьУслугиРасширеннаяПодсказка" id="90"/>
-										</Button>
-										<Button name="СопоставитьУслугиСЛицевымиСчетами" id="94">
-											<Type>UsualButton</Type>
-											<Representation>PictureAndText</Representation>
-											<CommandName>Form.Command.СопоставитьУслугиСЛицевымиСчетами</CommandName>
+										<UsualGroup name="ГруппаКомандыЗагрузкиУслуг" id="115">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Сопоставить услуги</v8:content>
+													<v8:content>Загрузка услуг:</v8:content>
 												</v8:item>
 											</Title>
-											<ExtendedTooltip name="СопоставитьУслугиСЛицевымиСчетамиРасширеннаяПодсказка" id="95"/>
-										</Button>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды загрузки услуг</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаКомандыЗагрузкиУслугРасширеннаяПодсказка" id="116"/>
+											<ChildItems>
+												<Button name="ЗагрузитьУслуги" id="89">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьУслуги</CommandName>
+													<ExtendedTooltip name="ЗагрузитьУслугиРасширеннаяПодсказка" id="90"/>
+												</Button>
+												<Button name="СопоставитьУслугиСЛицевымиСчетами" id="94">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.СопоставитьУслугиСЛицевымиСчетами</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сопоставить услуги</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="СопоставитьУслугиСЛицевымиСчетамиРасширеннаяПодсказка" id="95"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаКомандыЗагрузкиЗданий" id="117">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузка зданий:</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды загрузки услуг</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаКомандыЗагрузкиЗданийРасширеннаяПодсказка" id="118"/>
+											<ChildItems>
+												<Button name="ЗагрузитьЗдания" id="119">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьЗдания</CommandName>
+													<ExtendedTooltip name="ЗагрузитьЗданияРасширеннаяПодсказка" id="120"/>
+												</Button>
+												<Button name="СопоставитьЗдания" id="121">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.СопоставитьЗдания</CommandName>
+													<ExtendedTooltip name="СопоставитьЗданияРасширеннаяПодсказка" id="122"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 								<Page name="ГруппаСозданиеУслуг" id="61">
@@ -879,6 +930,44 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗагрузитьИсториюСостоянийСчетчиков</Action>
+		</Command>
+		<Command name="ЗагрузитьЗдания" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить здания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить здания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьЗдания</Action>
+		</Command>
+		<Command name="СопоставитьЗдания" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить здания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить услуги с лицевыми счетами</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СопоставитьЗдания</Action>
 		</Command>
 	</Commands>
 </Form>
