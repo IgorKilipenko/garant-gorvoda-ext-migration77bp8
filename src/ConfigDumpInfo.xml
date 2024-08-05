@@ -35,7 +35,7 @@
 		<Metadata name="CommandGroup.ГП_ДанныеБП77" id="208ff87d-60ea-4bf4-acca-c7c9663a177c" configVersion="a3c2945d1f1dfdccd809e20c5eeaf1cfd0496b59"/>
 		<Metadata name="CommandGroup.ГП_ЗагрузкаДанныхБП77" id="759a2c0b-6337-4d70-af96-5b19a3438a63" configVersion="96126203ef26ae5aa2db426bd587c9409abf0c47"/>
 		<Metadata name="CommonModule.ГП_МиграцияЗданий" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb" configVersion="ecbc3eea0958b8f19ac069ab0620a0f2acff6be6"/>
-		<Metadata name="CommonModule.ГП_МиграцияЗданий.Module" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb.0" configVersion="1bc7136f37e07f0d996f8c002b934a415c81e0c2"/>
+		<Metadata name="CommonModule.ГП_МиграцияЗданий.Module" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb.0" configVersion="514d547480aaa3da4fbc0904641bc037d0a6f1ab"/>
 		<Metadata name="CommonModule.ГП_МиграцияОбщегоНазначения" id="7e1e2220-3e43-4b1f-8142-439f1429cfc2" configVersion="8816a518a9088e5f73b1801ad046d8d2d7ffb0d8"/>
 		<Metadata name="CommonModule.ГП_МиграцияОбщегоНазначения.Module" id="7e1e2220-3e43-4b1f-8142-439f1429cfc2.0" configVersion="0c9fe2c8fe46f094743fddfed0f6c116661c39c5"/>
 		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587" configVersion="546c6d2a53b7721c3fe93ffe0b1bdf164d5b94e8"/>
