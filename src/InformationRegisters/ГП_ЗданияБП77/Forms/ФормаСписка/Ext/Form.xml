@@ -72,6 +72,11 @@
 						<CommandName>Form.Command.СоздатьЗданияДляНесвязанныхЗаписей</CommandName>
 						<ExtendedTooltip name="СоздатьЗданияДляНесвязанныхЗаписейРасширеннаяПодсказка" id="121"/>
 					</Button>
+					<Button name="ОткрытьСозданныеЛицевыеСчета" id="126">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьСозданныеЛицевыеСчета</CommandName>
+						<ExtendedTooltip name="ОткрытьСозданныеЛицевыеСчетаРасширеннаяПодсказка" id="127"/>
+					</Button>
 					<Button name="ФормаСоздатьОтсутствующиеЛицевыеСчета" id="124">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.СоздатьОтсутствующиеЛицевыеСчета</CommandName>
@@ -635,6 +640,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьОтсутствующиеЛицевыеСчета</Action>
+		</Command>
+		<Command name="ОткрытьСозданныеЛицевыеСчета" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть созданные лицевые счета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть созданные лицевые счета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Task</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОткрытьСозданныеЛицевыеСчета</Action>
 		</Command>
 	</Commands>
 </Form>
