@@ -524,6 +524,31 @@
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаКомандыЗагрузкиКонтрагентов" id="123">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузка контрагентов:</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды загрузки услуг</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаКомандыЗагрузкиКонтрагентовРасширеннаяПодсказка" id="124"/>
+											<ChildItems>
+												<Button name="ЗагрузитьКонтрагентов" id="125">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьКонтрагентов</CommandName>
+													<ExtendedTooltip name="ЗагрузитьКонтрагентовРасширеннаяПодсказка" id="126"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 								<Page name="ГруппаСозданиеУслуг" id="61">
@@ -968,6 +993,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СопоставитьЗдания</Action>
+		</Command>
+		<Command name="ЗагрузитьКонтрагентов" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить контрагентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить контрагентов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьКонтрагентов</Action>
 		</Command>
 	</Commands>
 </Form>
