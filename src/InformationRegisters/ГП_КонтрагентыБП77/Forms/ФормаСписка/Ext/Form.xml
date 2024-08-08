@@ -80,18 +80,40 @@
 					<ContextMenu name="КонтрагентКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="21"/>
 				</LabelField>
-				<LabelField name="Наименование" id="22">
-					<DataPath>Список.Наименование</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="24"/>
-				</LabelField>
-				<LabelField name="ВидКонтрагента" id="25">
-					<DataPath>Список.ВидКонтрагента</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="ВидКонтрагентаКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ВидКонтрагентаРасширеннаяПодсказка" id="27"/>
-				</LabelField>
+				<ColumnGroup name="ГруппаИнформация" id="92">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа информация</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа информация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаИнформацияРасширеннаяПодсказка" id="93"/>
+					<ChildItems>
+						<LabelField name="Наименование" id="22">
+							<DataPath>Список.Наименование</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="24"/>
+						</LabelField>
+						<LabelField name="ВидКонтрагента" id="25">
+							<DataPath>Список.ВидКонтрагента</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<ContextMenu name="ВидКонтрагентаКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ВидКонтрагентаРасширеннаяПодсказка" id="27"/>
+						</LabelField>
+						<LabelField name="Группа" id="89">
+							<DataPath>Список.Группа</DataPath>
+							<ContextMenu name="ГруппаКонтекстноеМеню" id="90"/>
+							<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="91"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
 				<ColumnGroup name="ГруппаАдрес" id="83">
 					<Title>
 						<v8:item>
