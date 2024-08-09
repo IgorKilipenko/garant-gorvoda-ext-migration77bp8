@@ -89,6 +89,32 @@
 					</Button>
 				</ChildItems>
 			</Popup>
+			<Popup name="ГруппаСлужебныеФункции" id="128">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Служебные функции</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа служебные функции</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.Parameters</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаСлужебныеФункцииРасширеннаяПодсказка" id="129"/>
+				<ChildItems>
+					<Button name="ИсправитьИдентификаторыПеренесенныхЛицевыхСчетов" id="130">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ИсправитьИдентификаторыПеренесенныхЛицевыхСчетов</CommandName>
+						<ExtendedTooltip name="ИсправитьИдентификаторыПеренесенныхЛицевыхСчетовРасширеннаяПодсказка" id="131"/>
+					</Button>
+				</ChildItems>
+			</Popup>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -659,6 +685,21 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ОткрытьСозданныеЛицевыеСчета</Action>
+		</Command>
+		<Command name="ИсправитьИдентификаторыПеренесенныхЛицевыхСчетов" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исправить идентификаторы перенесенных лицевых счетов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исправить идентификаторы перенесенных лицевых счетов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИсправитьИдентификаторыПеренесенныхЛицевыхСчетов</Action>
 		</Command>
 	</Commands>
 </Form>
