@@ -21,6 +21,11 @@
 				</Picture>
 				<ExtendedTooltip name="ГруппаУстановкаСвязейРасширеннаяПодсказка" id="95"/>
 				<ChildItems>
+					<Button name="СопоставитьАбонентов" id="98">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СопоставитьАбонентов</CommandName>
+						<ExtendedTooltip name="СопоставитьАбонентовРасширеннаяПодсказка" id="99"/>
+					</Button>
 					<Button name="СоздатьАбонентовДляНесвязанныхЗаписей" id="96">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.СоздатьАбонентовДляНесвязанныхЗаписей</CommandName>
@@ -363,6 +368,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьАбонентовДляНесвязанныхЗаписей</Action>
+		</Command>
+		<Command name="СопоставитьАбонентов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить абонентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить абонентов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СопоставитьАбонентов</Action>
 		</Command>
 	</Commands>
 </Form>
