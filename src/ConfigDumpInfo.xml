@@ -38,7 +38,7 @@
 		<Metadata name="CommandGroup.ГП_ДанныеБП77" id="208ff87d-60ea-4bf4-acca-c7c9663a177c" configVersion="a3c2945d1f1dfdccd809e20c5eeaf1cfd0496b59"/>
 		<Metadata name="CommandGroup.ГП_ЗагрузкаДанныхБП77" id="759a2c0b-6337-4d70-af96-5b19a3438a63" configVersion="96126203ef26ae5aa2db426bd587c9409abf0c47"/>
 		<Metadata name="CommonModule.ГП_МиграцияДоговоров" id="920b1920-2871-48b3-ad31-9921428ff657" configVersion="5e820b815b95ae3e5ddb5edfaf3b68736119ecd3"/>
-		<Metadata name="CommonModule.ГП_МиграцияДоговоров.Module" id="920b1920-2871-48b3-ad31-9921428ff657.0" configVersion="79a8b9c951d97f60ce97ee37badb1dae66d6c64d"/>
+		<Metadata name="CommonModule.ГП_МиграцияДоговоров.Module" id="920b1920-2871-48b3-ad31-9921428ff657.0" configVersion="6184cf39098d7c5d4a2c6fe273b8f532f3813e40"/>
 		<Metadata name="CommonModule.ГП_МиграцияЗданий" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb" configVersion="ecbc3eea0958b8f19ac069ab0620a0f2acff6be6"/>
 		<Metadata name="CommonModule.ГП_МиграцияЗданий.Module" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb.0" configVersion="ba50b5016f38e5ac54888e5d0ad8c57d1468ca8e"/>
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147" configVersion="97a5cca7afa33902b09de9527fd2fac2894cdf77"/>
@@ -98,7 +98,7 @@
 		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаЗаписи" id="877640b4-0109-4410-9fd0-32480af98cb5" configVersion="6fecc6dc80c98699426b0d7cbd9a4e3d2a2b684e"/>
 		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаЗаписи.Form" id="877640b4-0109-4410-9fd0-32480af98cb5.0" configVersion="4b872255973cbbff75e9b69bd0c9a399c2da96e5"/>
 		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаСписка" id="f8de112f-e227-4a4e-99ea-6044274498a4" configVersion="8721b52e9a3af1b0006c7906a8f35b4c941dec86"/>
-		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаСписка.Form" id="f8de112f-e227-4a4e-99ea-6044274498a4.0" configVersion="f59b9885543b8f146bc20a522f972a78d0d55c0f"/>
+		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаСписка.Form" id="f8de112f-e227-4a4e-99ea-6044274498a4.0" configVersion="59ec4127e6b242c8609656a3b0d3d8f5e5a350e7"/>
 		<Metadata name="InformationRegister.ГП_ЗданияБП77" id="7b740d75-a7fc-425a-99e6-02b6f627c1f1" configVersion="8db7c18a19e80a7c21eff15d15b531e21a77cc98">
 			<Metadata name="InformationRegister.ГП_ЗданияБП77.Resource.УлицаКод" id="0c4737cc-165d-4db7-9373-d1799231d990"/>
 			<Metadata name="InformationRegister.ГП_ЗданияБП77.Dimension.КонтрагентКод" id="171b551c-a86d-4ac2-9db6-cd7c4d692e44"/>
@@ -200,7 +200,7 @@
 		<Metadata name="InformationRegister.ГП_КонтрагентыБП77.Form.ФормаЗаписи" id="703b891d-447a-46a3-a142-47cc5d60ff6e" configVersion="47c9aa89a23322e6e025d3e49b044ed401fd0151"/>
 		<Metadata name="InformationRegister.ГП_КонтрагентыБП77.Form.ФормаЗаписи.Form" id="703b891d-447a-46a3-a142-47cc5d60ff6e.0" configVersion="a373efd3b10d48db558b986003bbb5551e338e42"/>
 		<Metadata name="InformationRegister.ГП_КонтрагентыБП77.Form.ФормаСписка" id="9a599f0f-267e-4f72-97ed-56bf8e0378ea" configVersion="80e9d90839daaf3e3d3f30e205004589f3802606"/>
-		<Metadata name="InformationRegister.ГП_КонтрагентыБП77.Form.ФормаСписка.Form" id="9a599f0f-267e-4f72-97ed-56bf8e0378ea.0" configVersion="d2528a8feebf10af411b997c43ce4c4732e95ac8"/>
+		<Metadata name="InformationRegister.ГП_КонтрагентыБП77.Form.ФормаСписка.Form" id="9a599f0f-267e-4f72-97ed-56bf8e0378ea.0" configVersion="8442806d90573eb9bab6b88a966f1d1f28b67036"/>
 		<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77" id="8c96ec59-252f-4eb9-926e-b05317bd4426" configVersion="2f891219566188414ddae3026c9570e07ccf31fc">
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Dimension.КонтрагентКод" id="1e72de90-3a69-4150-95fb-7e5f40387835"/>
 			<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Resource.Показание" id="2b24b8ff-51c7-4458-9229-e271820f525e"/>
