@@ -27,6 +27,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ЗданияБП77</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_КонтрагентыБП77</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ДоговорыБП77</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
