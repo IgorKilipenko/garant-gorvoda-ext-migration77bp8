@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
-		<Metadata name="Catalog.ДоговорыКонтрагентов" id="e07eebce-3b17-4d37-9dea-1f4b4bab5ad6" configVersion="9969b69d7cfa331ba8156ef5420419b140dadfff"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="e07eebce-3b17-4d37-9dea-1f4b4bab5ad6" configVersion="816f2cdee169ffbeb07f8c04f0904ba50ea71216">
+			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ГП_ИдентификаторБП77" id="83da13a0-9142-40c1-a220-3425970085ea"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ГП_СозданАвтоматически" id="a14b1060-6475-42af-b977-cba565d0a159"/>
+		</Metadata>
 		<Metadata name="Catalog.КВП_Здания" id="bb926c92-bc83-4e7a-8ab6-245ca99ef1a6" configVersion="f4d20ae9f3a2dec53c704ab5ba8bfd58ca9c35de">
 			<Metadata name="Catalog.КВП_Здания.Attribute.ГП_ИдентификаторБП77" id="23e24af1-1a42-4744-8334-6513d89109df"/>
 			<Metadata name="Catalog.КВП_Здания.Attribute.ГП_СозданАвтоматически" id="5d0ff775-e215-4ac2-9df2-0a2d5370b4b3"/>
