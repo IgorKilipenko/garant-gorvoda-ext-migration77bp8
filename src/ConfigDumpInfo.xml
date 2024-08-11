@@ -66,13 +66,14 @@
 			<Metadata name="Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчикаИНорме" id="27a169e8-69ad-40a8-bbf1-8dec1fe78470"/>
 			<Metadata name="Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчика" id="bddc26ad-404b-4a95-927a-2e3e2d408317"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ГП_ДоговорыБП77" id="4b9ff110-7f6d-4a25-8990-12a2d48deb04" configVersion="ec776305170341c346ae92aacb40b9f7a69a0099">
+		<Metadata name="InformationRegister.ГП_ДоговорыБП77" id="4b9ff110-7f6d-4a25-8990-12a2d48deb04" configVersion="74e70da90c8eefc784488631de27e1c6c8f36dc1">
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.ДатаПрекращенияНачисленияШтрафныхСанкций" id="0ad19249-1abd-4eb0-a928-8f69e71c19da"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ОплатаДоговора" id="1149dee5-96f7-4821-b1be-4ebaff21fc32"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.АвтоОбработкаНДС" id="15c33486-9608-4587-a06d-f5f9a0b81e76"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ВодаПоДог" id="3a6f989e-02e4-44e5-84d6-b747653d3669"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.СуммаПоДог" id="4e2991d1-e39d-46c8-9300-d0b438daca30"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ВалютаДоговораНаименование" id="624ddd19-c1f4-4853-9d70-d86e42899807"/>
+			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Dimension.Договор" id="64f09bd9-a2ad-48ea-a2d4-f94402ee2e74"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ОтражатьСуммовуюРазницуПриЗачетеАванса" id="7f52b488-3366-4269-9798-90256d68dbdb"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.Наименование" id="807b25d5-5b92-4253-b3ab-2912edea8f99"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ВестиУчетРасчетовУЕ" id="91b9609d-7d1d-4883-9b25-dce950b0c37b"/>
@@ -90,9 +91,9 @@
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.ВалютаДоговораКод" id="f711b8ff-3860-4115-b40e-e38572edc334"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаЗаписи" id="877640b4-0109-4410-9fd0-32480af98cb5" configVersion="6fecc6dc80c98699426b0d7cbd9a4e3d2a2b684e"/>
-		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаЗаписи.Form" id="877640b4-0109-4410-9fd0-32480af98cb5.0" configVersion="cff678179215ae7e94c556d7766887a2b6ee629f"/>
+		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаЗаписи.Form" id="877640b4-0109-4410-9fd0-32480af98cb5.0" configVersion="4b872255973cbbff75e9b69bd0c9a399c2da96e5"/>
 		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаСписка" id="f8de112f-e227-4a4e-99ea-6044274498a4" configVersion="8721b52e9a3af1b0006c7906a8f35b4c941dec86"/>
-		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаСписка.Form" id="f8de112f-e227-4a4e-99ea-6044274498a4.0" configVersion="25ef931a8f9b101dbd5fdb3b80449c2bcce4103d"/>
+		<Metadata name="InformationRegister.ГП_ДоговорыБП77.Form.ФормаСписка.Form" id="f8de112f-e227-4a4e-99ea-6044274498a4.0" configVersion="f59b9885543b8f146bc20a522f972a78d0d55c0f"/>
 		<Metadata name="InformationRegister.ГП_ЗданияБП77" id="7b740d75-a7fc-425a-99e6-02b6f627c1f1" configVersion="8db7c18a19e80a7c21eff15d15b531e21a77cc98">
 			<Metadata name="InformationRegister.ГП_ЗданияБП77.Resource.УлицаКод" id="0c4737cc-165d-4db7-9373-d1799231d990"/>
 			<Metadata name="InformationRegister.ГП_ЗданияБП77.Dimension.КонтрагентКод" id="171b551c-a86d-4ac2-9db6-cd7c4d692e44"/>

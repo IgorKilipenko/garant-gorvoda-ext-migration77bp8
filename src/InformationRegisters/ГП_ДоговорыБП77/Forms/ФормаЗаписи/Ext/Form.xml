@@ -17,6 +17,13 @@
 			<ContextMenu name="КодКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="Договор" id="64">
+			<DataPath>Запись.Договор</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="66"/>
+		</InputField>
 		<InputField name="Наименование" id="7">
 			<DataPath>Запись.Наименование</DataPath>
 			<ReadOnly>true</ReadOnly>

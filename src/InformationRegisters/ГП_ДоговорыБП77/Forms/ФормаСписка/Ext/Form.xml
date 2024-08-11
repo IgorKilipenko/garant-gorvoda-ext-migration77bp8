@@ -97,6 +97,11 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
+				<LabelField name="Договор" id="89">
+					<DataPath>Список.Договор</DataPath>
+					<ContextMenu name="ДоговорКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="91"/>
+				</LabelField>
 				<LabelField name="Наименование" id="22">
 					<DataPath>Список.Наименование</DataPath>
 					<DefaultItem>true</DefaultItem>
