@@ -69,7 +69,7 @@
 			<Metadata name="Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчикаИНорме" id="27a169e8-69ad-40a8-bbf1-8dec1fe78470"/>
 			<Metadata name="Enum.КВП_СпособыРасчета.EnumValue.ПоПоказаниямСчетчика" id="bddc26ad-404b-4a95-927a-2e3e2d408317"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ГП_ДоговорыБП77" id="4b9ff110-7f6d-4a25-8990-12a2d48deb04" configVersion="74e70da90c8eefc784488631de27e1c6c8f36dc1">
+		<Metadata name="InformationRegister.ГП_ДоговорыБП77" id="4b9ff110-7f6d-4a25-8990-12a2d48deb04" configVersion="fc0d0ddf5930a3937a6cd8deca2505161dcdcff8">
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.ДатаПрекращенияНачисленияШтрафныхСанкций" id="0ad19249-1abd-4eb0-a928-8f69e71c19da"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ОплатаДоговора" id="1149dee5-96f7-4821-b1be-4ebaff21fc32"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.АвтоОбработкаНДС" id="15c33486-9608-4587-a06d-f5f9a0b81e76"/>
