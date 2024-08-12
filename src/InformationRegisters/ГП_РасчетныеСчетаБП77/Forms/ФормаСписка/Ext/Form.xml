@@ -26,6 +26,12 @@
 						<CommandName>Form.Command.СоздатьБанкиДляРасчетныхСчетов</CommandName>
 						<ExtendedTooltip name="СоздатьБанкиДляРасчетныхСчетовРасширеннаяПодсказка" id="85"/>
 					</Button>
+					<Button name="СоздатьБанковскиеСчетаДляПеренесенныхАбонентов" id="86">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>Form.Command.СоздатьБанковскиеСчетаДляПеренесенныхАбонентов</CommandName>
+						<ExtendedTooltip name="СоздатьБанковскиеСчетаДляПеренесенныхАбонентовРасширеннаяПодсказка" id="87"/>
+					</Button>
 				</ChildItems>
 			</Popup>
 		</ChildItems>
@@ -281,6 +287,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьБанкиДляРасчетныхСчетов</Action>
+		</Command>
+		<Command name="СоздатьБанковскиеСчетаДляПеренесенныхАбонентов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать банковские счета абонентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать банковские счета для перенесенных абонентов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьБанковскиеСчетаДляПеренесенныхАбонентов</Action>
 		</Command>
 	</Commands>
 </Form>
