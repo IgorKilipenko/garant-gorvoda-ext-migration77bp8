@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="КонтрагентКод" id="1">
+			<DataPath>Запись.КонтрагентКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КонтрагентКодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Код" id="4">
+			<DataPath>Запись.Код</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="БаноквскийСчет" id="7">
+			<DataPath>Запись.БаноквскийСчет</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БаноквскийСчетКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="БаноквскийСчетРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Наименование" id="10">
+			<DataPath>Запись.Наименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Номер" id="13">
+			<DataPath>Запись.Номер</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="БанкОрганизацииКод" id="16">
+			<DataPath>Запись.БанкОрганизацииКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкОрганизацииКодКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="БанкОрганизацииКодРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="БанкОрганизацииНаименование" id="19">
+			<DataPath>Запись.БанкОрганизацииНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкОрганизацииНаименованиеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="БанкОрганизацииНаименованиеРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="БанкОрганизацииКоррСчет" id="22">
+			<DataPath>Запись.БанкОрганизацииКоррСчет</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкОрганизацииКоррСчетКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="БанкОрганизацииКоррСчетРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="БанкОрганизацииМестонахождение" id="25">
+			<DataPath>Запись.БанкОрганизацииМестонахождение</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкОрганизацииМестонахождениеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="БанкОрганизацииМестонахождениеРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="БанкОрганизацииАдрес" id="28">
+			<DataPath>Запись.БанкОрганизацииАдрес</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкОрганизацииАдресКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="БанкОрганизацииАдресРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="БанкОрганизацииТелефоны" id="31">
+			<DataPath>Запись.БанкОрганизацииТелефоны</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкОрганизацииТелефоныКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="БанкОрганизацииТелефоныРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="БанкДляРасчетовКод" id="34">
+			<DataPath>Запись.БанкДляРасчетовКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкДляРасчетовКодКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="БанкДляРасчетовКодРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="БанкДляРасчетовНаименование" id="37">
+			<DataPath>Запись.БанкДляРасчетовНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкДляРасчетовНаименованиеКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="БанкДляРасчетовНаименованиеРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="БанкДляРасчетовКоррСчет" id="40">
+			<DataPath>Запись.БанкДляРасчетовКоррСчет</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкДляРасчетовКоррСчетКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="БанкДляРасчетовКоррСчетРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<InputField name="БанкДляРасчетовМестонахождение" id="43">
+			<DataPath>Запись.БанкДляРасчетовМестонахождение</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкДляРасчетовМестонахождениеКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="БанкДляРасчетовМестонахождениеРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<InputField name="БанкДляРасчетовАдрес" id="46">
+			<DataPath>Запись.БанкДляРасчетовАдрес</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкДляРасчетовАдресКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="БанкДляРасчетовАдресРасширеннаяПодсказка" id="48"/>
+		</InputField>
+		<InputField name="БанкДляРасчетовТелефоны" id="49">
+			<DataPath>Запись.БанкДляРасчетовТелефоны</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкДляРасчетовТелефоныКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="БанкДляРасчетовТелефоныРасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<InputField name="Корреспондент" id="52">
+			<DataPath>Запись.Корреспондент</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КорреспондентКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="КорреспондентРасширеннаяПодсказка" id="54"/>
+		</InputField>
+		<InputField name="Назначение" id="55">
+			<DataPath>Запись.Назначение</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НазначениеКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="НазначениеРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<InputField name="КорреспондентИНН" id="58">
+			<DataPath>Запись.КорреспондентИНН</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КорреспондентИННКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="КорреспондентИННРасширеннаяПодсказка" id="60"/>
+		</InputField>
+		<InputField name="КорреспондентКПП" id="61">
+			<DataPath>Запись.КорреспондентКПП</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КорреспондентКППКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="КорреспондентКППРасширеннаяПодсказка" id="63"/>
+		</InputField>
+		<CheckBoxField name="ВсегдаУказыватьКПП" id="64">
+			<DataPath>Запись.ВсегдаУказыватьКПП</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВсегдаУказыватьКППКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="ВсегдаУказыватьКППРасширеннаяПодсказка" id="66"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ГП_РасчетныеСчетаБП77</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
