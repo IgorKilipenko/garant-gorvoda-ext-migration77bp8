@@ -18,7 +18,7 @@
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="БаноквскийСчет" id="7">
-			<DataPath>Запись.БаноквскийСчет</DataPath>
+			<DataPath>Запись.БанковскийСчет</DataPath>
 			<ReadOnly>true</ReadOnly>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="БаноквскийСчетКонтекстноеМеню" id="8"/>

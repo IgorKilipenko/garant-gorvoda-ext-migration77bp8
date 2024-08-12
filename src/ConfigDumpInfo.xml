@@ -212,14 +212,14 @@
 		</Metadata>
 		<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Form.ФормаЗаписи" id="01b965ab-c400-4a36-9cc4-562885f1594b" configVersion="c2fa416f8201ff3becca124811c38c3a33a34e79"/>
 		<Metadata name="InformationRegister.ГП_ПоказанияСчетчиковБП77.Form.ФормаЗаписи.Form" id="01b965ab-c400-4a36-9cc4-562885f1594b.0" configVersion="e280f08e59da22d38e255aa4ff2f2629730c60c8"/>
-		<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77" id="f9a06f0e-d41e-4878-9e95-0560b3804dc4" configVersion="389e2d98de1c4fe46c2db86b5f5f659a4f041b7f">
+		<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77" id="f9a06f0e-d41e-4878-9e95-0560b3804dc4" configVersion="bc9116bbf3bc9cfe03dd41ec9611aa3ab2b00bed">
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Attribute.ВсегдаУказыватьКПП" id="13a866ce-ec8a-48af-bad3-28c4e1fb1aa9"/>
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Resource.БанкДляРасчетовКод" id="2d8bba0c-592c-4dd5-aff9-dc407f782aeb"/>
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Resource.БанкОрганизацииТелефоны" id="3b24edaa-64b2-4f76-9e0f-26a2957368d3"/>
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Dimension.КонтрагентКод" id="46c9ac0f-e064-446d-8abf-c286cac0ea76"/>
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Resource.БанкОрганизацииКод" id="64268958-662d-45c0-835b-541029d2383b"/>
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Resource.БанкОрганизацииКоррСчет" id="745ebfc8-9538-4995-be41-77b944cf61b9"/>
-			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Dimension.БаноквскийСчет" id="89f0f7f6-c787-4742-9e0c-a2d77ac32795"/>
+			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Dimension.БанковскийСчет" id="89f0f7f6-c787-4742-9e0c-a2d77ac32795"/>
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Resource.БанкОрганизацииМестонахождение" id="8fe27d44-49a0-439a-b1fa-3a06ff76579e"/>
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Resource.Номер" id="93ad7e34-026e-4b24-83b7-cd0735b36288"/>
 			<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Resource.БанкДляРасчетовМестонахождение" id="98ca0581-962c-470e-99ed-d874238daa26"/>

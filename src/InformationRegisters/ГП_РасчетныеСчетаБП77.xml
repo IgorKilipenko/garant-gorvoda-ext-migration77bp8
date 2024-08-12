@@ -973,11 +973,11 @@
 			</Dimension>
 			<Dimension uuid="89f0f7f6-c787-4742-9e0c-a2d77ac32795">
 				<Properties>
-					<Name>БаноквскийСчет</Name>
+					<Name>БанковскийСчет</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Баноквский счет</v8:content>
+							<v8:content>Банковский счет</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

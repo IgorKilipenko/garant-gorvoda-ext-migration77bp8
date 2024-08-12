@@ -81,7 +81,7 @@
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="БаноквскийСчет" id="22">
-					<DataPath>Список.БаноквскийСчет</DataPath>
+					<DataPath>~Список.БаноквскийСчет</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="БаноквскийСчетКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="БаноквскийСчетРасширеннаяПодсказка" id="24"/>
