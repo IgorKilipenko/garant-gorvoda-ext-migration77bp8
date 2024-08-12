@@ -1,7 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
-		<Metadata name="Catalog.БанковскиеСчета" id="8bccd476-583a-4c86-bd05-7c3822b1dd2a" configVersion="e4b417aa16741c612a8e83fc3a770b611bb47eae"/>
+		<Metadata name="Catalog.Банки" id="e0073d9b-7999-4b9b-91cc-2a0fc99af375" configVersion="7881045a6c08b18990e83cee85a1f09858e2cf30">
+			<Metadata name="Catalog.Банки.Attribute.ГП_СозданАвтоматически" id="6a86d4e1-cc4a-4348-9624-cfa2c8f500e0"/>
+			<Metadata name="Catalog.Банки.Attribute.ГП_ИдентификаторБП77" id="730cce42-7fb4-44c5-8582-529c55cdeff7"/>
+		</Metadata>
+		<Metadata name="Catalog.БанковскиеСчета" id="8bccd476-583a-4c86-bd05-7c3822b1dd2a" configVersion="09ace2a46fea4ea42b8752f9855fcb9d29592215">
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ГП_ИдентификаторБП77" id="d9594e68-e82f-41c2-9abf-c2684e5ebba1"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ГП_СозданАвтоматически" id="ecaad3cf-af94-4296-a95d-f0b2abe0d184"/>
+		</Metadata>
 		<Metadata name="Catalog.ДоговорыКонтрагентов" id="e07eebce-3b17-4d37-9dea-1f4b4bab5ad6" configVersion="816f2cdee169ffbeb07f8c04f0904ba50ea71216">
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ГП_ИдентификаторБП77" id="83da13a0-9142-40c1-a220-3425970085ea"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ГП_СозданАвтоматически" id="a14b1060-6475-42af-b977-cba565d0a159"/>
@@ -54,7 +61,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияРасчетныхСчетов.Module" id="e141c1a4-3b53-4c50-8e58-a59876851953.0" configVersion="bd2e7c1bc5d366ca90713ff49a86d6663b3e00f5"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент" id="4c802860-cccf-4abd-9de0-d70727e6b8d7" configVersion="b1b045cc3ab676d265567ea734aca77835b25364"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент.Module" id="4c802860-cccf-4abd-9de0-d70727e6b8d7.0" configVersion="5f55a22b47e1c2ab8c9a4a686797ab82b8195bd2"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="bdd57d99ca611676a3a983ac15179b798f96147b"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="5414a42b5c98140f36d9ce0edef9d3152adb02d4"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="8cb32439598e156f571f85b5cb9027b6caca6c67"/>
