@@ -61,7 +61,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияРасчетныхСчетов.Module" id="e141c1a4-3b53-4c50-8e58-a59876851953.0" configVersion="4f2ef2fd93541c5c877662621869cb154758e4d9"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент" id="4c802860-cccf-4abd-9de0-d70727e6b8d7" configVersion="b1b045cc3ab676d265567ea734aca77835b25364"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент.Module" id="4c802860-cccf-4abd-9de0-d70727e6b8d7.0" configVersion="5f55a22b47e1c2ab8c9a4a686797ab82b8195bd2"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="a9e8d835a8f71cecec4317a709b01faebf8eb9dd"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="f16c346e16a241d45c6ef991c2e0d66f924abe86"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="c711a1850ff3bf975e7b0632e45917d3208965bf"/>
