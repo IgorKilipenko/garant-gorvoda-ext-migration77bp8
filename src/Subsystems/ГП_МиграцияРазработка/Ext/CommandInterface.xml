@@ -21,6 +21,16 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="InformationRegister.ГП_ДоговорыБП77.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ГП_РасчетныеСчетаБП77.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="InformationRegister.ГП_ПоказанияСчетчиковБП77.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -69,6 +79,14 @@
 			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="InformationRegister.ГП_ДоговорыБП77.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ГП_РасчетныеСчетаБП77.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 		<Command name="InformationRegister.ГП_ПоказанияСчетчиковБП77.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
 			<Placement>Auto</Placement>
@@ -105,6 +123,12 @@
 			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.ГП_КонтрагентыБП77.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ГП_ДоговорыБП77.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ГП_РасчетныеСчетаБП77.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.ГП_ПоказанияСчетчиковБП77.StandardCommand.OpenList">

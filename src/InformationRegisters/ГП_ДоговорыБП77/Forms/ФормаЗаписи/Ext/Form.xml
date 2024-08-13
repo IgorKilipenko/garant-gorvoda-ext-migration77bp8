@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="КонтрагентКод" id="1">
+			<DataPath>Запись.КонтрагентКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КонтрагентКодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Код" id="4">
+			<DataPath>Запись.Код</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Договор" id="64">
+			<DataPath>Запись.Договор</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="66"/>
+		</InputField>
+		<InputField name="Наименование" id="7">
+			<DataPath>Запись.Наименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ДатаВозникновенияОбязательства" id="10">
+			<DataPath>Запись.ДатаВозникновенияОбязательства</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаВозникновенияОбязательстваКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ДатаВозникновенияОбязательстваРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ДатаПогашенияОбязательства" id="13">
+			<DataPath>Запись.ДатаПогашенияОбязательства</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаПогашенияОбязательстваКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДатаПогашенияОбязательстваРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ДатаНачалаНачисленияШтрафныхСанкций" id="16">
+			<DataPath>Запись.ДатаНачалаНачисленияШтрафныхСанкций</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаНачалаНачисленияШтрафныхСанкцийКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДатаНачалаНачисленияШтрафныхСанкцийРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ДатаПрекращенияНачисленияШтрафныхСанкций" id="19">
+			<DataPath>Запись.ДатаПрекращенияНачисленияШтрафныхСанкций</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаПрекращенияНачисленияШтрафныхСанкцийКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДатаПрекращенияНачисленияШтрафныхСанкцийРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="СтавкаШтрафныхСанкций" id="22">
+			<DataPath>Запись.СтавкаШтрафныхСанкций</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтавкаШтрафныхСанкцийКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="СтавкаШтрафныхСанкцийРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ВидДоговораКод" id="25">
+			<DataPath>Запись.ВидДоговораКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидДоговораКодКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВидДоговораКодРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ВалютаДоговораКод" id="28">
+			<DataPath>Запись.ВалютаДоговораКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВалютаДоговораКодКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ВалютаДоговораКодРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ОплатаДоговора" id="31">
+			<DataPath>Запись.ОплатаДоговора</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОплатаДоговораКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ОплатаДоговораРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="ВременнаяЕдиницаРасчетаШтрафныхСанкций" id="34">
+			<DataPath>Запись.ВременнаяЕдиницаРасчетаШтрафныхСанкций</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВременнаяЕдиницаРасчетаШтрафныхСанкцийКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ВременнаяЕдиницаРасчетаШтрафныхСанкцийРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<CheckBoxField name="АвтоОбработкаНДС" id="37">
+			<DataPath>Запись.АвтоОбработкаНДС</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="АвтоОбработкаНДСКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="АвтоОбработкаНДСРасширеннаяПодсказка" id="39"/>
+		</CheckBoxField>
+		<CheckBoxField name="ВестиУчетРасчетовУЕ" id="40">
+			<DataPath>Запись.ВестиУчетРасчетовУЕ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВестиУчетРасчетовУЕКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ВестиУчетРасчетовУЕРасширеннаяПодсказка" id="42"/>
+		</CheckBoxField>
+		<InputField name="ОтражатьСуммовуюРазницуПриЗачетеАванса" id="43">
+			<DataPath>Запись.ОтражатьСуммовуюРазницуПриЗачетеАванса</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтражатьСуммовуюРазницуПриЗачетеАвансаКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ОтражатьСуммовуюРазницуПриЗачетеАвансаРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<InputField name="ПроцентКорректировкиКурсаУЕ" id="46">
+			<DataPath>Запись.ПроцентКорректировкиКурсаУЕ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПроцентКорректировкиКурсаУЕКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="ПроцентКорректировкиКурсаУЕРасширеннаяПодсказка" id="48"/>
+		</InputField>
+		<InputField name="ВодаПоДог" id="49">
+			<DataPath>Запись.ВодаПоДог</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВодаПоДогКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ВодаПоДогРасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<InputField name="КанПоДог" id="52">
+			<DataPath>Запись.КанПоДог</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КанПоДогКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="КанПоДогРасширеннаяПодсказка" id="54"/>
+		</InputField>
+		<InputField name="СуммаПоДог" id="55">
+			<DataPath>Запись.СуммаПоДог</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СуммаПоДогКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="СуммаПоДогРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<InputField name="ВидДоговораНаименование" id="58">
+			<DataPath>Запись.ВидДоговораНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидДоговораНаименованиеКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="ВидДоговораНаименованиеРасширеннаяПодсказка" id="60"/>
+		</InputField>
+		<InputField name="ВалютаДоговораНаименование" id="61">
+			<DataPath>Запись.ВалютаДоговораНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВалютаДоговораНаименованиеКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="ВалютаДоговораНаименованиеРасширеннаяПодсказка" id="63"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ГП_ДоговорыБП77</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
