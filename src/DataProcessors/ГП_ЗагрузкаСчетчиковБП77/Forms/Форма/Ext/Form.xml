@@ -549,6 +549,56 @@
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаКомандыЗагрузкиДоговоров" id="127">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузка договоров:</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды загрузки договоров</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаКомандыЗагрузкиДоговоровРасширеннаяПодсказка" id="128"/>
+											<ChildItems>
+												<Button name="ЗагрузитьДоговоры" id="129">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьДоговоры</CommandName>
+													<ExtendedTooltip name="ЗагрузитьДоговорыРасширеннаяПодсказка" id="130"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаКомандыЗагрузкиРасчетныхСчетов" id="131">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузка расчетных счетов:</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды загрузки расчетных счетов</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаКомандыЗагрузкиРасчетныхСчетовРасширеннаяПодсказка" id="132"/>
+											<ChildItems>
+												<Button name="ЗагрузитьРасчетныеСчета" id="133">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьРасчетныеСчета</CommandName>
+													<ExtendedTooltip name="ЗагрузитьРасчетныеСчетаРасширеннаяПодсказка" id="134"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 								<Page name="ГруппаСозданиеУслуг" id="61">
@@ -1012,6 +1062,44 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗагрузитьКонтрагентов</Action>
+		</Command>
+		<Command name="ЗагрузитьДоговоры" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить договоры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить договоры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьДоговоры</Action>
+		</Command>
+		<Command name="ЗагрузитьРасчетныеСчета" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить расчетные счета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить расчетные счета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьРасчетныеСчета</Action>
 		</Command>
 	</Commands>
 </Form>

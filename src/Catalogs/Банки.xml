@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="e07eebce-3b17-4d37-9dea-1f4b4bab5ad6">
+	<Catalog uuid="e0073d9b-7999-4b9b-91cc-2a0fc99af375">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ДоговорыКонтрагентов" category="Object">
-				<xr:TypeId>39f0acf6-ba82-461c-86bb-1c0fb81642cd</xr:TypeId>
-				<xr:ValueId>74d610d6-7fb3-486b-8c56-4cc2d82f4fa4</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Банки" category="Object">
+				<xr:TypeId>64b62aa7-ce8f-4a78-8460-88345df88ecc</xr:TypeId>
+				<xr:ValueId>c8f157fe-706b-4878-aa9e-bcac53467882</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ДоговорыКонтрагентов" category="Ref">
-				<xr:TypeId>66b7a53a-0d9a-409d-97cf-aa84b3ab6d12</xr:TypeId>
-				<xr:ValueId>da290dfe-b178-4ead-8600-a32189803395</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Банки" category="Ref">
+				<xr:TypeId>c7c75cd1-dd0d-4537-8514-239525a055b3</xr:TypeId>
+				<xr:ValueId>cd279850-7da7-43c4-ad27-baaaa4a90a1d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ДоговорыКонтрагентов" category="Selection">
-				<xr:TypeId>c62e98fa-6a30-4dfd-a3d3-2fb4ad6fa13c</xr:TypeId>
-				<xr:ValueId>d4150a13-03cb-4b03-a03d-c1ceb1cf84dd</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Банки" category="Selection">
+				<xr:TypeId>06d80290-187f-4b03-a366-aa9c421c0fef</xr:TypeId>
+				<xr:ValueId>c560b9cd-764a-4fbb-b802-f314630ed995</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ДоговорыКонтрагентов" category="List">
-				<xr:TypeId>64ab1497-9728-4853-84f7-d447b151aabd</xr:TypeId>
-				<xr:ValueId>42846c91-6cd5-4f82-b71e-e70ac93ed247</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Банки" category="List">
+				<xr:TypeId>5bcacb1f-e32d-48ca-a95e-0aac3ca7e819</xr:TypeId>
+				<xr:ValueId>b933e820-4722-4bfe-bec3-3be0b8f4a38a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ДоговорыКонтрагентов" category="Manager">
-				<xr:TypeId>75cd5108-8ac5-40ff-8193-ae7ca91f5869</xr:TypeId>
-				<xr:ValueId>940a0c9f-fc63-4fd0-b5a4-772612afe673</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Банки" category="Manager">
+				<xr:TypeId>51d3f293-9a35-431e-a4af-cf40ce3329cd</xr:TypeId>
+				<xr:ValueId>08a94fbf-5090-4136-a1fe-5cffd339b9a3</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Name>ДоговорыКонтрагентов</Name>
+			<Name>Банки</Name>
 			<Comment/>
-			<ExtendedConfigurationObject>b9e5871f-258c-4beb-bed7-481bf362ae45</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject>f47b419b-4aed-4975-83d8-978c710710d1</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="83da13a0-9142-40c1-a220-3425970085ea">
+			<Attribute uuid="730cce42-7fb4-44c5-8582-529c55cdeff7">
 				<Properties>
 					<Name>ГП_ИдентификаторБП77</Name>
 					<Synonym>
@@ -74,7 +74,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a14b1060-6475-42af-b977-cba565d0a159">
+			<Attribute uuid="6a86d4e1-cc4a-4348-9624-cfa2c8f500e0">
 				<Properties>
 					<Name>ГП_СозданАвтоматически</Name>
 					<Synonym>

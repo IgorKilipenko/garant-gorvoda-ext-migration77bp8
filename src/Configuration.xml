@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.2.8.1-rc1</Version>
+			<Version>1.2.17.1-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -71,6 +71,8 @@
 			<CommonModule>ГП_МиграцияЗданий</CommonModule>
 			<CommonModule>ГП_МиграцияКонтрагентов</CommonModule>
 			<CommonModule>ГП_МиграцияЛицевыхСчетов</CommonModule>
+			<CommonModule>ГП_МиграцияДоговоров</CommonModule>
+			<CommonModule>ГП_МиграцияРасчетныхСчетов</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Catalog>КВП_Счетчики</Catalog>
@@ -82,6 +84,8 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>КВП_Услуги</Catalog>
 			<Catalog>УПЖКХ_Помещения</Catalog>
+			<Catalog>БанковскиеСчета</Catalog>
+			<Catalog>Банки</Catalog>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
@@ -97,6 +101,8 @@
 			<InformationRegister>УПЖКХ_СведенияДляВзаиморасчетовПоЛС</InformationRegister>
 			<InformationRegister>ГП_ЗданияБП77</InformationRegister>
 			<InformationRegister>ГП_КонтрагентыБП77</InformationRegister>
+			<InformationRegister>ГП_ДоговорыБП77</InformationRegister>
+			<InformationRegister>ГП_РасчетныеСчетаБП77</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
