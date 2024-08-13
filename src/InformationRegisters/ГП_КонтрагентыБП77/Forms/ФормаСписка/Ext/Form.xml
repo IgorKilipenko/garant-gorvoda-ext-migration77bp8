@@ -31,6 +31,11 @@
 						<CommandName>Form.Command.СоздатьАбонентовДляНесвязанныхЗаписей</CommandName>
 						<ExtendedTooltip name="СоздатьАбонентовДляНесвязанныхЗаписейРасширеннаяПодсказка" id="97"/>
 					</Button>
+					<Button name="СоздатьДокументыУправленияСведениямиДляВзаиморасчетовПоЛицевымСчетам" id="104">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СоздатьДокументыУправленияСведениямиДляВзаиморасчетовПоЛицевымСчетам</CommandName>
+						<ExtendedTooltip name="СоздатьДокументыУправленияСведениямиДляВзаиморасчетовПоЛицевымСчетамРасширеннаяПодсказка" id="105"/>
+					</Button>
 				</ChildItems>
 			</Popup>
 			<Popup name="ГруппаСлужебныеФункции" id="100">
@@ -428,6 +433,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИсправитьКонтактнуюИнформациюПеренесенныхАбонентов</Action>
+		</Command>
+		<Command name="СоздатьДокументыУправленияСведениямиДляВзаиморасчетовПоЛицевымСчетам" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документы управления сведениями для взаиморасчетов по лицевым счетам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документы управления сведениями для взаиморасчетов по лицевым счетам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьДокументыУправленияСведениямиДляВзаиморасчетовПоЛицевымСчетам</Action>
 		</Command>
 	</Commands>
 </Form>
