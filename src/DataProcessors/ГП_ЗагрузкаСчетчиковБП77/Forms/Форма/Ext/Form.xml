@@ -599,6 +599,31 @@
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаКомандыЗагрузкиНормПоребления" id="135">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузка норм потребления:</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды загрузки норм поребления</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаКомандыЗагрузкиНормПоребленияРасширеннаяПодсказка" id="136"/>
+											<ChildItems>
+												<Button name="ЗагрузитьНормыПотребления" id="137">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьНормыПотребления</CommandName>
+													<ExtendedTooltip name="ЗагрузитьНормыПотребленияРасширеннаяПодсказка" id="138"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 								<Page name="ГруппаСозданиеУслуг" id="61">
@@ -1100,6 +1125,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗагрузитьРасчетныеСчета</Action>
+		</Command>
+		<Command name="ЗагрузитьНормыПотребления" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить нормы потребления</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить нормы потребления</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьНормыПотребления</Action>
 		</Command>
 	</Commands>
 </Form>
