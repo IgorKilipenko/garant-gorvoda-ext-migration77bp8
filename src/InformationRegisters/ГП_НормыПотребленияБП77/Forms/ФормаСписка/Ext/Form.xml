@@ -4,7 +4,36 @@
 		<ExcludedCommand>Copy</ExcludedCommand>
 		<ExcludedCommand>Create</ExcludedCommand>
 	</CommandSet>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ГруппаУстановкаСвязей" id="82">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Связи</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа установка связей</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.GetURL</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаУстановкаСвязейРасширеннаяПодсказка" id="83"/>
+				<ChildItems>
+					<Button name="ФормаСоздатьНормыПотребленияХолоднойВодыДляНаселения" id="84">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СоздатьНормыПотребленияХолоднойВодыДляНаселения</CommandName>
+						<ExtendedTooltip name="ФормаСоздатьНормыПотребленияХолоднойВодыДляНаселенияРасширеннаяПодсказка" id="85"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -235,4 +264,25 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="СоздатьНормыПотребленияХолоднойВодыДляНаселения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать нормы потребления холодной воды для населения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать нормы потребления холодной воды для населения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьНормыПотребленияХолоднойВодыДляНаселения</Action>
+		</Command>
+	</Commands>
 </Form>
