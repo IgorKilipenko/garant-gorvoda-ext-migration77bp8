@@ -21,7 +21,10 @@
 			<Metadata name="Catalog.КВП_ЛицевыеСчета.Attribute.ГП_СозданАвтоматически" id="1f213d78-ba72-4f9a-ae1c-c20bcd33031b"/>
 			<Metadata name="Catalog.КВП_ЛицевыеСчета.Attribute.ГП_ИдентификаторБП77" id="b91a3427-02fa-4eae-86f4-39108780b395"/>
 		</Metadata>
-		<Metadata name="Catalog.КВП_НормыПотребленияУслуг" id="2327dc78-289d-4def-8fb9-28778427ecec" configVersion="69179f9f463daa421992b1b9983d0d26695f24e7"/>
+		<Metadata name="Catalog.КВП_НормыПотребленияУслуг" id="2327dc78-289d-4def-8fb9-28778427ecec" configVersion="19ddb089543668b286e879b0033e56c9e875510d">
+			<Metadata name="Catalog.КВП_НормыПотребленияУслуг.Attribute.ГП_ИдентификаторБП77" id="e6cf5cd3-6e49-45c0-9fe7-57da4be3e0ea"/>
+			<Metadata name="Catalog.КВП_НормыПотребленияУслуг.Attribute.ГП_СозданАвтоматически" id="f56874bd-778a-46eb-aa80-2db0c622d9e8"/>
+		</Metadata>
 		<Metadata name="Catalog.КВП_Подъезды" id="b3c2d865-454c-4501-9183-c45732e75ef5" configVersion="3098d63bd134d3d3d876b8e07633999e3e8464b2"/>
 		<Metadata name="Catalog.КВП_Счетчики" id="08472706-aead-4e80-b13a-5fad52d26adf" configVersion="29f05f2b1c0631f4d85aca5ec904c0a77711d6eb">
 			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_ДатаУстановки" id="442d3761-6648-41c1-8a5a-5a3edd7cf5c5"/>
