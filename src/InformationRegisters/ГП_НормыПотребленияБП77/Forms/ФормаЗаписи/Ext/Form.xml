@@ -24,6 +24,13 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="9"/>
 		</InputField>
+		<InputField name="НормаПотребленияУслуг" id="64">
+			<DataPath>Запись.НормаПотребленияУслуг</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НормаПотребленияУслугКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="НормаПотребленияУслугРасширеннаяПодсказка" id="66"/>
+		</InputField>
 		<InputField name="НормаХВ" id="10">
 			<DataPath>Запись.НормаХВ</DataPath>
 			<ReadOnly>true</ReadOnly>

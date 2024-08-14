@@ -90,6 +90,11 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="24"/>
 				</LabelField>
+				<LabelField name="НормаПотребленияУслуг" id="79">
+					<DataPath>Список.НормаПотребленияУслуг</DataPath>
+					<ContextMenu name="НормаПотребленияУслугКонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="НормаПотребленияУслугРасширеннаяПодсказка" id="81"/>
+				</LabelField>
 				<LabelField name="НормаХВ" id="25">
 					<DataPath>Список.НормаХВ</DataPath>
 					<DefaultItem>true</DefaultItem>
