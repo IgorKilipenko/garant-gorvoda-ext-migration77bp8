@@ -32,6 +32,32 @@
 					</Button>
 				</ChildItems>
 			</Popup>
+			<Popup name="ГруппаУстановкаДействий" id="86">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Действия</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа установка действий</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.DataCompositionSettingsWizard</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаУстановкаДействийРасширеннаяПодсказка" id="87"/>
+				<ChildItems>
+					<Button name="ФормаВыполнитьНазначениеНормПотребленияНаЛицевыеСчета" id="88">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ВыполнитьНазначениеНормПотребленияНаЛицевыеСчета</CommandName>
+						<ExtendedTooltip name="ФормаВыполнитьНазначениеНормПотребленияНаЛицевыеСчетаРасширеннаяПодсказка" id="89"/>
+					</Button>
+				</ChildItems>
+			</Popup>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -283,6 +309,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьНормыПотребленияХолоднойВодыДляНаселения</Action>
+		</Command>
+		<Command name="ВыполнитьНазначениеНормПотребленияНаЛицевыеСчета" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить назначение норм потребления на л/с</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить назначение норм потребления на лицевые счета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Task</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыполнитьНазначениеНормПотребленияНаЛицевыеСчета</Action>
 		</Command>
 	</Commands>
 </Form>
