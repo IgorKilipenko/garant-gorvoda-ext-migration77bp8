@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="КонтрагентКод" id="1">
+			<DataPath>Запись.КонтрагентКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КонтрагентКодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ОбъектАбонентаКод" id="4">
+			<DataPath>Запись.ОбъектАбонентаКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбъектАбонентаКодКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ОбъектАбонентаКодРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ТарифКод" id="7">
+			<DataPath>1/0:e8e64960-82fe-4010-93b9-345fa82305e2</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТарифКодКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТарифКодРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ТарифВода" id="10">
+			<DataPath>Запись.ТарифВода</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТарифВодаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ТарифВодаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ТарифКанализация" id="13">
+			<DataPath>Запись.ТарифКанализация</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТарифКанализацияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТарифКанализацияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ТарифНаименование" id="16">
+			<DataPath>Запись.ТарифНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТарифНаименованиеКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ТарифНаименованиеРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="КонтрагентНаименование" id="19">
+			<DataPath>Запись.КонтрагентНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентНаименованиеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="КонтрагентНаименованиеРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ОбъектАбонентаНаименование" id="22">
+			<DataPath>Запись.ОбъектАбонентаНаименование</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбъектАбонентаНаименованиеКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ОбъектАбонентаНаименованиеРасширеннаяПодсказка" id="24"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ГП_ТарифыОбъектовАбонентовБП77</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

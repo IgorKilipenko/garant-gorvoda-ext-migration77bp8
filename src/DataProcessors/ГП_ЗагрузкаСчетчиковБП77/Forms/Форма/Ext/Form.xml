@@ -624,6 +624,30 @@
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаКомандыЗагрузкиТарифовОбъектовАбонентов" id="139">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузка тарифов объектов абонентов:</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды загрузки тарифов объектов абонентов</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаКомандыЗагрузкиТарифовОбъектовАбонентовРасширеннаяПодсказка" id="140"/>
+											<ChildItems>
+												<Button name="ЗагрузитьТарифыОбъектовАбонентов" id="141">
+													<Type>UsualButton</Type>
+													<Enabled>false</Enabled>
+													<CommandName>Form.Command.ЗагрузитьТарифыОбъектовАбонентов</CommandName>
+													<ExtendedTooltip name="ЗагрузитьТарифыОбъектовАбонентовРасширеннаяПодсказка" id="142"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 								<Page name="ГруппаСозданиеУслуг" id="61">
@@ -645,7 +669,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа содание управления услугами</v8:content>
+													<v8:content>Управления услугами:</v8:content>
 												</v8:item>
 											</Title>
 											<ToolTip>
@@ -655,8 +679,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
-											<Representation>None</Representation>
-											<ShowTitle>false</ShowTitle>
+											<Representation>StrongSeparation</Representation>
 											<ExtendedTooltip name="ГруппаСоданиеУправленияУслугамиРасширеннаяПодсказка" id="76"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаНастрокиСозданияДокументаУправленияУслугами" id="70">
@@ -704,6 +727,30 @@
 														<xr:LoadTransparent>true</xr:LoadTransparent>
 													</Picture>
 													<ExtendedTooltip name="СоздатьДокументыУправленияУслугамиРасширеннаяПодсказка" id="69"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаСоданиеУправленияТарифами" id="143">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Управление тарифами:</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа содание управления тарифами</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаСоданиеУправленияТарифамиРасширеннаяПодсказка" id="144"/>
+											<ChildItems>
+												<Button name="СоздатьДокументыУстановкиТарифов" id="145">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.СоздатьДокументыУстановкиТарифов</CommandName>
+													<ExtendedTooltip name="СоздатьДокументыУстановкиТарифовРасширеннаяПодсказка" id="146"/>
 												</Button>
 											</ChildItems>
 										</UsualGroup>
@@ -1144,6 +1191,44 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗагрузитьНормыПотребления</Action>
+		</Command>
+		<Command name="ЗагрузитьТарифыОбъектовАбонентов" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить тарифы абонентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить тарифы объектов абонентов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьТарифыОбъектовАбонентов</Action>
+		</Command>
+		<Command name="СоздатьДокументыУстановкиТарифов" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документы установки тарифов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документы установки тарифов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DataCompositionNewGroup</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьДокументыУстановкиТарифов</Action>
 		</Command>
 	</Commands>
 </Form>

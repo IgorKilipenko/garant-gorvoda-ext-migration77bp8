@@ -30,6 +30,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ДоговорыБП77</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_РасчетныеСчетаБП77</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_НормыПотребленияБП77</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ТарифыОбъектовАбонентовБП77</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

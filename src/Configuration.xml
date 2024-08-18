@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.2.19.0-rc1</Version>
+			<Version>1.3.3.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -74,6 +74,8 @@
 			<CommonModule>ГП_МиграцияДоговоров</CommonModule>
 			<CommonModule>ГП_МиграцияРасчетныхСчетов</CommonModule>
 			<CommonModule>ГП_МиграцияНормПотребления</CommonModule>
+			<CommonModule>ГП_МиграцияУслуг</CommonModule>
+			<CommonModule>ГП_МиграцияТарифовАбонентов</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Catalog>КВП_Счетчики</Catalog>
@@ -106,6 +108,7 @@
 			<InformationRegister>ГП_ДоговорыБП77</InformationRegister>
 			<InformationRegister>ГП_РасчетныеСчетаБП77</InformationRegister>
 			<InformationRegister>ГП_НормыПотребленияБП77</InformationRegister>
+			<InformationRegister>ГП_ТарифыОбъектовАбонентовБП77</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
