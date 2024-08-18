@@ -69,7 +69,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияУслуг.Module" id="95da20c0-cde3-4708-a911-81acdbad7200.0" configVersion="67ed4e46d5a8a7fb65ca95e0eaa6e2b67867e812"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент" id="4c802860-cccf-4abd-9de0-d70727e6b8d7" configVersion="b1b045cc3ab676d265567ea734aca77835b25364"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент.Module" id="4c802860-cccf-4abd-9de0-d70727e6b8d7.0" configVersion="5f55a22b47e1c2ab8c9a4a686797ab82b8195bd2"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="9af40d0ebf4a89e61dbeaeb671407c1758d7d4d8"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="d8927c5ed65de7b8e78edda7b97d72b48da6b8bc"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="1b791b64ccc67085a34d8462e0546febbedd0d52"/>
@@ -316,6 +316,20 @@
 		<Metadata name="InformationRegister.ГП_СчетчикиБП77.Form.ФормаЗаписи.Form" id="ae8984af-eda2-404f-9d6b-9ebd191eca6a.0" configVersion="baade2f34047b02cfb29f0b53bdca7c847c0fdd8"/>
 		<Metadata name="InformationRegister.ГП_СчетчикиБП77.Form.ФормаСписка" id="1fee5cbe-c6d8-45ed-9a02-1dbc7c76f559" configVersion="86677fcacacf37f7efe813b02cf7e70421feaa50"/>
 		<Metadata name="InformationRegister.ГП_СчетчикиБП77.Form.ФормаСписка.Form" id="1fee5cbe-c6d8-45ed-9a02-1dbc7c76f559.0" configVersion="1af4ed26e3269b6211de586f80b2fb47a1def141"/>
+		<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77" id="48fe2a2a-c6d2-409e-9e25-fe511e42a324" configVersion="79e6b6315a80226e2c9261950d9a5d1a3c76b601">
+			<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Attribute.ОбъектАбонентаНаименование" id="0a084642-ce7d-4a96-8e74-bc010eb4af9d"/>
+			<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Resource.ТарифКанализация" id="12542d6f-9209-4bf1-b9c9-563e5e7ddc7a"/>
+			<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Attribute.КонтрагентНаименование" id="2a3c9915-5b64-4f2e-83e3-4c1139547918"/>
+			<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Attribute.ТарифНаименование" id="2a5ea274-05f0-40fc-8c34-b759a081bf44"/>
+			<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Dimension.ОбъектАбонентаКод" id="6c0f0ff1-baa4-43c4-8c4b-9060b3733227"/>
+			<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Dimension.КонтрагентКод" id="a88ef6b3-764a-4e17-9959-75182a1ad282"/>
+			<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Resource.ТарифВода" id="cd909b96-4da7-485c-8412-12f1a088a70f"/>
+			<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Resource.ТарифКод" id="e3687ab7-d26d-4b29-be50-f0a69ec741c1"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Form.ФормаЗаписи" id="f78af8fe-e2b2-4263-aaea-bfa635be8086" configVersion="8b49de2fe05cd47b1a505f0a98a49ef7ab91359a"/>
+		<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Form.ФормаЗаписи.Form" id="f78af8fe-e2b2-4263-aaea-bfa635be8086.0" configVersion="d0338a3cddf4622be98135d210ad108cc561418f"/>
+		<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Form.ФормаСписка" id="8041ba8f-b8bf-4c62-8d34-02635c83c8da" configVersion="15dc202e1bd6be3c9289b1fcebeb42bd675a75b2"/>
+		<Metadata name="InformationRegister.ГП_ТарифыОбъектовАбонентовБП77.Form.ФормаСписка.Form" id="8041ba8f-b8bf-4c62-8d34-02635c83c8da.0" configVersion="e977d3ba934cb0602b8a8d71435f43cadd4125f6"/>
 		<Metadata name="InformationRegister.ГП_УслугиБП77" id="a1438402-f3b3-4f31-84aa-88820e93a785" configVersion="e1df1ace918901d17f801f8e4810193215eec511">
 			<Metadata name="InformationRegister.ГП_УслугиБП77.Resource.МетодРасчетаГВ" id="14b3a6ad-8d04-4841-814d-b3cad8b73fcb"/>
 			<Metadata name="InformationRegister.ГП_УслугиБП77.Resource.ПроцентГВ" id="1ac3475b-1aab-4134-b04d-e76bf7ec31f1"/>

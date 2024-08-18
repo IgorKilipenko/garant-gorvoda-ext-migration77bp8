@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.3.1.0-rc0</Version>
+			<Version>1.3.2.0-rc0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -107,6 +107,7 @@
 			<InformationRegister>ГП_ДоговорыБП77</InformationRegister>
 			<InformationRegister>ГП_РасчетныеСчетаБП77</InformationRegister>
 			<InformationRegister>ГП_НормыПотребленияБП77</InformationRegister>
+			<InformationRegister>ГП_ТарифыОбъектовАбонентовБП77</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
