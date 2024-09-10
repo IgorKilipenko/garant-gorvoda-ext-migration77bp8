@@ -78,6 +78,7 @@
 			<CommonModule>ГП_МиграцияТарифовАбонентов</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
+			<Constant>ГП_РежимМиграцииБП77</Constant>
 			<Catalog>КВП_Счетчики</Catalog>
 			<Catalog>КВП_ЛицевыеСчета</Catalog>
 			<Catalog>КВП_Подъезды</Catalog>
