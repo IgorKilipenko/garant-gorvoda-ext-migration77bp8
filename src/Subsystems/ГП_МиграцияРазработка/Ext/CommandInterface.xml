@@ -71,6 +71,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="DataProcessor.ГП_ЗаполнениеРегистров.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
 		<Command name="InformationRegister.ГП_СчетчикиБП77.StandardCommand.OpenList">
@@ -129,6 +134,10 @@
 			<CommandGroup>CommandGroup.ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="DataProcessor.ГП_ЗаполнениеРегистров.StandardCommand.Open">
+			<CommandGroup>CommandGroup.ГП_ЗагрузкаДанныхБП77</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
 		<Command name="InformationRegister.ГП_СчетчикиБП77.StandardCommand.OpenList">
@@ -164,6 +173,9 @@
 		<Command name="InformationRegister.ГП_ИсторияСпособовРегистрацииСчетчиковБП77.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ГП_ДанныеБП77</CommandGroup>
 		</Command>
+		<Command name="Constant.ГП_РежимМиграцииБП77.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
 		<Command name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.StandardCommand.Open">
 			<CommandGroup>CommandGroup.ГП_ЗагрузкаДанныхБП77</CommandGroup>
 		</Command>
@@ -171,6 +183,9 @@
 			<CommandGroup>CommandGroup.ГП_ЗагрузкаДанныхБП77</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.StandardCommand.Open">
+			<CommandGroup>CommandGroup.ГП_ЗагрузкаДанныхБП77</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ГП_ЗаполнениеРегистров.StandardCommand.Open">
 			<CommandGroup>CommandGroup.ГП_ЗагрузкаДанныхБП77</CommandGroup>
 		</Command>
 	</CommandsOrder>

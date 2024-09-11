@@ -65,6 +65,11 @@
 			<Language>Русский</Language>
 			<Subsystem>ГП_МиграцияРазработка</Subsystem>
 			<StyleItem>УПЖКХ_ТекстСправочнойНадписи</StyleItem>
+			<StyleItem>ИтогиФонГруппы</StyleItem>
+			<StyleItem>ИтогиФон</StyleItem>
+			<CommonPicture>Скрепка</CommonPicture>
+			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
+			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
 			<CommonModule>ГП_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ГП_МиграцияОбщегоНазначения</CommonModule>
@@ -76,6 +81,7 @@
 			<CommonModule>ГП_МиграцияНормПотребления</CommonModule>
 			<CommonModule>ГП_МиграцияУслуг</CommonModule>
 			<CommonModule>ГП_МиграцияТарифовАбонентов</CommonModule>
+			<CommonModule>ГП_МиграцияДинамическихПоказателей</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
@@ -97,6 +103,7 @@
 			<DataProcessor>ГП_ЗаполнениеЗависимостейУслуг</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеУстановкиСчетчиков</DataProcessor>
 			<DataProcessor>КВП_ЗаполнениеПолучателямиУслуг</DataProcessor>
+			<DataProcessor>ГП_ЗаполнениеРегистров</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
