@@ -1,0 +1,4608 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer" callType="Before">ГП_ПриСозданииНаСервереПеред</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="156">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ChildItemsWidth>Equal</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="157"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапкиСлева" id="49">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапки слева</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапки слева</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ChildItemsWidth>Equal</ChildItemsWidth>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкиСлеваExtendedTooltip" id="158"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНомер" id="48">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа номер</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа номер</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНомерExtendedTooltip" id="159"/>
+							<ChildItems>
+								<InputField name="Номер" id="1">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="НомерExtendedTooltip" id="160"/>
+								</InputField>
+								<InputField name="Дата" id="3">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
+									<ExtendedTooltip name="ДатаExtendedTooltip" id="161"/>
+								</InputField>
+								<PictureField name="СостояниеДокумента" id="238">
+									<TitleLocation>None</TitleLocation>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Width>2</Width>
+									<Height>1</Height>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<ValuesPicture>
+										<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</ValuesPicture>
+									<Border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+									</Border>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="СостояниеДокументаКонтекстноеМеню" id="239">
+										<Autofill>false</Autofill>
+									</ContextMenu>
+									<ExtendedTooltip name="СостояниеДокументаРасширеннаяПодсказка" id="240"/>
+								</PictureField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаВидОперации" id="215">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа вид операции</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа вид операции</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:ФонУправляющегоПоля</BackColor>
+							<ExtendedTooltip name="ГруппаВидОперацииРасширеннаяПодсказка" id="216"/>
+							<ChildItems>
+								<InputField name="ВидОперации" id="5">
+									<HorizontalAlign>Left</HorizontalAlign>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>40</MaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<ClearButton>false</ClearButton>
+									<ListChoiceMode>true</ListChoiceMode>
+									<TextEdit>false</TextEdit>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанийСчетчикаНаЗдание</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанийСчетчикаНаПодъезд</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанииСчетчикаНаПомещение</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанииСчетчикаНаЛицевойСчет</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ChoiceListButton>true</ChoiceListButton>
+									<ContextMenu name="ВидОперацииКонтекстноеМеню" id="6"/>
+									<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="163"/>
+								</InputField>
+								<CheckBoxField name="ВводНачальныхПоказаний" id="7">
+									<TitleLocation>Right</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Начальные показания не регистрируют расход приборов учета, и начисление услуг по ним не производится.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ВводНачальныхПоказанийКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="ВводНачальныхПоказанийExtendedTooltip" id="165"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаШапкиСправа" id="51">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапки справа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапки справа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalStretch>true</VerticalStretch>
+					<Group>Vertical</Group>
+					<VerticalAlign>Bottom</VerticalAlign>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкиСправаExtendedTooltip" id="164"/>
+					<ChildItems>
+						<InputField name="Услуга" id="9">
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ContextMenu name="УслугаКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="УслугаExtendedTooltip" id="166"/>
+						</InputField>
+						<InputField name="Объект" id="17">
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+							<ContextMenu name="ОбъектКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ОбъектExtendedTooltip" id="162"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДеревоПоказаний" id="21">
+			<Representation>Tree</Representation>
+			<Footer>true</Footer>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<ContextMenu name="ДеревоПоказанийКонтекстноеМеню" id="22"/>
+			<AutoCommandBar name="ДеревоПоказанийКоманднаяПанель" id="23">
+				<ChildItems>
+					<Button name="ДеревоПоказанийДеревоПоказанийСортироватьПоВозрастанию" id="217">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДеревоПоказанийДеревоПоказанийСортироватьПоВозрастаниюРасширеннаяПодсказка" id="218"/>
+					</Button>
+					<Button name="ДеревоПоказанийДеревоПоказанийСортироватьПоУбыванию" id="219">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДеревоПоказанийДеревоПоказанийСортироватьПоУбываниюРасширеннаяПодсказка" id="220"/>
+					</Button>
+					<Popup name="ДеревоПоказанийПодменюЗаполнить" id="78">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Заполнить</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дерево показаний подменю заполнить</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Picture>
+							<xr:Ref>CommonPicture.Подменю</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+							<xr:TransparentPixel x="13" y="6"/>
+						</Picture>
+						<ExtendedTooltip name="ДеревоПоказанийПодменюЗаполнитьExtendedTooltip" id="167"/>
+						<ChildItems>
+							<ButtonGroup name="ДеревоПоказанийГруппаЗаполнить" id="79">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дерево показаний группа заполнить</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дерево показаний группа заполнить</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="ДеревоПоказанийГруппаЗаполнитьExtendedTooltip" id="168"/>
+								<ChildItems>
+									<Button name="ДеревоПоказанийКомандаЗаполнить" id="80">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<Picture>
+											<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ДеревоПоказанийКомандаЗаполнитьExtendedTooltip" id="169"/>
+									</Button>
+									<Button name="ДеревоПоказанийКомандаЗаполнитьИспользоватьОтбор" id="81">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<Picture>
+											<xr:Ref>CommonPicture.Отборы</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+											<xr:TransparentPixel x="12" y="3"/>
+										</Picture>
+										<ExtendedTooltip name="ДеревоПоказанийКомандаЗаполнитьИспользоватьОтборExtendedTooltip" id="170"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
+						</ChildItems>
+					</Popup>
+					<Button name="ДеревоПоказанийКомандаУстановитьДату" id="82">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДеревоПоказанийКомандаУстановитьДатуExtendedTooltip" id="171"/>
+					</Button>
+					<Button name="ДеревоПоказанийКомандаОбновитьПоказания" id="204">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДеревоПоказанийКомандаОбновитьПоказанияРасширеннаяПодсказка" id="205"/>
+					</Button>
+					<Button name="ДеревоПоказанийКомандаОтображатьТолькоСтрокиСОшибками" id="253">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<TextColor>style:ВажноеСобытие</TextColor>
+						<Font ref="style:NormalTextFont" kind="StyleItem"/>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Некорректные показания</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ДеревоПоказанийКомандаОтображатьТолькоСтрокиСОшибкамиРасширеннаяПодсказка" id="254"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДеревоПоказанийExtendedTooltip" id="172"/>
+			<SearchStringAddition name="ДеревоПоказанийСтрокаПоиска" id="206">
+				<AdditionSource>
+					<Item>ДеревоПоказаний</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоПоказанийСтрокаПоискаКонтекстноеМеню" id="207"/>
+				<ExtendedTooltip name="ДеревоПоказанийСтрокаПоискаРасширеннаяПодсказка" id="208"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДеревоПоказанийСостояниеПросмотра" id="209">
+				<AdditionSource>
+					<Item>ДеревоПоказаний</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоПоказанийСостояниеПросмотраКонтекстноеМеню" id="210"/>
+				<ExtendedTooltip name="ДеревоПоказанийСостояниеПросмотраРасширеннаяПодсказка" id="211"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДеревоПоказанийУправлениеПоиском" id="212">
+				<AdditionSource>
+					<Item>ДеревоПоказаний</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоПоказанийУправлениеПоискомКонтекстноеМеню" id="213"/>
+				<ExtendedTooltip name="ДеревоПоказанийУправлениеПоискомРасширеннаяПодсказка" id="214"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ДеревоПоказанийНомер" id="52">
+					<ReadOnly>true</ReadOnly>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<ShowInFooter>false</ShowInFooter>
+					<Width>3</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ДеревоПоказанийНомерКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ДеревоПоказанийНомерExtendedTooltip" id="173"/>
+				</InputField>
+				<InputField name="ДеревоПоказанийУслуга" id="54">
+					<EditMode>EnterOnInput</EditMode>
+					<ShowInFooter>false</ShowInFooter>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>false</ChoiceButton>
+					<ClearButton>false</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>true</OpenButton>
+					<CreateButton>false</CreateButton>
+					<TextEdit>false</TextEdit>
+					<ChoiceListButton>false</ChoiceListButton>
+					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+					<ContextMenu name="ДеревоПоказанийУслугаКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="ДеревоПоказанийУслугаExtendedTooltip" id="174"/>
+				</InputField>
+				<InputField name="ДеревоПоказанийСчетчик" id="56">
+					<EditMode>EnterOnInput</EditMode>
+					<ShowInFooter>false</ShowInFooter>
+					<ChoiceButton>true</ChoiceButton>
+					<ClearButton>false</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>true</OpenButton>
+					<ChoiceListButton>false</ChoiceListButton>
+					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+					<ContextMenu name="ДеревоПоказанийСчетчикКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДеревоПоказанийСчетчикExtendedTooltip" id="175"/>
+				</InputField>
+				<ColumnGroup name="ДеревоПоказанийГруппаКоэффициентыПУ" id="227">
+					<EnableContentChange>true</EnableContentChange>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Коэффициенты прибора учета</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ExtendedTooltip name="ДеревоПоказанийГруппаКоэффициентыПУРасширеннаяПодсказка" id="228"/>
+					<ChildItems>
+						<InputField name="ДеревоПоказанийКоэффициентТрансформации" id="221">
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Коэф.трансформации</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Коэффициент трансформации</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<EditMode>EnterOnInput</EditMode>
+							<ShowInFooter>false</ShowInFooter>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийКоэффициентТрансформацииКонтекстноеМеню" id="222"/>
+							<ExtendedTooltip name="ДеревоПоказанийКоэффициентТрансформацииРасширеннаяПодсказка" id="223"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийТемпературныйКоэффициент" id="224">
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Температурный коэф.</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Температурный коэффициент</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<EditMode>EnterOnInput</EditMode>
+							<ShowInFooter>false</ShowInFooter>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийТемпературныйКоэффициентКонтекстноеМеню" id="225"/>
+							<ExtendedTooltip name="ДеревоПоказанийТемпературныйКоэффициентРасширеннаяПодсказка" id="226"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДеревоПоказанийГруппаОбъектПомещение" id="243">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект/помещение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="ДеревоПоказанийГруппаОбъектПомещениеРасширеннаяПодсказка" id="244"/>
+					<ChildItems>
+						<InputField name="ДеревоПоказанийОбъект" id="58">
+							<EditMode>EnterOnInput</EditMode>
+							<ShowInFooter>false</ShowInFooter>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>false</ChoiceButton>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>true</OpenButton>
+							<CreateButton>false</CreateButton>
+							<ChooseType>false</ChooseType>
+							<TextEdit>false</TextEdit>
+							<ChoiceListButton>false</ChoiceListButton>
+							<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+							<ContextMenu name="ДеревоПоказанийОбъектКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ДеревоПоказанийОбъектExtendedTooltip" id="176"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийПомещение" id="60">
+							<EditMode>EnterOnInput</EditMode>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>false</ChoiceButton>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>true</OpenButton>
+							<CreateButton>false</CreateButton>
+							<TextEdit>false</TextEdit>
+							<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+							<ContextMenu name="ДеревоПоказанийПомещениеКонтекстноеМеню" id="61"/>
+							<ExtendedTooltip name="ДеревоПоказанийПомещениеExtendedTooltip" id="177"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ДеревоПоказанийДатаПоказания" id="62">
+					<EditMode>EnterOnInput</EditMode>
+					<ShowInFooter>false</ShowInFooter>
+					<ContextMenu name="ДеревоПоказанийДатаПоказанияКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ДеревоПоказанийДатаПоказанияExtendedTooltip" id="178"/>
+				</InputField>
+				<InputField name="ДеревоПоказанийДатаПредыдущегоПоказания" id="335">
+					<Enabled>false</Enabled>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата пред. показания</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДеревоПоказанийДатаПредыдущегоПоказанияКонтекстноеМеню" id="336"/>
+					<ExtendedTooltip name="ДеревоПоказанийДатаПредыдущегоПоказанияРасширеннаяПодсказка" id="337"/>
+				</InputField>
+				<InputField name="ДеревоПоказанийДневноеПоказаниеВводНачальных" id="147">
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>15</Width>
+					<ChoiceButton>false</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>false</OpenButton>
+					<ChoiceListButton>false</ChoiceListButton>
+					<ContextMenu name="ДеревоПоказанийДневноеПоказаниеВводНачальныхКонтекстноеМеню" id="148"/>
+					<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеВводНачальныхExtendedTooltip" id="179"/>
+				</InputField>
+				<InputField name="ДеревоПоказанийНочноеПоказаниеВводНачальных" id="150">
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>15</Width>
+					<ChoiceButton>false</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>false</OpenButton>
+					<ChoiceListButton>false</ChoiceListButton>
+					<ContextMenu name="ДеревоПоказанийНочноеПоказаниеВводНачальныхКонтекстноеМеню" id="151"/>
+					<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеВводНачальныхExtendedTooltip" id="180"/>
+				</InputField>
+				<InputField name="ДеревоПоказанийПиковоеПоказаниеВводНачальных" id="153">
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>15</Width>
+					<ChoiceButton>false</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>false</OpenButton>
+					<ChoiceListButton>false</ChoiceListButton>
+					<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеВводНачальныхКонтекстноеМеню" id="154"/>
+					<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеВводНачальныхExtendedTooltip" id="181"/>
+				</InputField>
+				<CheckBoxField name="ДеревоПоказанийПоказанияКорректны" id="245">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показания
+корректны</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установите флажок для подтверждения показаний или введите корректные показания.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderPicture>
+						<xr:Ref>CommonPicture.ОперацияИсправлена</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</HeaderPicture>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<ShowInFooter>false</ShowInFooter>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДеревоПоказанийПоказанияКорректныКонтекстноеМеню" id="246"/>
+					<ExtendedTooltip name="ДеревоПоказанийПоказанияКорректныРасширеннаяПодсказка" id="247"/>
+				</CheckBoxField>
+				<ColumnGroup name="ДеревоПоказанийГруппаДневноеПоказание" id="132">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дневное показание</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дневное показание</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Horizontal</Group>
+					<ShowInHeader>true</ShowInHeader>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<ExtendedTooltip name="ДеревоПоказанийГруппаДневноеПоказаниеExtendedTooltip" id="182"/>
+					<ChildItems>
+						<InputField name="ДеревоПоказанийДневноеПоказание" id="64">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>текущее</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ChoiceButton>false</ChoiceButton>
+							<ClearButton>true</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<ChooseType>false</ChooseType>
+							<ChoiceListButton>false</ChoiceListButton>
+							<ContextMenu name="ДеревоПоказанийДневноеПоказаниеКонтекстноеМеню" id="65"/>
+							<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеExtendedTooltip" id="183"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийДневноеПоказаниеПредыдущее" id="66">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>предыдущее</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийДневноеПоказаниеПредыдущееКонтекстноеМеню" id="67"/>
+							<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеПредыдущееExtendedTooltip" id="184"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийДневноеПоказаниеРасход" id="134">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>расход</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийДневноеПоказаниеРасходКонтекстноеМеню" id="135"/>
+							<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеРасходExtendedTooltip" id="185"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийДневноеПоказаниеРасходПриведенный" id="229">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>приведенный расход</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расход с учетом температурного коэф. и коэф.трансформации</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийДневноеПоказаниеРасходПриведенныйКонтекстноеМеню" id="230"/>
+							<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеРасходПриведенныйРасширеннаяПодсказка" id="231"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДеревоПоказанийГруппаНочноеПоказание" id="137">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ночное показание</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ночное показание</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Horizontal</Group>
+					<ShowInHeader>true</ShowInHeader>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<ExtendedTooltip name="ДеревоПоказанийГруппаНочноеПоказаниеExtendedTooltip" id="186"/>
+					<ChildItems>
+						<InputField name="ДеревоПоказанийНочноеПоказание" id="68">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>текущее</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ChoiceButton>false</ChoiceButton>
+							<ClearButton>true</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<ChooseType>false</ChooseType>
+							<ChoiceListButton>false</ChoiceListButton>
+							<ContextMenu name="ДеревоПоказанийНочноеПоказаниеКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеExtendedTooltip" id="187"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийНочноеПоказаниеПредыдущее" id="70">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>предыдущее</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийНочноеПоказаниеПредыдущееКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеПредыдущееExtendedTooltip" id="188"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийНочноеПоказаниеРасход" id="139">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>расход</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийНочноеПоказаниеРасходКонтекстноеМеню" id="140"/>
+							<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеРасходExtendedTooltip" id="189"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийНочноеПоказаниеРасходПриведенный" id="232">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>приведенный расход</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расход с учетом температурного коэф. и коэф.трансформации</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийНочноеПоказаниеРасходПриведенныйКонтекстноеМеню" id="233"/>
+							<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеРасходПриведенныйРасширеннаяПодсказка" id="234"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДеревоПоказанийГруппаПиковоеПоказание" id="142">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пиковое показание</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пиковое показание</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Horizontal</Group>
+					<ShowInHeader>true</ShowInHeader>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<ExtendedTooltip name="ДеревоПоказанийГруппаПиковоеПоказаниеExtendedTooltip" id="190"/>
+					<ChildItems>
+						<InputField name="ДеревоПоказанийПиковоеПоказание" id="72">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>текущее</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ChoiceButton>false</ChoiceButton>
+							<ClearButton>true</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<ChooseType>false</ChooseType>
+							<ChoiceListButton>false</ChoiceListButton>
+							<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеКонтекстноеМеню" id="73"/>
+							<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеExtendedTooltip" id="191"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийПиковоеПоказаниеПредыдущее" id="74">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>предыдущее</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеПредыдущееКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеПредыдущееExtendedTooltip" id="192"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийПиковоеПоказаниеРасход" id="144">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>расход</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеРасходКонтекстноеМеню" id="145"/>
+							<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеРасходExtendedTooltip" id="193"/>
+						</InputField>
+						<InputField name="ДеревоПоказанийПиковоеПоказаниеРасходПриведенный" id="235">
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>приведенный расход</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расход с учетом температурного коэф. и коэф.трансформации</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>9</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеРасходПриведенныйКонтекстноеМеню" id="236"/>
+							<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеРасходПриведенныйРасширеннаяПодсказка" id="237"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ДеревоПоказанийКоэффициент" id="76">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доля</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>6</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<TextEdit>false</TextEdit>
+					<ContextMenu name="ДеревоПоказанийКоэффициентКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="ДеревоПоказанийКоэффициентExtendedTooltip" id="194"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ПанельИнформации" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель информации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель информации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ChildItemsWidth>Equal</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПанельИнформацииРасширеннаяПодсказка" id="195"/>
+			<ChildItems>
+				<UsualGroup name="СводнаяИнформация" id="85">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общие сведения:</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сводная информация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="СводнаяИнформацияРасширеннаяПодсказка" id="199"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСводнаяИнформацияОбОшибках" id="333">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сводная информация об ошибках</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сводная информация об ошибках</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаСводнаяИнформацияОбОшибкахРасширеннаяПодсказка" id="334"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаСводнаяИнформацияЕстьОшибки" id="283">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа сводная информация есть ошибки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа сводная информация есть ошибки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаСводнаяИнформацияЕстьОшибкиРасширеннаяПодсказка" id="284"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаСводнаяИнформацияЕстьОшибки" id="88">
+											<Width>2</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Картинка важная информация отрицательный расход</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>AutoSize</PictureSize>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаСводнаяИнформацияЕстьОшибкиКонтекстноеМеню" id="89"/>
+											<ExtendedTooltip name="КартинкаСводнаяИнформацияЕстьОшибкиРасширеннаяПодсказка" id="200"/>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьСводнаяИнформацияЕстьОшибки" id="92">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Необходимо подтвердить показания в строках с ошибками или ввести в них корректные показания</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTipRepresentation>None</ToolTipRepresentation>
+											<ContextMenu name="НадписьСводнаяИнформацияЕстьОшибкиКонтекстноеМеню" id="93"/>
+											<ExtendedTooltip name="НадписьСводнаяИнформацияЕстьОшибкиРасширеннаяПодсказка" id="201"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаСводнаяИнформацияБезОшибок" id="285">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа сводная информация есть ошибки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа сводная информация есть ошибки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаСводнаяИнформацияБезОшибокРасширеннаяПодсказка" id="286"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаСводнаяИнформацияБезОшибок" id="287">
+											<Width>2</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Картинка важная информация отрицательный расход</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>AutoSize</PictureSize>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаСводнаяИнформацияБезОшибокКонтекстноеМеню" id="288"/>
+											<ExtendedTooltip name="КартинкаСводнаяИнформацияБезОшибокРасширеннаяПодсказка" id="289"/>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьСводнаяИнформацияБезОшибок" id="290">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Введенные показания корректны и подтверждены пользователем</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTipRepresentation>None</ToolTipRepresentation>
+											<ContextMenu name="НадписьСводнаяИнформацияБезОшибокКонтекстноеМеню" id="291"/>
+											<ExtendedTooltip name="НадписьСводнаяИнформацияБезОшибокРасширеннаяПодсказка" id="292"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаСводнаяИнформацияЕстьПереходЧерезНоль" id="293">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа сводная информация есть ошибки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа сводная информация есть ошибки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаСводнаяИнформацияЕстьПереходЧерезНольРасширеннаяПодсказка" id="294"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаСводнаяИнформацияЕстьПереходЧерезНоль" id="295">
+											<Width>2</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Картинка важная информация отрицательный расход</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>AutoSize</PictureSize>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаСводнаяИнформацияЕстьПереходЧерезНольКонтекстноеМеню" id="296"/>
+											<ExtendedTooltip name="КартинкаСводнаяИнформацияЕстьПереходЧерезНольРасширеннаяПодсказка" id="297"/>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьСводнаяИнформацияЕстьПереходЧерезНоль" id="298">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Есть счетчики, по которым отсчет показаний начался с нуля</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTipRepresentation>None</ToolTipRepresentation>
+											<ContextMenu name="НадписьСводнаяИнформацияЕстьПереходЧерезНольКонтекстноеМеню" id="299"/>
+											<ExtendedTooltip name="НадписьСводнаяИнформацияЕстьПереходЧерезНольРасширеннаяПодсказка" id="300"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДокументКорректировкиНачислений" id="263">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа документ корректировки начислений</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа документ корректировки начислений</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>NormalSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:ФонУправляющегоПоля</BackColor>
+							<ExtendedTooltip name="ГруппаДокументКорректировкиНачисленийРасширеннаяПодсказка" id="264"/>
+							<ChildItems>
+								<LabelDecoration name="НадписьДокументКорректировка" id="275">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Корректировка начислений:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НадписьДокументКорректировкаКонтекстноеМеню" id="276"/>
+									<ExtendedTooltip name="НадписьДокументКорректировкаРасширеннаяПодсказка" id="277"/>
+								</LabelDecoration>
+								<LabelField name="НадписьКорректировкаНачислений" id="330">
+									<Visible>false</Visible>
+									<TitleLocation>None</TitleLocation>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<Width>16</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="НадписьКорректировкаНачисленийКонтекстноеМеню" id="331"/>
+									<ExtendedTooltip name="НадписьКорректировкаНачисленийРасширеннаяПодсказка" id="332"/>
+								</LabelField>
+								<PictureField name="СостояниеДокументаКорректировкаДолга" id="278">
+									<Visible>false</Visible>
+									<TitleLocation>None</TitleLocation>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Width>2</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>1</Height>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<ValuesPicture>
+										<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</ValuesPicture>
+									<Border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+									</Border>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="СостояниеДокументаКорректировкаДолгаКонтекстноеМеню" id="279"/>
+									<ExtendedTooltip name="СостояниеДокументаКорректировкаДолгаРасширеннаяПодсказка" id="280"/>
+								</PictureField>
+								<Button name="СформироватьДокументКорректировкиНачислений" id="265">
+									<Type>UsualButton</Type>
+									<CommandName>0</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сформировать</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СформироватьДокументКорректировкиНачисленийРасширеннаяПодсказка" id="266"/>
+								</Button>
+								<LabelDecoration name="ДекорацияПояснениеКорректировкаНачислений" id="267">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<HorizontalStretch>false</HorizontalStretch>
+									<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>По отрицательному расходу приборов учета может быть сформирована корректировка
+начислений прошлых периодов, в которых передавались ошибочные показания.
+При этом отрицательный расход не будет учтен в текущих начислениях.
+Подробнее в справке к документу.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<ContextMenu name="ДекорацияПояснениеКорректировкаНачисленийКонтекстноеМеню" id="268"/>
+									<ExtendedTooltip name="ДекорацияПояснениеКорректировкаНачисленийРасширеннаяПодсказка" id="269"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ИнформацияПоТекущейСтроке" id="258">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения о показаниях текущей строки:</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация по текущей строке</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ИнформацияПоТекущейСтрокеРасширеннаяПодсказка" id="259"/>
+					<ChildItems>
+						<SpreadSheetDocumentField name="ДокументСИнформациейПоТекущейСтроке" id="327">
+							<TitleLocation>None</TitleLocation>
+							<Width>70</Width>
+							<MaxWidth>70</MaxWidth>
+							<Height>3</Height>
+							<MaxHeight>5</MaxHeight>
+							<VerticalScrollBar>true</VerticalScrollBar>
+							<HorizontalScrollBar>false</HorizontalScrollBar>
+							<ViewScalingMode>Normal</ViewScalingMode>
+							<ContextMenu name="ДокументСИнформациейПоТекущейСтрокеКонтекстноеМеню" id="328"/>
+							<ExtendedTooltip name="ДокументСИнформациейПоТекущейСтрокеРасширеннаяПодсказка" id="329"/>
+						</SpreadSheetDocumentField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОтветственныйКомментарий" id="281">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ответственный комментарий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ответственный комментарий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОтветственныйКомментарийРасширеннаяПодсказка" id="282"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="11">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="КомментарийExtendedTooltip" id="203"/>
+				</InputField>
+				<InputField name="Ответственный" id="13">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="202"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказаниеВводНачальных</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:HorizontalAlign">Left</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="xs:string">&lt;Не введено&gt;</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказаниеВводНачальных</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:HorizontalAlign">Left</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="xs:string">&lt;Не введено&gt;</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказаниеВводНачальных</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:HorizontalAlign">Left</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="xs:string">&lt;Не введено&gt;</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ДневноеПоказание</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ОтрицательныеДневное</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.НочноеПоказание</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ОтрицательныеНочное</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПиковоеПоказание</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ОтрицательныеПиковое</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПереходЧерезНольДневное</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:УПЖКХ_ТекстСправочнойНадписи</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПереходЧерезНольНочное</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:УПЖКХ_ТекстСправочнойНадписи</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПереходЧерезНольПиковое</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:УПЖКХ_ТекстСправочнойНадписи</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказаниеПредыдущее</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказаниеПредыдущее</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказаниеПредыдущее</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.Счетчик</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FFF2D5</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказаниеРасход</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказаниеРасход</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказаниеРасход</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказаниеРасходПриведенный</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказаниеРасходПриведенный</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказаниеРасходПриведенный</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.Счетчик</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FFEBCD</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.Счетчик</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6F0DC</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказаниеВводНачальных</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийСчетчик</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДатаПоказания</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийУслуга</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+						<dcsset:comparisonType>Less</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказаниеВводНачальных</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+						<dcsset:comparisonType>Less</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказаниеВводНачальных</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+						<dcsset:comparisonType>Less</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">3</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ГруппаВажнаяИнформацияОтрицательныйРасход</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>OrGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ОтрицательныеДневное</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказаниеРасходПриведенный</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ДневноеПоказаниеРасходПриведенный</dcsset:left>
+						<dcsset:comparisonType>Less</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказаниеРасходПриведенный</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.НочноеПоказаниеРасходПриведенный</dcsset:left>
+						<dcsset:comparisonType>Less</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказаниеРасходПриведенный</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПиковоеПоказаниеРасходПриведенный</dcsset:left>
+						<dcsset:comparisonType>Less</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FFF2D5</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FFF2D5</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">3</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FFF2D5</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.РеальныйНомерСтрокиДерева</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:Field">НомерТекущейСтроки</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧН=0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>&lt;Ввести&gt;</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.РеальныйНомерСтрокиДерева</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:Field">НомерТекущейСтроки</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧН=0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>&lt;Ввести&gt;</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.РеальныйНомерСтрокиДерева</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:Field">НомерТекущейСтроки</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">3</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧН=0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>&lt;Ввести&gt;</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ДневноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Greater</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧН=0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.НочноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Greater</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПиковоеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Greater</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧН=0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>&lt;Не введено&gt;</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧН=0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>&lt;Не введено&gt;</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">3</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧН=0,000000</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>&lt;Не введено&gt;</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДеревоПоказанийИнформацияОбОшибке</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ИнформацияОбОшибке</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType"/>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.18">
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="ГруппаШапка" id="156">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа шапка</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа шапка</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ChildItemsWidth>Equal</ChildItemsWidth>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="157"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаШапкиСлева" id="49">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа шапки слева</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа шапки слева</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ChildItemsWidth>Equal</ChildItemsWidth>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаШапкиСлеваExtendedTooltip" id="158"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаНомер" id="48">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа номер</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа номер</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаНомерExtendedTooltip" id="159"/>
+								<ChildItems>
+									<InputField name="Номер" id="1">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+										<ExtendedTooltip name="НомерExtendedTooltip" id="160"/>
+									</InputField>
+									<InputField name="Дата" id="3">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
+										<ExtendedTooltip name="ДатаExtendedTooltip" id="161"/>
+									</InputField>
+									<PictureField name="СостояниеДокумента" id="238">
+										<TitleLocation>None</TitleLocation>
+										<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+										<GroupVerticalAlign>Center</GroupVerticalAlign>
+										<Width>2</Width>
+										<Height>1</Height>
+										<HorizontalStretch>false</HorizontalStretch>
+										<VerticalStretch>false</VerticalStretch>
+										<ValuesPicture>
+											<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</ValuesPicture>
+										<Border width="1">
+											<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+										</Border>
+										<FileDragMode>AsFile</FileDragMode>
+										<ContextMenu name="СостояниеДокументаКонтекстноеМеню" id="239">
+											<Autofill>false</Autofill>
+										</ContextMenu>
+										<ExtendedTooltip name="СостояниеДокументаРасширеннаяПодсказка" id="240"/>
+									</PictureField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаВидОперации" id="215">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа вид операции</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа вид операции</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<BackColor>style:ФонУправляющегоПоля</BackColor>
+								<ExtendedTooltip name="ГруппаВидОперацииРасширеннаяПодсказка" id="216"/>
+								<ChildItems>
+									<InputField name="ВидОперации" id="5">
+										<HorizontalAlign>Left</HorizontalAlign>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>40</MaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<ClearButton>false</ClearButton>
+										<ListChoiceMode>true</ListChoiceMode>
+										<TextEdit>false</TextEdit>
+										<ChoiceList>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанийСчетчикаНаЗдание</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанийСчетчикаНаПодъезд</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанииСчетчикаНаПомещение</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанииСчетчикаНаЛицевойСчет</Value>
+												</xr:Value>
+											</xr:Item>
+										</ChoiceList>
+										<ChoiceListButton>true</ChoiceListButton>
+										<ContextMenu name="ВидОперацииКонтекстноеМеню" id="6"/>
+										<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="163"/>
+									</InputField>
+									<CheckBoxField name="ВводНачальныхПоказаний" id="7">
+										<TitleLocation>Right</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Начальные показания не регистрируют расход приборов учета, и начисление услуг по ним не производится.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ВводНачальныхПоказанийКонтекстноеМеню" id="8"/>
+										<ExtendedTooltip name="ВводНачальныхПоказанийExtendedTooltip" id="165"/>
+									</CheckBoxField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаШапкиСправа" id="51">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа шапки справа</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа шапки справа</v8:content>
+							</v8:item>
+						</ToolTip>
+						<VerticalStretch>true</VerticalStretch>
+						<Group>Vertical</Group>
+						<VerticalAlign>Bottom</VerticalAlign>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаШапкиСправаExtendedTooltip" id="164"/>
+						<ChildItems>
+							<InputField name="Услуга" id="9">
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ContextMenu name="УслугаКонтекстноеМеню" id="10"/>
+								<ExtendedTooltip name="УслугаExtendedTooltip" id="166"/>
+							</InputField>
+							<InputField name="Объект" id="17">
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+								<ContextMenu name="ОбъектКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="ОбъектExtendedTooltip" id="162"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="ДеревоПоказаний" id="21">
+				<Representation>Tree</Representation>
+				<Footer>true</Footer>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<SearchStringLocation>None</SearchStringLocation>
+				<ViewStatusLocation>None</ViewStatusLocation>
+				<SearchControlLocation>None</SearchControlLocation>
+				<ContextMenu name="ДеревоПоказанийКонтекстноеМеню" id="22"/>
+				<AutoCommandBar name="ДеревоПоказанийКоманднаяПанель" id="23">
+					<ChildItems>
+						<Button name="ДеревоПоказанийДеревоПоказанийСортироватьПоВозрастанию" id="217">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДеревоПоказанийДеревоПоказанийСортироватьПоВозрастаниюРасширеннаяПодсказка" id="218"/>
+						</Button>
+						<Button name="ДеревоПоказанийДеревоПоказанийСортироватьПоУбыванию" id="219">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДеревоПоказанийДеревоПоказанийСортироватьПоУбываниюРасширеннаяПодсказка" id="220"/>
+						</Button>
+						<Popup name="ДеревоПоказанийПодменюЗаполнить" id="78">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заполнить</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дерево показаний подменю заполнить</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Picture>
+								<xr:Ref>CommonPicture.Подменю</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+								<xr:TransparentPixel x="13" y="6"/>
+							</Picture>
+							<ExtendedTooltip name="ДеревоПоказанийПодменюЗаполнитьExtendedTooltip" id="167"/>
+							<ChildItems>
+								<ButtonGroup name="ДеревоПоказанийГруппаЗаполнить" id="79">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дерево показаний группа заполнить</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дерево показаний группа заполнить</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ДеревоПоказанийГруппаЗаполнитьExtendedTooltip" id="168"/>
+									<ChildItems>
+										<Button name="ДеревоПоказанийКомандаЗаполнить" id="80">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="ДеревоПоказанийКомандаЗаполнитьExtendedTooltip" id="169"/>
+										</Button>
+										<Button name="ДеревоПоказанийКомандаЗаполнитьИспользоватьОтбор" id="81">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.Отборы</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:TransparentPixel x="12" y="3"/>
+											</Picture>
+											<ExtendedTooltip name="ДеревоПоказанийКомандаЗаполнитьИспользоватьОтборExtendedTooltip" id="170"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+							</ChildItems>
+						</Popup>
+						<Button name="ДеревоПоказанийКомандаУстановитьДату" id="82">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДеревоПоказанийКомандаУстановитьДатуExtendedTooltip" id="171"/>
+						</Button>
+						<Button name="ДеревоПоказанийКомандаОбновитьПоказания" id="204">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДеревоПоказанийКомандаОбновитьПоказанияРасширеннаяПодсказка" id="205"/>
+						</Button>
+						<Button name="ДеревоПоказанийКомандаОтображатьТолькоСтрокиСОшибками" id="253">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<TextColor>style:ВажноеСобытие</TextColor>
+							<Font ref="style:NormalTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Некорректные показания</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ДеревоПоказанийКомандаОтображатьТолькоСтрокиСОшибкамиРасширеннаяПодсказка" id="254"/>
+						</Button>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ДеревоПоказанийExtendedTooltip" id="172"/>
+				<SearchStringAddition name="ДеревоПоказанийСтрокаПоиска" id="206">
+					<AdditionSource>
+						<Item>ДеревоПоказаний</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоПоказанийСтрокаПоискаКонтекстноеМеню" id="207"/>
+					<ExtendedTooltip name="ДеревоПоказанийСтрокаПоискаРасширеннаяПодсказка" id="208"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ДеревоПоказанийСостояниеПросмотра" id="209">
+					<AdditionSource>
+						<Item>ДеревоПоказаний</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоПоказанийСостояниеПросмотраКонтекстноеМеню" id="210"/>
+					<ExtendedTooltip name="ДеревоПоказанийСостояниеПросмотраРасширеннаяПодсказка" id="211"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ДеревоПоказанийУправлениеПоиском" id="212">
+					<AdditionSource>
+						<Item>ДеревоПоказаний</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоПоказанийУправлениеПоискомКонтекстноеМеню" id="213"/>
+					<ExtendedTooltip name="ДеревоПоказанийУправлениеПоискомРасширеннаяПодсказка" id="214"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<InputField name="ДеревоПоказанийНомер" id="52">
+						<ReadOnly>true</ReadOnly>
+						<HorizontalAlign>Left</HorizontalAlign>
+						<EditMode>EnterOnInput</EditMode>
+						<ShowInFooter>false</ShowInFooter>
+						<Width>3</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ДеревоПоказанийНомерКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="ДеревоПоказанийНомерExtendedTooltip" id="173"/>
+					</InputField>
+					<InputField name="ДеревоПоказанийУслуга" id="54">
+						<EditMode>EnterOnInput</EditMode>
+						<ShowInFooter>false</ShowInFooter>
+						<DropListButton>false</DropListButton>
+						<ChoiceButton>false</ChoiceButton>
+						<ClearButton>false</ClearButton>
+						<SpinButton>false</SpinButton>
+						<OpenButton>true</OpenButton>
+						<CreateButton>false</CreateButton>
+						<TextEdit>false</TextEdit>
+						<ChoiceListButton>false</ChoiceListButton>
+						<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+						<ContextMenu name="ДеревоПоказанийУслугаКонтекстноеМеню" id="55"/>
+						<ExtendedTooltip name="ДеревоПоказанийУслугаExtendedTooltip" id="174"/>
+					</InputField>
+					<InputField name="ДеревоПоказанийСчетчик" id="56">
+						<EditMode>EnterOnInput</EditMode>
+						<ShowInFooter>false</ShowInFooter>
+						<ChoiceButton>true</ChoiceButton>
+						<ClearButton>false</ClearButton>
+						<SpinButton>false</SpinButton>
+						<OpenButton>true</OpenButton>
+						<ChoiceListButton>false</ChoiceListButton>
+						<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+						<ContextMenu name="ДеревоПоказанийСчетчикКонтекстноеМеню" id="57"/>
+						<ExtendedTooltip name="ДеревоПоказанийСчетчикExtendedTooltip" id="175"/>
+					</InputField>
+					<ColumnGroup name="ДеревоПоказанийГруппаКоэффициентыПУ" id="227">
+						<EnableContentChange>true</EnableContentChange>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Коэффициенты прибора учета</v8:content>
+							</v8:item>
+						</ToolTip>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ExtendedTooltip name="ДеревоПоказанийГруппаКоэффициентыПУРасширеннаяПодсказка" id="228"/>
+						<ChildItems>
+							<InputField name="ДеревоПоказанийКоэффициентТрансформации" id="221">
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Коэф.трансформации</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Коэффициент трансформации</v8:content>
+									</v8:item>
+								</ToolTip>
+								<HorizontalAlign>Left</HorizontalAlign>
+								<EditMode>EnterOnInput</EditMode>
+								<ShowInFooter>false</ShowInFooter>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийКоэффициентТрансформацииКонтекстноеМеню" id="222"/>
+								<ExtendedTooltip name="ДеревоПоказанийКоэффициентТрансформацииРасширеннаяПодсказка" id="223"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийТемпературныйКоэффициент" id="224">
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Температурный коэф.</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Температурный коэффициент</v8:content>
+									</v8:item>
+								</ToolTip>
+								<HorizontalAlign>Left</HorizontalAlign>
+								<EditMode>EnterOnInput</EditMode>
+								<ShowInFooter>false</ShowInFooter>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийТемпературныйКоэффициентКонтекстноеМеню" id="225"/>
+								<ExtendedTooltip name="ДеревоПоказанийТемпературныйКоэффициентРасширеннаяПодсказка" id="226"/>
+							</InputField>
+						</ChildItems>
+					</ColumnGroup>
+					<ColumnGroup name="ДеревоПоказанийГруппаОбъектПомещение" id="243">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Объект/помещение</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>InCell</Group>
+						<ExtendedTooltip name="ДеревоПоказанийГруппаОбъектПомещениеРасширеннаяПодсказка" id="244"/>
+						<ChildItems>
+							<InputField name="ДеревоПоказанийОбъект" id="58">
+								<EditMode>EnterOnInput</EditMode>
+								<ShowInFooter>false</ShowInFooter>
+								<DropListButton>false</DropListButton>
+								<ChoiceButton>false</ChoiceButton>
+								<ClearButton>false</ClearButton>
+								<SpinButton>false</SpinButton>
+								<OpenButton>true</OpenButton>
+								<CreateButton>false</CreateButton>
+								<ChooseType>false</ChooseType>
+								<TextEdit>false</TextEdit>
+								<ChoiceListButton>false</ChoiceListButton>
+								<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+								<ContextMenu name="ДеревоПоказанийОбъектКонтекстноеМеню" id="59"/>
+								<ExtendedTooltip name="ДеревоПоказанийОбъектExtendedTooltip" id="176"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийПомещение" id="60">
+								<EditMode>EnterOnInput</EditMode>
+								<DropListButton>false</DropListButton>
+								<ChoiceButton>false</ChoiceButton>
+								<ClearButton>false</ClearButton>
+								<SpinButton>false</SpinButton>
+								<OpenButton>true</OpenButton>
+								<CreateButton>false</CreateButton>
+								<TextEdit>false</TextEdit>
+								<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+								<ContextMenu name="ДеревоПоказанийПомещениеКонтекстноеМеню" id="61"/>
+								<ExtendedTooltip name="ДеревоПоказанийПомещениеExtendedTooltip" id="177"/>
+							</InputField>
+						</ChildItems>
+					</ColumnGroup>
+					<InputField name="ДеревоПоказанийДатаПоказания" id="62">
+						<EditMode>EnterOnInput</EditMode>
+						<ShowInFooter>false</ShowInFooter>
+						<ContextMenu name="ДеревоПоказанийДатаПоказанияКонтекстноеМеню" id="63"/>
+						<ExtendedTooltip name="ДеревоПоказанийДатаПоказанияExtendedTooltip" id="178"/>
+					</InputField>
+					<InputField name="ДеревоПоказанийДатаПредыдущегоПоказания" id="335">
+						<Enabled>false</Enabled>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дата пред. показания</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДеревоПоказанийДатаПредыдущегоПоказанияКонтекстноеМеню" id="336"/>
+						<ExtendedTooltip name="ДеревоПоказанийДатаПредыдущегоПоказанияРасширеннаяПодсказка" id="337"/>
+					</InputField>
+					<InputField name="ДеревоПоказанийДневноеПоказаниеВводНачальных" id="147">
+						<Visible>false</Visible>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>15</Width>
+						<ChoiceButton>false</ChoiceButton>
+						<ClearButton>true</ClearButton>
+						<SpinButton>false</SpinButton>
+						<OpenButton>false</OpenButton>
+						<ChoiceListButton>false</ChoiceListButton>
+						<ContextMenu name="ДеревоПоказанийДневноеПоказаниеВводНачальныхКонтекстноеМеню" id="148"/>
+						<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеВводНачальныхExtendedTooltip" id="179"/>
+					</InputField>
+					<InputField name="ДеревоПоказанийНочноеПоказаниеВводНачальных" id="150">
+						<Visible>false</Visible>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>15</Width>
+						<ChoiceButton>false</ChoiceButton>
+						<ClearButton>true</ClearButton>
+						<SpinButton>false</SpinButton>
+						<OpenButton>false</OpenButton>
+						<ChoiceListButton>false</ChoiceListButton>
+						<ContextMenu name="ДеревоПоказанийНочноеПоказаниеВводНачальныхКонтекстноеМеню" id="151"/>
+						<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеВводНачальныхExtendedTooltip" id="180"/>
+					</InputField>
+					<InputField name="ДеревоПоказанийПиковоеПоказаниеВводНачальных" id="153">
+						<Visible>false</Visible>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>15</Width>
+						<ChoiceButton>false</ChoiceButton>
+						<ClearButton>true</ClearButton>
+						<SpinButton>false</SpinButton>
+						<OpenButton>false</OpenButton>
+						<ChoiceListButton>false</ChoiceListButton>
+						<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеВводНачальныхКонтекстноеМеню" id="154"/>
+						<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеВводНачальныхExtendedTooltip" id="181"/>
+					</InputField>
+					<CheckBoxField name="ДеревоПоказанийПоказанияКорректны" id="245">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Показания
+корректны</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>None</TitleLocation>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Установите флажок для подтверждения показаний или введите корректные показания.</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+						<HorizontalAlign>Center</HorizontalAlign>
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderPicture>
+							<xr:Ref>CommonPicture.ОперацияИсправлена</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</HeaderPicture>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<ShowInFooter>false</ShowInFooter>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДеревоПоказанийПоказанияКорректныКонтекстноеМеню" id="246"/>
+						<ExtendedTooltip name="ДеревоПоказанийПоказанияКорректныРасширеннаяПодсказка" id="247"/>
+					</CheckBoxField>
+					<ColumnGroup name="ДеревоПоказанийГруппаДневноеПоказание" id="132">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дневное показание</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дневное показание</v8:content>
+							</v8:item>
+						</ToolTip>
+						<HorizontalStretch>false</HorizontalStretch>
+						<Group>Horizontal</Group>
+						<ShowInHeader>true</ShowInHeader>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<ExtendedTooltip name="ДеревоПоказанийГруппаДневноеПоказаниеExtendedTooltip" id="182"/>
+						<ChildItems>
+							<InputField name="ДеревоПоказанийДневноеПоказание" id="64">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>текущее</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ChoiceButton>false</ChoiceButton>
+								<ClearButton>true</ClearButton>
+								<SpinButton>false</SpinButton>
+								<OpenButton>false</OpenButton>
+								<ChooseType>false</ChooseType>
+								<ChoiceListButton>false</ChoiceListButton>
+								<ContextMenu name="ДеревоПоказанийДневноеПоказаниеКонтекстноеМеню" id="65"/>
+								<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеExtendedTooltip" id="183"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийДневноеПоказаниеПредыдущее" id="66">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>предыдущее</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийДневноеПоказаниеПредыдущееКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеПредыдущееExtendedTooltip" id="184"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийДневноеПоказаниеРасход" id="134">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>расход</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийДневноеПоказаниеРасходКонтекстноеМеню" id="135"/>
+								<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеРасходExtendedTooltip" id="185"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийДневноеПоказаниеРасходПриведенный" id="229">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>приведенный расход</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Расход с учетом температурного коэф. и коэф.трансформации</v8:content>
+									</v8:item>
+								</ToolTip>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийДневноеПоказаниеРасходПриведенныйКонтекстноеМеню" id="230"/>
+								<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеРасходПриведенныйРасширеннаяПодсказка" id="231"/>
+							</InputField>
+						</ChildItems>
+					</ColumnGroup>
+					<ColumnGroup name="ДеревоПоказанийГруппаНочноеПоказание" id="137">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ночное показание</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ночное показание</v8:content>
+							</v8:item>
+						</ToolTip>
+						<HorizontalStretch>false</HorizontalStretch>
+						<Group>Horizontal</Group>
+						<ShowInHeader>true</ShowInHeader>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<ExtendedTooltip name="ДеревоПоказанийГруппаНочноеПоказаниеExtendedTooltip" id="186"/>
+						<ChildItems>
+							<InputField name="ДеревоПоказанийНочноеПоказание" id="68">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>текущее</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ChoiceButton>false</ChoiceButton>
+								<ClearButton>true</ClearButton>
+								<SpinButton>false</SpinButton>
+								<OpenButton>false</OpenButton>
+								<ChooseType>false</ChooseType>
+								<ChoiceListButton>false</ChoiceListButton>
+								<ContextMenu name="ДеревоПоказанийНочноеПоказаниеКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеExtendedTooltip" id="187"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийНочноеПоказаниеПредыдущее" id="70">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>предыдущее</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийНочноеПоказаниеПредыдущееКонтекстноеМеню" id="71"/>
+								<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеПредыдущееExtendedTooltip" id="188"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийНочноеПоказаниеРасход" id="139">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>расход</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийНочноеПоказаниеРасходКонтекстноеМеню" id="140"/>
+								<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеРасходExtendedTooltip" id="189"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийНочноеПоказаниеРасходПриведенный" id="232">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>приведенный расход</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Расход с учетом температурного коэф. и коэф.трансформации</v8:content>
+									</v8:item>
+								</ToolTip>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийНочноеПоказаниеРасходПриведенныйКонтекстноеМеню" id="233"/>
+								<ExtendedTooltip name="ДеревоПоказанийНочноеПоказаниеРасходПриведенныйРасширеннаяПодсказка" id="234"/>
+							</InputField>
+						</ChildItems>
+					</ColumnGroup>
+					<ColumnGroup name="ДеревоПоказанийГруппаПиковоеПоказание" id="142">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пиковое показание</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пиковое показание</v8:content>
+							</v8:item>
+						</ToolTip>
+						<HorizontalStretch>false</HorizontalStretch>
+						<Group>Horizontal</Group>
+						<ShowInHeader>true</ShowInHeader>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<ExtendedTooltip name="ДеревоПоказанийГруппаПиковоеПоказаниеExtendedTooltip" id="190"/>
+						<ChildItems>
+							<InputField name="ДеревоПоказанийПиковоеПоказание" id="72">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>текущее</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ChoiceButton>false</ChoiceButton>
+								<ClearButton>true</ClearButton>
+								<SpinButton>false</SpinButton>
+								<OpenButton>false</OpenButton>
+								<ChooseType>false</ChooseType>
+								<ChoiceListButton>false</ChoiceListButton>
+								<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеExtendedTooltip" id="191"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийПиковоеПоказаниеПредыдущее" id="74">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>предыдущее</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеПредыдущееКонтекстноеМеню" id="75"/>
+								<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеПредыдущееExtendedTooltip" id="192"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийПиковоеПоказаниеРасход" id="144">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>расход</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеРасходКонтекстноеМеню" id="145"/>
+								<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеРасходExtendedTooltip" id="193"/>
+							</InputField>
+							<InputField name="ДеревоПоказанийПиковоеПоказаниеРасходПриведенный" id="235">
+								<Enabled>false</Enabled>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>приведенный расход</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Расход с учетом температурного коэф. и коэф.трансформации</v8:content>
+									</v8:item>
+								</ToolTip>
+								<EditMode>EnterOnInput</EditMode>
+								<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+								<Width>9</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДеревоПоказанийПиковоеПоказаниеРасходПриведенныйКонтекстноеМеню" id="236"/>
+								<ExtendedTooltip name="ДеревоПоказанийПиковоеПоказаниеРасходПриведенныйРасширеннаяПодсказка" id="237"/>
+							</InputField>
+						</ChildItems>
+					</ColumnGroup>
+					<InputField name="ДеревоПоказанийКоэффициент" id="76">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доля</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>6</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<TextEdit>false</TextEdit>
+						<ContextMenu name="ДеревоПоказанийКоэффициентКонтекстноеМеню" id="77"/>
+						<ExtendedTooltip name="ДеревоПоказанийКоэффициентExtendedTooltip" id="194"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+			<UsualGroup name="ПанельИнформации" id="83">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Панель информации</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Панель информации</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ChildItemsWidth>Equal</ChildItemsWidth>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ПанельИнформацииРасширеннаяПодсказка" id="195"/>
+				<ChildItems>
+					<UsualGroup name="СводнаяИнформация" id="85">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Общие сведения:</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сводная информация</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="СводнаяИнформацияРасширеннаяПодсказка" id="199"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаСводнаяИнформацияОбОшибках" id="333">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа сводная информация об ошибках</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа сводная информация об ошибках</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаСводнаяИнформацияОбОшибкахРасширеннаяПодсказка" id="334"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаСводнаяИнформацияЕстьОшибки" id="283">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа сводная информация есть ошибки</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа сводная информация есть ошибки</v8:content>
+											</v8:item>
+										</ToolTip>
+										<HorizontalStretch>true</HorizontalStretch>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаСводнаяИнформацияЕстьОшибкиРасширеннаяПодсказка" id="284"/>
+										<ChildItems>
+											<PictureDecoration name="КартинкаСводнаяИнформацияЕстьОшибки" id="88">
+												<Width>2</Width>
+												<Height>1</Height>
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Картинка важная информация отрицательный расход</v8:content>
+													</v8:item>
+												</Title>
+												<PictureSize>AutoSize</PictureSize>
+												<FileDragMode>AsFile</FileDragMode>
+												<ContextMenu name="КартинкаСводнаяИнформацияЕстьОшибкиКонтекстноеМеню" id="89"/>
+												<ExtendedTooltip name="КартинкаСводнаяИнформацияЕстьОшибкиРасширеннаяПодсказка" id="200"/>
+											</PictureDecoration>
+											<LabelDecoration name="НадписьСводнаяИнформацияЕстьОшибки" id="92">
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<HorizontalStretch>true</HorizontalStretch>
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Необходимо подтвердить показания в строках с ошибками или ввести в них корректные показания</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTipRepresentation>None</ToolTipRepresentation>
+												<ContextMenu name="НадписьСводнаяИнформацияЕстьОшибкиКонтекстноеМеню" id="93"/>
+												<ExtendedTooltip name="НадписьСводнаяИнформацияЕстьОшибкиРасширеннаяПодсказка" id="201"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаСводнаяИнформацияБезОшибок" id="285">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа сводная информация есть ошибки</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа сводная информация есть ошибки</v8:content>
+											</v8:item>
+										</ToolTip>
+										<HorizontalStretch>true</HorizontalStretch>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаСводнаяИнформацияБезОшибокРасширеннаяПодсказка" id="286"/>
+										<ChildItems>
+											<PictureDecoration name="КартинкаСводнаяИнформацияБезОшибок" id="287">
+												<Width>2</Width>
+												<Height>1</Height>
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Картинка важная информация отрицательный расход</v8:content>
+													</v8:item>
+												</Title>
+												<PictureSize>AutoSize</PictureSize>
+												<FileDragMode>AsFile</FileDragMode>
+												<ContextMenu name="КартинкаСводнаяИнформацияБезОшибокКонтекстноеМеню" id="288"/>
+												<ExtendedTooltip name="КартинкаСводнаяИнформацияБезОшибокРасширеннаяПодсказка" id="289"/>
+											</PictureDecoration>
+											<LabelDecoration name="НадписьСводнаяИнформацияБезОшибок" id="290">
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<HorizontalStretch>true</HorizontalStretch>
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Введенные показания корректны и подтверждены пользователем</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTipRepresentation>None</ToolTipRepresentation>
+												<ContextMenu name="НадписьСводнаяИнформацияБезОшибокКонтекстноеМеню" id="291"/>
+												<ExtendedTooltip name="НадписьСводнаяИнформацияБезОшибокРасширеннаяПодсказка" id="292"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаСводнаяИнформацияЕстьПереходЧерезНоль" id="293">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа сводная информация есть ошибки</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа сводная информация есть ошибки</v8:content>
+											</v8:item>
+										</ToolTip>
+										<HorizontalStretch>true</HorizontalStretch>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаСводнаяИнформацияЕстьПереходЧерезНольРасширеннаяПодсказка" id="294"/>
+										<ChildItems>
+											<PictureDecoration name="КартинкаСводнаяИнформацияЕстьПереходЧерезНоль" id="295">
+												<Width>2</Width>
+												<Height>1</Height>
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Картинка важная информация отрицательный расход</v8:content>
+													</v8:item>
+												</Title>
+												<PictureSize>AutoSize</PictureSize>
+												<FileDragMode>AsFile</FileDragMode>
+												<ContextMenu name="КартинкаСводнаяИнформацияЕстьПереходЧерезНольКонтекстноеМеню" id="296"/>
+												<ExtendedTooltip name="КартинкаСводнаяИнформацияЕстьПереходЧерезНольРасширеннаяПодсказка" id="297"/>
+											</PictureDecoration>
+											<LabelDecoration name="НадписьСводнаяИнформацияЕстьПереходЧерезНоль" id="298">
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<HorizontalStretch>true</HorizontalStretch>
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Есть счетчики, по которым отсчет показаний начался с нуля</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTipRepresentation>None</ToolTipRepresentation>
+												<ContextMenu name="НадписьСводнаяИнформацияЕстьПереходЧерезНольКонтекстноеМеню" id="299"/>
+												<ExtendedTooltip name="НадписьСводнаяИнформацияЕстьПереходЧерезНольРасширеннаяПодсказка" id="300"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаДокументКорректировкиНачислений" id="263">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа документ корректировки начислений</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа документ корректировки начислений</v8:content>
+									</v8:item>
+								</ToolTip>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>NormalSeparation</Representation>
+								<ShowTitle>false</ShowTitle>
+								<BackColor>style:ФонУправляющегоПоля</BackColor>
+								<ExtendedTooltip name="ГруппаДокументКорректировкиНачисленийРасширеннаяПодсказка" id="264"/>
+								<ChildItems>
+									<LabelDecoration name="НадписьДокументКорректировка" id="275">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Корректировка начислений:</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="НадписьДокументКорректировкаКонтекстноеМеню" id="276"/>
+										<ExtendedTooltip name="НадписьДокументКорректировкаРасширеннаяПодсказка" id="277"/>
+									</LabelDecoration>
+									<LabelField name="НадписьКорректировкаНачислений" id="330">
+										<Visible>false</Visible>
+										<TitleLocation>None</TitleLocation>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<Width>16</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Hiperlink>true</Hiperlink>
+										<ContextMenu name="НадписьКорректировкаНачисленийКонтекстноеМеню" id="331"/>
+										<ExtendedTooltip name="НадписьКорректировкаНачисленийРасширеннаяПодсказка" id="332"/>
+									</LabelField>
+									<PictureField name="СостояниеДокументаКорректировкаДолга" id="278">
+										<Visible>false</Visible>
+										<TitleLocation>None</TitleLocation>
+										<GroupVerticalAlign>Center</GroupVerticalAlign>
+										<Width>2</Width>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<Height>1</Height>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<HorizontalStretch>false</HorizontalStretch>
+										<VerticalStretch>false</VerticalStretch>
+										<ValuesPicture>
+											<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</ValuesPicture>
+										<Border width="1">
+											<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+										</Border>
+										<FileDragMode>AsFile</FileDragMode>
+										<ContextMenu name="СостояниеДокументаКорректировкаДолгаКонтекстноеМеню" id="279"/>
+										<ExtendedTooltip name="СостояниеДокументаКорректировкаДолгаРасширеннаяПодсказка" id="280"/>
+									</PictureField>
+									<Button name="СформироватьДокументКорректировкиНачислений" id="265">
+										<Type>UsualButton</Type>
+										<CommandName>0</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сформировать</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СформироватьДокументКорректировкиНачисленийРасширеннаяПодсказка" id="266"/>
+									</Button>
+									<LabelDecoration name="ДекорацияПояснениеКорректировкаНачислений" id="267">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<HorizontalStretch>false</HorizontalStretch>
+										<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>По отрицательному расходу приборов учета может быть сформирована корректировка
+начислений прошлых периодов, в которых передавались ошибочные показания.
+При этом отрицательный расход не будет учтен в текущих начислениях.
+Подробнее в справке к документу.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<ContextMenu name="ДекорацияПояснениеКорректировкаНачисленийКонтекстноеМеню" id="268"/>
+										<ExtendedTooltip name="ДекорацияПояснениеКорректировкаНачисленийРасширеннаяПодсказка" id="269"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ИнформацияПоТекущейСтроке" id="258">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сведения о показаниях текущей строки:</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Информация по текущей строке</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="ИнформацияПоТекущейСтрокеРасширеннаяПодсказка" id="259"/>
+						<ChildItems>
+							<SpreadSheetDocumentField name="ДокументСИнформациейПоТекущейСтроке" id="327">
+								<TitleLocation>None</TitleLocation>
+								<Width>70</Width>
+								<MaxWidth>70</MaxWidth>
+								<Height>3</Height>
+								<MaxHeight>5</MaxHeight>
+								<VerticalScrollBar>true</VerticalScrollBar>
+								<HorizontalScrollBar>false</HorizontalScrollBar>
+								<ViewScalingMode>Normal</ViewScalingMode>
+								<ContextMenu name="ДокументСИнформациейПоТекущейСтрокеКонтекстноеМеню" id="328"/>
+								<ExtendedTooltip name="ДокументСИнформациейПоТекущейСтрокеРасширеннаяПодсказка" id="329"/>
+							</SpreadSheetDocumentField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаОтветственныйКомментарий" id="281">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа ответственный комментарий</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа ответственный комментарий</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОтветственныйКомментарийРасширеннаяПодсказка" id="282"/>
+				<ChildItems>
+					<InputField name="Комментарий" id="11">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<AutoMaxHeight>false</AutoMaxHeight>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="КомментарийExtendedTooltip" id="203"/>
+					</InputField>
+					<InputField name="Ответственный" id="13">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<AutoMaxHeight>false</AutoMaxHeight>
+						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
+						<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="202"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказаниеВводНачальных</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Left</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="xs:string">&lt;Не введено&gt;</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказаниеВводНачальных</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Left</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="xs:string">&lt;Не введено&gt;</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказаниеВводНачальных</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Left</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="xs:string">&lt;Не введено&gt;</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ДневноеПоказание</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ОтрицательныеДневное</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.НочноеПоказание</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ОтрицательныеНочное</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПиковоеПоказание</dcsset:left>
+							<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ОтрицательныеПиковое</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПереходЧерезНольДневное</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:УПЖКХ_ТекстСправочнойНадписи</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПереходЧерезНольНочное</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:УПЖКХ_ТекстСправочнойНадписи</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПереходЧерезНольПиковое</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:УПЖКХ_ТекстСправочнойНадписи</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказаниеПредыдущее</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказаниеПредыдущее</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказаниеПредыдущее</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.Счетчик</dcsset:left>
+							<dcsset:comparisonType>Filled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFF2D5</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказаниеРасход</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказаниеРасход</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказаниеРасход</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказаниеРасходПриведенный</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказаниеРасходПриведенный</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказаниеРасходПриведенный</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.Счетчик</dcsset:left>
+							<dcsset:comparisonType>Filled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFEBCD</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.Счетчик</dcsset:left>
+							<dcsset:comparisonType>Filled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#E6F0DC</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказаниеВводНачальных</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийСчетчик</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДатаПоказания</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийУслуга</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказаниеВводНачальных</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказаниеВводНачальных</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">3</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ГруппаВажнаяИнформацияОтрицательныйРасход</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>OrGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ОтрицательныеДневное</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Видимость</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказаниеРасходПриведенный</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ДневноеПоказаниеРасходПриведенный</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказаниеРасходПриведенный</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.НочноеПоказаниеРасходПриведенный</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказаниеРасходПриведенный</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПиковоеПоказаниеРасходПриведенный</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>Less</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFF2D5</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>Less</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFF2D5</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>Less</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">3</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFF2D5</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.РеальныйНомерСтрокиДерева</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="dcscor:Field">НомерТекущейСтроки</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;Ввести&gt;</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.РеальныйНомерСтрокиДерева</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="dcscor:Field">НомерТекущейСтроки</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;Ввести&gt;</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.РеальныйНомерСтрокиДерева</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="dcscor:Field">НомерТекущейСтроки</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">3</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;Ввести&gt;</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ДневноеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+								<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>Greater</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.НочноеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+								<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>Greater</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПиковоеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+								<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>Greater</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеДневноеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;Не введено&gt;</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеНочноеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;Не введено&gt;</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийПиковоеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>ДеревоПоказанийНочноеПоказание</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>ДеревоПоказанийДневноеПоказание</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ПустоеПиковоеПоказание</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ТарифностьСчетчика</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">3</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Объект.Проведен</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0,000000</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;Не введено&gt;</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДеревоПоказанийИнформацияОбОшибке</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДеревоПоказаний.ИнформацияОбОшибке</dcsset:left>
+							<dcsset:comparisonType>Filled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType"/>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

@@ -282,6 +282,9 @@
 			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ГП_ПриСозданииНаСервереПосле</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаОтборыСписокЛС" id="757">
 			<Title>
