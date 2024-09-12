@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="0304880e-1350-484c-846e-409e4d27f5fe">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КВП_ВидыОперацийВводаПоказанийСчетчика" category="Ref">
+				<xr:TypeId>f665d906-e7a9-4186-a090-1615650ca162</xr:TypeId>
+				<xr:ValueId>0d4095be-e6a0-4d1f-b60e-ea6cfca97373</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КВП_ВидыОперацийВводаПоказанийСчетчика" category="Manager">
+				<xr:TypeId>6bc3c669-6883-4c65-b890-ebb25fac330e</xr:TypeId>
+				<xr:ValueId>ba8c3237-4edd-4b16-9c70-aa21f66d707e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КВП_ВидыОперацийВводаПоказанийСчетчика" category="List">
+				<xr:TypeId>302ca9c4-1ddc-447b-a80a-711ff8e357c2</xr:TypeId>
+				<xr:ValueId>98d9dc5c-a6c2-443a-afd8-b1aac62b68ad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_ВидыОперацийВводаПоказанийСчетчика</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bd3384ed-ad8e-4fb7-bca7-b73a28029bee</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1b703563-7752-4820-8bf5-0ecb6841ef91">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВводПоказанийСчетчикаНаЗдание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>490748dc-18c6-4d03-bac9-606712c7cb34</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d3d3e34a-a040-41a8-9f46-424d6cbe4a04">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВводПоказанийСчетчикаНаПодъезд</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6d68139e-85e6-4b48-9916-c455565d2306</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="555b53ef-deca-4dbc-823d-1a6c43a8e236">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВводПоказанииСчетчикаНаПомещение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b5bcdd7e-4972-4c6c-9a56-8bf15c91d7bd</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e79cf277-25aa-479e-9d0e-3d8dbb82cd4c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВводПоказанииСчетчикаНаЛицевойСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f0dedb76-2e66-420e-8b25-1c224c7bf7c6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

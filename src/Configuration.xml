@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.3.4.1-dev0</Version>
+			<Version>1.3.4.1-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -67,9 +67,16 @@
 			<StyleItem>УПЖКХ_ТекстСправочнойНадписи</StyleItem>
 			<StyleItem>ИтогиФонГруппы</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<StyleItem>ВажноеСобытие</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
+			<CommonPicture>СостоянияДокумента</CommonPicture>
+			<CommonPicture>ОперацияИсправлена</CommonPicture>
+			<CommonPicture>Подменю</CommonPicture>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>Отборы</CommonPicture>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
 			<CommonModule>ГП_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ГП_МиграцияОбщегоНазначения</CommonModule>
@@ -98,7 +105,9 @@
 			<Catalog>БанковскиеСчета</Catalog>
 			<Catalog>Банки</Catalog>
 			<Catalog>КВП_НормыПотребленияУслуг</Catalog>
+			<Document>УПЖКХ_ВводПоказанийСчетчика</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
+			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеЗависимостейУслуг</DataProcessor>
