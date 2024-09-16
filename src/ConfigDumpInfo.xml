@@ -22,7 +22,7 @@
 			<Metadata name="Catalog.КВП_ЛицевыеСчета.Attribute.ГП_ИдентификаторБП77" id="b91a3427-02fa-4eae-86f4-39108780b395"/>
 		</Metadata>
 		<Metadata name="Catalog.КВП_ЛицевыеСчета.Form.ФормаСписка" id="1c0d53f3-5078-4c33-abda-ee315d97401b" configVersion="de79826edaa05e8392022c975daa2fd8ee825535"/>
-		<Metadata name="Catalog.КВП_ЛицевыеСчета.Form.ФормаСписка.Form" id="1c0d53f3-5078-4c33-abda-ee315d97401b.0" configVersion="9715ec066bab3823bd87f27d3c54ded3210d9a17"/>
+		<Metadata name="Catalog.КВП_ЛицевыеСчета.Form.ФормаСписка.Form" id="1c0d53f3-5078-4c33-abda-ee315d97401b.0" configVersion="b4b4b919790e9d33c369bdde9e8e1ceca17e811a"/>
 		<Metadata name="Catalog.КВП_НормыПотребленияУслуг" id="2327dc78-289d-4def-8fb9-28778427ecec" configVersion="19ddb089543668b286e879b0033e56c9e875510d">
 			<Metadata name="Catalog.КВП_НормыПотребленияУслуг.Attribute.ГП_ИдентификаторБП77" id="e6cf5cd3-6e49-45c0-9fe7-57da4be3e0ea"/>
 			<Metadata name="Catalog.КВП_НормыПотребленияУслуг.Attribute.ГП_СозданАвтоматически" id="f56874bd-778a-46eb-aa80-2db0c622d9e8"/>
