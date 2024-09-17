@@ -31,10 +31,16 @@
 						<CommandName>Form.Command.СоздатьВидыТарифовПотребителей</CommandName>
 						<ExtendedTooltip name="СоздатьВидыТарифовПотребителейРасширеннаяПодсказка" id="47"/>
 					</Button>
-					<Button name="ЗаполнитьРегистрВидыТарифовПотребителей" id="44">
+					<Button name="НазначитьВидыТарифовПотребителейНаЛицевыеСчета" id="44">
 						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ЗаполнитьРегистрВидыТарифовПотребителей</CommandName>
-						<ExtendedTooltip name="ЗаполнитьРегистрВидыТарифовПотребителейРасширеннаяПодсказка" id="45"/>
+						<CommandName>Form.Command.НазначитьВидыТарифовПотребителейНаЛицевыеСчета</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Назначить виды тарифов потребителей на л/с</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="НазначитьВидыТарифовПотребителейНаЛицевыеСчетаРасширеннаяПодсказка" id="45"/>
 					</Button>
 				</ChildItems>
 			</Popup>
@@ -205,19 +211,20 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ЗаполнитьРегистрВидыТарифовПотребителей" id="1">
+		<Command name="НазначитьВидыТарифовПотребителейНаЛицевыеСчета" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить регистр виды тарифов потребителей</v8:content>
+					<v8:content>Назначить виды тарифов потребителей на лицевые счета</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить регистр виды тарифов потребителей</v8:content>
+					<v8:content>Назначить виды тарифов потребителей на лицевые счета</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>НазначитьВидыТарифовПотребителейНаЛицевыеСчета</Action>
 		</Command>
 		<Command name="СоздатьВидыТарифовПотребителей" id="2">
 			<Title>
