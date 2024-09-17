@@ -109,13 +109,13 @@
 		<Metadata name="DataProcessor.КВП_ЗаполнениеПолучателямиУслуг.Form.Форма.Form" id="1e25cea6-b75c-41f0-8faf-c76ad0427bac.0" configVersion="df81e5f95474d8f6d6df4d876a124c50b6a711e2"/>
 		<Metadata name="Document.КВП_НачислениеУслуг" id="1f84803c-786c-4c01-a7af-2e198da857f7" configVersion="2815b15ed200e53e3664c186aa2cc36c40dd17f6"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38" configVersion="bdea685f203e180231d447fd9250529bb8d8d598"/>
-		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента.Form" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38.0" configVersion="9db5085505a61008eca2cbe13d3c103a2f92b2f6"/>
+		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента.Form" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38.0" configVersion="f7029b67e3f446b84a76375fe13628516170c72d"/>
 		<Metadata name="Document.КВП_УстановкаТарифов" id="a9880687-f090-4f44-938b-d810ceb315b6" configVersion="a25b2c617f082ef6adb467c827ba073eef764bf4"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента" id="e13f6e84-454a-4bd2-b81e-ae437f132736" configVersion="ca1fec5da57af76fed87fd3b1277f3945129ec20"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента.Form" id="e13f6e84-454a-4bd2-b81e-ae437f132736.0" configVersion="62524e951fffcc35a892e5055efcdb93d7ebb8f7"/>
 		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика" id="cd29201c-8fa2-40a1-8ff7-b12562af3e64" configVersion="acd7da28c1cda03700ffe5e464d0ffa6f620c3d0"/>
 		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика.Form.ФормаДокумента" id="2cdcc46f-6837-4f62-af57-7507c671f953" configVersion="70ec3a7cf7c9fadc3fa30893fb41790a416ad4bd"/>
-		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика.Form.ФормаДокумента.Form" id="2cdcc46f-6837-4f62-af57-7507c671f953.0" configVersion="a26cff45b70e18d39bd1aed887e46ca1ed606381"/>
+		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика.Form.ФормаДокумента.Form" id="2cdcc46f-6837-4f62-af57-7507c671f953.0" configVersion="e80db5a373c13d00fa5a1035a15d0b7b2ac82649"/>
 		<Metadata name="Enum.КВП_ВидыОперацийВводаПоказанийСчетчика" id="0304880e-1350-484c-846e-409e4d27f5fe" configVersion="80f28d949ebcb30cfa1662d951b92e9b54a9dadb">
 			<Metadata name="Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанийСчетчикаНаЗдание" id="1b703563-7752-4820-8bf5-0ecb6841ef91"/>
 			<Metadata name="Enum.КВП_ВидыОперацийВводаПоказанийСчетчика.EnumValue.ВводПоказанииСчетчикаНаПомещение" id="555b53ef-deca-4dbc-823d-1a6c43a8e236"/>
