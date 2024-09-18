@@ -112,7 +112,7 @@
 		<Metadata name="Document.КВП_НачислениеУслуг" id="1f84803c-786c-4c01-a7af-2e198da857f7" configVersion="a5b7e1d2dd56a1c123676756b478ec8f828ba3ed"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38" configVersion="bdea685f203e180231d447fd9250529bb8d8d598"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента.Form" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38.0" configVersion="f7029b67e3f446b84a76375fe13628516170c72d"/>
-		<Metadata name="Document.КВП_НачислениеУслуг.ObjectModule" id="1f84803c-786c-4c01-a7af-2e198da857f7.0" configVersion="3be059df2a87d1e02f81701a6a2287842b3117a8"/>
+		<Metadata name="Document.КВП_НачислениеУслуг.ObjectModule" id="1f84803c-786c-4c01-a7af-2e198da857f7.0" configVersion="3d17e36bd123aa8f11c3670847d34bc9fa485c7d"/>
 		<Metadata name="Document.КВП_УстановкаТарифов" id="a9880687-f090-4f44-938b-d810ceb315b6" configVersion="a25b2c617f082ef6adb467c827ba073eef764bf4"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента" id="e13f6e84-454a-4bd2-b81e-ae437f132736" configVersion="ca1fec5da57af76fed87fd3b1277f3945129ec20"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента.Form" id="e13f6e84-454a-4bd2-b81e-ae437f132736.0" configVersion="6518679afb1d3ef712eb8d6c5cd9cbddd2a3dbdc"/>
