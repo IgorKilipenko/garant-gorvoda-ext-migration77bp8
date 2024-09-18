@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="a9880687-f090-4f44-938b-d810ceb315b6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КВП_УстановкаТарифов" category="Object">
+				<xr:TypeId>a1ac4fee-fb40-44ad-b7cc-a3756eeb9ae4</xr:TypeId>
+				<xr:ValueId>edbc1ff6-af0f-4816-963b-798b262f2338</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КВП_УстановкаТарифов" category="Ref">
+				<xr:TypeId>3ac7321e-670e-4ad5-b7fc-a1c838482629</xr:TypeId>
+				<xr:ValueId>bc3e9bd0-e013-4449-8bff-3b790fb82c26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КВП_УстановкаТарифов" category="Selection">
+				<xr:TypeId>5ba6ae04-bbbe-4bba-8c54-e4d0466bed66</xr:TypeId>
+				<xr:ValueId>46c68b7e-d524-4d2c-aef0-1509b1c27622</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КВП_УстановкаТарифов" category="List">
+				<xr:TypeId>913a1eae-16c1-4d60-84d5-045f4f144bcf</xr:TypeId>
+				<xr:ValueId>420c9ed8-8d45-436f-81ec-0ccf2307eae1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КВП_УстановкаТарифов" category="Manager">
+				<xr:TypeId>edfb5c25-7ed7-4754-babd-a45b89e7fd15</xr:TypeId>
+				<xr:ValueId>501d9290-c930-409c-84d6-390ee1f2e998</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_УстановкаТарифов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5dad59f8-379f-407d-9612-6e8626f9db8e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

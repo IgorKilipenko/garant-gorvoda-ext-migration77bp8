@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.3.4.2-rc1</Version>
+			<Version>1.3.6.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -69,6 +69,8 @@
 			<StyleItem>ИтогиФон</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ВажноеСобытие</StyleItem>
+			<StyleItem>УПЖКХ_ЦветФонаНачисленияОсновнойУслуги_Уровень2</StyleItem>
+			<StyleItem>УПЖКХ_ЦветФонаНачисленияЗависимойУслуги_Уровень1</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -77,6 +79,8 @@
 			<CommonPicture>Подменю</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>Отборы</CommonPicture>
+			<CommonPicture>ИнформацияНовости16Статичная</CommonPicture>
+			<CommonPicture>Развернуть</CommonPicture>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
 			<CommonModule>ГП_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ГП_МиграцияОбщегоНазначения</CommonModule>
@@ -90,6 +94,7 @@
 			<CommonModule>ГП_МиграцияТарифовАбонентов</CommonModule>
 			<CommonModule>ГП_МиграцияДинамическихПоказателей</CommonModule>
 			<CommonModule>ГП_ПриборыУчета</CommonModule>
+			<CommonModule>ГП_РаботаСТарифами</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
@@ -106,6 +111,8 @@
 			<Catalog>Банки</Catalog>
 			<Catalog>КВП_НормыПотребленияУслуг</Catalog>
 			<Document>УПЖКХ_ВводПоказанийСчетчика</Document>
+			<Document>КВП_НачислениеУслуг</Document>
+			<Document>КВП_УстановкаТарифов</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Report>ГП_СчетчикиБП77</Report>

@@ -6,6 +6,7 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="OnOpen" callType="After">ГП_ПриОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="Before">ГП_ПриСозданииНаСервереПеред</Event>
 	</Events>
 	<ChildItems>
@@ -170,6 +171,10 @@
 									<ChoiceListButton>true</ChoiceListButton>
 									<ContextMenu name="ВидОперацииКонтекстноеМеню" id="6"/>
 									<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="163"/>
+									<Events>
+										<Event name="OnChange" callType="After">ГП_ВидОперацииПриИзмененииПосле</Event>
+										<Event name="ChoiceProcessing" callType="After">ГП_ВидОперацииОбработкаВыбораПосле</Event>
+									</Events>
 								</InputField>
 								<CheckBoxField name="ВводНачальныхПоказаний" id="7">
 									<TitleLocation>Right</TitleLocation>
@@ -184,6 +189,9 @@
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВводНачальныхПоказанийКонтекстноеМеню" id="8"/>
 									<ExtendedTooltip name="ВводНачальныхПоказанийExtendedTooltip" id="165"/>
+									<Events>
+										<Event name="OnChange" callType="After">ГП_ВводНачальныхПоказанийПриИзмененииПосле</Event>
+									</Events>
 								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>

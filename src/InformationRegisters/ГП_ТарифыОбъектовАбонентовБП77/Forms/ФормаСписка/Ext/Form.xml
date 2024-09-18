@@ -5,7 +5,47 @@
 		<ExcludedCommand>Create</ExcludedCommand>
 		<ExcludedCommand>Delete</ExcludedCommand>
 	</CommandSet>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ГруппаЗаполнениеДанных" id="42">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнение данных</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа заполнение данных</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.CreateInitialImage</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаЗаполнениеДанныхРасширеннаяПодсказка" id="43"/>
+				<ChildItems>
+					<Button name="СоздатьВидыТарифовПотребителей" id="46">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СоздатьВидыТарифовПотребителей</CommandName>
+						<ExtendedTooltip name="СоздатьВидыТарифовПотребителейРасширеннаяПодсказка" id="47"/>
+					</Button>
+					<Button name="НазначитьВидыТарифовПотребителейНаЛицевыеСчета" id="44">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.НазначитьВидыТарифовПотребителейНаЛицевыеСчета</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Назначить виды тарифов потребителей на л/с</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="НазначитьВидыТарифовПотребителейНаЛицевыеСчетаРасширеннаяПодсказка" id="45"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -170,4 +210,36 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="НазначитьВидыТарифовПотребителейНаЛицевыеСчета" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назначить виды тарифов потребителей на лицевые счета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назначить виды тарифов потребителей на лицевые счета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НазначитьВидыТарифовПотребителейНаЛицевыеСчета</Action>
+		</Command>
+		<Command name="СоздатьВидыТарифовПотребителей" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать виды тарифов потребителей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать виды тарифов потребителей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьВидыТарифовПотребителей</Action>
+		</Command>
+	</Commands>
 </Form>
