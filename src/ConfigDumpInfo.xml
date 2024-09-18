@@ -52,7 +52,7 @@
 		<Metadata name="CommandGroup.ГП_ДанныеБП77" id="208ff87d-60ea-4bf4-acca-c7c9663a177c" configVersion="a3c2945d1f1dfdccd809e20c5eeaf1cfd0496b59"/>
 		<Metadata name="CommandGroup.ГП_ЗагрузкаДанныхБП77" id="759a2c0b-6337-4d70-af96-5b19a3438a63" configVersion="96126203ef26ae5aa2db426bd587c9409abf0c47"/>
 		<Metadata name="CommonModule.ГП_МиграцияДинамическихПоказателей" id="64969a78-0086-4415-9f5b-467df1fb6699" configVersion="c8f79765c08989eaf730a74b7e43559049468a67"/>
-		<Metadata name="CommonModule.ГП_МиграцияДинамическихПоказателей.Module" id="64969a78-0086-4415-9f5b-467df1fb6699.0" configVersion="09345b554efd2c2d2e4ab597bac8f4db1754b721"/>
+		<Metadata name="CommonModule.ГП_МиграцияДинамическихПоказателей.Module" id="64969a78-0086-4415-9f5b-467df1fb6699.0" configVersion="476fada5236f031d6128537bb1be29525bf45c2a"/>
 		<Metadata name="CommonModule.ГП_МиграцияДоговоров" id="920b1920-2871-48b3-ad31-9921428ff657" configVersion="5e820b815b95ae3e5ddb5edfaf3b68736119ecd3"/>
 		<Metadata name="CommonModule.ГП_МиграцияДоговоров.Module" id="920b1920-2871-48b3-ad31-9921428ff657.0" configVersion="8d7a52c1d2d57a2c0bcb112431d1f4ee1b6850e9"/>
 		<Metadata name="CommonModule.ГП_МиграцияЗданий" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb" configVersion="ecbc3eea0958b8f19ac069ab0620a0f2acff6be6"/>
@@ -89,7 +89,7 @@
 		<Metadata name="CommonPicture.Развернуть" id="ee10812d-ed7d-48e8-a3e3-ef6f867f148b" configVersion="5b581350ec071c08a2a8fa26397014e90fe926b5"/>
 		<Metadata name="CommonPicture.Скрепка" id="085a3c8c-4f85-4d0d-9de5-12540c8eff2f" configVersion="edaeb80a8480c879af011397c29f0506b00547da"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="62d90fe9-8858-4807-995c-1f48bf004c7f" configVersion="57716190a48cb5ae505d7b9e13b8a21c2828f412"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="f66cf34103622a762ad8d8875c0b245f803b5867"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="924b355369696e8badfaa2e629c91ed000fc1357"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
