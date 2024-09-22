@@ -1957,7 +1957,395 @@
 			<c>
 				<i>1</i>
 				<c>
+					<f>102</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Руководитель организации
+или иное уполномоченное лицо</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>103</f>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
 					<f>110</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Носенков А.В.</v8:content>
+						</v8:item>
+					</tl>
+					<detailParameter>Руководитель</detailParameter>
+				</c>
+			</c>
+			<c>
+				<i>7</i>
+				<c>
+					<f>105</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главный бухгалтер
+или иное уполномоченное лицо</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>106</f>
+				</c>
+			</c>
+			<c>
+				<i>12</i>
+				<c>
+					<f>110</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Горшкова М.В.</v8:content>
+						</v8:item>
+					</tl>
+					<detailParameter>ГлавныйБухгалтер</detailParameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
+			<formatIndex>37</formatIndex>
+			<c>
+				<i>2</i>
+				<c>
+					<f>107</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(подпись)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>108</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(ф.и.о.)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<i>10</i>
+				<c>
+					<f>108</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(подпись)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>109</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>108</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(ф.и.о.)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
+			<c>
+				<i>3</i>
+				<c>
+					<f>111</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>по приказу № 01-02/353 от 29.12.2023г.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>10</i>
+				<c>
+					<f>112</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>по приказу № 01-02/353 от 29.12.2023г.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
+			<formatIndex>37</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>102</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Руководитель организации
+или иное уполномоченное лицо</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>103</f>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>110</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Жиляева Г.В.</v8:content>
+						</v8:item>
+					</tl>
+					<detailParameter>Руководитель</detailParameter>
+				</c>
+			</c>
+			<c>
+				<i>7</i>
+				<c>
+					<f>105</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главный бухгалтер
+или иное уполномоченное лицо</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>106</f>
+				</c>
+			</c>
+			<c>
+				<i>12</i>
+				<c>
+					<f>110</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вялых Е.И.</v8:content>
+						</v8:item>
+					</tl>
+					<detailParameter>ГлавныйБухгалтер</detailParameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
+			<formatIndex>37</formatIndex>
+			<c>
+				<i>2</i>
+				<c>
+					<f>107</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(подпись)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>108</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(ф.и.о.)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<i>10</i>
+				<c>
+					<f>108</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(подпись)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>109</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>108</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(ф.и.о.)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
+			<c>
+				<i>3</i>
+				<c>
+					<f>111</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>по приказу № 01-02/353 от 29.12.2023г.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
+			<formatIndex>37</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>113</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1982,14 +2370,14 @@
 			<c>
 				<i>8</i>
 				<c>
-					<f>111</f>
+					<f>114</f>
 					<parameter>Свидетельство</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>29</index>
+		<index>37</index>
 		<row>
 			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
 			<formatIndex>37</formatIndex>
@@ -2035,7 +2423,7 @@
 			<c>
 				<i>8</i>
 				<c>
-					<f>112</f>
+					<f>115</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2048,19 +2436,19 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>30</index>
+		<index>38</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>31</index>
+		<index>39</index>
 		<row>
 			<columnsID>0f48549f-9d74-4329-92c7-5ce9a8194102</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>113</f>
+					<f>116</f>
 					<parameter>ПредставлениеКомиссионера</parameter>
 				</c>
 			</c>
@@ -2069,7 +2457,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>1</id>
-		<formatIndex>114</formatIndex>
+		<formatIndex>117</formatIndex>
 		<beginRow>25</beginRow>
 		<beginRowOffset>6</beginRowOffset>
 		<endRow>25</endRow>
@@ -2086,7 +2474,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>114</formatIndex>
+		<formatIndex>117</formatIndex>
 		<beginRow>25</beginRow>
 		<beginRowOffset>6</beginRowOffset>
 		<endRow>25</endRow>
@@ -2102,11 +2490,11 @@
 	</drawing>
 	<drawing>
 		<drawingType>Picture</drawingType>
-		<id>3</id>
-		<formatIndex>114</formatIndex>
-		<beginRow>28</beginRow>
+		<id>4</id>
+		<formatIndex>117</formatIndex>
+		<beginRow>36</beginRow>
 		<beginRowOffset>6</beginRowOffset>
-		<endRow>28</endRow>
+		<endRow>36</endRow>
 		<endRowOffset>75</endRowOffset>
 		<beginColumn>1</beginColumn>
 		<beginColumnOffset>603</beginColumnOffset>
@@ -2119,8 +2507,8 @@
 	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>44</defaultFormatIndex>
-	<height>32</height>
-	<vgRows>32</vgRows>
+	<height>40</height>
+	<vgRows>40</vgRows>
 	<merge>
 		<r>2</r>
 		<c>1</c>
@@ -2356,8 +2744,13 @@
 	</merge>
 	<merge>
 		<r>28</r>
-		<c>8</c>
-		<w>5</w>
+		<c>7</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>28</r>
+		<c>12</c>
+		<w>1</w>
 	</merge>
 	<merge>
 		<r>29</r>
@@ -2371,11 +2764,91 @@
 	</merge>
 	<merge>
 		<r>29</r>
+		<c>12</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>30</r>
+		<c>3</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>30</r>
+		<c>10</c>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>32</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>32</r>
+		<c>5</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>32</r>
+		<c>7</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>32</r>
+		<c>12</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>33</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>33</r>
+		<c>5</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>33</r>
+		<c>12</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>34</r>
+		<c>3</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>36</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>36</r>
+		<c>5</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>36</r>
 		<c>8</c>
 		<w>5</w>
 	</merge>
 	<merge>
-		<r>31</r>
+		<r>37</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>37</r>
+		<c>5</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>37</r>
+		<c>8</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>39</r>
 		<c>1</c>
 		<w>14</w>
 	</merge>
@@ -2487,18 +2960,17 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>24</beginRow>
-			<endRow>29</endRow>
+			<endRow>37</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>9b83ff04-3ddf-4509-a253-695002203973</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>РеквизитыКомиссионера</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>31</beginRow>
-			<endRow>31</endRow>
+			<beginRow>39</beginRow>
+			<endRow>39</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -2520,7 +2992,7 @@
 	</namedItem>
 	<namedItem xsi:type="NamedItemDrawing">
 		<name>ФаксимилеПредприниматель</name>
-		<drawingID>3</drawingID>
+		<drawingID>4</drawingID>
 	</namedItem>
 	<namedItem xsi:type="NamedItemDrawing">
 		<name>ФаксимилеРуководитель</name>
@@ -3232,6 +3704,23 @@
 		<width>69</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<font>0</font>
+		<bottomBorder>1</bottomBorder>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<width>72</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+	</format>
+	<format>
+		<font>0</font>
+		<width>15</width>
+		<horizontalAlignment>Right</horizontalAlignment>
 	</format>
 	<format>
 		<font>0</font>
