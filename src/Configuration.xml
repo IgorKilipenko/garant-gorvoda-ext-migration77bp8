@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.3.7.0-rc1</Version>
+			<Version>1.3.8.0-dev0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -120,6 +120,7 @@
 			<Document>КВП_НачислениеУслуг</Document>
 			<Document>КВП_УстановкаТарифов</Document>
 			<Document>КВП_ОтражениеНачисленийВРеглУчете</Document>
+			<Document>РеализацияТоваровУслуг</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
