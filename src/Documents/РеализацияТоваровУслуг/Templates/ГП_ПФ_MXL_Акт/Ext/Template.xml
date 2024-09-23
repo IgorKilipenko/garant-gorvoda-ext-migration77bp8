@@ -6406,7 +6406,12 @@
 			<c>
 				<c>
 					<f>50</f>
-					<parameter>ДолжностьИНазваниеОрганизации</parameter>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инженер по работе с юр. лицами</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -6690,7 +6695,12 @@
 			<c>
 				<c>
 					<f>60</f>
-					<parameter>ЗаместительПоПриказу</parameter>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Жиляева Г.В.</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -7723,9 +7733,9 @@
 		<endRow>39</endRow>
 		<endRowOffset>45</endRowOffset>
 		<beginColumn>9</beginColumn>
-		<beginColumnOffset>15</beginColumnOffset>
-		<endColumn>14</endColumn>
-		<endColumnOffset>51</endColumnOffset>
+		<beginColumnOffset>51</beginColumnOffset>
+		<endColumn>15</endColumn>
+		<endColumnOffset>24</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
 		<zOrder>1</zOrder>
@@ -7740,9 +7750,9 @@
 		<endRow>42</endRow>
 		<endRowOffset>39</endRowOffset>
 		<beginColumn>1</beginColumn>
-		<beginColumnOffset>27</beginColumnOffset>
+		<beginColumnOffset>45</beginColumnOffset>
 		<endColumn>9</endColumn>
-		<endColumnOffset>24</endColumnOffset>
+		<endColumnOffset>42</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
 		<zOrder>2</zOrder>
@@ -8520,7 +8530,7 @@
 		<height>0</height>
 		<width>24</width>
 		<textPlacement>Wrap</textPlacement>
-		<fillType>Parameter</fillType>
+		<fillType>Text</fillType>
 	</format>
 	<format>
 		<height>0</height>
@@ -8574,7 +8584,7 @@
 		<width>24</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
-		<fillType>Parameter</fillType>
+		<fillType>Text</fillType>
 	</format>
 	<format>
 		<bottomBorder>2</bottomBorder>
