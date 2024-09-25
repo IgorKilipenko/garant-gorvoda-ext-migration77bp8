@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Report uuid="c35c154a-26c8-4ab1-9b80-3be50ab6e117">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.КВП_СводнаяВедомость" category="Object">
+				<xr:TypeId>166854e1-52a2-4782-9953-fb0689d7b649</xr:TypeId>
+				<xr:ValueId>23600a34-06dd-481c-a819-efbf9f52dacc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.КВП_СводнаяВедомость" category="Manager">
+				<xr:TypeId>1d682560-4c31-46dd-91ff-9de1b9702d55</xr:TypeId>
+				<xr:ValueId>821aa667-3017-4cd0-8d0b-0affebc05fdb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_СводнаяВедомость</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>eb896b10-1377-40c2-8392-afe3a2156925</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Report>
+</MetaDataObject>

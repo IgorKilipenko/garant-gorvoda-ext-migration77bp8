@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.3.8.0-rc1</Version>
+			<Version>1.3.10.0-dev0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -85,6 +85,7 @@
 			<CommonPicture>Развернуть</CommonPicture>
 			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерх</CommonPicture>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
+			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
 			<CommonModule>ГП_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ГП_МиграцияОбщегоНазначения</CommonModule>
@@ -102,6 +103,9 @@
 			<CommonModule>ГП_РаботаСНачислениемУслуг</CommonModule>
 			<CommonModule>УчетНДС</CommonModule>
 			<CommonModule>ПечатьТорговыхДокументов</CommonModule>
+			<CommonModule>ГП_РаботаСУслугамиКлиент</CommonModule>
+			<CommonModule>ГП_ОтражениеВРегУчетеСлужебный</CommonModule>
+			<CommonModule>УправлениеПечатью</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
@@ -125,6 +129,7 @@
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
+			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеЗависимостейУслуг</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеУстановкиСчетчиков</DataProcessor>
