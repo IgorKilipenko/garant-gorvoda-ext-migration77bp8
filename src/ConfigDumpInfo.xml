@@ -105,7 +105,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ" id="ba409ae7-84ff-413f-8f2e-91555252c25b" configVersion="c136118af007c94586d31dcbac82b3510316b767"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
-		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="5bd733f56b05c5a0f9a77f0f40ec20be91669d2e"/>
+		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="b85e75fc5a4dcbd0357497975e9d202a60d89c0c"/>
 		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="9679b810f4d6a1334bc613666cdb46483c27f759"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
