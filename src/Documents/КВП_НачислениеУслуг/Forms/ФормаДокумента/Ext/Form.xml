@@ -7,7 +7,7 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
-		<Event name="OnCreateAtServer" callType="Before">ГП_ПриСозданииНаСервереПеред</Event>
+		<Event name="OnCreateAtServer" callType="After">ГП_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаОсновныеПараметры" id="811">
