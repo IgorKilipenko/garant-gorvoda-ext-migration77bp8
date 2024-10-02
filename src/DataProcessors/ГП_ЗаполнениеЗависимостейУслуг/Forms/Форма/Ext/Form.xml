@@ -50,6 +50,11 @@
 			<CommandName>Form.Command.ЗаполнитьЗависимостиУслуг</CommandName>
 			<ExtendedTooltip name="ЗаполнитьЗависимостиУслугРасширеннаяПодсказка" id="2"/>
 		</Button>
+		<Button name="ЗаполнитьЗависимостиУслугНегативноеВоздействие" id="11">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗаполнитьЗависимостиУслугНегативноеВоздействие</CommandName>
+			<ExtendedTooltip name="ЗаполнитьЗависимостиУслугНегативноеВоздействиеРасширеннаяПодсказка" id="12"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -78,6 +83,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗаполнитьЗависимостиУслуг</Action>
+		</Command>
+		<Command name="ЗаполнитьЗависимостиУслугНегативноеВоздействие" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить зависимости услуг (НВ на ЦСВ)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить зависимости услуг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.AppearanceBoxesThreeFilled</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьЗависимостиУслугНегативноеВоздействие</Action>
 		</Command>
 	</Commands>
 </Form>
