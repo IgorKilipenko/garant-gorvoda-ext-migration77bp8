@@ -60,6 +60,7 @@
 					<Type>UsualButton</Type>
 					<Representation>PictureAndText</Representation>
 					<CommandName>Form.Command.ЗаполнитьДокументыУстановки</CommandName>
+					<BorderColor>style:ActivityColor</BorderColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -67,6 +68,11 @@
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ЗаполнитьДокументыУстановкиРасширеннаяПодсказка" id="2"/>
+				</Button>
+				<Button name="УстановитьВиртуальныеСчетчики" id="24">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.УстановитьВиртуальныеСчетчики</CommandName>
+					<ExtendedTooltip name="УстановитьВиртуальныеСчетчикиРасширеннаяПодсказка" id="25"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -192,6 +198,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>УдалитьВиртуальныеСчетчики</Action>
+		</Command>
+		<Command name="УстановитьВиртуальныеСчетчики" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить виртуальные счетчики л/с</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить документы установки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.AppearanceBoxesOneFilled</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УстановитьВиртуальныеСчетчики</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>
