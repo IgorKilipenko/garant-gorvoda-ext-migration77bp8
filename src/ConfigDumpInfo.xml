@@ -115,7 +115,7 @@
 		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг" id="10e651c1-9ab3-4b1d-87a9-574597323241" configVersion="4c8b752c7cc0f31f6abb8776daa473d59a8fde0b"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.Form.Форма" id="2651ee4d-805d-4bb5-bf32-f4951e3c132f" configVersion="c4d538931507b2615982c7f5f3f37f1dec036d0f"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.Form.Форма.Form" id="2651ee4d-805d-4bb5-bf32-f4951e3c132f.0" configVersion="1e6bd3ce5a414817617835b882ca1d69ece554bf"/>
-		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.ManagerModule" id="10e651c1-9ab3-4b1d-87a9-574597323241.2" configVersion="9eefa7f25a510a67e4ca18316ebfd4f26e5ffb6a"/>
+		<Metadata name="DataProcessor.ГП_ЗаполнениеЗависимостейУслуг.ManagerModule" id="10e651c1-9ab3-4b1d-87a9-574597323241.2" configVersion="465e9388a17ffe6febccba336c67fe0f7771772b"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеРегистров" id="117bccc7-b9ab-4f91-9d2f-a1bb8edb3a0c" configVersion="8408333361fb5bc92171dae8fb9389a0fb41f9ac"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеРегистров.Form.Форма" id="c1cbc35b-28f9-40c5-8231-d8e9e8421b54" configVersion="6a099a3958018e4efd9dcb118544f8f48db77041"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеРегистров.Form.Форма.Form" id="c1cbc35b-28f9-40c5-8231-d8e9e8421b54.0" configVersion="aead209a5df4738e037aa5b72ee5e6d3ec15baa2"/>
