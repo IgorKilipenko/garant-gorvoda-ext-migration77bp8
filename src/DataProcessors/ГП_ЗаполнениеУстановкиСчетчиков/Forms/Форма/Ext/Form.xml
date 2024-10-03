@@ -92,6 +92,12 @@
 					<CommandName>Form.Command.СоздатьВиртуальныеСчетчики</CommandName>
 					<ExtendedTooltip name="СоздатьВиртуальныеСчетчикиРасширеннаяПодсказка" id="21"/>
 				</Button>
+				<Button name="УдалитьВиртуальныеСчетчики" id="22">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.УдалитьВиртуальныеСчетчики</CommandName>
+					<ExtendedTooltip name="УдалитьВиртуальныеСчетчикиРасширеннаяПодсказка" id="23"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -167,6 +173,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьВиртуальныеСчетчики</Action>
+		</Command>
+		<Command name="УдалитьВиртуальныеСчетчики" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить виртуальные счетчики</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать виртуальные счетчики</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УдалитьВиртуальныеСчетчики</Action>
 		</Command>
 	</Commands>
 </Form>
