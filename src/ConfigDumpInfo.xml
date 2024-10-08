@@ -44,6 +44,7 @@
 			<Metadata name="Catalog.Контрагенты.Attribute.ГП_СозданАвтоматически" id="083689f1-0582-446d-9793-7a3b4015027a"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.ГП_ИдентификаторБП77" id="f3464169-841c-49ba-92b2-c29f406dfe75"/>
 		</Metadata>
+		<Metadata name="Catalog.НоменклатурныеГруппы" id="6fad124d-0f1d-45aa-b88d-a35948f622bf" configVersion="3eff2a44080c08e61cadad85411c88752e6b01ff"/>
 		<Metadata name="Catalog.Организации" id="6648a088-0355-4c17-9984-a38fdd0679d7" configVersion="0f99e0b25b18b30390b680539b7f5c5165e2f82d"/>
 		<Metadata name="Catalog.УПЖКХ_Помещения" id="f4f17054-4c70-4015-b89a-49f378ea5660" configVersion="d6cecc0845a8524926a4abe81ada6c80b3e34b0e">
 			<Metadata name="Catalog.УПЖКХ_Помещения.Attribute.ГП_ИдентификаторБП77" id="3703bca6-32bb-42ba-a237-cd54b4759fc2"/>
@@ -106,7 +107,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="2902982f5ddd61f640888bc507fcce016ce68ac2"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="9f25a6c4c4c1c57b5f375d5d664edc9eed43eed1"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="7dd86af024ce9fc1d0c695bfadf26cb0cff00c79"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
@@ -353,6 +354,10 @@
 		<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Form.ФормаЗаписи.Form" id="14f6d672-9788-4da7-853d-af27ac093dc8.0" configVersion="c7c876cfd8a171d16f3e5eddea68902ecbfa902c"/>
 		<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Form.ФормаСписка" id="f4df7e2a-0ade-4b9a-9d44-fe3a5f7a56c4" configVersion="ade3f0ddb025df1f48061cf9344032b6408d1e98"/>
 		<Metadata name="InformationRegister.ГП_РасчетныеСчетаБП77.Form.ФормаСписка.Form" id="f4df7e2a-0ade-4b9a-9d44-fe3a5f7a56c4.0" configVersion="eb9d8dffe2b63ab1d5eb84ba091cff6bcd256aa4"/>
+		<Metadata name="InformationRegister.ГП_РасшифровкиСодержанияРеализации" id="f5f17003-9abc-400f-837b-5b5d108203be" configVersion="2c63d5552646eb4c466ecc1b5780333bfab48dad">
+			<Metadata name="InformationRegister.ГП_РасшифровкиСодержанияРеализации.Resource.ЛицевойСчет" id="e691d53e-ea82-4b4f-b409-60fe60ebe71c"/>
+			<Metadata name="InformationRegister.ГП_РасшифровкиСодержанияРеализации.Dimension.Содержание" id="e8cfd527-4320-4c2c-9185-285ceb826cf0"/>
+		</Metadata>
 		<Metadata name="InformationRegister.ГП_СчетчикиБП77" id="01598aca-77d6-40b0-8985-c5f032090ef3" configVersion="a04c4a4e5d36df6b203dc1d98eccf977ba8789eb">
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Resource.ДатаУстановки" id="0c950b37-b259-4c88-b51e-7b669eec3a77"/>
 			<Metadata name="InformationRegister.ГП_СчетчикиБП77.Attribute.КонтрагентИНН" id="146f4c78-3b5d-4053-b105-2a523c9d2ae3"/>
