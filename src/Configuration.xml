@@ -149,7 +149,6 @@
 			<InformationRegister>ГП_РасчетныеСчетаБП77</InformationRegister>
 			<InformationRegister>ГП_НормыПотребленияБП77</InformationRegister>
 			<InformationRegister>ГП_ТарифыОбъектовАбонентовБП77</InformationRegister>
-			<InformationRegister>ГП_РасшифровкиСодержанияРеализации</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
