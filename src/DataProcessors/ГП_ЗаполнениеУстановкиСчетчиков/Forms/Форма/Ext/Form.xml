@@ -5,11 +5,45 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="ГруппаНастройки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки:</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<InputField name="ДатаУстановки" id="5">
+					<DataPath>ДатаУстановки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаУстановкиКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="ДатаУстановкиРасширеннаяПодсказка" id="7"/>
+				</InputField>
+				<CheckBoxField name="ТолькоСчетчикиБП77" id="13">
+					<DataPath>ТолькоСчетчикиБП77</DataPath>
+					<Enabled>false</Enabled>
+					<ReadOnly>true</ReadOnly>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТолькоСчетчикиБП77КонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ТолькоСчетчикиБП77РасширеннаяПодсказка" id="15"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаУстановкаСчетчиков" id="11">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа установка счетчиков</v8:content>
+					<v8:content>Установка счетчиков:</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -19,51 +53,56 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
+			<Representation>StrongSeparation</Representation>
 			<ExtendedTooltip name="ГруппаУстановкаСчетчиковРасширеннаяПодсказка" id="12"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаНастройки" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки:</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа настройки</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>Vertical</Group>
-					<Behavior>Collapsible</Behavior>
-					<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="4"/>
-					<ChildItems>
-						<InputField name="ДатаУстановки" id="5">
-							<DataPath>ДатаУстановки</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="ДатаУстановкиКонтекстноеМеню" id="6"/>
-							<ExtendedTooltip name="ДатаУстановкиРасширеннаяПодсказка" id="7"/>
-						</InputField>
-						<CheckBoxField name="ТолькоСчетчикиБП77" id="13">
-							<DataPath>ТолькоСчетчикиБП77</DataPath>
-							<ReadOnly>true</ReadOnly>
-							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ТолькоСчетчикиБП77КонтекстноеМеню" id="14"/>
-							<ExtendedTooltip name="ТолькоСчетчикиБП77РасширеннаяПодсказка" id="15"/>
-						</CheckBoxField>
-					</ChildItems>
-				</UsualGroup>
-				<LabelDecoration name="ДекорацияПустая1" id="8">
-					<ContextMenu name="ДекорацияПустая1КонтекстноеМеню" id="9"/>
-					<ExtendedTooltip name="ДекорацияПустая1РасширеннаяПодсказка" id="10"/>
-				</LabelDecoration>
 				<Button name="ЗаполнитьДокументыУстановки" id="1">
 					<Type>UsualButton</Type>
 					<Representation>PictureAndText</Representation>
 					<CommandName>Form.Command.ЗаполнитьДокументыУстановки</CommandName>
+					<BorderColor>style:ActivityColor</BorderColor>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить основные счетчики л/с</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ЗаполнитьДокументыУстановкиРасширеннаяПодсказка" id="2"/>
+				</Button>
+				<Button name="УстановитьВиртуальныеСчетчики" id="24">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.УстановитьВиртуальныеСчетчики</CommandName>
+					<ExtendedTooltip name="УстановитьВиртуальныеСчетчикиРасширеннаяПодсказка" id="25"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСозданияСчетчиков" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание счетчиков:</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа создания счетчиков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="ГруппаСозданияСчетчиковРасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<Button name="СоздатьВиртуальныеСчетчики" id="20">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.СоздатьВиртуальныеСчетчики</CommandName>
+					<ExtendedTooltip name="СоздатьВиртуальныеСчетчикиРасширеннаяПодсказка" id="21"/>
+				</Button>
+				<Button name="УдалитьВиртуальныеСчетчики" id="22">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.УдалитьВиртуальныеСчетчики</CommandName>
+					<ExtendedTooltip name="УдалитьВиртуальныеСчетчикиРасширеннаяПодсказка" id="23"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -120,6 +159,65 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗаполнитьДокументыУстановки</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="СоздатьВиртуальныеСчетчики" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать виртуальные счетчики</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать виртуальные счетчики</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьВиртуальныеСчетчики</Action>
+		</Command>
+		<Command name="УдалитьВиртуальныеСчетчики" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить виртуальные счетчики</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать виртуальные счетчики</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УдалитьВиртуальныеСчетчики</Action>
+		</Command>
+		<Command name="УстановитьВиртуальныеСчетчики" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить виртуальные счетчики л/с</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить документы установки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.AppearanceBoxesOneFilled</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УстановитьВиртуальныеСчетчики</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>
