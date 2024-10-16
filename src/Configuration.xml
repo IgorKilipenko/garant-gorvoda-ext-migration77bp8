@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.3.14.0-rc1</Version>
+			<Version>1.3.18.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -121,6 +121,7 @@
 			<Catalog>БанковскиеСчета</Catalog>
 			<Catalog>Банки</Catalog>
 			<Catalog>КВП_НормыПотребленияУслуг</Catalog>
+			<Catalog>НоменклатурныеГруппы</Catalog>
 			<Document>УПЖКХ_ВводПоказанийСчетчика</Document>
 			<Document>КВП_НачислениеУслуг</Document>
 			<Document>КВП_УстановкаТарифов</Document>
@@ -135,6 +136,7 @@
 			<DataProcessor>ГП_ЗаполнениеУстановкиСчетчиков</DataProcessor>
 			<DataProcessor>КВП_ЗаполнениеПолучателямиУслуг</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеРегистров</DataProcessor>
+			<DataProcessor>ГП_ПечатьНачисленийУслуг</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
