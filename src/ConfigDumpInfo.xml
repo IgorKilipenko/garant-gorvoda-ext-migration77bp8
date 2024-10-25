@@ -65,7 +65,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияНормПотребления" id="dfdbb180-6dd0-4ac8-8e32-8735ea4d1986" configVersion="e9ea2edc71767de472a7f08b90c1515342758ce7"/>
 		<Metadata name="CommonModule.ГП_МиграцияНормПотребления.Module" id="dfdbb180-6dd0-4ac8-8e32-8735ea4d1986.0" configVersion="bb2746f1db87ef63d69efdf4701e1119be04e59a"/>
 		<Metadata name="CommonModule.ГП_МиграцияОбщегоНазначения" id="7e1e2220-3e43-4b1f-8142-439f1429cfc2" configVersion="8816a518a9088e5f73b1801ad046d8d2d7ffb0d8"/>
-		<Metadata name="CommonModule.ГП_МиграцияОбщегоНазначения.Module" id="7e1e2220-3e43-4b1f-8142-439f1429cfc2.0" configVersion="52ebff51ac0f1b6843b61b378dbf63424b42589f"/>
+		<Metadata name="CommonModule.ГП_МиграцияОбщегоНазначения.Module" id="7e1e2220-3e43-4b1f-8142-439f1429cfc2.0" configVersion="1da9801d817e5eb6e8bc7944746ea50d448e36fd"/>
 		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587" configVersion="546c6d2a53b7721c3fe93ffe0b1bdf164d5b94e8"/>
 		<Metadata name="CommonModule.ГП_МиграцияПриборовУчета.Module" id="8f2b8c35-79fa-43ee-9baa-a2fba341a587.0" configVersion="b8bb85e0a7af73e336e7b8bec28962d38327449a"/>
 		<Metadata name="CommonModule.ГП_МиграцияРасчетныхСчетов" id="e141c1a4-3b53-4c50-8e58-a59876851953" configVersion="e29e2c4e7863e60aba5c2fe99a9f5f155e4412dd"/>
