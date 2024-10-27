@@ -90,8 +90,8 @@
 		<Metadata name="CommonModule.ПечатьТорговыхДокументов.Module" id="64a8d982-c364-42fe-80b2-d6371c249c40.0" configVersion="3dc6b3513d5dd866fed3408beade96e4b533cfec"/>
 		<Metadata name="CommonModule.УПЖКХ_ПериодическиеРегистрыПриборыУчета" id="e01a76c6-bc61-4e20-a123-ee177d5cf4b9" configVersion="d217def34a628840e0027a3b9d543b170b6071a5"/>
 		<Metadata name="CommonModule.УПЖКХ_ПериодическиеРегистрыПриборыУчета.Module" id="e01a76c6-bc61-4e20-a123-ee177d5cf4b9.0" configVersion="4d241a2670f319688e2250b93cccb056b55cc2cf"/>
-		<Metadata name="CommonModule.УправлениеПечатью" id="8915e1af-cbd4-4465-bd85-f26aaab5776d" configVersion="399b78fd169d7517897f58dd20ebd55a9a95d3b8"/>
-		<Metadata name="CommonModule.УправлениеПечатью.Module" id="8915e1af-cbd4-4465-bd85-f26aaab5776d.0" configVersion="a2e79376569f2b279edcc1e56fad3c4d9337fab2"/>
+		<Metadata name="CommonModule.УправлениеПечатью" id="8915e1af-cbd4-4465-bd85-f26aaab5776d" configVersion="90cd4834d521204daf06c5b8cd8012e8e345cb6e"/>
+		<Metadata name="CommonModule.УправлениеПечатью.Module" id="8915e1af-cbd4-4465-bd85-f26aaab5776d.0" configVersion="a2139bd6540472959afc61d89f428cca04da5da4"/>
 		<Metadata name="CommonModule.УчетНДС" id="1f7ae7ad-1a20-440c-ab6f-f72a2e6df8da" configVersion="dfc2363dc6a8aa5e5d6d3f9e96c1bcf4025b0d93"/>
 		<Metadata name="CommonModule.УчетНДС.Module" id="1f7ae7ad-1a20-440c-ab6f-f72a2e6df8da.0" configVersion="d36fd5ab8b15684baf8064a5d8fc03832636d232"/>
 		<Metadata name="CommonPicture.ДокументПомеченНаУдалениеКоннекторВерх" id="b891a24d-b746-4280-9e50-b77c620fee70" configVersion="320f361ac81b89750c53a8965ea0550eb02c9845"/>
