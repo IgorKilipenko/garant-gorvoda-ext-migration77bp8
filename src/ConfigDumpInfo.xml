@@ -109,7 +109,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="2902982f5ddd61f640888bc507fcce016ce68ac2"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="7ed7d51cbcca44f7225177a98cac7a9255f3ce1b"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="4ae365091e95cddf3af2dea19f1ffd3819c14f58"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
@@ -142,7 +142,7 @@
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.Form.ФормаДокументаСтарыйМеханизмОтражения" id="ba714d84-e9b6-4b23-92cd-62a24d993c82" configVersion="8590942473ea16cb3112f5c5c7717fca3f57f113"/>
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.Form.ФормаДокументаСтарыйМеханизмОтражения.Form" id="ba714d84-e9b6-4b23-92cd-62a24d993c82.0" configVersion="c3c4efea8b8954ce48ee8f6ff2c9008d15e1f6ef"/>
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.ManagerModule" id="06952c52-78aa-4735-a84b-4768e5599ab9.2" configVersion="f53c26ed8e7ac327dbe45c7a825e316278b081ff"/>
-		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.ObjectModule" id="06952c52-78aa-4735-a84b-4768e5599ab9.0" configVersion="c8c5a77549c5848c74d0f3c0ad87066c2f0a71cc"/>
+		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.ObjectModule" id="06952c52-78aa-4735-a84b-4768e5599ab9.0" configVersion="ded478bbfe75d8174380f874e465a3d92b23f3a6"/>
 		<Metadata name="Document.КВП_УстановкаТарифов" id="a9880687-f090-4f44-938b-d810ceb315b6" configVersion="a25b2c617f082ef6adb467c827ba073eef764bf4"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента" id="e13f6e84-454a-4bd2-b81e-ae437f132736" configVersion="ca1fec5da57af76fed87fd3b1277f3945129ec20"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента.Form" id="e13f6e84-454a-4bd2-b81e-ae437f132736.0" configVersion="6518679afb1d3ef712eb8d6c5cd9cbddd2a3dbdc"/>
