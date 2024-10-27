@@ -86,8 +86,8 @@
 		<Metadata name="CommonModule.ГП_РаботаСТарифами.Module" id="2d481c17-18d7-4a82-b9dc-dada80da9215.0" configVersion="9ff05d94c9ee4aef9745666158c4c4e06f35b319"/>
 		<Metadata name="CommonModule.ГП_РаботаСУслугамиКлиент" id="705bc1db-e276-4a30-853a-b4190c68b379" configVersion="ca87af0245a6ed1aa88f3e91121c2d5edd1fec4b"/>
 		<Metadata name="CommonModule.ГП_РаботаСУслугамиКлиент.Module" id="705bc1db-e276-4a30-853a-b4190c68b379.0" configVersion="9846ba64867d0dea4b25ccbee0fccce27137317c"/>
-		<Metadata name="CommonModule.ПечатьТорговыхДокументов" id="64a8d982-c364-42fe-80b2-d6371c249c40" configVersion="c25dba240cef98b44300f897e6c59ffea35b4316"/>
-		<Metadata name="CommonModule.ПечатьТорговыхДокументов.Module" id="64a8d982-c364-42fe-80b2-d6371c249c40.0" configVersion="72d3e6e8c1809dd0688da7517413822d313e2245"/>
+		<Metadata name="CommonModule.ПечатьТорговыхДокументов" id="64a8d982-c364-42fe-80b2-d6371c249c40" configVersion="6fa59aaf62d2e09333a948f92a76dd38c1af30a2"/>
+		<Metadata name="CommonModule.ПечатьТорговыхДокументов.Module" id="64a8d982-c364-42fe-80b2-d6371c249c40.0" configVersion="2ca3411cca40e431ca154c0aad3d25457e1d1f7c"/>
 		<Metadata name="CommonModule.УПЖКХ_ПериодическиеРегистрыПриборыУчета" id="e01a76c6-bc61-4e20-a123-ee177d5cf4b9" configVersion="d217def34a628840e0027a3b9d543b170b6071a5"/>
 		<Metadata name="CommonModule.УПЖКХ_ПериодическиеРегистрыПриборыУчета.Module" id="e01a76c6-bc61-4e20-a123-ee177d5cf4b9.0" configVersion="4d241a2670f319688e2250b93cccb056b55cc2cf"/>
 		<Metadata name="CommonModule.УправлениеПечатью" id="8915e1af-cbd4-4465-bd85-f26aaab5776d" configVersion="399b78fd169d7517897f58dd20ebd55a9a95d3b8"/>
