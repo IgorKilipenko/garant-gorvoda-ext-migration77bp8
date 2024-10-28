@@ -75,7 +75,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияУслуг" id="95da20c0-cde3-4708-a911-81acdbad7200" configVersion="9e714dfec67edc4efe2903d67b3c99ee68ffe3a7"/>
 		<Metadata name="CommonModule.ГП_МиграцияУслуг.Module" id="95da20c0-cde3-4708-a911-81acdbad7200.0" configVersion="0f8c18ecb6bd75b2dc668abfd5fa632333a17817"/>
 		<Metadata name="CommonModule.ГП_НачислениеУслуг" id="0e52925f-f011-423f-a900-b6a0c961ef5b" configVersion="cb73500fde431556c8f2c85ed7d8cf512ac5249f"/>
-		<Metadata name="CommonModule.ГП_НачислениеУслуг.Module" id="0e52925f-f011-423f-a900-b6a0c961ef5b.0" configVersion="618a3a83dba042eda50295e05303795f255cc5fb"/>
+		<Metadata name="CommonModule.ГП_НачислениеУслуг.Module" id="0e52925f-f011-423f-a900-b6a0c961ef5b.0" configVersion="055526093c93fae0c04b22cc1c59a75193fe89a6"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент" id="4c802860-cccf-4abd-9de0-d70727e6b8d7" configVersion="b1b045cc3ab676d265567ea734aca77835b25364"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент.Module" id="4c802860-cccf-4abd-9de0-d70727e6b8d7.0" configVersion="5f55a22b47e1c2ab8c9a4a686797ab82b8195bd2"/>
 		<Metadata name="CommonModule.ГП_ОтражениеВРегУчетеСлужебный" id="9d7360c4-b39b-44b6-9964-5ab74f67313e" configVersion="e037ac5ce2978a0541de9a6c58994cf795f8c13e"/>
