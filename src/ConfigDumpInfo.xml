@@ -61,7 +61,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147" configVersion="97a5cca7afa33902b09de9527fd2fac2894cdf77"/>
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов.Module" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147.0" configVersion="552674313c9ee91c293ae9baf8b7826e0aec12b1"/>
 		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов" id="8c21dd53-8726-4d77-94d9-91010f311814" configVersion="08984a7300b22a4076197788abdaf1af7851fdf8"/>
-		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов.Module" id="8c21dd53-8726-4d77-94d9-91010f311814.0" configVersion="813bf04b28b984fadf46c4a83d7587306a8866a3"/>
+		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов.Module" id="8c21dd53-8726-4d77-94d9-91010f311814.0" configVersion="4ef93ba32f699dbf1b97a090bb081e9dd3a7ce96"/>
 		<Metadata name="CommonModule.ГП_МиграцияНормПотребления" id="dfdbb180-6dd0-4ac8-8e32-8735ea4d1986" configVersion="e9ea2edc71767de472a7f08b90c1515342758ce7"/>
 		<Metadata name="CommonModule.ГП_МиграцияНормПотребления.Module" id="dfdbb180-6dd0-4ac8-8e32-8735ea4d1986.0" configVersion="bb2746f1db87ef63d69efdf4701e1119be04e59a"/>
 		<Metadata name="CommonModule.ГП_МиграцияОбщегоНазначения" id="7e1e2220-3e43-4b1f-8142-439f1429cfc2" configVersion="8816a518a9088e5f73b1801ad046d8d2d7ffb0d8"/>
