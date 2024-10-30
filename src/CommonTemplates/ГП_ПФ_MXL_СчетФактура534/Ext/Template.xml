@@ -2946,6 +2946,17 @@
 		<w>1</w>
 	</verticalUnmerge>
 	<namedItem xsi:type="NamedItemCells">
+		<name>Акциз</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>20</beginRow>
+			<endRow>20</endRow>
+			<beginColumn>9</beginColumn>
+			<endColumn>9</endColumn>
+			<columnsID>39a7acbe-e43b-412e-b84b-633884f6d03c</columnsID>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
 		<name>ЗаголовокТаблицы</name>
 		<area>
 			<type>Rows</type>
