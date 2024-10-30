@@ -146,7 +146,7 @@
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете" id="06952c52-78aa-4735-a84b-4768e5599ab9" configVersion="fc0ab03669245683d3a52be82346047b206ea596"/>
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.Form.ФормаДокументаСтарыйМеханизмОтражения" id="ba714d84-e9b6-4b23-92cd-62a24d993c82" configVersion="8590942473ea16cb3112f5c5c7717fca3f57f113"/>
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.Form.ФормаДокументаСтарыйМеханизмОтражения.Form" id="ba714d84-e9b6-4b23-92cd-62a24d993c82.0" configVersion="b05cdcfc93f46f536041804ef1407f376864aaa7"/>
-		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.ManagerModule" id="06952c52-78aa-4735-a84b-4768e5599ab9.2" configVersion="66e2bf9939541b3e9bf3692fa098c8e4a16a96f6"/>
+		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.ManagerModule" id="06952c52-78aa-4735-a84b-4768e5599ab9.2" configVersion="daa59a95cc0730218fef19570807faa90ebf9941"/>
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.ObjectModule" id="06952c52-78aa-4735-a84b-4768e5599ab9.0" configVersion="aee403ef5537128692b1ebda30f0feb9990f89c9"/>
 		<Metadata name="Document.КВП_УстановкаТарифов" id="a9880687-f090-4f44-938b-d810ceb315b6" configVersion="a25b2c617f082ef6adb467c827ba073eef764bf4"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента" id="e13f6e84-454a-4bd2-b81e-ae437f132736" configVersion="ca1fec5da57af76fed87fd3b1277f3945129ec20"/>
