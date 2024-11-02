@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.4.0-dev0</Version>
+			<Version>1.7.4.0-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -78,6 +78,7 @@
 			<StyleItem>ЦветБаннераБежевыйЧекиНПД</StyleItem>
 			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
 			<StyleItem>ЦветФонаНекорректногоЗначенияБИП</StyleItem>
+			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -89,6 +90,12 @@
 			<CommonPicture>ИнформацияНовости16Статичная</CommonPicture>
 			<CommonPicture>Развернуть</CommonPicture>
 			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерх</CommonPicture>
+			<CommonPicture>УПЖКХ_ЧекиОтправлены</CommonPicture>
+			<CommonPicture>УПЖКХ_КоллекцияЧекОтправлен</CommonPicture>
+			<CommonPicture>ПодключаемоеОборудованиеФискальныйРегистратор16</CommonPicture>
+			<CommonPicture>УПЖКХ_КоллекцияЧекПробит</CommonPicture>
+			<CommonPicture>Администрирование</CommonPicture>
+			<CommonPicture>Свернуть</CommonPicture>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
@@ -137,6 +144,7 @@
 			<Document>КВП_ОтражениеНачисленийВРеглУчете</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>ПоступлениеНаРасчетныйСчет</Document>
+			<Document>КВП_РегистрацияОплаты</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
