@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.3.1-rc1</Version>
+			<Version>1.7.4.0-dev0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -73,6 +73,11 @@
 			<StyleItem>УПЖКХ_ЦветФонаНачисленияЗависимойУслуги_Уровень1</StyleItem>
 			<StyleItem>УПЖКХ_ЦветКолонкиДляСчетовИСубконтоБУ</StyleItem>
 			<StyleItem>НеЗаполненноеСубконто</StyleItem>
+			<StyleItem>ЦветФонаПредупреждения</StyleItem>
+			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
+			<StyleItem>ЦветБаннераБежевыйЧекиНПД</StyleItem>
+			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
+			<StyleItem>ЦветФонаНекорректногоЗначенияБИП</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -108,6 +113,7 @@
 			<CommonModule>УправлениеПечатью</CommonModule>
 			<CommonModule>УПЖКХ_ПериодическиеРегистрыПриборыУчета</CommonModule>
 			<CommonModule>ГП_НачислениеУслуг</CommonModule>
+			<CommonModule>ГП_РаботаСФормамиКлиентСервер</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
@@ -130,8 +136,10 @@
 			<Document>КВП_УстановкаТарифов</Document>
 			<Document>КВП_ОтражениеНачисленийВРеглУчете</Document>
 			<Document>РеализацияТоваровУслуг</Document>
+			<Document>ПоступлениеНаРасчетныйСчет</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
