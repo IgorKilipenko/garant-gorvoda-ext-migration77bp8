@@ -87,7 +87,7 @@
 		<Metadata name="CommonModule.ГП_ПриборыУчета" id="48ffd798-354c-41c5-be4b-83fa3f5a5272" configVersion="75c16a6672f9031ccf01c782a20f6e0c3f908758"/>
 		<Metadata name="CommonModule.ГП_ПриборыУчета.Module" id="48ffd798-354c-41c5-be4b-83fa3f5a5272.0" configVersion="3f730fad68ffebbe79888cf0e0f1ee88014e450b"/>
 		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами" id="cb495c95-3395-4168-9352-d2c71994b0a2" configVersion="f0853eb947353611164df6eef9e6e2b4d41b83a6"/>
-		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами.Module" id="cb495c95-3395-4168-9352-d2c71994b0a2.0" configVersion="0d4641fd4aec4592fef272a84f025ce31618b493"/>
+		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами.Module" id="cb495c95-3395-4168-9352-d2c71994b0a2.0" configVersion="8cadcb87ea2507372af409b4ca7141caab8466de"/>
 		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480" configVersion="d4ffa137103bb01d687a6b776eac20814232f0eb"/>
 		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг.Module" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480.0" configVersion="6ef7a106a222d53d8a59290b038762101aaf320e"/>
 		<Metadata name="CommonModule.ГП_РаботаСТарифами" id="2d481c17-18d7-4a82-b9dc-dada80da9215" configVersion="f95813ecab9d02ea9bc6a5e468e7d6670f38550d"/>
@@ -163,7 +163,7 @@
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.ObjectModule" id="06952c52-78aa-4735-a84b-4768e5599ab9.0" configVersion="aee403ef5537128692b1ebda30f0feb9990f89c9"/>
 		<Metadata name="Document.КВП_РегистрацияОплаты" id="9f93e9c9-ab03-4e5b-a5f8-351d69cbe52b" configVersion="f5ab0c2ff4eea8700a3dbffa2944264c739ff68e"/>
 		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента" id="226fc755-c8b6-446a-9c82-7dbf1cb283db" configVersion="e00052b0b44059512c8e7c8a171a77d01804a031"/>
-		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента.Form" id="226fc755-c8b6-446a-9c82-7dbf1cb283db.0" configVersion="72d45946f7181e347b2cdf9a180e3e792d5ab095"/>
+		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента.Form" id="226fc755-c8b6-446a-9c82-7dbf1cb283db.0" configVersion="4c8f4192570322028d3e133de7f585435ba80c0e"/>
 		<Metadata name="Document.КВП_УстановкаТарифов" id="a9880687-f090-4f44-938b-d810ceb315b6" configVersion="a25b2c617f082ef6adb467c827ba073eef764bf4"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента" id="e13f6e84-454a-4bd2-b81e-ae437f132736" configVersion="ca1fec5da57af76fed87fd3b1277f3945129ec20"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента.Form" id="e13f6e84-454a-4bd2-b81e-ae437f132736.0" configVersion="6518679afb1d3ef712eb8d6c5cd9cbddd2a3dbdc"/>
