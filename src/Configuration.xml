@@ -121,6 +121,7 @@
 			<CommonModule>УПЖКХ_ПериодическиеРегистрыПриборыУчета</CommonModule>
 			<CommonModule>ГП_НачислениеУслуг</CommonModule>
 			<CommonModule>ГП_РаботаСФормамиКлиентСервер</CommonModule>
+			<CommonModule>ГП_РаботаСЛицевымиСчетами</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
