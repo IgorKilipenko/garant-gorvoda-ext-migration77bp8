@@ -36,7 +36,7 @@
 			<Metadata name="Catalog.КВП_Счетчики.Attribute.ГП_Комментарий" id="c2f6ad13-c0fe-4259-a30f-dd19eaab8540"/>
 		</Metadata>
 		<Metadata name="Catalog.КВП_Счетчики.Form.ФормаЭлемента" id="c95ee56e-c8a7-4629-9d67-5632a1d7aa48" configVersion="d0cc1439e15e817fbb76ba3ad2330b60d11d6ea7"/>
-		<Metadata name="Catalog.КВП_Счетчики.Form.ФормаЭлемента.Form" id="c95ee56e-c8a7-4629-9d67-5632a1d7aa48.0" configVersion="a6265b25f1a0baf9f9df6fcc2e69cb44aa7ed975"/>
+		<Metadata name="Catalog.КВП_Счетчики.Form.ФормаЭлемента.Form" id="c95ee56e-c8a7-4629-9d67-5632a1d7aa48.0" configVersion="61dd040c32063d5546aabe01a92ead0fe98e6eed"/>
 		<Metadata name="Catalog.КВП_Услуги" id="4123c353-6cd0-424c-9557-c1b65b88ed56" configVersion="8703160e1ad2c2dd1906ac70fb70152bbc2d28b3">
 			<Metadata name="Catalog.КВП_Услуги.Attribute.ГП_ИдентификаторБП77" id="609e753b-4825-47a0-9b7c-d75fdc42c028"/>
 			<Metadata name="Catalog.КВП_Услуги.Attribute.ГП_СозданАвтоматически" id="896649be-31e0-461c-856c-ee1edfc8c893"/>
