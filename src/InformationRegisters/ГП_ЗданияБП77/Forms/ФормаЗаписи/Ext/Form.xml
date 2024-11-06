@@ -209,6 +209,27 @@
 					<ContextMenu name="ПроцентГВКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="ПроцентГВРасширеннаяПодсказка" id="45"/>
 				</InputField>
+				<InputField name="СрКоличествоХВ" id="88">
+					<DataPath>Запись.СрКоличествоХВ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СрКоличествоХВКонтекстноеМеню" id="89"/>
+					<ExtendedTooltip name="СрКоличествоХВРасширеннаяПодсказка" id="90"/>
+				</InputField>
+				<InputField name="СрКоличествоГВ" id="91">
+					<DataPath>Запись.СрКоличествоГВ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СрКоличествоГВКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="СрКоличествоГВРасширеннаяПодсказка" id="93"/>
+				</InputField>
+				<CheckBoxField name="ПроцентОтХВ" id="85">
+					<DataPath>Запись.ПроцентОтХВ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПроцентОтХВКонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="ПроцентОтХВРасширеннаяПодсказка" id="87"/>
+				</CheckBoxField>
 				<CheckBoxField name="ТолькоДляКанализации" id="37">
 					<DataPath>Запись.ТолькоДляКанализации</DataPath>
 					<ReadOnly>true</ReadOnly>

@@ -366,12 +366,28 @@
 							<ContextMenu name="ПроцентГВКонтекстноеМеню" id="59"/>
 							<ExtendedTooltip name="ПроцентГВРасширеннаяПодсказка" id="60"/>
 						</LabelField>
+						<LabelField name="СрКоличествоХВ" id="140">
+							<DataPath>Список.СрКоличествоХВ</DataPath>
+							<ContextMenu name="СрКоличествоХВКонтекстноеМеню" id="141"/>
+							<ExtendedTooltip name="СрКоличествоХВРасширеннаяПодсказка" id="142"/>
+						</LabelField>
+						<LabelField name="СрКоличествоГВ" id="137">
+							<DataPath>Список.СрКоличествоГВ</DataPath>
+							<ContextMenu name="СрКоличествоГВКонтекстноеМеню" id="138"/>
+							<ExtendedTooltip name="СрКоличествоГВРасширеннаяПодсказка" id="139"/>
+						</LabelField>
 						<CheckBoxField name="ТолькоДляКанализации" id="52">
 							<DataPath>Список.ТолькоДляКанализации</DataPath>
 							<DefaultItem>true</DefaultItem>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ТолькоДляКанализацииКонтекстноеМеню" id="53"/>
 							<ExtendedTooltip name="ТолькоДляКанализацииРасширеннаяПодсказка" id="54"/>
+						</CheckBoxField>
+						<CheckBoxField name="ПроцентОтХВ" id="134">
+							<DataPath>Список.ПроцентОтХВ</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПроцентОтХВКонтекстноеМеню" id="135"/>
+							<ExtendedTooltip name="ПроцентОтХВРасширеннаяПодсказка" id="136"/>
 						</CheckBoxField>
 					</ChildItems>
 				</ColumnGroup>
