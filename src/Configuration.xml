@@ -123,6 +123,7 @@
 			<CommonModule>ГП_РаботаСФормамиКлиентСервер</CommonModule>
 			<CommonModule>ГП_РаботаСЛицевымиСчетами</CommonModule>
 			<CommonModule>ГП_РегистрацияОплатыСлужебный</CommonModule>
+			<CommonModule>ГП_МиграцияСчетчиковОИ</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
