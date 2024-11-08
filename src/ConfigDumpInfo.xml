@@ -155,7 +155,7 @@
 		<Metadata name="DataProcessor.КВП_ЗаполнениеПолучателямиУслуг.Form.Форма.Form" id="1e25cea6-b75c-41f0-8faf-c76ad0427bac.0" configVersion="df81e5f95474d8f6d6df4d876a124c50b6a711e2"/>
 		<Metadata name="Document.КВП_НачислениеУслуг" id="1f84803c-786c-4c01-a7af-2e198da857f7" configVersion="fd359e1b34f704e1238fb6c4530cdac2a8311b22"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38" configVersion="bdea685f203e180231d447fd9250529bb8d8d598"/>
-		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента.Form" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38.0" configVersion="64b528095181ccca055eea3c2aa07f61c793f1b5"/>
+		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента.Form" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38.0" configVersion="2830e30813b3e9b6e5190278e05fb96fdc93340e"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.ManagerModule" id="1f84803c-786c-4c01-a7af-2e198da857f7.2" configVersion="eb49c7a9af637c6be106ff61f242eac0e4370c4c"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.ObjectModule" id="1f84803c-786c-4c01-a7af-2e198da857f7.0" configVersion="d7846b26cc2963408511373f31a61812e5a078a0"/>
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете" id="06952c52-78aa-4735-a84b-4768e5599ab9" configVersion="fc0ab03669245683d3a52be82346047b206ea596"/>
