@@ -754,6 +754,29 @@
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаСоданиеСчетчикиОИ" id="147">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Блок счетчиков ОИ</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа содание управления тарифами</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаСоданиеСчетчикиОИРасширеннаяПодсказка" id="148"/>
+											<ChildItems>
+												<Button name="СоздатьБлокВиртуальныхСчетчиковОИ" id="149">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СоздатьБлокВиртуальныхСчетчиковОИ</CommandName>
+													<ExtendedTooltip name="СоздатьБлокВиртуальныхСчетчиковОИРасширеннаяПодсказка" id="150"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 							</ChildItems>
@@ -1229,6 +1252,21 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьДокументыУстановкиТарифов</Action>
+		</Command>
+		<Command name="СоздатьБлокВиртуальныхСчетчиковОИ" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать блок виртуальных счетчиков ОИ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать блок виртуальных счетчиков ОИ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьБлокВиртуальныхСчетчиковОИ</Action>
 		</Command>
 	</Commands>
 </Form>
