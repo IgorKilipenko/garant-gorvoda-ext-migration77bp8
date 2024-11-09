@@ -777,6 +777,29 @@
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаСоданиеСчетчикиПотерьВоды" id="151">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Блок счетчиков потерь воды</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа содание управления тарифами</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаСоданиеСчетчикиПотерьВодыРасширеннаяПодсказка" id="152"/>
+											<ChildItems>
+												<Button name="СоздатьБлокВиртуальныхСчетчиковПотерьВоды" id="153">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СоздатьБлокВиртуальныхСчетчиковПотерьВоды</CommandName>
+													<ExtendedTooltip name="СоздатьБлокВиртуальныхСчетчиковПотерьВодыРасширеннаяПодсказка" id="154"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 							</ChildItems>
@@ -1267,6 +1290,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьБлокВиртуальныхСчетчиковОИ</Action>
+		</Command>
+		<Command name="СоздатьБлокВиртуальныхСчетчиковПотерьВоды" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать блок виртуальных счетчиков потерь воды</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать блок виртуальных счетчиков потерь воды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьБлокВиртуальныхСчетчиковПотерьВоды</Action>
 		</Command>
 	</Commands>
 </Form>
