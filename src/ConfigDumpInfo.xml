@@ -75,7 +75,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияРасчетныхСчетов" id="e141c1a4-3b53-4c50-8e58-a59876851953" configVersion="e29e2c4e7863e60aba5c2fe99a9f5f155e4412dd"/>
 		<Metadata name="CommonModule.ГП_МиграцияРасчетныхСчетов.Module" id="e141c1a4-3b53-4c50-8e58-a59876851953.0" configVersion="4f2ef2fd93541c5c877662621869cb154758e4d9"/>
 		<Metadata name="CommonModule.ГП_МиграцияСчетчиковОИ" id="1104344a-a33f-495b-8c4e-b9237c4b7031" configVersion="c8955e31fe418f271a4a3f085a5997511e4f66ca"/>
-		<Metadata name="CommonModule.ГП_МиграцияСчетчиковОИ.Module" id="1104344a-a33f-495b-8c4e-b9237c4b7031.0" configVersion="7213c5524f3c905a3653ea5486c53bb8c1bd5be8"/>
+		<Metadata name="CommonModule.ГП_МиграцияСчетчиковОИ.Module" id="1104344a-a33f-495b-8c4e-b9237c4b7031.0" configVersion="bdcf18b99066ad437d3c88d3b3a5165a84028ac5"/>
 		<Metadata name="CommonModule.ГП_МиграцияСчетчиковПотериВоды" id="d3b2f155-8fd7-45f8-b6b5-04fd1da52634" configVersion="ddf20dfb8ef48560f3991a8e8b77e41f7f8e4eac"/>
 		<Metadata name="CommonModule.ГП_МиграцияСчетчиковПотериВоды.Module" id="d3b2f155-8fd7-45f8-b6b5-04fd1da52634.0" configVersion="7a03bda6884763ef3a95eda4ccc4d074e55aa096"/>
 		<Metadata name="CommonModule.ГП_МиграцияТарифовАбонентов" id="2a2bde03-1baf-4572-b025-3ce31b811577" configVersion="f2df22f9414487370051f0946ce58a2a13052a83"/>
