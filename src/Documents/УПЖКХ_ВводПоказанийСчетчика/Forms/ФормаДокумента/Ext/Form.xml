@@ -622,6 +622,9 @@
 							<ChoiceListButton>false</ChoiceListButton>
 							<ContextMenu name="ДеревоПоказанийДневноеПоказаниеКонтекстноеМеню" id="65"/>
 							<ExtendedTooltip name="ДеревоПоказанийДневноеПоказаниеExtendedTooltip" id="183"/>
+							<Events>
+								<Event name="OnChange" callType="After">ГП_ДеревоПоказанийДневноеПоказаниеПриИзмененииПосле</Event>
+							</Events>
 						</InputField>
 						<InputField name="ДеревоПоказанийДневноеПоказаниеПредыдущее" id="66">
 							<Enabled>false</Enabled>
