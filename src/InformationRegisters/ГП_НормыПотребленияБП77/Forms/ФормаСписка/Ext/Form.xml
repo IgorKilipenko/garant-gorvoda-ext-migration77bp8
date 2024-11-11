@@ -30,6 +30,11 @@
 						<CommandName>Form.Command.СоздатьНормыПотребленияХолоднойВодыДляНаселения</CommandName>
 						<ExtendedTooltip name="ФормаСоздатьНормыПотребленияХолоднойВодыДляНаселенияРасширеннаяПодсказка" id="85"/>
 					</Button>
+					<Button name="ФормаСоздатьНормыПотребленияГорячейВодыДляНаселения" id="90">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СоздатьНормыПотребленияГорячейВодыДляНаселения</CommandName>
+						<ExtendedTooltip name="ФормаСоздатьНормыПотребленияГорячейВодыДляНаселенияРасширеннаяПодсказка" id="91"/>
+					</Button>
 				</ChildItems>
 			</Popup>
 			<Popup name="ГруппаУстановкаДействий" id="86">
@@ -328,6 +333,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ВыполнитьНазначениеНормПотребленияНаЛицевыеСчета</Action>
+		</Command>
+		<Command name="СоздатьНормыПотребленияГорячейВодыДляНаселения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать нормы потребления горячей воды для населения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать нормы потребления горячей воды для населения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьНормыПотребленияГорячейВодыДляНаселения</Action>
 		</Command>
 	</Commands>
 </Form>
