@@ -77,7 +77,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияСчетчиковОИ" id="1104344a-a33f-495b-8c4e-b9237c4b7031" configVersion="c8955e31fe418f271a4a3f085a5997511e4f66ca"/>
 		<Metadata name="CommonModule.ГП_МиграцияСчетчиковОИ.Module" id="1104344a-a33f-495b-8c4e-b9237c4b7031.0" configVersion="7213c5524f3c905a3653ea5486c53bb8c1bd5be8"/>
 		<Metadata name="CommonModule.ГП_МиграцияСчетчиковПотериВоды" id="d3b2f155-8fd7-45f8-b6b5-04fd1da52634" configVersion="ddf20dfb8ef48560f3991a8e8b77e41f7f8e4eac"/>
-		<Metadata name="CommonModule.ГП_МиграцияСчетчиковПотериВоды.Module" id="d3b2f155-8fd7-45f8-b6b5-04fd1da52634.0" configVersion="d2e3bb3d38f595b24a62856a8b80ea5984a26ba7"/>
+		<Metadata name="CommonModule.ГП_МиграцияСчетчиковПотериВоды.Module" id="d3b2f155-8fd7-45f8-b6b5-04fd1da52634.0" configVersion="7a03bda6884763ef3a95eda4ccc4d074e55aa096"/>
 		<Metadata name="CommonModule.ГП_МиграцияТарифовАбонентов" id="2a2bde03-1baf-4572-b025-3ce31b811577" configVersion="f2df22f9414487370051f0946ce58a2a13052a83"/>
 		<Metadata name="CommonModule.ГП_МиграцияТарифовАбонентов.Module" id="2a2bde03-1baf-4572-b025-3ce31b811577.0" configVersion="e48b0664fdb95f63035b308e04735653ee163910"/>
 		<Metadata name="CommonModule.ГП_МиграцияУслуг" id="95da20c0-cde3-4708-a911-81acdbad7200" configVersion="9e714dfec67edc4efe2903d67b3c99ee68ffe3a7"/>
@@ -135,7 +135,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="69e38b435b12034661d618bb3d78829e67f18558"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="74794d154b046415a3e72d5f1d694f0798a8d8e8"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
