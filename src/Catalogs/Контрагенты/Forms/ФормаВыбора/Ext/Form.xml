@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<GroupList>2:02023637-7868-4a5f-8576-835a76e0c9ba</GroupList>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПоказатьКонтекстныеНовости" id="50">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="51"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ГП_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<Table name="Список" id="7">
+			<CommandBarLocation>None</CommandBarLocation>
+			<SkipOnInput>false</SkipOnInput>
+			<DefaultItem>true</DefaultItem>
+			<ChoiceMode>true</ChoiceMode>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>false</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="9">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокExtendedTooltip" id="28"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="41">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="43"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="44">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="45"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="47">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="48"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Наименование" id="10">
+					<DefaultItem>true</DefaultItem>
+					<Width>35</Width>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="29"/>
+				</LabelField>
+				<LabelField name="ГоловнойКонтрагент" id="26">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ГоловнойКонтрагентКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ГоловнойКонтрагентExtendedTooltip" id="33"/>
+				</LabelField>
+				<LabelField name="ИНН" id="16">
+					<Width>12</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ИННКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ИННExtendedTooltip" id="34"/>
+				</LabelField>
+				<LabelField name="КПП" id="38">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Width>9</Width>
+					<ContextMenu name="КППКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="КППРасширеннаяПодсказка" id="40"/>
+				</LabelField>
+				<LabelField name="Комментарий" id="14">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="КомментарийExtendedTooltip" id="36"/>
+				</LabelField>
+				<LabelField name="НаименованиеПолное" id="18">
+					<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="НаименованиеПолноеExtendedTooltip" id="31"/>
+				</LabelField>
+				<PictureField name="ЭДО" id="55">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подключен к сервису 1С-ЭДО</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.ЭмблемаСервиса1СЭДО</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</ValuesPicture>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="ЭДОКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ЭДОРасширеннаяПодсказка" id="57"/>
+				</PictureField>
+				<LabelField name="Вид" id="22">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ВидКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ВидExtendedTooltip" id="32"/>
+				</LabelField>
+				<LabelField name="Код" id="12">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="КодКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="КодExtendedTooltip" id="30"/>
+				</LabelField>
+				<LabelField name="Ссылка" id="20">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="СсылкаExtendedTooltip" id="37"/>
+				</LabelField>
+				<InputField name="ЮридическоеФизическоеЛицо" id="52">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ЮридическоеФизическоеЛицоКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ЮридическоеФизическоеЛицоРасширеннаяПодсказка" id="54"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ГруппаСвойстваКонтрагента" id="58">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойства контрагента</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ИтогиФонГруппы</BackColor>
+			<ExtendedTooltip name="ГруппаСвойстваКонтрагентаРасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="КонтрагентТелефон" id="60">
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="КонтрагентТелефонКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="КонтрагентТелефонРасширеннаяПодсказка" id="62"/>
+				</InputField>
+				<UsualGroup name="ГруппаПоказатели" id="63">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показатели</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>false</HorizontalStretch>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<Group>Horizontal</Group>
+					<HorizontalAlign>Right</HorizontalAlign>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПоказателиРасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<InputField name="КонтрагентНеоплаченныеСчета" id="65">
+							<ReadOnly>true</ReadOnly>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>14</MaxWidth>
+							<ChoiceButton>false</ChoiceButton>
+							<ContextMenu name="КонтрагентНеоплаченныеСчетаКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="КонтрагентНеоплаченныеСчетаРасширеннаяПодсказка" id="67"/>
+						</InputField>
+						<InputField name="КонтрагентЗадолженностьПокупателя" id="68">
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Задолженность покупателя</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>8</MaxWidth>
+							<ChoiceButton>false</ChoiceButton>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2; ЧН=-</v8:content>
+								</v8:item>
+							</Format>
+							<Font height="10" kind="AutoFont"/>
+							<ContextMenu name="КонтрагентЗадолженностьПокупателяКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="КонтрагентЗадолженностьПокупателяРасширеннаяПодсказка" id="70"/>
+						</InputField>
+						<InputField name="КонтрагентЗадолженностьПоставщику" id="71">
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Задолженность поставщику</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>10</MaxWidth>
+							<ChoiceButton>false</ChoiceButton>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2; ЧН=-</v8:content>
+								</v8:item>
+							</Format>
+							<ChooseType>false</ChooseType>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="КонтрагентЗадолженностьПоставщикуКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="КонтрагентЗадолженностьПоставщикуРасширеннаяПодсказка" id="73"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.18">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<GroupList>2:02023637-7868-4a5f-8576-835a76e0c9ba</GroupList>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаПоказатьКонтекстныеНовости" id="50">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="51"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<Table name="Список" id="7">
+				<CommandBarLocation>None</CommandBarLocation>
+				<SkipOnInput>false</SkipOnInput>
+				<DefaultItem>true</DefaultItem>
+				<ChoiceMode>true</ChoiceMode>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>false</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+				<ContextMenu name="СписокКонтекстноеМеню" id="8"/>
+				<AutoCommandBar name="СписокКоманднаяПанель" id="9">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="СписокExtendedTooltip" id="28"/>
+				<SearchStringAddition name="СписокСтрокаПоиска" id="41">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="43"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="СписокСостояниеПросмотра" id="44">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="СписокУправлениеПоиском" id="47">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="Наименование" id="10">
+						<DefaultItem>true</DefaultItem>
+						<Width>35</Width>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="29"/>
+					</LabelField>
+					<LabelField name="ГоловнойКонтрагент" id="26">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="ГоловнойКонтрагентКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="ГоловнойКонтрагентExtendedTooltip" id="33"/>
+					</LabelField>
+					<LabelField name="ИНН" id="16">
+						<Width>12</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ИННКонтекстноеМеню" id="17"/>
+						<ExtendedTooltip name="ИННExtendedTooltip" id="34"/>
+					</LabelField>
+					<LabelField name="КПП" id="38">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Width>9</Width>
+						<ContextMenu name="КППКонтекстноеМеню" id="39"/>
+						<ExtendedTooltip name="КППРасширеннаяПодсказка" id="40"/>
+					</LabelField>
+					<LabelField name="Комментарий" id="14">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="КомментарийExtendedTooltip" id="36"/>
+					</LabelField>
+					<LabelField name="НаименованиеПолное" id="18">
+						<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="19"/>
+						<ExtendedTooltip name="НаименованиеПолноеExtendedTooltip" id="31"/>
+					</LabelField>
+					<PictureField name="ЭДО" id="55">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подключен к сервису 1С-ЭДО</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ValuesPicture>
+							<xr:Ref>CommonPicture.ЭмблемаСервиса1СЭДО</xr:Ref>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
+						</ValuesPicture>
+						<FileDragMode>AsFile</FileDragMode>
+						<ContextMenu name="ЭДОКонтекстноеМеню" id="56"/>
+						<ExtendedTooltip name="ЭДОРасширеннаяПодсказка" id="57"/>
+					</PictureField>
+					<LabelField name="Вид" id="22">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="ВидКонтекстноеМеню" id="23"/>
+						<ExtendedTooltip name="ВидExtendedTooltip" id="32"/>
+					</LabelField>
+					<LabelField name="Код" id="12">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="КодКонтекстноеМеню" id="13"/>
+						<ExtendedTooltip name="КодExtendedTooltip" id="30"/>
+					</LabelField>
+					<LabelField name="Ссылка" id="20">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="СсылкаКонтекстноеМеню" id="21"/>
+						<ExtendedTooltip name="СсылкаExtendedTooltip" id="37"/>
+					</LabelField>
+					<InputField name="ЮридическоеФизическоеЛицо" id="52">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="ЮридическоеФизическоеЛицоКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="ЮридическоеФизическоеЛицоРасширеннаяПодсказка" id="54"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+			<UsualGroup name="ГруппаСвойстваКонтрагента" id="58">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Свойства контрагента</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>style:ИтогиФонГруппы</BackColor>
+				<ExtendedTooltip name="ГруппаСвойстваКонтрагентаРасширеннаяПодсказка" id="59"/>
+				<ChildItems>
+					<InputField name="КонтрагентТелефон" id="60">
+						<ReadOnly>true</ReadOnly>
+						<ContextMenu name="КонтрагентТелефонКонтекстноеМеню" id="61"/>
+						<ExtendedTooltip name="КонтрагентТелефонРасширеннаяПодсказка" id="62"/>
+					</InputField>
+					<UsualGroup name="ГруппаПоказатели" id="63">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Показатели</v8:content>
+							</v8:item>
+						</Title>
+						<HorizontalStretch>false</HorizontalStretch>
+						<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+						<Group>Horizontal</Group>
+						<HorizontalAlign>Right</HorizontalAlign>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПоказателиРасширеннаяПодсказка" id="64"/>
+						<ChildItems>
+							<InputField name="КонтрагентНеоплаченныеСчета" id="65">
+								<ReadOnly>true</ReadOnly>
+								<HorizontalAlign>Left</HorizontalAlign>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>14</MaxWidth>
+								<ChoiceButton>false</ChoiceButton>
+								<ContextMenu name="КонтрагентНеоплаченныеСчетаКонтекстноеМеню" id="66"/>
+								<ExtendedTooltip name="КонтрагентНеоплаченныеСчетаРасширеннаяПодсказка" id="67"/>
+							</InputField>
+							<InputField name="КонтрагентЗадолженностьПокупателя" id="68">
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Задолженность покупателя</v8:content>
+									</v8:item>
+								</Title>
+								<HorizontalAlign>Left</HorizontalAlign>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>8</MaxWidth>
+								<ChoiceButton>false</ChoiceButton>
+								<Format>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ЧДЦ=2; ЧН=-</v8:content>
+									</v8:item>
+								</Format>
+								<Font height="10" kind="AutoFont"/>
+								<ContextMenu name="КонтрагентЗадолженностьПокупателяКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="КонтрагентЗадолженностьПокупателяРасширеннаяПодсказка" id="70"/>
+							</InputField>
+							<InputField name="КонтрагентЗадолженностьПоставщику" id="71">
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Задолженность поставщику</v8:content>
+									</v8:item>
+								</Title>
+								<HorizontalAlign>Left</HorizontalAlign>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>10</MaxWidth>
+								<ChoiceButton>false</ChoiceButton>
+								<Format>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ЧДЦ=2; ЧН=-</v8:content>
+									</v8:item>
+								</Format>
+								<ChooseType>false</ChooseType>
+								<TextEdit>false</TextEdit>
+								<ContextMenu name="КонтрагентЗадолженностьПоставщикуКонтекстноеМеню" id="72"/>
+								<ExtendedTooltip name="КонтрагентЗадолженностьПоставщикуРасширеннаяПодсказка" id="73"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

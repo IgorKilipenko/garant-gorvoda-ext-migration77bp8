@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.9.1-dev1</Version>
+			<Version>1.7.14.0-dev</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -96,6 +96,7 @@
 			<CommonPicture>УПЖКХ_КоллекцияЧекПробит</CommonPicture>
 			<CommonPicture>Администрирование</CommonPicture>
 			<CommonPicture>Свернуть</CommonPicture>
+			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
