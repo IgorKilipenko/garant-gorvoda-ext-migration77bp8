@@ -800,6 +800,29 @@
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаСоданиеВиртуальныхСчетчиковВ2" id="155">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Блок виртуальных счетчиков (в.2)</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа содание управления тарифами</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаСоданиеВиртуальныхСчетчиковВ2РасширеннаяПодсказка" id="156"/>
+											<ChildItems>
+												<Button name="СоздатьБлокВиртуальныхСчетчиковПоСреднемуВ2" id="157">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СоздатьБлокВиртуальныхСчетчиковПоСреднемуВ2</CommandName>
+													<ExtendedTooltip name="СоздатьБлокВиртуальныхСчетчиковПоСреднемуВ2РасширеннаяПодсказка" id="158"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</Page>
 							</ChildItems>
@@ -1305,6 +1328,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьБлокВиртуальныхСчетчиковПотерьВоды</Action>
+		</Command>
+		<Command name="СоздатьБлокВиртуальныхСчетчиковПоСреднемуВ2" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать блок виртуальных счетчиков по среднему (в.2)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать блок виртуальных счетчиков по среднему в2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьБлокВиртуальныхСчетчиковПоСреднемуВ2</Action>
 		</Command>
 	</Commands>
 </Form>
