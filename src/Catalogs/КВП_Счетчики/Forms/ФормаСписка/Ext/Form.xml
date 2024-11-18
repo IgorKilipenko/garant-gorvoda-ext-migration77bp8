@@ -1,0 +1,1286 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<Group>Horizontal</Group>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ПодменюПерейти" id="34">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перейти</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подменю перейти</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ПодменюПерейтиExtendedTooltip" id="35"/>
+			</Popup>
+			<Button name="СписокДействияФормыДействиеПомощник" id="141">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="СписокДействияФормыДействиеПомощникРасширеннаяПодсказка" id="142"/>
+			</Button>
+			<Button name="СписокПоказатьСкрытьОтключенныеСчетчики" id="159">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="СписокПоказатьСкрытьОтключенныеСчетчикиРасширеннаяПодсказка" id="160"/>
+			</Button>
+			<Popup name="ПодменюРежимПросмотра" id="226">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Режим просмотра</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подменю режим просмотра</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.ListViewMode</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Representation>PictureAndText</Representation>
+				<ExtendedTooltip name="ПодменюРежимПросмотраРасширеннаяПодсказка" id="227"/>
+				<ChildItems>
+					<Button name="ФормаИерархическийСписок" id="230">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаИерархическийСписокРасширеннаяПодсказка" id="231"/>
+					</Button>
+					<Button name="ФормаСписок" id="228">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаСписокРасширеннаяПодсказка" id="229"/>
+					</Button>
+					<Button name="ФормаДерево" id="232">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаДеревоРасширеннаяПодсказка" id="233"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Button name="ФормаОткрытьНастройкиГрафиков" id="150">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Chart</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаОткрытьНастройкиГрафиковРасширеннаяПодсказка" id="151"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ГП_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОсновныеДанные" id="152">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основные данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список счетчиков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновныеДанныеРасширеннаяПодсказка" id="153"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаПараметрыОтбора" id="200">
+					<EnableContentChange>true</EnableContentChange>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры отбора</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры отбора списка счетчиков</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<CollapsedRepresentationTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показать параметры отбора</v8:content>
+						</v8:item>
+					</CollapsedRepresentationTitle>
+					<Collapsed>true</Collapsed>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПараметрыОтбораРасширеннаяПодсказка" id="201"/>
+					<ChildItems>
+						<InputField name="Объект" id="197">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Объект учета</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Top</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Укажите Объект учета для отбора списка счетчиков</v8:content>
+								</v8:item>
+							</ToolTip>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ClearButton>true</ClearButton>
+							<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+							<ContextMenu name="ОбъектКонтекстноеМеню" id="198"/>
+							<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="199"/>
+						</InputField>
+						<CheckBoxField name="УчитыватьПодчиненныеОбъектыВОтборе" id="237">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Учитывать подчиненные объекты</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Позволяет выполнять отбор списка счетчиков с учетом иерархии: здания/подъезды/помещения/лицевые счета</v8:content>
+								</v8:item>
+							</ToolTip>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="УчитыватьПодчиненныеОбъектыВОтбореКонтекстноеМеню" id="238"/>
+							<ExtendedTooltip name="УчитыватьПодчиненныеОбъектыВОтбореРасширеннаяПодсказка" id="239"/>
+						</CheckBoxField>
+						<InputField name="Услуга" id="202">
+							<TitleLocation>Top</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Укажите Вид услуги для отбора  списка счетчиков</v8:content>
+								</v8:item>
+							</ToolTip>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="УслугаКонтекстноеМеню" id="203"/>
+							<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="204"/>
+						</InputField>
+						<InputField name="ДатаАктуальности" id="205">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата актуальности сведений</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Top</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Укажите Дату для отбора списка счетчиков</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="ДатаАктуальностиКонтекстноеМеню" id="206"/>
+							<ExtendedTooltip name="ДатаАктуальностиРасширеннаяПодсказка" id="207"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<Table name="Список" id="74">
+					<MultipleChoice>true</MultipleChoice>
+					<SelectionMode>SingleRow</SelectionMode>
+					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+					<ContextMenu name="СписокКонтекстноеМеню" id="75"/>
+					<AutoCommandBar name="СписокКоманднаяПанель" id="76">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="77"/>
+					<SearchStringAddition name="СписокСтрокаПоиска" id="78">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="79"/>
+						<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="80"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокСостояниеПросмотра" id="81">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="82"/>
+						<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокУправлениеПоиском" id="84">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="85"/>
+						<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="86"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="Код" id="87">
+							<ContextMenu name="КодКонтекстноеМеню" id="88"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="89"/>
+						</LabelField>
+						<LabelField name="Наименование" id="93">
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="94"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="95"/>
+						</LabelField>
+						<LabelField name="ВидУслуги" id="111">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Услуга</v8:content>
+								</v8:item>
+							</Title>
+							<Width>30</Width>
+							<ContextMenu name="ВидУслугиКонтекстноеМеню" id="112"/>
+							<ExtendedTooltip name="ВидУслугиРасширеннаяПодсказка" id="113"/>
+						</LabelField>
+						<LabelField name="Тарифность" id="138">
+							<Width>15</Width>
+							<ContextMenu name="ТарифностьКонтекстноеМеню" id="139"/>
+							<ExtendedTooltip name="ТарифностьРасширеннаяПодсказка" id="140"/>
+						</LabelField>
+						<CheckBoxField name="Действует" id="114">
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ДействуетКонтекстноеМеню" id="115"/>
+							<ExtendedTooltip name="ДействуетРасширеннаяПодсказка" id="116"/>
+						</CheckBoxField>
+						<LabelField name="ЗаводскойНомер" id="117">
+							<Width>30</Width>
+							<ContextMenu name="ЗаводскойНомерКонтекстноеМеню" id="118"/>
+							<ExtendedTooltip name="ЗаводскойНомерРасширеннаяПодсказка" id="119"/>
+						</LabelField>
+						<LabelField name="Коэффициент" id="123">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Коэффициент</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="КоэффициентКонтекстноеМеню" id="124"/>
+							<ExtendedTooltip name="КоэффициентРасширеннаяПодсказка" id="125"/>
+						</LabelField>
+						<CheckBoxField name="ПризнакВыходногоСчетчика" id="129">
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПризнакВыходногоСчетчикаКонтекстноеМеню" id="130"/>
+							<ExtendedTooltip name="ПризнакВыходногоСчетчикаРасширеннаяПодсказка" id="131"/>
+						</CheckBoxField>
+						<LabelField name="Разрядность" id="132">
+							<ContextMenu name="РазрядностьКонтекстноеМеню" id="133"/>
+							<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="134"/>
+						</LabelField>
+						<LabelField name="СпособРегистрацииПоказаний" id="135">
+							<ContextMenu name="СпособРегистрацииПоказанийКонтекстноеМеню" id="136"/>
+							<ExtendedTooltip name="СпособРегистрацииПоказанийРасширеннаяПодсказка" id="137"/>
+						</LabelField>
+						<CheckBoxField name="ИспользоватьТемпературныйКоэффициент" id="161">
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьТемпературныйКоэффициентКонтекстноеМеню" id="162"/>
+							<ExtendedTooltip name="ИспользоватьТемпературныйКоэффициентРасширеннаяПодсказка" id="163"/>
+						</CheckBoxField>
+					</ChildItems>
+				</Table>
+				<UsualGroup name="ГруппаРасшифровкаТекущихПоказаний" id="164">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>История показаний счетчика</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отобразить историю показателей счетчика</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<Representation>None</Representation>
+					<ShowLeftMargin>false</ShowLeftMargin>
+					<ExtendedTooltip name="ГруппаРасшифровкаТекущихПоказанийРасширеннаяПодсказка" id="165"/>
+					<ChildItems>
+						<Table name="ИсторияПоказанийТекущегоСчетчика" id="166">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаКонтекстноеМеню" id="167"/>
+							<AutoCommandBar name="ИсторияПоказанийТекущегоСчетчикаКоманднаяПанель" id="168">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаРасширеннаяПодсказка" id="169"/>
+							<SearchStringAddition name="ИсторияПоказанийТекущегоСчетчикаСтрокаПоиска" id="170">
+								<AdditionSource>
+									<Item>ИсторияПоказанийТекущегоСчетчика</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаСтрокаПоискаКонтекстноеМеню" id="171"/>
+								<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаСтрокаПоискаРасширеннаяПодсказка" id="172"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИсторияПоказанийТекущегоСчетчикаСостояниеПросмотра" id="173">
+								<AdditionSource>
+									<Item>ИсторияПоказанийТекущегоСчетчика</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаСостояниеПросмотраКонтекстноеМеню" id="174"/>
+								<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаСостояниеПросмотраРасширеннаяПодсказка" id="175"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИсторияПоказанийТекущегоСчетчикаУправлениеПоиском" id="176">
+								<AdditionSource>
+									<Item>ИсторияПоказанийТекущегоСчетчика</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаУправлениеПоискомКонтекстноеМеню" id="177"/>
+								<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаУправлениеПоискомРасширеннаяПодсказка" id="178"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ИсторияПоказанийТекущегоСчетчикаПериод" id="188">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Период показаний текущего счетчика</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаПериодКонтекстноеМеню" id="189"/>
+									<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаПериодРасширеннаяПодсказка" id="190"/>
+								</LabelField>
+								<ColumnGroup name="СписокРасшифровкиТекущихПоказанийДневнойТариф" id="220">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дневной тариф</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показания и расход по Дневному тарифу</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="СписокРасшифровкиТекущихПоказанийДневнойТарифРасширеннаяПодсказка" id="221"/>
+									<ChildItems>
+										<LabelField name="ИсторияПоказанийТекущегоСчетчикаДневноеПоказание" id="179">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Показание</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дневное показание ПУ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаДневноеПоказаниеКонтекстноеМеню" id="180"/>
+											<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаДневноеПоказаниеРасширеннаяПодсказка" id="181"/>
+										</LabelField>
+										<LabelField name="ИсторияПоказанийТекущегоСчетчикаРасходДневной" id="211">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расход</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расход по дневному тарифу ПУ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаРасходДневнойКонтекстноеМеню" id="212"/>
+											<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаРасходДневнойРасширеннаяПодсказка" id="213"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="СписокРасшифровкиТекущихПоказанийНочнойТариф" id="222">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ночной тариф</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показания и расход по Ночному тарифу</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="СписокРасшифровкиТекущихПоказанийНочнойТарифРасширеннаяПодсказка" id="223"/>
+									<ChildItems>
+										<LabelField name="ИсторияПоказанийТекущегоСчетчикаНочноеПоказание" id="185">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Показание</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Ночное показание ПУ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаНочноеПоказаниеКонтекстноеМеню" id="186"/>
+											<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаНочноеПоказаниеРасширеннаяПодсказка" id="187"/>
+										</LabelField>
+										<LabelField name="ИсторияПоказанийТекущегоСчетчикаРасходНочной" id="214">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расход</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расход по ночному тарифу ПУ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаРасходНочнойКонтекстноеМеню" id="215"/>
+											<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаРасходНочнойРасширеннаяПодсказка" id="216"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="СписокРасшифровкиТекущихПоказанийПиковыйТариф" id="224">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пиковый тариф</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показания и расход по Пиковому тарифу</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="СписокРасшифровкиТекущихПоказанийПиковыйТарифРасширеннаяПодсказка" id="225"/>
+									<ChildItems>
+										<LabelField name="ИсторияПоказанийТекущегоСчетчикаПиковоеПоказание" id="208">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Показание</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пиковое показание ПУ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаПиковоеПоказаниеКонтекстноеМеню" id="209"/>
+											<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаПиковоеПоказаниеРасширеннаяПодсказка" id="210"/>
+										</LabelField>
+										<LabelField name="ИсторияПоказанийТекущегоСчетчикаРасходПиковый" id="217">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расход</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расход по пиковому тарифу ПУ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаРасходПиковыйКонтекстноеМеню" id="218"/>
+											<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаРасходПиковыйРасширеннаяПодсказка" id="219"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<LabelField name="ИсторияПоказанийТекущегоСчетчикаКоэффициентТрансформации" id="182">
+									<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаКоэффициентТрансформацииКонтекстноеМеню" id="183"/>
+									<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаКоэффициентТрансформацииРасширеннаяПодсказка" id="184"/>
+								</LabelField>
+								<LabelField name="ИсторияПоказанийТекущегоСчетчикаТемпературныйКоэффициент" id="194">
+									<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаТемпературныйКоэффициентКонтекстноеМеню" id="195"/>
+									<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаТемпературныйКоэффициентРасширеннаяПодсказка" id="196"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+						<UsualGroup name="ГруппаГрафикРасходПоПУ" id="145">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа график расход по ПУ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>График расхода по ПУ</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаГрафикРасходПоПУРасширеннаяПодсказка" id="146"/>
+							<ChildItems>
+								<SpreadSheetDocumentField name="ГрафикРасходПоПУТабличныйДокумент" id="147">
+									<TitleLocation>None</TitleLocation>
+									<Width>65</Width>
+									<Height>5</Height>
+									<VerticalScrollBar>true</VerticalScrollBar>
+									<HorizontalScrollBar>true</HorizontalScrollBar>
+									<Protection>true</Protection>
+									<SelectionShowMode>WhenActive</SelectionShowMode>
+									<BorderColor>style:FormBackColor</BorderColor>
+									<ContextMenu name="ГрафикРасходПоПУТабличныйДокументКонтекстноеМеню" id="148"/>
+									<ExtendedTooltip name="ГрафикРасходПоПУТабличныйДокументРасширеннаяПодсказка" id="149"/>
+								</SpreadSheetDocumentField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Список</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Список.Действует</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Список.ЭтоГруппа</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ЦветШрифтаНенаступившегоЭтапа</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.18">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<Group>Horizontal</Group>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Popup name="ПодменюПерейти" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перейти</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подменю перейти</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПодменюПерейтиExtendedTooltip" id="35"/>
+				</Popup>
+				<Button name="СписокДействияФормыДействиеПомощник" id="141">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="СписокДействияФормыДействиеПомощникРасширеннаяПодсказка" id="142"/>
+				</Button>
+				<Button name="СписокПоказатьСкрытьОтключенныеСчетчики" id="159">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="СписокПоказатьСкрытьОтключенныеСчетчикиРасширеннаяПодсказка" id="160"/>
+				</Button>
+				<Popup name="ПодменюРежимПросмотра" id="226">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Режим просмотра</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подменю режим просмотра</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.ListViewMode</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ПодменюРежимПросмотраРасширеннаяПодсказка" id="227"/>
+					<ChildItems>
+						<Button name="ФормаИерархическийСписок" id="230">
+							<Type>CommandBarButton</Type>
+							<Representation>PictureAndText</Representation>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ФормаИерархическийСписокРасширеннаяПодсказка" id="231"/>
+						</Button>
+						<Button name="ФормаСписок" id="228">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ФормаСписокРасширеннаяПодсказка" id="229"/>
+						</Button>
+						<Button name="ФормаДерево" id="232">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ФормаДеревоРасширеннаяПодсказка" id="233"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+				<Button name="ФормаОткрытьНастройкиГрафиков" id="150">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.Chart</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ФормаОткрытьНастройкиГрафиковРасширеннаяПодсказка" id="151"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаОсновныеДанные" id="152">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа основные данные</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Список счетчиков</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОсновныеДанныеРасширеннаяПодсказка" id="153"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаПараметрыОтбора" id="200">
+						<EnableContentChange>true</EnableContentChange>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Параметры отбора</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Параметры отбора списка счетчиков</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
+						<CollapsedRepresentationTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Показать параметры отбора</v8:content>
+							</v8:item>
+						</CollapsedRepresentationTitle>
+						<Collapsed>true</Collapsed>
+						<ControlRepresentation>Picture</ControlRepresentation>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПараметрыОтбораРасширеннаяПодсказка" id="201"/>
+						<ChildItems>
+							<InputField name="Объект" id="197">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Объект учета</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Top</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Укажите Объект учета для отбора списка счетчиков</v8:content>
+									</v8:item>
+								</ToolTip>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ClearButton>true</ClearButton>
+								<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+								<ContextMenu name="ОбъектКонтекстноеМеню" id="198"/>
+								<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="199"/>
+							</InputField>
+							<CheckBoxField name="УчитыватьПодчиненныеОбъектыВОтборе" id="237">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Учитывать подчиненные объекты</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Позволяет выполнять отбор списка счетчиков с учетом иерархии: здания/подъезды/помещения/лицевые счета</v8:content>
+									</v8:item>
+								</ToolTip>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="УчитыватьПодчиненныеОбъектыВОтбореКонтекстноеМеню" id="238"/>
+								<ExtendedTooltip name="УчитыватьПодчиненныеОбъектыВОтбореРасширеннаяПодсказка" id="239"/>
+							</CheckBoxField>
+							<InputField name="Услуга" id="202">
+								<TitleLocation>Top</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Укажите Вид услуги для отбора  списка счетчиков</v8:content>
+									</v8:item>
+								</ToolTip>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ClearButton>true</ClearButton>
+								<ContextMenu name="УслугаКонтекстноеМеню" id="203"/>
+								<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="204"/>
+							</InputField>
+							<InputField name="ДатаАктуальности" id="205">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата актуальности сведений</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Top</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Укажите Дату для отбора списка счетчиков</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ClearButton>true</ClearButton>
+								<ContextMenu name="ДатаАктуальностиКонтекстноеМеню" id="206"/>
+								<ExtendedTooltip name="ДатаАктуальностиРасширеннаяПодсказка" id="207"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<Table name="Список" id="74">
+						<MultipleChoice>true</MultipleChoice>
+						<SelectionMode>SingleRow</SelectionMode>
+						<UseAlternationRowColor>true</UseAlternationRowColor>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<FileDragMode>AsFile</FileDragMode>
+						<AutoRefresh>false</AutoRefresh>
+						<AutoRefreshPeriod>60</AutoRefreshPeriod>
+						<Period>
+							<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+							<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+							<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+						</Period>
+						<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+						<RestoreCurrentRow>false</RestoreCurrentRow>
+						<TopLevelParent xsi:nil="true"/>
+						<ShowRoot>true</ShowRoot>
+						<AllowRootChoice>false</AllowRootChoice>
+						<UpdateOnDataChange>Auto</UpdateOnDataChange>
+						<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+						<ContextMenu name="СписокКонтекстноеМеню" id="75"/>
+						<AutoCommandBar name="СписокКоманднаяПанель" id="76">
+							<Autofill>false</Autofill>
+						</AutoCommandBar>
+						<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="77"/>
+						<SearchStringAddition name="СписокСтрокаПоиска" id="78">
+							<AdditionSource>
+								<Item>Список</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="79"/>
+							<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="80"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="СписокСостояниеПросмотра" id="81">
+							<AdditionSource>
+								<Item>Список</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="82"/>
+							<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="СписокУправлениеПоиском" id="84">
+							<AdditionSource>
+								<Item>Список</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="85"/>
+							<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="86"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<LabelField name="Код" id="87">
+								<ContextMenu name="КодКонтекстноеМеню" id="88"/>
+								<ExtendedTooltip name="КодРасширеннаяПодсказка" id="89"/>
+							</LabelField>
+							<LabelField name="Наименование" id="93">
+								<ContextMenu name="НаименованиеКонтекстноеМеню" id="94"/>
+								<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="95"/>
+							</LabelField>
+							<LabelField name="ВидУслуги" id="111">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Услуга</v8:content>
+									</v8:item>
+								</Title>
+								<Width>30</Width>
+								<ContextMenu name="ВидУслугиКонтекстноеМеню" id="112"/>
+								<ExtendedTooltip name="ВидУслугиРасширеннаяПодсказка" id="113"/>
+							</LabelField>
+							<LabelField name="Тарифность" id="138">
+								<Width>15</Width>
+								<ContextMenu name="ТарифностьКонтекстноеМеню" id="139"/>
+								<ExtendedTooltip name="ТарифностьРасширеннаяПодсказка" id="140"/>
+							</LabelField>
+							<CheckBoxField name="Действует" id="114">
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ДействуетКонтекстноеМеню" id="115"/>
+								<ExtendedTooltip name="ДействуетРасширеннаяПодсказка" id="116"/>
+							</CheckBoxField>
+							<LabelField name="ЗаводскойНомер" id="117">
+								<Width>30</Width>
+								<ContextMenu name="ЗаводскойНомерКонтекстноеМеню" id="118"/>
+								<ExtendedTooltip name="ЗаводскойНомерРасширеннаяПодсказка" id="119"/>
+							</LabelField>
+							<LabelField name="Коэффициент" id="123">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Коэффициент</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="КоэффициентКонтекстноеМеню" id="124"/>
+								<ExtendedTooltip name="КоэффициентРасширеннаяПодсказка" id="125"/>
+							</LabelField>
+							<CheckBoxField name="ПризнакВыходногоСчетчика" id="129">
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ПризнакВыходногоСчетчикаКонтекстноеМеню" id="130"/>
+								<ExtendedTooltip name="ПризнакВыходногоСчетчикаРасширеннаяПодсказка" id="131"/>
+							</CheckBoxField>
+							<LabelField name="Разрядность" id="132">
+								<ContextMenu name="РазрядностьКонтекстноеМеню" id="133"/>
+								<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="134"/>
+							</LabelField>
+							<LabelField name="СпособРегистрацииПоказаний" id="135">
+								<ContextMenu name="СпособРегистрацииПоказанийКонтекстноеМеню" id="136"/>
+								<ExtendedTooltip name="СпособРегистрацииПоказанийРасширеннаяПодсказка" id="137"/>
+							</LabelField>
+							<CheckBoxField name="ИспользоватьТемпературныйКоэффициент" id="161">
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьТемпературныйКоэффициентКонтекстноеМеню" id="162"/>
+								<ExtendedTooltip name="ИспользоватьТемпературныйКоэффициентРасширеннаяПодсказка" id="163"/>
+							</CheckBoxField>
+						</ChildItems>
+					</Table>
+					<UsualGroup name="ГруппаРасшифровкаТекущихПоказаний" id="164">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>История показаний счетчика</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отобразить историю показателей счетчика</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>AlwaysHorizontal</Group>
+						<Behavior>Collapsible</Behavior>
+						<ControlRepresentation>Picture</ControlRepresentation>
+						<Representation>None</Representation>
+						<ShowLeftMargin>false</ShowLeftMargin>
+						<ExtendedTooltip name="ГруппаРасшифровкаТекущихПоказанийРасширеннаяПодсказка" id="165"/>
+						<ChildItems>
+							<Table name="ИсторияПоказанийТекущегоСчетчика" id="166">
+								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<EnableStartDrag>true</EnableStartDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<AutoRefresh>false</AutoRefresh>
+								<AutoRefreshPeriod>60</AutoRefreshPeriod>
+								<Period>
+									<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+									<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+									<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+								</Period>
+								<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+								<RestoreCurrentRow>false</RestoreCurrentRow>
+								<TopLevelParent xsi:nil="true"/>
+								<ShowRoot>true</ShowRoot>
+								<AllowRootChoice>false</AllowRootChoice>
+								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+								<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаКонтекстноеМеню" id="167"/>
+								<AutoCommandBar name="ИсторияПоказанийТекущегоСчетчикаКоманднаяПанель" id="168">
+									<Autofill>false</Autofill>
+								</AutoCommandBar>
+								<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаРасширеннаяПодсказка" id="169"/>
+								<SearchStringAddition name="ИсторияПоказанийТекущегоСчетчикаСтрокаПоиска" id="170">
+									<AdditionSource>
+										<Item>ИсторияПоказанийТекущегоСчетчика</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаСтрокаПоискаКонтекстноеМеню" id="171"/>
+									<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаСтрокаПоискаРасширеннаяПодсказка" id="172"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ИсторияПоказанийТекущегоСчетчикаСостояниеПросмотра" id="173">
+									<AdditionSource>
+										<Item>ИсторияПоказанийТекущегоСчетчика</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаСостояниеПросмотраКонтекстноеМеню" id="174"/>
+									<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаСостояниеПросмотраРасширеннаяПодсказка" id="175"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ИсторияПоказанийТекущегоСчетчикаУправлениеПоиском" id="176">
+									<AdditionSource>
+										<Item>ИсторияПоказанийТекущегоСчетчика</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаУправлениеПоискомКонтекстноеМеню" id="177"/>
+									<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаУправлениеПоискомРасширеннаяПодсказка" id="178"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="ИсторияПоказанийТекущегоСчетчикаПериод" id="188">
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Период показаний текущего счетчика</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаПериодКонтекстноеМеню" id="189"/>
+										<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаПериодРасширеннаяПодсказка" id="190"/>
+									</LabelField>
+									<ColumnGroup name="СписокРасшифровкиТекущихПоказанийДневнойТариф" id="220">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Дневной тариф</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показания и расход по Дневному тарифу</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="СписокРасшифровкиТекущихПоказанийДневнойТарифРасширеннаяПодсказка" id="221"/>
+										<ChildItems>
+											<LabelField name="ИсторияПоказанийТекущегоСчетчикаДневноеПоказание" id="179">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показание</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Дневное показание ПУ</v8:content>
+													</v8:item>
+												</ToolTip>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаДневноеПоказаниеКонтекстноеМеню" id="180"/>
+												<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаДневноеПоказаниеРасширеннаяПодсказка" id="181"/>
+											</LabelField>
+											<LabelField name="ИсторияПоказанийТекущегоСчетчикаРасходДневной" id="211">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расход</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расход по дневному тарифу ПУ</v8:content>
+													</v8:item>
+												</ToolTip>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаРасходДневнойКонтекстноеМеню" id="212"/>
+												<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаРасходДневнойРасширеннаяПодсказка" id="213"/>
+											</LabelField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="СписокРасшифровкиТекущихПоказанийНочнойТариф" id="222">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Ночной тариф</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показания и расход по Ночному тарифу</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="СписокРасшифровкиТекущихПоказанийНочнойТарифРасширеннаяПодсказка" id="223"/>
+										<ChildItems>
+											<LabelField name="ИсторияПоказанийТекущегоСчетчикаНочноеПоказание" id="185">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показание</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Ночное показание ПУ</v8:content>
+													</v8:item>
+												</ToolTip>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаНочноеПоказаниеКонтекстноеМеню" id="186"/>
+												<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаНочноеПоказаниеРасширеннаяПодсказка" id="187"/>
+											</LabelField>
+											<LabelField name="ИсторияПоказанийТекущегоСчетчикаРасходНочной" id="214">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расход</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расход по ночному тарифу ПУ</v8:content>
+													</v8:item>
+												</ToolTip>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаРасходНочнойКонтекстноеМеню" id="215"/>
+												<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаРасходНочнойРасширеннаяПодсказка" id="216"/>
+											</LabelField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="СписокРасшифровкиТекущихПоказанийПиковыйТариф" id="224">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Пиковый тариф</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показания и расход по Пиковому тарифу</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="СписокРасшифровкиТекущихПоказанийПиковыйТарифРасширеннаяПодсказка" id="225"/>
+										<ChildItems>
+											<LabelField name="ИсторияПоказанийТекущегоСчетчикаПиковоеПоказание" id="208">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показание</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Пиковое показание ПУ</v8:content>
+													</v8:item>
+												</ToolTip>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаПиковоеПоказаниеКонтекстноеМеню" id="209"/>
+												<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаПиковоеПоказаниеРасширеннаяПодсказка" id="210"/>
+											</LabelField>
+											<LabelField name="ИсторияПоказанийТекущегоСчетчикаРасходПиковый" id="217">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расход</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расход по пиковому тарифу ПУ</v8:content>
+													</v8:item>
+												</ToolTip>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаРасходПиковыйКонтекстноеМеню" id="218"/>
+												<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаРасходПиковыйРасширеннаяПодсказка" id="219"/>
+											</LabelField>
+										</ChildItems>
+									</ColumnGroup>
+									<LabelField name="ИсторияПоказанийТекущегоСчетчикаКоэффициентТрансформации" id="182">
+										<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаКоэффициентТрансформацииКонтекстноеМеню" id="183"/>
+										<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаКоэффициентТрансформацииРасширеннаяПодсказка" id="184"/>
+									</LabelField>
+									<LabelField name="ИсторияПоказанийТекущегоСчетчикаТемпературныйКоэффициент" id="194">
+										<ContextMenu name="ИсторияПоказанийТекущегоСчетчикаТемпературныйКоэффициентКонтекстноеМеню" id="195"/>
+										<ExtendedTooltip name="ИсторияПоказанийТекущегоСчетчикаТемпературныйКоэффициентРасширеннаяПодсказка" id="196"/>
+									</LabelField>
+								</ChildItems>
+							</Table>
+							<UsualGroup name="ГруппаГрафикРасходПоПУ" id="145">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа график расход по ПУ</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>График расхода по ПУ</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаГрафикРасходПоПУРасширеннаяПодсказка" id="146"/>
+								<ChildItems>
+									<SpreadSheetDocumentField name="ГрафикРасходПоПУТабличныйДокумент" id="147">
+										<TitleLocation>None</TitleLocation>
+										<Width>65</Width>
+										<Height>5</Height>
+										<VerticalScrollBar>true</VerticalScrollBar>
+										<HorizontalScrollBar>true</HorizontalScrollBar>
+										<Protection>true</Protection>
+										<SelectionShowMode>WhenActive</SelectionShowMode>
+										<BorderColor>style:FormBackColor</BorderColor>
+										<ContextMenu name="ГрафикРасходПоПУТабличныйДокументКонтекстноеМеню" id="148"/>
+										<ExtendedTooltip name="ГрафикРасходПоПУТабличныйДокументРасширеннаяПодсказка" id="149"/>
+									</SpreadSheetDocumentField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Список</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Список.Действует</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Список.ЭтоГруппа</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:ЦветШрифтаНенаступившегоЭтапа</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>
