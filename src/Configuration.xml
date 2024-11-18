@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.17.0-rc1</Version>
+			<Version>1.7.19.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -79,6 +79,7 @@
 			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
 			<StyleItem>ЦветФонаНекорректногоЗначенияБИП</StyleItem>
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
+			<StyleItem>ЦветШрифтаНенаступившегоЭтапа</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
