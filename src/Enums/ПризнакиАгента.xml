@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="a6456335-b932-4e26-a51d-74854d11bb06">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПризнакиАгента" category="Ref">
+				<xr:TypeId>4ddaf988-c7d5-4b1f-90bf-93cd9cd66a6a</xr:TypeId>
+				<xr:ValueId>5d32eb7c-8085-4572-8791-fbdf49887256</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПризнакиАгента" category="Manager">
+				<xr:TypeId>a3753313-7346-4f4f-8530-91960a6c0c35</xr:TypeId>
+				<xr:ValueId>1ce81c73-d03e-4ac8-9fc3-95e9f207c5b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПризнакиАгента" category="List">
+				<xr:TypeId>25c52727-cdd4-424b-9b3d-e5dd933f7ad9</xr:TypeId>
+				<xr:ValueId>eb334031-cd7a-4be4-b71f-047535e30df3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПризнакиАгента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b997b0b6-26c6-42c8-8c11-06df0d0cb258</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3190e36a-ed97-4c73-bbf6-ba9c3d278f43">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанковскийПлатежныйАгент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>57cb4e1f-060b-4a9f-874b-3b6ada17c3ca</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="31ca2bc9-0f28-43e4-934b-7d745b9440e3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПлатежныйАгент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2be1bc9e-9a3d-4590-92ee-81483bff4e29</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="61161467-127a-4875-bb7c-c4ac79291410">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанковскийПлатежныйСубагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7117d3e4-b8b1-4a6a-b192-c630d7a2dc8b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6b9f06a3-f9dd-4fb7-9b66-2c6f63e6e890">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПлатежныйСубагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ad3698bc-fde5-45fb-9811-12269fa96b60</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

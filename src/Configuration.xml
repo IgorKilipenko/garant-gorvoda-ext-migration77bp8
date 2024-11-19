@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.22.0-dev1</Version>
+			<Version>1.7.22.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -80,6 +80,7 @@
 			<StyleItem>ЦветФонаНекорректногоЗначенияБИП</StyleItem>
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
 			<StyleItem>ЦветШрифтаНенаступившегоЭтапа</StyleItem>
+			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -160,6 +161,12 @@
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
+			<Enum>ВидыАктивовДляАвансов</Enum>
+			<Enum>СпособыВыставленияДокументов</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
+			<Enum>СпособыЗаполненияСтавкиНДС</Enum>
+			<Enum>ПризнакиАгента</Enum>
+			<Enum>ПорядокРегистрацииСчетовФактурНаАванс</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="7014c6a9-f582-4a5e-9fb6-12d909eb259d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыАктивовДляАвансов" category="Ref">
+				<xr:TypeId>e30d95f0-bd50-4e88-8c7a-5f2e7416c1f1</xr:TypeId>
+				<xr:ValueId>bd13e059-0a01-48be-824d-0b2df643c6d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыАктивовДляАвансов" category="Manager">
+				<xr:TypeId>c1f4d544-f907-48ad-a672-db9e4eab98d8</xr:TypeId>
+				<xr:ValueId>2bc60889-5982-40fe-831d-6d6be32dadba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыАктивовДляАвансов" category="List">
+				<xr:TypeId>acb2ba64-7be3-4833-b5ce-f4d85c32bd6b</xr:TypeId>
+				<xr:ValueId>abe4575e-48a1-4212-9bd0-ae78c56da777</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыАктивовДляАвансов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5ceb2151-a13a-463b-9960-9db182670efb</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c37bbc98-4e6c-4aa0-b859-5efad04b43bd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Запасы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>488c4ac9-1ece-4477-aacd-dfd5de4b2015</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a2bc9569-d096-4af0-b614-ebf7521a8dbb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОсновныеСредства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0cff8553-3cbf-4c01-ac10-11f161ce2b39</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b8f81c73-a265-402d-b5cb-6e4d3d119073">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПрочиеОборотные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>460f0caf-6b1b-4b84-9845-7b53cc36e99b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
