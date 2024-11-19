@@ -148,7 +148,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="735abf2cd88144ac18886a51ad0fdaafb8385015"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="1029ac6e628bfbe6cf5ae59791ba64e46d4060d7"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
@@ -501,6 +501,8 @@
 		<Metadata name="Report.ГП_СчетчикиБП77.Template.ОсновнаяСхемаКомпоновкиДанных1.Template" id="720ce7ba-eca5-4aaf-8fb9-3d890926683c.0" configVersion="5c3ba609b0a277cf09793a9a063b3d7a89642a6f"/>
 		<Metadata name="Report.КВП_СводнаяВедомость" id="c35c154a-26c8-4ab1-9b80-3be50ab6e117" configVersion="d8f8039b12386fce23fd7f3d6693169a3e89624d"/>
 		<Metadata name="Report.КВП_СводнаяВедомость.ManagerModule" id="c35c154a-26c8-4ab1-9b80-3be50ab6e117.2" configVersion="9634b26455eb34dba4d4cfa94a043b44ce10e617"/>
+		<Metadata name="Role.ГП_МиграцияПолныеПрава" id="71af7e08-666e-4941-8ad7-1caf7061b27f" configVersion="7f765dc994d5780c5e1505e47a343c4cef39ebd9"/>
+		<Metadata name="Role.ГП_МиграцияПолныеПрава.Rights" id="71af7e08-666e-4941-8ad7-1caf7061b27f.0" configVersion="b9ded3b9115f677fdf0e4208213c5327176c8d02"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="785a8ecd-06b1-430d-b7df-5c2aa1d33181" configVersion="913031b993fdbd7b5e258e76571ff4856e9cadaf"/>
 		<Metadata name="StyleItem.ВажноеСобытие" id="0d98cf21-b9df-4344-a5f6-60135b05b122" configVersion="354de11ec01ded8a14bb316736ed4bb0299c41a2"/>
 		<Metadata name="StyleItem.ДосьеГиперссылкаЦвет" id="8066341a-2843-42de-b4fe-192036e0be92" configVersion="4c9eebe981316a329c00dccc06ed726bc36781ee"/>
