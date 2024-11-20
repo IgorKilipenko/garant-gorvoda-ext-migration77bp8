@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.22.0-rc1</Version>
+			<Version>1.7.23.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -81,6 +81,8 @@
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
 			<StyleItem>ЦветШрифтаНенаступившегоЭтапа</StyleItem>
 			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
+			<StyleItem>УПЖКХ_ЦветГиперссылки</StyleItem>
+			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -99,6 +101,11 @@
 			<CommonPicture>Администрирование</CommonPicture>
 			<CommonPicture>Свернуть</CommonPicture>
 			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
+			<CommonPicture>УПЖКХ_ДобавитьВправо</CommonPicture>
+			<CommonPicture>УПЖКХ_ДобавитьВлево</CommonPicture>
+			<CommonPicture>УПЖКХ_ДобавитьВлевоВсе</CommonPicture>
+			<CommonPicture>УПЖКХ_ДобавитьВправоВсе</CommonPicture>
+			<CommonPicture>Рассчитать</CommonPicture>
 			<Role>ГП_МиграцияПолныеПрава</Role>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
@@ -167,6 +174,7 @@
 			<Enum>СпособыЗаполненияСтавкиНДС</Enum>
 			<Enum>ПризнакиАгента</Enum>
 			<Enum>ПорядокРегистрацииСчетовФактурНаАванс</Enum>
+			<Enum>ВидыДоговоровКонтрагентов</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
@@ -175,6 +183,7 @@
 			<DataProcessor>КВП_ЗаполнениеПолучателямиУслуг</DataProcessor>
 			<DataProcessor>ГП_ЗаполнениеРегистров</DataProcessor>
 			<DataProcessor>ГП_ПечатьНачисленийУслуг</DataProcessor>
+			<DataProcessor>УПЖКХ_ПомощникОткрытияЛицевогоСчета</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
