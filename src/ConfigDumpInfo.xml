@@ -171,7 +171,7 @@
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков" id="3d45d117-481f-40f1-8e6a-0ff380eb0632" configVersion="7144d1d993dcac99d0b3c57cc780412a0435b584"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.Form.Форма" id="c616b957-8cef-4c5a-aa44-b5edc4899f7c" configVersion="a50930a3305607dbacd3084d2371b45616039070"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.Form.Форма.Form" id="c616b957-8cef-4c5a-aa44-b5edc4899f7c.0" configVersion="2496ad4925915a2f33efd568088bbe57bef3aefe"/>
-		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.ManagerModule" id="3d45d117-481f-40f1-8e6a-0ff380eb0632.2" configVersion="97e064a67454152307563bfa9b525d1b42c3c2de"/>
+		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.ManagerModule" id="3d45d117-481f-40f1-8e6a-0ff380eb0632.2" configVersion="ba85cda3e8551dd85c0b36ac97cc69d5485773f9"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг" id="f570b8b8-777e-4022-8063-d3455842ff0c" configVersion="17fb4243d82e5e4d2d9e99f5d6a7f091f27d2c86"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг.ManagerModule" id="f570b8b8-777e-4022-8063-d3455842ff0c.2" configVersion="2c98b191554acfd7ddcc386a2ac01eadbd5eef72"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг.Template.ГП_ПФ_Начисления" id="32b0e43f-4e6a-43cf-8c6d-1cd4cf9bf590" configVersion="fa45a47aa8f918c4820aa26080e0422535f3f93f"/>
