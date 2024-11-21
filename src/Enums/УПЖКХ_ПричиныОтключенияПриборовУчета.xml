@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="2deb8b8d-0e30-46a4-adb8-55427a19f2e8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.УПЖКХ_ПричиныОтключенияПриборовУчета" category="Ref">
+				<xr:TypeId>02e1601b-7e8e-4506-82c8-8634eb5172bd</xr:TypeId>
+				<xr:ValueId>81ccf221-6a38-4706-8c9b-338331c2b86e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.УПЖКХ_ПричиныОтключенияПриборовУчета" category="Manager">
+				<xr:TypeId>868c0716-2a14-43af-a740-d86520adb627</xr:TypeId>
+				<xr:ValueId>96211f4f-0062-4b65-8bd4-4f51e5feabf0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.УПЖКХ_ПричиныОтключенияПриборовУчета" category="List">
+				<xr:TypeId>ce2d6b22-4a9b-4da5-8d27-754f83319989</xr:TypeId>
+				<xr:ValueId>87da44e1-09c0-4e86-9700-1d2dbb8adcad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УПЖКХ_ПричиныОтключенияПриборовУчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5e458008-1b76-4f8f-81e5-24231a61bcd9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ccc5052c-c192-4627-ab69-baedee69f4c2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Прочее</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>512e7bbb-9ae1-44e6-b72f-e45b38004d49</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="66afbe67-f80e-48da-a90d-d0a0068aa9d5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыходИзСтроя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6abe3864-c2da-4aef-91b9-f1c004ac5fb9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3da10b8f-461c-4a04-a98f-448e8d2754ee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Поверка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ed16f34c-1876-4936-a9b5-71995c7fce7b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="febea63f-b286-484b-8e45-33abcf9f7ded">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Утрата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>37afeee5-c325-4b13-8bcb-2e4510795ec3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

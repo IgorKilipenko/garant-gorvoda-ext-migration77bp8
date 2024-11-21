@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="ef910a01-e439-460d-b43f-fcb8bba86704">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КВП_УстановкаСчетчика" category="Object">
+				<xr:TypeId>ab991d90-d72a-43dc-8020-5ff3575c4c90</xr:TypeId>
+				<xr:ValueId>0ce5d33a-a2a2-43a7-ade9-dfd45e2bf03b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КВП_УстановкаСчетчика" category="Ref">
+				<xr:TypeId>6fb11c94-da40-4bcf-aaea-aab310f79824</xr:TypeId>
+				<xr:ValueId>e312ab17-e827-4f5e-8567-bea1a90f889f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КВП_УстановкаСчетчика" category="Selection">
+				<xr:TypeId>c365c3e1-e77f-4374-a475-bb17d323f874</xr:TypeId>
+				<xr:ValueId>ab3e4527-6ea0-4449-b398-a951e663a736</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КВП_УстановкаСчетчика" category="List">
+				<xr:TypeId>018f2dc4-917c-45da-b351-093d88d5cd22</xr:TypeId>
+				<xr:ValueId>09bec7da-1c34-4cac-9657-40e6f6152450</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КВП_УстановкаСчетчика" category="Manager">
+				<xr:TypeId>cf5c34d8-6d43-4868-a06b-4e9afb0db98a</xr:TypeId>
+				<xr:ValueId>9d44ef0c-d622-4027-bb9e-ff40933b9443</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_УстановкаСчетчика</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4654ba66-08e5-482b-960f-7ecc3b29a20d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
