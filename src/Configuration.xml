@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.26.0-rc1</Version>
+			<Version>1.7.27.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -165,6 +165,7 @@
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>ПоступлениеНаРасчетныйСчет</Document>
 			<Document>КВП_РегистрацияОплаты</Document>
+			<Document>КВП_УстановкаСчетчика</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
@@ -175,6 +176,7 @@
 			<Enum>ПризнакиАгента</Enum>
 			<Enum>ПорядокРегистрацииСчетовФактурНаАванс</Enum>
 			<Enum>ВидыДоговоровКонтрагентов</Enum>
+			<Enum>УПЖКХ_ПричиныОтключенияПриборовУчета</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
