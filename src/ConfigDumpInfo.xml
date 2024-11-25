@@ -16,7 +16,7 @@
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаВыбора" id="4f6ddba5-5b15-4d60-85cb-833ca3e5f946" configVersion="d71118a7c24897fe0f4a0662a22dbf8aebc55128"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаВыбора.Form" id="4f6ddba5-5b15-4d60-85cb-833ca3e5f946.0" configVersion="af1e61ddc27a1801307d497c87307b861a154245"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента" id="9f2f9eff-b5dc-4b39-a3ba-aafd3146a37f" configVersion="a036fcd39b6945740a92a5b85ece82627e79408d"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="9f2f9eff-b5dc-4b39-a3ba-aafd3146a37f.0" configVersion="32c38e4b5dd9b31d202f6e3402c203cb25405848"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="9f2f9eff-b5dc-4b39-a3ba-aafd3146a37f.0" configVersion="a463d642844a3e6fee7a8cc764898be2d24c4e98"/>
 		<Metadata name="Catalog.КВП_Здания" id="bb926c92-bc83-4e7a-8ab6-245ca99ef1a6" configVersion="f4d20ae9f3a2dec53c704ab5ba8bfd58ca9c35de">
 			<Metadata name="Catalog.КВП_Здания.Attribute.ГП_ИдентификаторБП77" id="23e24af1-1a42-4744-8334-6513d89109df"/>
 			<Metadata name="Catalog.КВП_Здания.Attribute.ГП_СозданАвтоматически" id="5d0ff775-e215-4ac2-9df2-0a2d5370b4b3"/>
