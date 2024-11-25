@@ -121,7 +121,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСФормамиКлиентСервер" id="9dd64aa4-2ab3-4c3c-8be9-fa1000a07834" configVersion="0e3b3ac2bb6739b32035b61f978b0244363e2f57"/>
 		<Metadata name="CommonModule.ГП_РаботаСФормамиКлиентСервер.Module" id="9dd64aa4-2ab3-4c3c-8be9-fa1000a07834.0" configVersion="45b3cc590043959b70122c89d7990f4e994a40e3"/>
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный" id="34c816ec-c726-4aee-9b43-08da739f5c15" configVersion="16638a5e74879db9b940c09de8220806fc65081d"/>
-		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный.Module" id="34c816ec-c726-4aee-9b43-08da739f5c15.0" configVersion="e95ce2e8dee0c3638566d0c8d0be762bab8a55a1"/>
+		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный.Module" id="34c816ec-c726-4aee-9b43-08da739f5c15.0" configVersion="9e9830a4aafcce6e68476f5487c05845bee1492f"/>
 		<Metadata name="CommonModule.ПечатьТорговыхДокументов" id="64a8d982-c364-42fe-80b2-d6371c249c40" configVersion="6fa59aaf62d2e09333a948f92a76dd38c1af30a2"/>
 		<Metadata name="CommonModule.ПечатьТорговыхДокументов.Module" id="64a8d982-c364-42fe-80b2-d6371c249c40.0" configVersion="c39b7bf18e463afaa88d333823f0cefa940e5701"/>
 		<Metadata name="CommonModule.УПЖКХ_ПериодическиеРегистрыПриборыУчета" id="e01a76c6-bc61-4e20-a123-ee177d5cf4b9" configVersion="d217def34a628840e0027a3b9d543b170b6071a5"/>
@@ -134,6 +134,7 @@
 		<Metadata name="CommonPicture.ДокументПомеченНаУдалениеКоннекторВерх" id="b891a24d-b746-4280-9e50-b77c620fee70" configVersion="320f361ac81b89750c53a8965ea0550eb02c9845"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="849fc31a-77b5-4a16-a578-224b2346801e" configVersion="a807d7dd0c09f694db9a94265c6f4e91a77fcc84"/>
 		<Metadata name="CommonPicture.ИнформацияНовости16Статичная" id="75f5406e-2925-4d60-b31f-86ad40ae88cb" configVersion="d544f56ffb9130ce6fac805b69679de55e4f7cc5"/>
+		<Metadata name="CommonPicture.КрасныйКрест" id="9352770f-bc74-481e-a457-4ecea0cf146d" configVersion="bd125572c1c47fb92070bc1e622964c695c6b6a9"/>
 		<Metadata name="CommonPicture.ОперацияВыполненаУспешно" id="4d5f5b9e-e32e-489a-a2e7-21841911222d" configVersion="45ebfb01ce5196aec5bc80dc862650db32e028fc"/>
 		<Metadata name="CommonPicture.ОперацияИсправлена" id="8bda64ff-0ccc-498e-94aa-458ad0b39e81" configVersion="eba208f6d3e7d1a75697f9fcf0943e131a5df619"/>
 		<Metadata name="CommonPicture.Отборы" id="8f6e698a-f0a9-4c65-bb5c-a03a0f080791" configVersion="c82b8aacbdffca77f9a060ac925617242d1db877"/>
@@ -157,7 +158,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="bb46e72c8b3148244bffd47e7f003d6edf410755"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="cd50447d42875d0de2154fee6970e3fbabf7eb7a"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
@@ -181,6 +182,9 @@
 		<Metadata name="DataProcessor.КВП_ЗаполнениеПолучателямиУслуг" id="df61fd5a-f0b3-46ee-bb78-c8950542bea3" configVersion="3b74f8671a80d0a9658de4e044c66ce6fe6d5543"/>
 		<Metadata name="DataProcessor.КВП_ЗаполнениеПолучателямиУслуг.Form.Форма" id="1e25cea6-b75c-41f0-8faf-c76ad0427bac" configVersion="50530578173f3592eea07b2d0c9a287253487ffa"/>
 		<Metadata name="DataProcessor.КВП_ЗаполнениеПолучателямиУслуг.Form.Форма.Form" id="1e25cea6-b75c-41f0-8faf-c76ad0427bac.0" configVersion="df81e5f95474d8f6d6df4d876a124c50b6a711e2"/>
+		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам" id="24882605-4756-41c7-af47-2dc2c0b3b0d4" configVersion="3f61d4ed365e544f457906def5bc67f5aea7b344"/>
+		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам.Form.Форма" id="837d2de7-6d1e-4132-b730-37e391fa4278" configVersion="c59064e6a66e8557cdff19ec6b825916205f617c"/>
+		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам.Form.Форма.Form" id="837d2de7-6d1e-4132-b730-37e391fa4278.0" configVersion="e191e11bdfcf60ab6f0d6f3b2d8ea0b9824b2745"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета" id="d724f21c-c991-4000-a1bd-f3d333b2c76d" configVersion="b96397fdefe41ea5261051e937d17b18a5b6d92e"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета.Form.ПомощникОткрытияЛС" id="f93c689a-5437-47a1-8b99-e5e14d31696e" configVersion="418d2b387e32b60fa0731ac413b9d7e4899ec2af"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета.Form.ПомощникОткрытияЛС.Form" id="f93c689a-5437-47a1-8b99-e5e14d31696e.0" configVersion="506d10041eb5fa164c6f7085655a1285fc78d95b"/>
@@ -196,7 +200,7 @@
 		<Metadata name="Document.КВП_ОтражениеНачисленийВРеглУчете.ObjectModule" id="06952c52-78aa-4735-a84b-4768e5599ab9.0" configVersion="e0628e97e272b6cfe818a84de84c538f894918d2"/>
 		<Metadata name="Document.КВП_РегистрацияОплаты" id="9f93e9c9-ab03-4e5b-a5f8-351d69cbe52b" configVersion="f5ab0c2ff4eea8700a3dbffa2944264c739ff68e"/>
 		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента" id="226fc755-c8b6-446a-9c82-7dbf1cb283db" configVersion="e00052b0b44059512c8e7c8a171a77d01804a031"/>
-		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента.Form" id="226fc755-c8b6-446a-9c82-7dbf1cb283db.0" configVersion="d0e3eafd4c9c1e0d6c5f666e9b17bd06edf3be3b"/>
+		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента.Form" id="226fc755-c8b6-446a-9c82-7dbf1cb283db.0" configVersion="a3a803912ca58f05d7941783974d563540eb2161"/>
 		<Metadata name="Document.КВП_УстановкаСчетчика" id="ef910a01-e439-460d-b43f-fcb8bba86704" configVersion="ee40d76105932cbea9423b034af4780d89210bd2"/>
 		<Metadata name="Document.КВП_УстановкаСчетчика.Form.ФормаДокумента" id="52d1530b-0fd4-42e6-9072-6ccb92203339" configVersion="0c35fc5f00faecc7124ef9ecfedd3fa645f4db15"/>
 		<Metadata name="Document.КВП_УстановкаСчетчика.Form.ФормаДокумента.Form" id="52d1530b-0fd4-42e6-9072-6ccb92203339.0" configVersion="55e93e84f43ac0be9c3a7c21af6b42fdf77aad0f"/>
@@ -257,6 +261,10 @@
 			<Metadata name="Enum.СпособыЗаполненияСтавкиНДС.EnumValue.ИзКарточкиНоменклатуры" id="2071741d-5b6b-4c67-8764-1c0a52f48305"/>
 			<Metadata name="Enum.СпособыЗаполненияСтавкиНДС.EnumValue.Автоматически" id="4448f43f-7942-4827-bc67-577775099ce9"/>
 			<Metadata name="Enum.СпособыЗаполненияСтавкиНДС.EnumValue.БезНДС" id="9dc17dcc-6efc-4aa6-ad2e-05a18da649c8"/>
+		</Metadata>
+		<Metadata name="Enum.УПЖКХ_ВариантыРаспределенияОплатыПриРаздельномУчетеКР" id="65d82710-c99f-4ed2-8e72-846a1ed774d0" configVersion="e35b85c866741a0992604fe96cd05aee38f911c1">
+			<Metadata name="Enum.УПЖКХ_ВариантыРаспределенияОплатыПриРаздельномУчетеКР.EnumValue.УслугиНеКапРемонт" id="799d1974-3334-4ce4-bc7b-dc0d980eed04"/>
+			<Metadata name="Enum.УПЖКХ_ВариантыРаспределенияОплатыПриРаздельномУчетеКР.EnumValue.УслугиКапРемонт" id="e71d0e7f-9d1a-40ba-9889-69abcd91750e"/>
 		</Metadata>
 		<Metadata name="Enum.УПЖКХ_ПричиныОтключенияПриборовУчета" id="2deb8b8d-0e30-46a4-adb8-55427a19f2e8" configVersion="51ce21c040e625dcc01b2e71aaf741486f093f27">
 			<Metadata name="Enum.УПЖКХ_ПричиныОтключенияПриборовУчета.EnumValue.Поверка" id="3da10b8f-461c-4a04-a98f-448e8d2754ee"/>
@@ -561,9 +569,11 @@
 		<Metadata name="Role.ГП_МиграцияПолныеПрава.Rights" id="71af7e08-666e-4941-8ad7-1caf7061b27f.0" configVersion="b9ded3b9115f677fdf0e4208213c5327176c8d02"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="785a8ecd-06b1-430d-b7df-5c2aa1d33181" configVersion="913031b993fdbd7b5e258e76571ff4856e9cadaf"/>
 		<Metadata name="StyleItem.ВажноеСобытие" id="0d98cf21-b9df-4344-a5f6-60135b05b122" configVersion="354de11ec01ded8a14bb316736ed4bb0299c41a2"/>
+		<Metadata name="StyleItem.ГруппаВариантовОтчетовЦвет82" id="64b9870d-b6a1-47d1-a43b-3dc0e9e640c6" configVersion="ea6cc33dedad8161209111b63ebf967249fdd4dd"/>
 		<Metadata name="StyleItem.ДосьеГиперссылкаЦвет" id="8066341a-2843-42de-b4fe-192036e0be92" configVersion="4c9eebe981316a329c00dccc06ed726bc36781ee"/>
 		<Metadata name="StyleItem.ИтогиФон" id="ae15072c-3fb2-4b78-9a20-3c4bb8663115" configVersion="815f1b1e2cc6bd488d6fd9fba09b9c6deb767e12"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="cd76ffdf-6faf-427b-8052-5d779f4a5a58" configVersion="582c319fa8c7ac471bcaa09f2979d063d746f4aa"/>
+		<Metadata name="StyleItem.КритичноеСобытиеНадежностьБанковЦветФона" id="c7dbbc69-a639-401a-9e0f-2290ae4be0cf" configVersion="665dceada140368a1230eb88a3566cc625ab3315"/>
 		<Metadata name="StyleItem.НеЗаполненноеСубконто" id="7e6171c2-12a9-43c3-8360-8ac4ea8e796a" configVersion="c8ff533764d850f590d0b68cf9bb5b041f6c2cb8"/>
 		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="86b3e4e4-b875-4673-95a1-a3b284a1627b" configVersion="a7378c767de8be26e191efe860b90df72576b092"/>
 		<Metadata name="StyleItem.ПоясняющийОшибкуТекст" id="219ff107-1218-40cb-8c4f-5ef9d8ff0ed1" configVersion="e857a6ad624ed275bb8f37bb109e8ec6e2ddd5e6"/>
@@ -572,12 +582,15 @@
 		<Metadata name="StyleItem.УПЖКХ_ЦветГиперссылки" id="c8f416f1-98b6-43c5-9af8-604a29b3e1da" configVersion="cd9d844fc42084ed96019edd627f737d787567ea"/>
 		<Metadata name="StyleItem.УПЖКХ_ЦветКолонкиДляСчетовИСубконтоБУ" id="8b6d464a-715c-41a4-bf4a-5481670cb853" configVersion="25f20d76df833fcdc087856dfa17b2c0dd7ff348"/>
 		<Metadata name="StyleItem.УПЖКХ_ЦветФонаНачисленияЗависимойУслуги_Уровень1" id="857ec715-ea76-43db-9f41-978f3e237f54" configVersion="1b41d958785b22a1dd2307099e9190aef985631c"/>
+		<Metadata name="StyleItem.УПЖКХ_ЦветФонаНачисленияОсновнойУслуги_Уровень1" id="402c9ede-3bb5-4611-b5ed-addb5806310f" configVersion="183c460d08fbe8a514ed4a0c6beeb947b348966b"/>
 		<Metadata name="StyleItem.УПЖКХ_ЦветФонаНачисленияОсновнойУслуги_Уровень2" id="0fe71b67-6dd9-4e69-b841-6ca952d37767" configVersion="3cf79cb00486e5b11440654b5f7fd2bc9f00f078"/>
 		<Metadata name="StyleItem.ФонУправляющегоПоля" id="800135e2-8ae0-4f69-b0a8-5a8e6eb13f29" configVersion="5c68910e2548118d477dbca21bb8753e5ebb075c"/>
 		<Metadata name="StyleItem.ЦветБаннераБежевыйЧекиНПД" id="1982a985-53aa-4113-b768-bbbd99934446" configVersion="410adf3cb89aaf16bdeed7a72a10fd507f38dffc"/>
 		<Metadata name="StyleItem.ЦветФонаНекорректногоЗначенияБИП" id="35bef82e-1e7e-4cc1-9747-3885993ce576" configVersion="794f19881c5c09a369c6781f00a65ea20b974d5e"/>
+		<Metadata name="StyleItem.ЦветФонаОтрицательногоЗначения" id="a2d2044b-ded6-40c3-9d48-d24667bcf13e" configVersion="10bc74d43a197372e48a57517bfd79bf53ce8f7e"/>
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="d2e79e54-edea-409e-b50f-b03e90cabcf9" configVersion="22b494374f2ede9ce885d29f425f4e121834f1d0"/>
 		<Metadata name="StyleItem.ЦветШрифтаНенаступившегоЭтапа" id="1cbf3e86-d043-46d8-8cf7-1756cdeff56e" configVersion="4720e70bcfa001e7069b333e68beb16de2c637e5"/>
+		<Metadata name="StyleItem.ЦветШрифтаОшибки" id="456c88e8-7ab2-49ea-a36f-58558de0084c" configVersion="fafb013e594476c08da6612893d7077e274dd15d"/>
 		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="8abcfa17ddcb18788c1b8cec02b45dce0a1cc966"/>
 		<Metadata name="Subsystem.ГП_МиграцияРазработка.CommandInterface" id="fdc75fdb-9bf5-4f9e-b742-33b858564549.1" configVersion="6b1d809c28d2f99e7e76daffe39c6c34784cbdc3"/>
 	</ConfigVersions>
