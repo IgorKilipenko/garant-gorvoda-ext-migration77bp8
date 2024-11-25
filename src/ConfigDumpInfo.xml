@@ -184,7 +184,7 @@
 		<Metadata name="DataProcessor.КВП_ЗаполнениеПолучателямиУслуг.Form.Форма.Form" id="1e25cea6-b75c-41f0-8faf-c76ad0427bac.0" configVersion="df81e5f95474d8f6d6df4d876a124c50b6a711e2"/>
 		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам" id="24882605-4756-41c7-af47-2dc2c0b3b0d4" configVersion="3f61d4ed365e544f457906def5bc67f5aea7b344"/>
 		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам.Form.Форма" id="837d2de7-6d1e-4132-b730-37e391fa4278" configVersion="c59064e6a66e8557cdff19ec6b825916205f617c"/>
-		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам.Form.Форма.Form" id="837d2de7-6d1e-4132-b730-37e391fa4278.0" configVersion="d83741e4a0f4166ad568f4c3740f211edff26793"/>
+		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам.Form.Форма.Form" id="837d2de7-6d1e-4132-b730-37e391fa4278.0" configVersion="8d6035f20272400a516e1d4dd144315bbbe8025e"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета" id="d724f21c-c991-4000-a1bd-f3d333b2c76d" configVersion="b96397fdefe41ea5261051e937d17b18a5b6d92e"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета.Form.ПомощникОткрытияЛС" id="f93c689a-5437-47a1-8b99-e5e14d31696e" configVersion="418d2b387e32b60fa0731ac413b9d7e4899ec2af"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета.Form.ПомощникОткрытияЛС.Form" id="f93c689a-5437-47a1-8b99-e5e14d31696e.0" configVersion="506d10041eb5fa164c6f7085655a1285fc78d95b"/>
