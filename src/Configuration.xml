@@ -88,6 +88,7 @@
 			<StyleItem>КритичноеСобытиеНадежностьБанковЦветФона</StyleItem>
 			<StyleItem>УПЖКХ_ЦветФонаНачисленияОсновнойУслуги_Уровень1</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
+			<StyleItem>ЦветФонаИнформацияДляПользователя</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -177,6 +178,7 @@
 			<Document>КВП_РегистрацияОплаты</Document>
 			<Document>КВП_УстановкаСчетчика</Document>
 			<Document>ПриходныйКассовыйОрдер</Document>
+			<Document>ОплатаПлатежнойКартой</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
@@ -189,6 +191,7 @@
 			<Enum>ВидыДоговоровКонтрагентов</Enum>
 			<Enum>УПЖКХ_ПричиныОтключенияПриборовУчета</Enum>
 			<Enum>УПЖКХ_ВариантыРаспределенияОплатыПриРаздельномУчетеКР</Enum>
+			<Enum>ВидыОперацийОплатаПлатежнойКартой</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>

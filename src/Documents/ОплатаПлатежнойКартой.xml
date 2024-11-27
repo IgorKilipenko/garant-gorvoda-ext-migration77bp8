@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="9b485ce0-5c16-423a-a93a-780378cbf78d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОплатаПлатежнойКартой" category="Object">
+				<xr:TypeId>b7bfaa05-3b6e-489c-bb49-e4df73d3e8bd</xr:TypeId>
+				<xr:ValueId>e3c6f6c1-1a16-4e57-aea4-edf7028e62ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОплатаПлатежнойКартой" category="Ref">
+				<xr:TypeId>64bbabfd-c997-43ed-80c4-3ef8d3c5437a</xr:TypeId>
+				<xr:ValueId>42a798bd-c412-4342-9829-42de6c4f39d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОплатаПлатежнойКартой" category="Selection">
+				<xr:TypeId>5664246e-d459-49c6-9697-e21b8cffd93f</xr:TypeId>
+				<xr:ValueId>47b16907-5f8e-4ca5-94ce-995904cb870d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОплатаПлатежнойКартой" category="List">
+				<xr:TypeId>2d4dbe45-7389-45ec-a9a7-b818f4c48920</xr:TypeId>
+				<xr:ValueId>2f4d1dae-26b2-426c-9781-d2ffa027e219</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОплатаПлатежнойКартой" category="Manager">
+				<xr:TypeId>a64f87e5-fca0-49da-902b-422b2bec8642</xr:TypeId>
+				<xr:ValueId>f8f810de-e48f-48cd-9a1f-cf67a4699bb3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОплатаПлатежнойКартой</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1352de94-dc0a-4c63-96a3-dd70738f850e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокументаОднострочная</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

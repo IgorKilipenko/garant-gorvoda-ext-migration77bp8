@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="159acccd-617b-4642-af02-e484c02847b7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийОплатаПлатежнойКартой" category="Ref">
+				<xr:TypeId>a5d510cf-af8a-4117-88f4-77ab3ec45032</xr:TypeId>
+				<xr:ValueId>ba80a7c5-ce50-42e6-b8ad-610872e149af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийОплатаПлатежнойКартой" category="Manager">
+				<xr:TypeId>db605eaa-eac4-481b-a894-c89bf6e97b6f</xr:TypeId>
+				<xr:ValueId>2d125e58-be19-4c18-a675-f122014fb8c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийОплатаПлатежнойКартой" category="List">
+				<xr:TypeId>8bed9126-c36e-4a29-84d5-bbf841542031</xr:TypeId>
+				<xr:ValueId>2e09500f-ecec-4390-9176-aee18446dd49</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийОплатаПлатежнойКартой</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8e73ce99-2e39-4f60-90f3-3607c0028c87</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5df22862-8530-47e4-87c0-683316c9b5bb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПлатежПоРеестру</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>87390baf-6df8-41c8-8919-2c982959e219</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
