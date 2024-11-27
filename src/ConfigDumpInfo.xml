@@ -109,7 +109,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСДатами" id="95585940-1b5a-478f-a428-781a1cc5349d" configVersion="7a6ad06c77cd2a58b436cf4f2a319a7d3b5cbf1d"/>
 		<Metadata name="CommonModule.ГП_РаботаСДатами.Module" id="95585940-1b5a-478f-a428-781a1cc5349d.0" configVersion="fdcd9b08c66ad602c4519a24934b95b25432721c"/>
 		<Metadata name="CommonModule.ГП_РаботаСДоговорами" id="acf369df-ee00-4cd5-b92f-9fb011a48949" configVersion="fc686a0da2af2dd21ddba4b99b3a43606e0e5459"/>
-		<Metadata name="CommonModule.ГП_РаботаСДоговорами.Module" id="acf369df-ee00-4cd5-b92f-9fb011a48949.0" configVersion="8ae1bb46bd0262ce865a56935c092b7f4a111c94"/>
+		<Metadata name="CommonModule.ГП_РаботаСДоговорами.Module" id="acf369df-ee00-4cd5-b92f-9fb011a48949.0" configVersion="6dfea9d1b3f39f499b33f3fc69ca2bc6d1cccae6"/>
 		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами" id="9b883fe6-e1bd-4cd2-8341-c5c309534410" configVersion="e8f35c035a714ef77faa7c4ac6f3c6c84b2da787"/>
 		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами.Module" id="9b883fe6-e1bd-4cd2-8341-c5c309534410.0" configVersion="8640bc408693ce4d3cc48ed29e3cd195e9ab6ae6"/>
 		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами" id="cb495c95-3395-4168-9352-d2c71994b0a2" configVersion="f0853eb947353611164df6eef9e6e2b4d41b83a6"/>
