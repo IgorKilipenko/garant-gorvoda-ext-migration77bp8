@@ -67,7 +67,7 @@
 		<Metadata name="CommonForm.ГП_ФормаПечатнойФормыОтчета.Form" id="0955e55e-b48f-4a06-9c7e-ba8d51cc1b2a.0" configVersion="6d290694b84f0dc106c3c1e96a877ba7eab0257e"/>
 		<Metadata name="CommonForm.ГП_ФормаПечатнойФормыОтчета.Help" id="0955e55e-b48f-4a06-9c7e-ba8d51cc1b2a.1" configVersion="887959950fcf4736e26bbb4fd8b3f94bed328697"/>
 		<Metadata name="CommonModule.ГП_ВводНачальногоСальдоНачислений" id="0b2d67c4-5827-46f2-af5e-2ae41a5d4178" configVersion="28fa84e9f3004e0df0c76131bceccb29c35045d6"/>
-		<Metadata name="CommonModule.ГП_ВводНачальногоСальдоНачислений.Module" id="0b2d67c4-5827-46f2-af5e-2ae41a5d4178.0" configVersion="45d372f6d0576b2a45a78f831a53f20e7c20837a"/>
+		<Metadata name="CommonModule.ГП_ВводНачальногоСальдоНачислений.Module" id="0b2d67c4-5827-46f2-af5e-2ae41a5d4178.0" configVersion="f5885d2ba36937ffad64ee7594a5bf4647049242"/>
 		<Metadata name="CommonModule.ГП_МиграцияБанковскихСчетов" id="86347f03-9426-4c1e-8177-ff0ecde3d41b" configVersion="29308f683ffafb5cbdd8907dc21801f8442875aa"/>
 		<Metadata name="CommonModule.ГП_МиграцияБанковскихСчетов.Module" id="86347f03-9426-4c1e-8177-ff0ecde3d41b.0" configVersion="f3d53f017f52929d888f0ccef8612e58f89fa444"/>
 		<Metadata name="CommonModule.ГП_МиграцияДинамическихПоказателей" id="64969a78-0086-4415-9f5b-467df1fb6699" configVersion="c8f79765c08989eaf730a74b7e43559049468a67"/>
