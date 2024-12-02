@@ -257,9 +257,6 @@
 						<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="85"/>
 						<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="86"/>
 					</SearchControlAddition>
-					<Events>
-						<Event name="97365900-eadf-4dfd-a9aa-fbb9ecabd079" callType="After">ГП_СписокПриПолученииДанныхНаСервереПосле</Event>
-					</Events>
 					<ChildItems>
 						<LabelField name="Код" id="87">
 							<ContextMenu name="КодКонтекстноеМеню" id="88"/>
