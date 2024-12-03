@@ -167,7 +167,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="95c253e22eed67bd9232f46f2369d54f3115093a"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="cdeb02cca4912bf5cf8f5543f1770f2c153a53ec"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
@@ -215,7 +215,7 @@
 		<Metadata name="Document.КВП_УстановкаСчетчика.Form.ФормаДокумента.Form" id="52d1530b-0fd4-42e6-9072-6ccb92203339.0" configVersion="55e93e84f43ac0be9c3a7c21af6b42fdf77aad0f"/>
 		<Metadata name="Document.КВП_УстановкаТарифов" id="a9880687-f090-4f44-938b-d810ceb315b6" configVersion="60241877978d056220f39bbc3041d8fc5f307e7a"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента" id="e13f6e84-454a-4bd2-b81e-ae437f132736" configVersion="ca1fec5da57af76fed87fd3b1277f3945129ec20"/>
-		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента.Form" id="e13f6e84-454a-4bd2-b81e-ae437f132736.0" configVersion="6518679afb1d3ef712eb8d6c5cd9cbddd2a3dbdc"/>
+		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента.Form" id="e13f6e84-454a-4bd2-b81e-ae437f132736.0" configVersion="e77b0f4ae907c4e48b22930f4a102e558f44466a"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.ObjectModule" id="a9880687-f090-4f44-938b-d810ceb315b6.0" configVersion="bfdc4c2f7b2cd15165070633eaff09a53d05da80"/>
 		<Metadata name="Document.ОплатаПлатежнойКартой" id="9b485ce0-5c16-423a-a93a-780378cbf78d" configVersion="1061837b49bf084b466f114c6a13e0f4f767110f"/>
 		<Metadata name="Document.ОплатаПлатежнойКартой.Form.ФормаДокументаОднострочная" id="ffb308fe-5afa-44ee-8e28-e9f6f45c8d91" configVersion="96b236b0cbdb4dfd7bf537ca4e61d34571d2d474"/>
