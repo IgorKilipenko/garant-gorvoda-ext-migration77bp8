@@ -70,6 +70,8 @@
 		<Metadata name="CommonModule.ГП_ВводНачальногоСальдоНачислений.Module" id="0b2d67c4-5827-46f2-af5e-2ae41a5d4178.0" configVersion="f5885d2ba36937ffad64ee7594a5bf4647049242"/>
 		<Metadata name="CommonModule.ГП_МиграцияБанковскихСчетов" id="86347f03-9426-4c1e-8177-ff0ecde3d41b" configVersion="29308f683ffafb5cbdd8907dc21801f8442875aa"/>
 		<Metadata name="CommonModule.ГП_МиграцияБанковскихСчетов.Module" id="86347f03-9426-4c1e-8177-ff0ecde3d41b.0" configVersion="f3d53f017f52929d888f0ccef8612e58f89fa444"/>
+		<Metadata name="CommonModule.ГП_МиграцияВзаиморасчетов" id="d525fc03-1733-4432-8f0e-24054024702e" configVersion="b127d4c8c220adb5c3d9c40db7149f08f4383b36"/>
+		<Metadata name="CommonModule.ГП_МиграцияВзаиморасчетов.Module" id="d525fc03-1733-4432-8f0e-24054024702e.0" configVersion="d2fd24d3600133b1822b2c41f47bbaeb6441a4bf"/>
 		<Metadata name="CommonModule.ГП_МиграцияДинамическихПоказателей" id="64969a78-0086-4415-9f5b-467df1fb6699" configVersion="c8f79765c08989eaf730a74b7e43559049468a67"/>
 		<Metadata name="CommonModule.ГП_МиграцияДинамическихПоказателей.Module" id="64969a78-0086-4415-9f5b-467df1fb6699.0" configVersion="32713223d9d308d600b777494d4c5ab6c581fbe1"/>
 		<Metadata name="CommonModule.ГП_МиграцияДоговоров" id="920b1920-2871-48b3-ad31-9921428ff657" configVersion="5e820b815b95ae3e5ddb5edfaf3b68736119ecd3"/>
@@ -167,7 +169,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="cdeb02cca4912bf5cf8f5543f1770f2c153a53ec"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="6867721c9d844ca7787af8ed700a720118334a4d"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
@@ -295,6 +297,20 @@
 			<Metadata name="Enum.ЮридическоеФизическоеЛицо.EnumValue.ФизическоеЛицо" id="3af61ad9-b07c-4f75-b5ec-3cd9ba4e6c44"/>
 			<Metadata name="Enum.ЮридическоеФизическоеЛицо.EnumValue.ЮридическоеЛицо" id="fa59b560-4cb8-4461-9006-59b13986d08e"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77" id="3d4fef16-a922-4d2f-9fb4-5abc36f2c092" configVersion="d5f75a50e2f514106912a6be9c9a32e9e02fa010">
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Dimension.ДоговорКод" id="557e0849-8399-416c-a6b8-04ced72e53c1"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Resource.Сальдо" id="59e6268e-4fc6-4c8e-9d61-367cb1d49c08"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Attribute.КонтрагентНаименование" id="731c788a-5ac5-476a-b9e7-00ec6f78f688"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Resource.Водоотведение" id="860f9ec2-6e34-400a-9b03-365b45d750b8"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Resource.Водоснабжение" id="86aeb769-e3ca-48cc-a03d-a4aef801a520"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Attribute.ДоговорНаименование" id="9cb2f922-20a6-473e-bfcc-1a2d2c4c3f91"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Attribute.ДоговорНомер" id="ad577181-cfb8-4309-86a0-d08f5c087d58"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Resource.Дебет" id="c52ce7a6-b697-430a-bf66-0235efb1abd2"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Dimension.КонтрагентКод" id="d8de3d88-7529-42d6-ade2-a2758d2e9eeb"/>
+			<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Resource.Кредит" id="f5021ec1-999e-4d39-9b33-34c5800e408e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Form.ФормаСписка" id="0d9664de-39aa-4455-91e8-716d974f24d9" configVersion="ba71920cd9872e072e287382e95408442f9f2e3f"/>
+		<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Form.ФормаСписка.Form" id="0d9664de-39aa-4455-91e8-716d974f24d9.0" configVersion="d5ae29f5bc762b01617addbcd86cd3c607e09b71"/>
 		<Metadata name="InformationRegister.ГП_ДоговорыБП77" id="4b9ff110-7f6d-4a25-8990-12a2d48deb04" configVersion="fc0d0ddf5930a3937a6cd8deca2505161dcdcff8">
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.ДатаПрекращенияНачисленияШтрафныхСанкций" id="0ad19249-1abd-4eb0-a928-8f69e71c19da"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ОплатаДоговора" id="1149dee5-96f7-4821-b1be-4ebaff21fc32"/>
@@ -611,7 +627,7 @@
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="d2e79e54-edea-409e-b50f-b03e90cabcf9" configVersion="22b494374f2ede9ce885d29f425f4e121834f1d0"/>
 		<Metadata name="StyleItem.ЦветШрифтаНенаступившегоЭтапа" id="1cbf3e86-d043-46d8-8cf7-1756cdeff56e" configVersion="4720e70bcfa001e7069b333e68beb16de2c637e5"/>
 		<Metadata name="StyleItem.ЦветШрифтаОшибки" id="456c88e8-7ab2-49ea-a36f-58558de0084c" configVersion="fafb013e594476c08da6612893d7077e274dd15d"/>
-		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="8abcfa17ddcb18788c1b8cec02b45dce0a1cc966"/>
-		<Metadata name="Subsystem.ГП_МиграцияРазработка.CommandInterface" id="fdc75fdb-9bf5-4f9e-b742-33b858564549.1" configVersion="6b1d809c28d2f99e7e76daffe39c6c34784cbdc3"/>
+		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="4aaa70816ec21869165b8a9661a8b49c8c0330b6"/>
+		<Metadata name="Subsystem.ГП_МиграцияРазработка.CommandInterface" id="fdc75fdb-9bf5-4f9e-b742-33b858564549.1" configVersion="e6194b9fd0d692d26cc4851a0ef90d36a48972b4"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

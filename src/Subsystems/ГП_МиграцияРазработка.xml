@@ -33,6 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ТарифыОбъектовАбонентовБП77</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ГП_РежимМиграцииБП77</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ГП_ЗаполнениеРегистров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ВзаиморасчетыБП77</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
