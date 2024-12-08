@@ -169,7 +169,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="6867721c9d844ca7787af8ed700a720118334a4d"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="de60cfb02f835999ae17bc34f9ab485815257b21"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
@@ -311,7 +311,7 @@
 		</Metadata>
 		<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Form.ФормаСписка" id="0d9664de-39aa-4455-91e8-716d974f24d9" configVersion="ba71920cd9872e072e287382e95408442f9f2e3f"/>
 		<Metadata name="InformationRegister.ГП_ВзаиморасчетыБП77.Form.ФормаСписка.Form" id="0d9664de-39aa-4455-91e8-716d974f24d9.0" configVersion="d5ae29f5bc762b01617addbcd86cd3c607e09b71"/>
-		<Metadata name="InformationRegister.ГП_ДоговорыБП77" id="4b9ff110-7f6d-4a25-8990-12a2d48deb04" configVersion="fc0d0ddf5930a3937a6cd8deca2505161dcdcff8">
+		<Metadata name="InformationRegister.ГП_ДоговорыБП77" id="4b9ff110-7f6d-4a25-8990-12a2d48deb04" configVersion="61f811a07a3a7b1eef4c7cfb8d0eb867d01c12cb">
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.ДатаПрекращенияНачисленияШтрафныхСанкций" id="0ad19249-1abd-4eb0-a928-8f69e71c19da"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ОплатаДоговора" id="1149dee5-96f7-4821-b1be-4ebaff21fc32"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.АвтоОбработкаНДС" id="15c33486-9608-4587-a06d-f5f9a0b81e76"/>
@@ -327,6 +327,7 @@
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ПроцентКорректировкиКурсаУЕ" id="b06c3e0c-0ce6-4481-8438-3f72fbd01a03"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.ДатаПогашенияОбязательства" id="b14ca962-d224-4570-bc8c-421e6bb88a7a"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Dimension.Код" id="b512d3a4-17a1-472b-9131-18c8477ccd61"/>
+			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.Номер" id="c7adf592-0879-45f6-98b4-1519b9efcd04"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.ДатаНачалаНачисленияШтрафныхСанкций" id="cabcee9e-e8a0-4207-91a0-5f590e60e658"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Resource.ДатаВозникновенияОбязательства" id="d9496f02-8ea1-4f78-9e68-623e8f1c1964"/>
 			<Metadata name="InformationRegister.ГП_ДоговорыБП77.Attribute.ВременнаяЕдиницаРасчетаШтрафныхСанкций" id="e4366313-2ea8-4177-b5ed-0824478ad3f9"/>
