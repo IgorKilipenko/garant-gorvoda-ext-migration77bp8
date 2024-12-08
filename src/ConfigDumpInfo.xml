@@ -75,13 +75,13 @@
 		<Metadata name="CommonModule.ГП_МиграцияДинамическихПоказателей" id="64969a78-0086-4415-9f5b-467df1fb6699" configVersion="c8f79765c08989eaf730a74b7e43559049468a67"/>
 		<Metadata name="CommonModule.ГП_МиграцияДинамическихПоказателей.Module" id="64969a78-0086-4415-9f5b-467df1fb6699.0" configVersion="32713223d9d308d600b777494d4c5ab6c581fbe1"/>
 		<Metadata name="CommonModule.ГП_МиграцияДоговоров" id="920b1920-2871-48b3-ad31-9921428ff657" configVersion="5e820b815b95ae3e5ddb5edfaf3b68736119ecd3"/>
-		<Metadata name="CommonModule.ГП_МиграцияДоговоров.Module" id="920b1920-2871-48b3-ad31-9921428ff657.0" configVersion="8d7a52c1d2d57a2c0bcb112431d1f4ee1b6850e9"/>
+		<Metadata name="CommonModule.ГП_МиграцияДоговоров.Module" id="920b1920-2871-48b3-ad31-9921428ff657.0" configVersion="2a676fb342563429ae8e251f17ed27ed63c0239c"/>
 		<Metadata name="CommonModule.ГП_МиграцияЗданий" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb" configVersion="ecbc3eea0958b8f19ac069ab0620a0f2acff6be6"/>
 		<Metadata name="CommonModule.ГП_МиграцияЗданий.Module" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb.0" configVersion="c61c4f1649a42bd9897004a8dd47197c6d3d41eb"/>
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147" configVersion="97a5cca7afa33902b09de9527fd2fac2894cdf77"/>
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов.Module" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147.0" configVersion="552674313c9ee91c293ae9baf8b7826e0aec12b1"/>
 		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов" id="8c21dd53-8726-4d77-94d9-91010f311814" configVersion="08984a7300b22a4076197788abdaf1af7851fdf8"/>
-		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов.Module" id="8c21dd53-8726-4d77-94d9-91010f311814.0" configVersion="d49fcb0867d12bcc8b85dd9f462a4d0e76e11f30"/>
+		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов.Module" id="8c21dd53-8726-4d77-94d9-91010f311814.0" configVersion="afe8c667da378dbe5ddc6d86fbbdc5b4e78ffbeb"/>
 		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетовОИ" id="19fa5bd6-0f31-4f9e-84b7-38371388723a" configVersion="5e5b142509b879e1e9421ce10179407ef0e5fac7"/>
 		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетовОИ.Module" id="19fa5bd6-0f31-4f9e-84b7-38371388723a.0" configVersion="e42270b5a02f33911f9c219eb59b97ecede34aee"/>
 		<Metadata name="CommonModule.ГП_МиграцияНормПотребления" id="dfdbb180-6dd0-4ac8-8e32-8735ea4d1986" configVersion="e9ea2edc71767de472a7f08b90c1515342758ce7"/>
