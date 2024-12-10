@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.42.0-rc1</Version>
+			<Version>1.7.43.1-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -64,6 +64,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ГП_МиграцияРазработка</Subsystem>
+			<Subsystem>УПЖКХ_УправлениеЛицевымиСчетами</Subsystem>
 			<StyleItem>УПЖКХ_ТекстСправочнойНадписи</StyleItem>
 			<StyleItem>ИтогиФонГруппы</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
@@ -154,6 +155,7 @@
 			<CommonModule>ГП_РаботаСНоменклатурами</CommonModule>
 			<CommonModule>ГП_ВводНачальногоСальдоНачислений</CommonModule>
 			<CommonModule>ГП_МиграцияВзаиморасчетов</CommonModule>
+			<CommonModule>ГП_ОбменСоСТАРТ</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
@@ -204,6 +206,7 @@
 			<DataProcessor>ГП_ПечатьНачисленийУслуг</DataProcessor>
 			<DataProcessor>УПЖКХ_ПомощникОткрытияЛицевогоСчета</DataProcessor>
 			<DataProcessor>КВП_ФормированиеОплатПоПлатежнымДокументам</DataProcessor>
+			<DataProcessor>ГП_ВыгрузкаПоказанийСТАРТ</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
