@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.45.0-rc1</Version>
+			<Version>1.7.46.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -163,6 +163,7 @@
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
 			<CommonForm>ГП_ФормаПечатнойФормыОтчета</CommonForm>
+			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<Catalog>КВП_Счетчики</Catalog>
 			<Catalog>КВП_ЛицевыеСчета</Catalog>
 			<Catalog>КВП_Подъезды</Catalog>
