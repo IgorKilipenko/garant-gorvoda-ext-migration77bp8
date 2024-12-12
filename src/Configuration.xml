@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.7.46.0-rc1</Version>
+			<Version>1.7.47.0-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -90,6 +90,9 @@
 			<StyleItem>УПЖКХ_ЦветФонаНачисленияОсновнойУслуги_Уровень1</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
 			<StyleItem>ЦветФонаИнформацияДляПользователя</StyleItem>
+			<StyleItem>ШрифтЗаголовкаРазделаМонитораРуководителя</StyleItem>
+			<StyleItem>СодержаниеУслугиШрифт</StyleItem>
+			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -115,6 +118,8 @@
 			<CommonPicture>Рассчитать</CommonPicture>
 			<CommonPicture>КрасныйКрест</CommonPicture>
 			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>СтрелкаВправо</CommonPicture>
+			<CommonPicture>ОчиститьЗначение</CommonPicture>
 			<Role>ГП_МиграцияПолныеПрава</Role>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
@@ -187,6 +192,7 @@
 			<Document>КВП_УстановкаСчетчика</Document>
 			<Document>ПриходныйКассовыйОрдер</Document>
 			<Document>ОплатаПлатежнойКартой</Document>
+			<Document>СчетНаОплатуПокупателю</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
@@ -211,6 +217,7 @@
 			<DataProcessor>УПЖКХ_ПомощникОткрытияЛицевогоСчета</DataProcessor>
 			<DataProcessor>КВП_ФормированиеОплатПоПлатежнымДокументам</DataProcessor>
 			<DataProcessor>ГП_ВыгрузкаПоказанийСТАРТ</DataProcessor>
+			<DataProcessor>ГП_ПечатьДоговораПодряда</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
