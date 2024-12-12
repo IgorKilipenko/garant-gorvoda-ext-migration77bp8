@@ -139,7 +139,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСУслугамиКлиент" id="705bc1db-e276-4a30-853a-b4190c68b379" configVersion="ca87af0245a6ed1aa88f3e91121c2d5edd1fec4b"/>
 		<Metadata name="CommonModule.ГП_РаботаСУслугамиКлиент.Module" id="705bc1db-e276-4a30-853a-b4190c68b379.0" configVersion="9846ba64867d0dea4b25ccbee0fccce27137317c"/>
 		<Metadata name="CommonModule.ГП_РаботаСФормамиКлиентСервер" id="9dd64aa4-2ab3-4c3c-8be9-fa1000a07834" configVersion="0e3b3ac2bb6739b32035b61f978b0244363e2f57"/>
-		<Metadata name="CommonModule.ГП_РаботаСФормамиКлиентСервер.Module" id="9dd64aa4-2ab3-4c3c-8be9-fa1000a07834.0" configVersion="45b3cc590043959b70122c89d7990f4e994a40e3"/>
+		<Metadata name="CommonModule.ГП_РаботаСФормамиКлиентСервер.Module" id="9dd64aa4-2ab3-4c3c-8be9-fa1000a07834.0" configVersion="2111851c019c9785df3ce23f27ba45290db2b781"/>
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный" id="34c816ec-c726-4aee-9b43-08da739f5c15" configVersion="16638a5e74879db9b940c09de8220806fc65081d"/>
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный.Module" id="34c816ec-c726-4aee-9b43-08da739f5c15.0" configVersion="ff321ebc9be3e0a13f9a786c2184d085ae766c29"/>
 		<Metadata name="CommonModule.ПечатьТорговыхДокументов" id="64a8d982-c364-42fe-80b2-d6371c249c40" configVersion="6fa59aaf62d2e09333a948f92a76dd38c1af30a2"/>
@@ -211,8 +211,9 @@
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.Form.Форма.Form" id="c616b957-8cef-4c5a-aa44-b5edc4899f7c.0" configVersion="2496ad4925915a2f33efd568088bbe57bef3aefe"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.ManagerModule" id="3d45d117-481f-40f1-8e6a-0ff380eb0632.2" configVersion="ba85cda3e8551dd85c0b36ac97cc69d5485773f9"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда" id="99643c2e-1610-47ed-8c14-d73a7e92708b" configVersion="54032c8dc693dfdbdbe4654f5ebcb3d1dabe1da1"/>
+		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.ManagerModule" id="99643c2e-1610-47ed-8c14-d73a7e92708b.2" configVersion="f05cf204d7a10f91f7cb42a044c5449e4dfeb4c0"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда" id="aa591390-b66d-48a7-b187-c63948c746a3" configVersion="367a4411f677be953f3540e9e847754506523232"/>
-		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда.Template" id="aa591390-b66d-48a7-b187-c63948c746a3.0" configVersion="9f96b28e787bc9e065760321053bdb5fa3a63aef"/>
+		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда.Template" id="aa591390-b66d-48a7-b187-c63948c746a3.0" configVersion="de0046a001ef147c4c20e7996e382ac18623ed63"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг" id="f570b8b8-777e-4022-8063-d3455842ff0c" configVersion="17fb4243d82e5e4d2d9e99f5d6a7f091f27d2c86"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг.ManagerModule" id="f570b8b8-777e-4022-8063-d3455842ff0c.2" configVersion="46b5fdc60d939226ca59832efb0b5d8467872e3d"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг.Template.ГП_ПФ_Начисления" id="32b0e43f-4e6a-43cf-8c6d-1cd4cf9bf590" configVersion="fa45a47aa8f918c4820aa26080e0422535f3f93f"/>
@@ -258,9 +259,10 @@
 		<Metadata name="Document.РеализацияТоваровУслуг" id="099c45b4-33c8-4417-bb33-71dfebc9cdfa" configVersion="5e7e2dcab9c2b7a40a5f45da70b0e26886a16985"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Template.ГП_ПФ_MXL_Акт" id="8be9c053-fe53-4837-b4d8-681510570bb2" configVersion="904bb12d4605ae696dc526846261d24d7dd0cf61"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Template.ГП_ПФ_MXL_Акт.Template" id="8be9c053-fe53-4837-b4d8-681510570bb2.0" configVersion="6ffb23daa117b776ce0df6e24243ed038f855656"/>
-		<Metadata name="Document.СчетНаОплатуПокупателю" id="f64521f4-dd16-41a2-89d8-ac3d5a8891d6" configVersion="8ac93b315429ceba0af604eb7296b27cb99f5ac4"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю" id="f64521f4-dd16-41a2-89d8-ac3d5a8891d6" configVersion="5400197bd08b63ffd6d9a357c343d98b3e5bad1c"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента" id="f15eb7a6-17f9-4177-bfa0-eca46223b650" configVersion="5a70ab583b5c8fb116ef23aadfe450f6bf09305d"/>
-		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="f15eb7a6-17f9-4177-bfa0-eca46223b650.0" configVersion="87a3c9331077cc53e400a3b5af0a4179ef7a7f63"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="f15eb7a6-17f9-4177-bfa0-eca46223b650.0" configVersion="c97191e623cf388c1e7c9325998b67527675fd17"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.ManagerModule" id="f64521f4-dd16-41a2-89d8-ac3d5a8891d6.2" configVersion="3d952d9479aa994ceb734faf2761b9fbc9d752d0"/>
 		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика" id="cd29201c-8fa2-40a1-8ff7-b12562af3e64" configVersion="6aadcc7fdfaf3e709bebcbfe22c00c9be9b17b51"/>
 		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика.Form.ФормаДокумента" id="2cdcc46f-6837-4f62-af57-7507c671f953" configVersion="70ec3a7cf7c9fadc3fa30893fb41790a416ad4bd"/>
 		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика.Form.ФормаДокумента.Form" id="2cdcc46f-6837-4f62-af57-7507c671f953.0" configVersion="2c6dcc9b9957a91bf3275a76d590cbba60ea6ee2"/>
