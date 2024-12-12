@@ -29,6 +29,7 @@
 		</Properties>
 		<ChildObjects>
 			<Template>ГП_ПФ_ДоговорПодряда</Template>
+			<Template>ГП_ПФ_АктПриемкиВыполненныхРаботДоговора</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

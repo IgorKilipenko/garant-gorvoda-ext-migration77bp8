@@ -5296,12 +5296,7 @@
 			<c>
 				<c>
 					<f>28</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>100% предоплата.</v8:content>
-						</v8:item>
-					</tl>
+					<parameter>ПредоплатаПредставление</parameter>
 				</c>
 			</c>
 			<c>
@@ -8696,72 +8691,72 @@
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 		</row>
@@ -8881,77 +8876,77 @@
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 		</row>
@@ -9071,83 +9066,83 @@
 			</c>
 			<c>
 				<c>
-					<f>28</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Адрес: 305000, Курская обл, Курск г, Кирова ул, д. 9, тел.: 70-06-08, 70-13-19</v8:content>
+							<v8:content>Адрес: [ЮридическийАдрес], тел.: [Телефоны]</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 		</row>
@@ -9267,77 +9262,77 @@
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 		</row>
@@ -9457,11 +9452,11 @@
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>р/сч 40702810833000006211</v8:content>
+							<v8:content>р/сч [НомерСчета]</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -9653,83 +9648,78 @@
 			</c>
 			<c>
 				<c>
-					<f>28</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>КУРСКОЕ ОТДЕЛЕНИЕ N8596 ПАО СБЕРБАНК Г.КУРСК</v8:content>
-						</v8:item>
-					</tl>
+					<f>32</f>
+					<parameter>Банк</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 		</row>
@@ -9849,77 +9839,77 @@
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>33</f>
 				</c>
 			</c>
 		</row>
@@ -10039,11 +10029,11 @@
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>к/сч 30101810300000000606</v8:content>
+							<v8:content>к/сч [КоррСчет]</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -10235,11 +10225,11 @@
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ИНН 4629026667, БИК 043807606</v8:content>
+							<v8:content>ИНН [ИНН], БИК [БИК]</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -10673,7 +10663,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>35</f>
 					<parameter>ИОФДиректора</parameter>
 				</c>
 			</c>
@@ -10922,7 +10912,7 @@
 		<row>
 			<c>
 				<c>
-					<f>34</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -11038,7 +11028,7 @@
 			</c>
 			<c>
 				<c>
-					<f>34</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -11120,7 +11110,7 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>35</defaultFormatIndex>
+	<defaultFormatIndex>37</defaultFormatIndex>
 	<height>57</height>
 	<vgRows>57</vgRows>
 	<merge>
@@ -11638,12 +11628,15 @@
 	<format>
 		<font>2</font>
 		<border>0</border>
+		<width>34</width>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>2</font>
+		<width>34</width>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
@@ -11672,6 +11665,20 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
 	</format>
 	<format>
 		<font>2</font>
