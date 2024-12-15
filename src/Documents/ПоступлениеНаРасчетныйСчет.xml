@@ -32,6 +32,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаДокументаОднострочная</Form>
+			<Form>ФормаРасшифровкаПлатежа</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

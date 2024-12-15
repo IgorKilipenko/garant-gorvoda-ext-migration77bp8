@@ -93,6 +93,8 @@
 			<StyleItem>ШрифтЗаголовкаРазделаМонитораРуководителя</StyleItem>
 			<StyleItem>СодержаниеУслугиШрифт</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
+			<StyleItem>ЗаголовкиСтрокЦветТекста</StyleItem>
+			<StyleItem>ЗаголовкиСтрокШрифт</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -206,6 +208,7 @@
 			<Enum>УПЖКХ_ПричиныОтключенияПриборовУчета</Enum>
 			<Enum>УПЖКХ_ВариантыРаспределенияОплатыПриРаздельномУчетеКР</Enum>
 			<Enum>ВидыОперацийОплатаПлатежнойКартой</Enum>
+			<Enum>СтатусОплатыСчета</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
