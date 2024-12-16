@@ -181,7 +181,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="c827854aed431801520b97eaf1be07686e8012ec"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="81ba34342770bfdfb98380275a94321ce75a4ea1"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ" id="b34330b7-efec-414c-92b8-35b470063181" configVersion="88faec84e48bc8aafc2ace9226a77fd4216fc36b">
 			<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ.TabularSection.ПоказанияСчетчиков.Attribute.КодМКД" id="2dfaa86c-a877-42da-9345-262877687e35"/>
@@ -211,11 +211,11 @@
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.Form.Форма.Form" id="c616b957-8cef-4c5a-aa44-b5edc4899f7c.0" configVersion="2496ad4925915a2f33efd568088bbe57bef3aefe"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.ManagerModule" id="3d45d117-481f-40f1-8e6a-0ff380eb0632.2" configVersion="ba85cda3e8551dd85c0b36ac97cc69d5485773f9"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда" id="99643c2e-1610-47ed-8c14-d73a7e92708b" configVersion="2a53e84f8ee0dc202b7f2b00ec0356b3d03b3540"/>
-		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.ManagerModule" id="99643c2e-1610-47ed-8c14-d73a7e92708b.2" configVersion="986905826bc9934a25a000392cfe0f2abc444abf"/>
+		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.ManagerModule" id="99643c2e-1610-47ed-8c14-d73a7e92708b.2" configVersion="5bc90a5e0e91672b3c9fe51c4a96547b0dbd75f5"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_АктПриемкиВыполненныхРаботДоговора" id="77132940-f8c8-4285-bd07-b0f940e6ec9f" configVersion="fc6845225a6f2c4d26d4709b26b4ba7d216ada2e"/>
-		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_АктПриемкиВыполненныхРаботДоговора.Template" id="77132940-f8c8-4285-bd07-b0f940e6ec9f.0" configVersion="44dc9872a0e33ae5dde86f1772f9a9a0e624bd9c"/>
+		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_АктПриемкиВыполненныхРаботДоговора.Template" id="77132940-f8c8-4285-bd07-b0f940e6ec9f.0" configVersion="919a6c37357571cc31395ae446ec6786cc37959a"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда" id="aa591390-b66d-48a7-b187-c63948c746a3" configVersion="4e399af3606d91a47a09fb903b7b206a51ad9a9e"/>
-		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда.Template" id="aa591390-b66d-48a7-b187-c63948c746a3.0" configVersion="7f7125d8cf0421045e4bb3971a73fcb47ad6a84f"/>
+		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда.Template" id="aa591390-b66d-48a7-b187-c63948c746a3.0" configVersion="08e5701d2e57e9336b5dcdd93ba19859b01bfc35"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг" id="f570b8b8-777e-4022-8063-d3455842ff0c" configVersion="17fb4243d82e5e4d2d9e99f5d6a7f091f27d2c86"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг.ManagerModule" id="f570b8b8-777e-4022-8063-d3455842ff0c.2" configVersion="46b5fdc60d939226ca59832efb0b5d8467872e3d"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг.Template.ГП_ПФ_Начисления" id="32b0e43f-4e6a-43cf-8c6d-1cd4cf9bf590" configVersion="fa45a47aa8f918c4820aa26080e0422535f3f93f"/>
