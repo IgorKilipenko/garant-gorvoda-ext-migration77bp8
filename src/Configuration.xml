@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.8.0.0-migedit1</Version>
+			<Version>1.8.1.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -93,6 +93,8 @@
 			<StyleItem>ШрифтЗаголовкаРазделаМонитораРуководителя</StyleItem>
 			<StyleItem>СодержаниеУслугиШрифт</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
+			<StyleItem>ЗаголовкиСтрокЦветТекста</StyleItem>
+			<StyleItem>ЗаголовкиСтрокШрифт</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -206,6 +208,7 @@
 			<Enum>УПЖКХ_ПричиныОтключенияПриборовУчета</Enum>
 			<Enum>УПЖКХ_ВариантыРаспределенияОплатыПриРаздельномУчетеКР</Enum>
 			<Enum>ВидыОперацийОплатаПлатежнойКартой</Enum>
+			<Enum>СтатусОплатыСчета</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>

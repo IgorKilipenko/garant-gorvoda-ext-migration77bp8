@@ -1,0 +1,2849 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Popup name="ПодменюДополнительныхОбработокЗаполнения" id="1034">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнить</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<Representation>PictureAndText</Representation>
+				<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="1035"/>
+			</Popup>
+			<Button name="ФормаКомандаОК" id="804">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаКомандаОКРасширеннаяПодсказка" id="805"/>
+			</Button>
+			<Button name="ФормаКомандаОтмена" id="806">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаКомандаОтменаРасширеннаяПодсказка" id="807"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="Before">ГП_ПриСозданииНаСервереПеред</Event>
+		<Event name="OnCreateAtServer" callType="After">ГП_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="НазначениеПлатежа" id="1036">
+			<ReadOnly>true</ReadOnly>
+			<TitleLocation>None</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>95</MaxWidth>
+			<Height>2</Height>
+			<VerticalStretch>false</VerticalStretch>
+			<MultiLine>true</MultiLine>
+			<BorderColor>style:FormBackColor</BorderColor>
+			<ContextMenu name="НазначениеПлатежаКонтекстноеМеню" id="1037"/>
+			<ExtendedTooltip name="НазначениеПлатежаРасширеннаяПодсказка" id="1038"/>
+		</InputField>
+		<Pages name="ГруппаСтраницы" id="419">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="557"/>
+			<ChildItems>
+				<Page name="ГруппаРасчетыСКонтрагентами" id="134">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчеты с контрагентами</v8:content>
+						</v8:item>
+					</Title>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРасчетыСКонтрагентамиExtendedTooltip" id="558"/>
+					<ChildItems>
+						<Table name="РасшифровкаПлатежа" id="152">
+							<Representation>List</Representation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасшифровкаПлатежаКонтекстноеМеню" id="153"/>
+							<AutoCommandBar name="РасшифровкаПлатежаКоманднаяПанель" id="154"/>
+							<ExtendedTooltip name="РасшифровкаПлатежаExtendedTooltip" id="559"/>
+							<SearchStringAddition name="РасшифровкаПлатежаСтрокаПоиска" id="759">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежа</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаСтрокаПоискаКонтекстноеМеню" id="760"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаСтрокаПоискаРасширеннаяПодсказка" id="761"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасшифровкаПлатежаСостояниеПросмотра" id="762">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежа</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаСостояниеПросмотраКонтекстноеМеню" id="763"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаСостояниеПросмотраРасширеннаяПодсказка" id="764"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасшифровкаПлатежаУправлениеПоиском" id="765">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежа</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаУправлениеПоискомКонтекстноеМеню" id="766"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаУправлениеПоискомРасширеннаяПодсказка" id="767"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="РасшифровкаПлатежаНомерСтроки" id="935">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ShowInFooter>false</ShowInFooter>
+									<Width>3</Width>
+									<ContextMenu name="РасшифровкаПлатежаНомерСтрокиКонтекстноеМеню" id="936"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаНомерСтрокиРасширеннаяПодсказка" id="937"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаУслугаНПД" id="1072">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасшифровкаПлатежаУслугаНПДКонтекстноеМеню" id="1073"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаУслугаНПДРасширеннаяПодсказка" id="1074"/>
+								</InputField>
+								<ColumnGroup name="РасшифровкаПлатежаГруппаДоговор" id="428">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Договор / Статья доходов</v8:content>
+										</v8:item>
+									</Title>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасшифровкаПлатежаГруппаДоговорExtendedTooltip" id="561"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаДоговорКонтрагента" id="848">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор / Статья ДДС</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор контрагента</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>21</Width>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Отбор.Владелец</xr:Name>
+													<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+												<xr:Link>
+													<xr:Name>Отбор.Организация</xr:Name>
+													<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Договор&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаДоговорКонтрагентаКонтекстноеМеню" id="849"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаДоговорКонтрагентаРасширеннаяПодсказка" id="850"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредств" id="875">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Статья движения денег</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>21</Width>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Статья движения денег</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="876"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="877"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасшифровкаПлатежаСуммаПлатежа" id="857">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма платежа</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+									<Width>10</Width>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ContextMenu name="РасшифровкаПлатежаСуммаПлатежаКонтекстноеМеню" id="858"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаСуммаПлатежаРасширеннаяПодсказка" id="859"/>
+								</InputField>
+								<ColumnGroup name="РасшифровкаПлатежаГруппаПогашениеЗадолженности" id="429">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расшифровка платежа: погашение задолженности</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="РасшифровкаПлатежаГруппаПогашениеЗадолженностиExtendedTooltip" id="565"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаСпособПогашенияЗадолженности" id="851">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Способ погашения</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>19</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Способ погашения&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаСпособПогашенияЗадолженностиКонтекстноеМеню" id="852"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаСпособПогашенияЗадолженностиРасширеннаяПодсказка" id="853"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаСделка" id="854">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Документ расчетов</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>19</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Отбор.Контрагент</xr:Name>
+													<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+												<xr:Link>
+													<xr:Name>Отбор.Организация</xr:Name>
+													<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Документ&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаСделкаКонтекстноеМеню" id="855"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаСделкаРасширеннаяПодсказка" id="856"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РасшифровкаПлатежаГруппаРасчеты" id="430">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расчеты в у.е.</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасшифровкаПлатежаГруппаРасчетыExtendedTooltip" id="568"/>
+									<ChildItems>
+										<ColumnGroup name="РасшифровкаПлатежаГруппаНадписи" id="703">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расшифровка платежа: валюта (надписи)</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="РасшифровкаПлатежаГруппаНадписиРасширеннаяПодсказка" id="704"/>
+											<ChildItems>
+												<InputField name="РасшифровкаПлатежаНадписьКурс" id="938">
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<ShowInFooter>false</ShowInFooter>
+													<Width>7</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
+													<Font ref="style:ЗаголовкиСтрокШрифт" kind="StyleItem"/>
+													<ContextMenu name="РасшифровкаПлатежаНадписьКурсКонтекстноеМеню" id="939"/>
+													<ExtendedTooltip name="РасшифровкаПлатежаНадписьКурсРасширеннаяПодсказка" id="940"/>
+												</InputField>
+												<InputField name="РасшифровкаПлатежаНадписьСумма" id="944">
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>7</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
+													<Font ref="style:ЗаголовкиСтрокШрифт" kind="StyleItem"/>
+													<ContextMenu name="РасшифровкаПлатежаНадписьСуммаКонтекстноеМеню" id="945"/>
+													<ExtendedTooltip name="РасшифровкаПлатежаНадписьСуммаРасширеннаяПодсказка" id="946"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РасшифровкаПлатежаГруппа" id="701">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расшифровка платежа: валюта</v8:content>
+												</v8:item>
+											</Title>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="РасшифровкаПлатежаГруппаРасширеннаяПодсказка" id="702"/>
+											<ChildItems>
+												<InputField name="РасшифровкаПлатежаКурсВзаиморасчетов" id="860">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<ShowInFooter>false</ShowInFooter>
+													<Width>9</Width>
+													<AutoMarkIncomplete>true</AutoMarkIncomplete>
+													<ContextMenu name="РасшифровкаПлатежаКурсВзаиморасчетовКонтекстноеМеню" id="861"/>
+													<ExtendedTooltip name="РасшифровкаПлатежаКурсВзаиморасчетовРасширеннаяПодсказка" id="862"/>
+												</InputField>
+												<InputField name="РасшифровкаПлатежаСуммаВзаиморасчетов" id="863">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Расчеты в у.е.</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+													<Width>15</Width>
+													<AutoMarkIncomplete>true</AutoMarkIncomplete>
+													<ContextMenu name="РасшифровкаПлатежаСуммаВзаиморасчетовКонтекстноеМеню" id="864"/>
+													<ExtendedTooltip name="РасшифровкаПлатежаСуммаВзаиморасчетовРасширеннаяПодсказка" id="865"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасшифровкаПлатежаСчетНаОплату" id="872">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Контрагент</xr:Name>
+											<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+										<xr:Link>
+											<xr:Name>Отбор.Организация</xr:Name>
+											<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+										<xr:Link>
+											<xr:Name>Отбор.ДоговорКонтрагента</xr:Name>
+											<xr:DataPath xsi:type="xs:string">152:02023637-7868-4a5f-8576-835a76e0c9ba/1</xr:DataPath>
+											<xr:ValueChange>DontChange</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="РасшифровкаПлатежаСчетНаОплатуКонтекстноеМеню" id="873"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаСчетНаОплатуРасширеннаяПодсказка" id="874"/>
+								</InputField>
+								<ColumnGroup name="РасшифровкаПлатежаГруппаНДС" id="431">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>НДС</v8:content>
+										</v8:item>
+									</Title>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасшифровкаПлатежаГруппаНДСExtendedTooltip" id="573"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаСтавкаНДС" id="866">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>10</Width>
+											<ContextMenu name="РасшифровкаПлатежаСтавкаНДСКонтекстноеМеню" id="867"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаСтавкаНДСРасширеннаяПодсказка" id="868"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаСуммаНДС" id="869">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>НДС</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+											<Width>10</Width>
+											<ContextMenu name="РасшифровкаПлатежаСуммаНДСКонтекстноеМеню" id="870"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаСуммаНДСРасширеннаяПодсказка" id="871"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РасшифровкаПлатежаГруппаСчетаРасчетов" id="432">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Счета расчетов</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасшифровкаПлатежаГруппаСчетаРасчетовExtendedTooltip" id="577"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаСчетУчетаРасчетовСКонтрагентом" id="878">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Счет расчетов</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Счет расчетов</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ChoiceParameters>
+												<app:item name="Отбор.Забалансовый">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+												<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+											</ChoiceParameters>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Счет расчетов&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="879"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="880"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаСчетУчетаРасчетовПоАвансам" id="881">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Счет авансов</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ChoiceParameters>
+												<app:item name="Отбор.Забалансовый">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+												<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+											</ChoiceParameters>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Счет авансов&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаСчетУчетаРасчетовПоАвансамКонтекстноеМеню" id="882"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаСчетУчетаРасчетовПоАвансамРасширеннаяПодсказка" id="883"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РасшифровкаПлатежаГруппаОтражениеАванса" id="714">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Учет авансов</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасшифровкаПлатежаГруппаОтражениеАвансаРасширеннаяПодсказка" id="715"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаОтражениеАвансаСчетУчета" id="947">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Счет авансов</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ChoiceParameters>
+												<app:item name="Отбор.Забалансовый">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+												<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+											</ChoiceParameters>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Счет авансов&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаОтражениеАвансаСчетУчетаКонтекстноеМеню" id="948"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаОтражениеАвансаСчетУчетаРасширеннаяПодсказка" id="949"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаОтражениеАвансаПредставление" id="932">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ListChoiceMode>true</ListChoiceMode>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Аванс в НУ&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаОтражениеАвансаПредставлениеКонтекстноеМеню" id="933"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаОтражениеАвансаПредставлениеРасширеннаяПодсказка" id="934"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасшифровкаПлатежаДоходыУСН" id="908">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>14</Width>
+									<ContextMenu name="РасшифровкаПлатежаДоходыУСНКонтекстноеМеню" id="909"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаДоходыУСНРасширеннаяПодсказка" id="910"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаОтражениеДоходаПредставление" id="1066">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>21</Width>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ContextMenu name="РасшифровкаПлатежаОтражениеДоходаПредставлениеКонтекстноеМеню" id="1067"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаОтражениеДоходаПредставлениеРасширеннаяПодсказка" id="1068"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаОтступ" id="1051">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>1</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="РасшифровкаПлатежаОтступКонтекстноеМеню" id="1052"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаОтступРасширеннаяПодсказка" id="1053"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаИнкассация" id="436">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инкассация</v8:content>
+						</v8:item>
+					</Title>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИнкассацияExtendedTooltip" id="588"/>
+					<ChildItems>
+						<Table name="РасшифровкаПлатежаИнкассация" id="437">
+							<Representation>List</Representation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасшифровкаПлатежаИнкассацияКонтекстноеМеню" id="438"/>
+							<AutoCommandBar name="РасшифровкаПлатежаИнкассацияКоманднаяПанель" id="439"/>
+							<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияExtendedTooltip" id="589"/>
+							<SearchStringAddition name="РасшифровкаПлатежаИнкассацияСтрокаПоиска" id="768">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаИнкассация</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаИнкассацияСтрокаПоискаКонтекстноеМеню" id="769"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСтрокаПоискаРасширеннаяПодсказка" id="770"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасшифровкаПлатежаИнкассацияСостояниеПросмотра" id="771">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаИнкассация</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаИнкассацияСостояниеПросмотраКонтекстноеМеню" id="772"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСостояниеПросмотраРасширеннаяПодсказка" id="773"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасшифровкаПлатежаИнкассацияУправлениеПоиском" id="774">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаИнкассация</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаИнкассацияУправлениеПоискомКонтекстноеМеню" id="775"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияУправлениеПоискомРасширеннаяПодсказка" id="776"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="РасшифровкаПлатежаИнкассацияНомерСтроки" id="1039">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ShowInFooter>false</ShowInFooter>
+									<Width>3</Width>
+									<ContextMenu name="РасшифровкаПлатежаИнкассацияНомерСтрокиКонтекстноеМеню" id="1040"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияНомерСтрокиРасширеннаяПодсказка" id="1041"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаИнкассацияСтатьяДвиженияДенежныхСредств" id="965">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасшифровкаПлатежаИнкассацияСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="966"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="967"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаИнкассацияСуммаПлатежа" id="968">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<ContextMenu name="РасшифровкаПлатежаИнкассацияСуммаПлатежаКонтекстноеМеню" id="969"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСуммаПлатежаРасширеннаяПодсказка" id="970"/>
+								</InputField>
+								<ColumnGroup name="ГруппаРасшифровкаПлатежаИнкассацияГруппаСчетКредитаПодразделение" id="268">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Счет кредита \ подразделение</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedTooltip name="ГруппаРасшифровкаПлатежаИнкассацияГруппаСчетКредитаПодразделениеExtendedTooltip" id="592"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаИнкассацияСчетУчетаРасчетовСКонтрагентом" id="971">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>21</Width>
+											<ChoiceParameters>
+												<app:item name="Отбор.Забалансовый">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+												<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+											</ChoiceParameters>
+											<ContextMenu name="РасшифровкаПлатежаИнкассацияСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="972"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="973"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаИнкассацияПодразделениеКт" id="974">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>21</Width>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Отбор.Владелец</xr:Name>
+													<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<ContextMenu name="РасшифровкаПлатежаИнкассацияПодразделениеКтКонтекстноеМеню" id="975"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияПодразделениеКтРасширеннаяПодсказка" id="976"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ГруппаРасшифровкаПлатежаИнкассацияГруппаСубконто" id="269">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Субконто</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedTooltip name="ГруппаРасшифровкаПлатежаИнкассацияГруппаСубконтоExtendedTooltip" id="595"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаИнкассацияСубконтоКт1" id="977">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Субконто</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<TypeLink>
+												<xr:DataPath>437:02023637-7868-4a5f-8576-835a76e0c9ba/11</xr:DataPath>
+												<xr:LinkItem>1</xr:LinkItem>
+											</TypeLink>
+											<ContextMenu name="РасшифровкаПлатежаИнкассацияСубконтоКт1КонтекстноеМеню" id="978"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСубконтоКт1РасширеннаяПодсказка" id="979"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаИнкассацияСубконтоКт2" id="980">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<TypeLink>
+												<xr:DataPath>437:02023637-7868-4a5f-8576-835a76e0c9ba/11</xr:DataPath>
+												<xr:LinkItem>2</xr:LinkItem>
+											</TypeLink>
+											<ContextMenu name="РасшифровкаПлатежаИнкассацияСубконтоКт2КонтекстноеМеню" id="981"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСубконтоКт2РасширеннаяПодсказка" id="982"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаИнкассацияСубконтоКт3" id="983">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<TypeLink>
+												<xr:DataPath>437:02023637-7868-4a5f-8576-835a76e0c9ba/11</xr:DataPath>
+												<xr:LinkItem>3</xr:LinkItem>
+											</TypeLink>
+											<ContextMenu name="РасшифровкаПлатежаИнкассацияСубконтоКт3КонтекстноеМеню" id="984"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСубконтоКт3РасширеннаяПодсказка" id="985"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасшифровкаПлатежаИнкассацияОтступ" id="1054">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>1</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="РасшифровкаПлатежаИнкассацияОтступКонтекстноеМеню" id="1055"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияОтступРасширеннаяПодсказка" id="1056"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПокупкаВалюты" id="139">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Покупка валюты</v8:content>
+						</v8:item>
+					</Title>
+					<ChildItemsWidth>Equal</ChildItemsWidth>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПокупкаВалютыExtendedTooltip" id="599"/>
+					<ChildItems>
+						<Table name="РасшифровкаПлатежаПокупкаВалюты" id="440">
+							<Representation>List</Representation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыКонтекстноеМеню" id="441"/>
+							<AutoCommandBar name="РасшифровкаПлатежаПокупкаВалютыКоманднаяПанель" id="442"/>
+							<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыExtendedTooltip" id="600"/>
+							<SearchStringAddition name="РасшифровкаПлатежаПокупкаВалютыСтрокаПоиска" id="777">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПокупкаВалюты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСтрокаПоискаКонтекстноеМеню" id="778"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСтрокаПоискаРасширеннаяПодсказка" id="779"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасшифровкаПлатежаПокупкаВалютыСостояниеПросмотра" id="780">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПокупкаВалюты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСостояниеПросмотраКонтекстноеМеню" id="781"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСостояниеПросмотраРасширеннаяПодсказка" id="782"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасшифровкаПлатежаПокупкаВалютыУправлениеПоиском" id="783">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПокупкаВалюты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыУправлениеПоискомКонтекстноеМеню" id="784"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыУправлениеПоискомРасширеннаяПодсказка" id="785"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="РасшифровкаПлатежаПокупкаВалютыНомерСтроки" id="1042">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ShowInFooter>false</ShowInFooter>
+									<Width>3</Width>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыНомерСтрокиКонтекстноеМеню" id="1043"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыНомерСтрокиРасширеннаяПодсказка" id="1044"/>
+								</InputField>
+								<ColumnGroup name="РасшифровкаПлатежаПокупкаВалютыГруппаДоговор" id="687">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Договор / Статья ДДС</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыГруппаДоговорРасширеннаяПодсказка" id="688"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаПокупкаВалютыДоговорКонтрагента" id="986">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор / Статья ДДС</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор с банком на приобретение валюты</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>21</Width>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Отбор.Владелец</xr:Name>
+													<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+												<xr:Link>
+													<xr:Name>Отбор.Организация</xr:Name>
+													<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Договор&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыДоговорКонтрагентаКонтекстноеМеню" id="987"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыДоговорКонтрагентаРасширеннаяПодсказка" id="988"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаПокупкаВалютыСтатьяДвиженияДенежныхСредств" id="989">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Статья движения денежных средств</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>21</Width>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Статья движения ден. средств&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="990"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="991"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасшифровкаПлатежаПокупкаВалютыСуммаПлатежа" id="992">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма (вал.)</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма приобретенной валюты</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСуммаПлатежаКонтекстноеМеню" id="993"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСуммаПлатежаРасширеннаяПодсказка" id="994"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПокупкаВалютыВалютаДокумента" id="995">
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вал.</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>5</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыВалютаДокументаКонтекстноеМеню" id="996"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыВалютаДокументаРасширеннаяПодсказка" id="997"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПокупкаВалютыКурсВзаиморасчетов" id="998">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Курс банка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Курс валюты расчетов с банком</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыКурсВзаиморасчетовКонтекстноеМеню" id="999"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыКурсВзаиморасчетовРасширеннаяПодсказка" id="1000"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПокупкаВалютыСуммаВзаиморасчетов" id="1001">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма в руб.</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма в рублях по курсу приобретения</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСуммаВзаиморасчетовКонтекстноеМеню" id="1002"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСуммаВзаиморасчетовРасширеннаяПодсказка" id="1003"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПокупкаВалютыСчетУчетаРасчетовСКонтрагентом" id="1004">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Счет расчетов с банком</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>11</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceParameters>
+										<app:item name="Отбор.Забалансовый">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+										<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+									</ChoiceParameters>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="1005"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="1006"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПокупкаВалютыОтступ" id="1057">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>1</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыОтступКонтекстноеМеню" id="1058"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыОтступРасширеннаяПодсказка" id="1059"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПродажаВалюты" id="398">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продажа валюты</v8:content>
+						</v8:item>
+					</Title>
+					<ChildItemsWidth>Equal</ChildItemsWidth>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПродажаВалютыExtendedTooltip" id="612"/>
+					<ChildItems>
+						<Table name="РасшифровкаПлатежаПродажаВалюты" id="458">
+							<Representation>List</Representation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасшифровкаПлатежаПродажаВалютыКонтекстноеМеню" id="459"/>
+							<AutoCommandBar name="РасшифровкаПлатежаПродажаВалютыКоманднаяПанель" id="460"/>
+							<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыExtendedTooltip" id="613"/>
+							<SearchStringAddition name="РасшифровкаПлатежаПродажаВалютыСтрокаПоиска" id="786">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПродажаВалюты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСтрокаПоискаКонтекстноеМеню" id="787"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСтрокаПоискаРасширеннаяПодсказка" id="788"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасшифровкаПлатежаПродажаВалютыСостояниеПросмотра" id="789">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПродажаВалюты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСостояниеПросмотраКонтекстноеМеню" id="790"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСостояниеПросмотраРасширеннаяПодсказка" id="791"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасшифровкаПлатежаПродажаВалютыУправлениеПоиском" id="792">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПродажаВалюты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПродажаВалютыУправлениеПоискомКонтекстноеМеню" id="793"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыУправлениеПоискомРасширеннаяПодсказка" id="794"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="РасшифровкаПлатежаПродажаВалютыНомерСтроки" id="1045">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ShowInFooter>false</ShowInFooter>
+									<Width>3</Width>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыНомерСтрокиКонтекстноеМеню" id="1046"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыНомерСтрокиРасширеннаяПодсказка" id="1047"/>
+								</InputField>
+								<ColumnGroup name="РасшифровкаПлатежаГруппаДоговорСтатьяДДС" id="685">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Договор / Статья ДДС</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="РасшифровкаПлатежаГруппаДоговорСтатьяДДСРасширеннаяПодсказка" id="686"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагента" id="1007">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор / Статья ДДС</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор с банком на продажу валюты</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>21</Width>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Отбор.Владелец</xr:Name>
+													<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+												<xr:Link>
+													<xr:Name>Отбор.Организация</xr:Name>
+													<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Договор&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаКонтекстноеМеню" id="1008"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаРасширеннаяПодсказка" id="1009"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаПродажаВалютыСтатьяДвиженияДенежныхСредств" id="1010">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Статья движения денежных средств</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>21</Width>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Статья движения ден. средств&gt;</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="1011"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="1012"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасшифровкаПлатежаПродажаВалютыСуммаВзаиморасчетов" id="1025">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма (вал.)</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСуммаВзаиморасчетовКонтекстноеМеню" id="1026"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСуммаВзаиморасчетовРасширеннаяПодсказка" id="1027"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаВалютаВзаиморасчетов" id="1022">
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вал.</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Валюта расчетов с банком</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>6</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаВалютаВзаиморасчетовКонтекстноеМеню" id="1023"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаВалютаВзаиморасчетовРасширеннаяПодсказка" id="1024"/>
+								</InputField>
+								<ColumnGroup name="РасшифровкаПлатежаПродажаВалютыКурсыВалюты" id="502">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Курсы валюты</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыКурсыВалютыExtendedTooltip" id="618"/>
+									<ChildItems>
+										<InputField name="РасшифровкаПлатежаПродажаВалютыКурсВзаиморасчетов" id="1019">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Курс расчетов / ЦБ РФ</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Курс валюты расчетов с банком</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>17</Width>
+											<ContextMenu name="РасшифровкаПлатежаПродажаВалютыКурсВзаиморасчетовКонтекстноеМеню" id="1020"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыКурсВзаиморасчетовРасширеннаяПодсказка" id="1021"/>
+										</InputField>
+										<InputField name="РасшифровкаПлатежаПродажаВалютыКурсЦБНаДатуРеализацииВалюты" id="1016">
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Курс ЦБ РФ на дату продажи валюты</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>17</Width>
+											<ContextMenu name="РасшифровкаПлатежаПродажаВалютыКурсЦБНаДатуРеализацииВалютыКонтекстноеМеню" id="1017"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыКурсЦБНаДатуРеализацииВалютыРасширеннаяПодсказка" id="1018"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасшифровкаПлатежаПродажаВалютыСуммаПлатежа" id="1028">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма проданной валюты</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСуммаПлатежаКонтекстноеМеню" id="1029"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСуммаПлатежаРасширеннаяПодсказка" id="1030"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПродажаВалютыСчетУчетаРасчетовСКонтрагентом" id="1031">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>11</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceParameters>
+										<app:item name="Отбор.Забалансовый">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+										<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+									</ChoiceParameters>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="1032"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="1033"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПродажаВалютыОтступ" id="1060">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>1</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыОтступКонтекстноеМеню" id="1061"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыОтступРасширеннаяПодсказка" id="1062"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПлатежныеКарты" id="421">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Платежные карты</v8:content>
+						</v8:item>
+					</Title>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПлатежныеКартыExtendedTooltip" id="638"/>
+					<ChildItems>
+						<Table name="РасшифровкаПлатежаПлатежныеКарты" id="479">
+							<Representation>List</Representation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыКонтекстноеМеню" id="480"/>
+							<AutoCommandBar name="РасшифровкаПлатежаПлатежныеКартыКоманднаяПанель" id="481"/>
+							<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыExtendedTooltip" id="641"/>
+							<SearchStringAddition name="РасшифровкаПлатежаПлатежныеКартыСтрокаПоиска" id="795">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПлатежныеКарты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСтрокаПоискаКонтекстноеМеню" id="796"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСтрокаПоискаРасширеннаяПодсказка" id="797"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасшифровкаПлатежаПлатежныеКартыСостояниеПросмотра" id="798">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПлатежныеКарты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСостояниеПросмотраКонтекстноеМеню" id="799"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСостояниеПросмотраРасширеннаяПодсказка" id="800"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасшифровкаПлатежаПлатежныеКартыУправлениеПоиском" id="801">
+								<AdditionSource>
+									<Item>РасшифровкаПлатежаПлатежныеКарты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыУправлениеПоискомКонтекстноеМеню" id="802"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыУправлениеПоискомРасширеннаяПодсказка" id="803"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыНомерСтроки" id="1048">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ShowInFooter>false</ShowInFooter>
+									<Width>3</Width>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыНомерСтрокиКонтекстноеМеню" id="1049"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыНомерСтрокиРасширеннаяПодсказка" id="1050"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыДоговорКонтрагента" id="950">
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Владелец</xr:Name>
+											<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+										<xr:Link>
+											<xr:Name>Отбор.Организация</xr:Name>
+											<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыДоговорКонтрагентаКонтекстноеМеню" id="951"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыДоговорКонтрагентаРасширеннаяПодсказка" id="952"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыСтатьяДвиженияДенежныхСредств" id="962">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="963"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="964"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыСуммаПлатежа" id="953">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма без комиссии</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+									<Width>12</Width>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСуммаПлатежаКонтекстноеМеню" id="954"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСуммаПлатежаРасширеннаяПодсказка" id="955"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыСчетУчетаРасчетовСКонтрагентом" id="956">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>11</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceParameters>
+										<app:item name="Отбор.Забалансовый">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+										<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+									</ChoiceParameters>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="957"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="958"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыСуммаУслуг" id="959">
+									<EditMode>EnterOnInput</EditMode>
+									<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+									<Width>12</Width>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСуммаУслугКонтекстноеМеню" id="960"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСуммаУслугРасширеннаяПодсказка" id="961"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыСуммаВозврата" id="1075">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма возвратов на платежные карты, удержанная банком. Указывается в назначении платежа.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСуммаВозвратаКонтекстноеМеню" id="1076"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСуммаВозвратаРасширеннаяПодсказка" id="1077"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПредставление" id="1069">
+									<EditMode>EnterOnInput</EditMode>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПредставлениеКонтекстноеМеню" id="1070"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПредставлениеРасширеннаяПодсказка" id="1071"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПКПредставление" id="1078">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Порядок отражения дохода по сделкам на патенте с истекшим сроком.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПКПредставлениеКонтекстноеМеню" id="1079"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПКПредставлениеРасширеннаяПодсказка" id="1080"/>
+								</InputField>
+								<InputField name="РасшифровкаПлатежаПлатежныеКартыОтступ" id="1063">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>1</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыОтступКонтекстноеМеню" id="1064"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыОтступРасширеннаяПодсказка" id="1065"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.18">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<CommandBarLocation>Bottom</CommandBarLocation>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<HorizontalAlign>Right</HorizontalAlign>
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Popup name="ПодменюДополнительныхОбработокЗаполнения" id="1034">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнить</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="1035"/>
+				</Popup>
+				<Button name="ФормаКомандаОК" id="804">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаКомандаОКРасширеннаяПодсказка" id="805"/>
+				</Button>
+				<Button name="ФормаКомандаОтмена" id="806">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаКомандаОтменаРасширеннаяПодсказка" id="807"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<InputField name="НазначениеПлатежа" id="1036">
+				<ReadOnly>true</ReadOnly>
+				<TitleLocation>None</TitleLocation>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<MaxWidth>95</MaxWidth>
+				<Height>2</Height>
+				<VerticalStretch>false</VerticalStretch>
+				<MultiLine>true</MultiLine>
+				<BorderColor>style:FormBackColor</BorderColor>
+				<ContextMenu name="НазначениеПлатежаКонтекстноеМеню" id="1037"/>
+				<ExtendedTooltip name="НазначениеПлатежаРасширеннаяПодсказка" id="1038"/>
+			</InputField>
+			<Pages name="ГруппаСтраницы" id="419">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+				</Title>
+				<PagesRepresentation>None</PagesRepresentation>
+				<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="557"/>
+				<ChildItems>
+					<Page name="ГруппаРасчетыСКонтрагентами" id="134">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Расчеты с контрагентами</v8:content>
+							</v8:item>
+						</Title>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаРасчетыСКонтрагентамиExtendedTooltip" id="558"/>
+						<ChildItems>
+							<Table name="РасшифровкаПлатежа" id="152">
+								<Representation>List</Representation>
+								<ChangeRowOrder>false</ChangeRowOrder>
+								<Footer>true</Footer>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="РасшифровкаПлатежаКонтекстноеМеню" id="153"/>
+								<AutoCommandBar name="РасшифровкаПлатежаКоманднаяПанель" id="154"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаExtendedTooltip" id="559"/>
+								<SearchStringAddition name="РасшифровкаПлатежаСтрокаПоиска" id="759">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежа</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаСтрокаПоискаКонтекстноеМеню" id="760"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаСтрокаПоискаРасширеннаяПодсказка" id="761"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="РасшифровкаПлатежаСостояниеПросмотра" id="762">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежа</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаСостояниеПросмотраКонтекстноеМеню" id="763"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаСостояниеПросмотраРасширеннаяПодсказка" id="764"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="РасшифровкаПлатежаУправлениеПоиском" id="765">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежа</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаУправлениеПоискомКонтекстноеМеню" id="766"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаУправлениеПоискомРасширеннаяПодсказка" id="767"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="РасшифровкаПлатежаНомерСтроки" id="935">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ShowInFooter>false</ShowInFooter>
+										<Width>3</Width>
+										<ContextMenu name="РасшифровкаПлатежаНомерСтрокиКонтекстноеМеню" id="936"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаНомерСтрокиРасширеннаяПодсказка" id="937"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаУслугаНПД" id="1072">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="РасшифровкаПлатежаУслугаНПДКонтекстноеМеню" id="1073"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаУслугаНПДРасширеннаяПодсказка" id="1074"/>
+									</InputField>
+									<ColumnGroup name="РасшифровкаПлатежаГруппаДоговор" id="428">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Договор / Статья доходов</v8:content>
+											</v8:item>
+										</Title>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасшифровкаПлатежаГруппаДоговорExtendedTooltip" id="561"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаДоговорКонтрагента" id="848">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор / Статья ДДС</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор контрагента</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>21</Width>
+												<AutoMarkIncomplete>true</AutoMarkIncomplete>
+												<ChoiceParameterLinks>
+													<xr:Link>
+														<xr:Name>Отбор.Владелец</xr:Name>
+														<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+													<xr:Link>
+														<xr:Name>Отбор.Организация</xr:Name>
+														<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+												</ChoiceParameterLinks>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Договор&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаДоговорКонтрагентаКонтекстноеМеню" id="849"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаДоговорКонтрагентаРасширеннаяПодсказка" id="850"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредств" id="875">
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Статья движения денег</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>21</Width>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Статья движения денег</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="876"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="877"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасшифровкаПлатежаСуммаПлатежа" id="857">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма платежа</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+										<Width>10</Width>
+										<AutoMarkIncomplete>true</AutoMarkIncomplete>
+										<ContextMenu name="РасшифровкаПлатежаСуммаПлатежаКонтекстноеМеню" id="858"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаСуммаПлатежаРасширеннаяПодсказка" id="859"/>
+									</InputField>
+									<ColumnGroup name="РасшифровкаПлатежаГруппаПогашениеЗадолженности" id="429">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Расшифровка платежа: погашение задолженности</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="РасшифровкаПлатежаГруппаПогашениеЗадолженностиExtendedTooltip" id="565"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаСпособПогашенияЗадолженности" id="851">
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Способ погашения</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<Width>19</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<AutoMarkIncomplete>true</AutoMarkIncomplete>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Способ погашения&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаСпособПогашенияЗадолженностиКонтекстноеМеню" id="852"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаСпособПогашенияЗадолженностиРасширеннаяПодсказка" id="853"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаСделка" id="854">
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Документ расчетов</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>19</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<AutoMarkIncomplete>true</AutoMarkIncomplete>
+												<ChoiceParameterLinks>
+													<xr:Link>
+														<xr:Name>Отбор.Контрагент</xr:Name>
+														<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+													<xr:Link>
+														<xr:Name>Отбор.Организация</xr:Name>
+														<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+												</ChoiceParameterLinks>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Документ&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаСделкаКонтекстноеМеню" id="855"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаСделкаРасширеннаяПодсказка" id="856"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="РасшифровкаПлатежаГруппаРасчеты" id="430">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Расчеты в у.е.</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасшифровкаПлатежаГруппаРасчетыExtendedTooltip" id="568"/>
+										<ChildItems>
+											<ColumnGroup name="РасшифровкаПлатежаГруппаНадписи" id="703">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расшифровка платежа: валюта (надписи)</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="РасшифровкаПлатежаГруппаНадписиРасширеннаяПодсказка" id="704"/>
+												<ChildItems>
+													<InputField name="РасшифровкаПлатежаНадписьКурс" id="938">
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<ShowInFooter>false</ShowInFooter>
+														<Width>7</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
+														<Font ref="style:ЗаголовкиСтрокШрифт" kind="StyleItem"/>
+														<ContextMenu name="РасшифровкаПлатежаНадписьКурсКонтекстноеМеню" id="939"/>
+														<ExtendedTooltip name="РасшифровкаПлатежаНадписьКурсРасширеннаяПодсказка" id="940"/>
+													</InputField>
+													<InputField name="РасшифровкаПлатежаНадписьСумма" id="944">
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>7</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
+														<Font ref="style:ЗаголовкиСтрокШрифт" kind="StyleItem"/>
+														<ContextMenu name="РасшифровкаПлатежаНадписьСуммаКонтекстноеМеню" id="945"/>
+														<ExtendedTooltip name="РасшифровкаПлатежаНадписьСуммаРасширеннаяПодсказка" id="946"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+											<ColumnGroup name="РасшифровкаПлатежаГруппа" id="701">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расшифровка платежа: валюта</v8:content>
+													</v8:item>
+												</Title>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="РасшифровкаПлатежаГруппаРасширеннаяПодсказка" id="702"/>
+												<ChildItems>
+													<InputField name="РасшифровкаПлатежаКурсВзаиморасчетов" id="860">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<ShowInFooter>false</ShowInFooter>
+														<Width>9</Width>
+														<AutoMarkIncomplete>true</AutoMarkIncomplete>
+														<ContextMenu name="РасшифровкаПлатежаКурсВзаиморасчетовКонтекстноеМеню" id="861"/>
+														<ExtendedTooltip name="РасшифровкаПлатежаКурсВзаиморасчетовРасширеннаяПодсказка" id="862"/>
+													</InputField>
+													<InputField name="РасшифровкаПлатежаСуммаВзаиморасчетов" id="863">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Расчеты в у.е.</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+														<Width>15</Width>
+														<AutoMarkIncomplete>true</AutoMarkIncomplete>
+														<ContextMenu name="РасшифровкаПлатежаСуммаВзаиморасчетовКонтекстноеМеню" id="864"/>
+														<ExtendedTooltip name="РасшифровкаПлатежаСуммаВзаиморасчетовРасширеннаяПодсказка" id="865"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасшифровкаПлатежаСчетНаОплату" id="872">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<ChoiceParameterLinks>
+											<xr:Link>
+												<xr:Name>Отбор.Контрагент</xr:Name>
+												<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+												<xr:ValueChange>Clear</xr:ValueChange>
+											</xr:Link>
+											<xr:Link>
+												<xr:Name>Отбор.Организация</xr:Name>
+												<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+												<xr:ValueChange>Clear</xr:ValueChange>
+											</xr:Link>
+											<xr:Link>
+												<xr:Name>Отбор.ДоговорКонтрагента</xr:Name>
+												<xr:DataPath xsi:type="xs:string">152:02023637-7868-4a5f-8576-835a76e0c9ba/1</xr:DataPath>
+												<xr:ValueChange>DontChange</xr:ValueChange>
+											</xr:Link>
+										</ChoiceParameterLinks>
+										<ContextMenu name="РасшифровкаПлатежаСчетНаОплатуКонтекстноеМеню" id="873"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаСчетНаОплатуРасширеннаяПодсказка" id="874"/>
+									</InputField>
+									<ColumnGroup name="РасшифровкаПлатежаГруппаНДС" id="431">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>НДС</v8:content>
+											</v8:item>
+										</Title>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасшифровкаПлатежаГруппаНДСExtendedTooltip" id="573"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаСтавкаНДС" id="866">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>10</Width>
+												<ContextMenu name="РасшифровкаПлатежаСтавкаНДСКонтекстноеМеню" id="867"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаСтавкаНДСРасширеннаяПодсказка" id="868"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаСуммаНДС" id="869">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>НДС</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+												<Width>10</Width>
+												<ContextMenu name="РасшифровкаПлатежаСуммаНДСКонтекстноеМеню" id="870"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаСуммаНДСРасширеннаяПодсказка" id="871"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="РасшифровкаПлатежаГруппаСчетаРасчетов" id="432">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Счета расчетов</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасшифровкаПлатежаГруппаСчетаРасчетовExtendedTooltip" id="577"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаСчетУчетаРасчетовСКонтрагентом" id="878">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Счет расчетов</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Счет расчетов</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<AutoMarkIncomplete>true</AutoMarkIncomplete>
+												<ChoiceParameters>
+													<app:item name="Отбор.Забалансовый">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">false</Value>
+														</app:value>
+													</app:item>
+													<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">false</Value>
+														</app:value>
+													</app:item>
+												</ChoiceParameters>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Счет расчетов&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="879"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="880"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаСчетУчетаРасчетовПоАвансам" id="881">
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Счет авансов</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<AutoMarkIncomplete>true</AutoMarkIncomplete>
+												<ChoiceParameters>
+													<app:item name="Отбор.Забалансовый">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">false</Value>
+														</app:value>
+													</app:item>
+													<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">false</Value>
+														</app:value>
+													</app:item>
+												</ChoiceParameters>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Счет авансов&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаСчетУчетаРасчетовПоАвансамКонтекстноеМеню" id="882"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаСчетУчетаРасчетовПоАвансамРасширеннаяПодсказка" id="883"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="РасшифровкаПлатежаГруппаОтражениеАванса" id="714">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Учет авансов</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасшифровкаПлатежаГруппаОтражениеАвансаРасширеннаяПодсказка" id="715"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаОтражениеАвансаСчетУчета" id="947">
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Счет авансов</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<AutoMarkIncomplete>true</AutoMarkIncomplete>
+												<ChoiceParameters>
+													<app:item name="Отбор.Забалансовый">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">false</Value>
+														</app:value>
+													</app:item>
+													<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">false</Value>
+														</app:value>
+													</app:item>
+												</ChoiceParameters>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Счет авансов&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаОтражениеАвансаСчетУчетаКонтекстноеМеню" id="948"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаОтражениеАвансаСчетУчетаРасширеннаяПодсказка" id="949"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаОтражениеАвансаПредставление" id="932">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ListChoiceMode>true</ListChoiceMode>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Аванс в НУ&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаОтражениеАвансаПредставлениеКонтекстноеМеню" id="933"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаОтражениеАвансаПредставлениеРасширеннаяПодсказка" id="934"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасшифровкаПлатежаДоходыУСН" id="908">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>14</Width>
+										<ContextMenu name="РасшифровкаПлатежаДоходыУСНКонтекстноеМеню" id="909"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаДоходыУСНРасширеннаяПодсказка" id="910"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаОтражениеДоходаПредставление" id="1066">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>21</Width>
+										<ListChoiceMode>true</ListChoiceMode>
+										<ContextMenu name="РасшифровкаПлатежаОтражениеДоходаПредставлениеКонтекстноеМеню" id="1067"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаОтражениеДоходаПредставлениеРасширеннаяПодсказка" id="1068"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаОтступ" id="1051">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>1</Width>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="РасшифровкаПлатежаОтступКонтекстноеМеню" id="1052"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаОтступРасширеннаяПодсказка" id="1053"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаИнкассация" id="436">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Инкассация</v8:content>
+							</v8:item>
+						</Title>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаИнкассацияExtendedTooltip" id="588"/>
+						<ChildItems>
+							<Table name="РасшифровкаПлатежаИнкассация" id="437">
+								<Representation>List</Representation>
+								<ChangeRowOrder>false</ChangeRowOrder>
+								<Footer>true</Footer>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="РасшифровкаПлатежаИнкассацияКонтекстноеМеню" id="438"/>
+								<AutoCommandBar name="РасшифровкаПлатежаИнкассацияКоманднаяПанель" id="439"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияExtendedTooltip" id="589"/>
+								<SearchStringAddition name="РасшифровкаПлатежаИнкассацияСтрокаПоиска" id="768">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаИнкассация</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаИнкассацияСтрокаПоискаКонтекстноеМеню" id="769"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСтрокаПоискаРасширеннаяПодсказка" id="770"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="РасшифровкаПлатежаИнкассацияСостояниеПросмотра" id="771">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаИнкассация</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаИнкассацияСостояниеПросмотраКонтекстноеМеню" id="772"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСостояниеПросмотраРасширеннаяПодсказка" id="773"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="РасшифровкаПлатежаИнкассацияУправлениеПоиском" id="774">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаИнкассация</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаИнкассацияУправлениеПоискомКонтекстноеМеню" id="775"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияУправлениеПоискомРасширеннаяПодсказка" id="776"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="РасшифровкаПлатежаИнкассацияНомерСтроки" id="1039">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ShowInFooter>false</ShowInFooter>
+										<Width>3</Width>
+										<ContextMenu name="РасшифровкаПлатежаИнкассацияНомерСтрокиКонтекстноеМеню" id="1040"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияНомерСтрокиРасширеннаяПодсказка" id="1041"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаИнкассацияСтатьяДвиженияДенежныхСредств" id="965">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="РасшифровкаПлатежаИнкассацияСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="966"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="967"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаИнкассацияСуммаПлатежа" id="968">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>12</Width>
+										<ContextMenu name="РасшифровкаПлатежаИнкассацияСуммаПлатежаКонтекстноеМеню" id="969"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСуммаПлатежаРасширеннаяПодсказка" id="970"/>
+									</InputField>
+									<ColumnGroup name="ГруппаРасшифровкаПлатежаИнкассацияГруппаСчетКредитаПодразделение" id="268">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Счет кредита \ подразделение</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ExtendedTooltip name="ГруппаРасшифровкаПлатежаИнкассацияГруппаСчетКредитаПодразделениеExtendedTooltip" id="592"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаИнкассацияСчетУчетаРасчетовСКонтрагентом" id="971">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>21</Width>
+												<ChoiceParameters>
+													<app:item name="Отбор.Забалансовый">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">false</Value>
+														</app:value>
+													</app:item>
+													<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">false</Value>
+														</app:value>
+													</app:item>
+												</ChoiceParameters>
+												<ContextMenu name="РасшифровкаПлатежаИнкассацияСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="972"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="973"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаИнкассацияПодразделениеКт" id="974">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>21</Width>
+												<ChoiceParameterLinks>
+													<xr:Link>
+														<xr:Name>Отбор.Владелец</xr:Name>
+														<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+												</ChoiceParameterLinks>
+												<ContextMenu name="РасшифровкаПлатежаИнкассацияПодразделениеКтКонтекстноеМеню" id="975"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияПодразделениеКтРасширеннаяПодсказка" id="976"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="ГруппаРасшифровкаПлатежаИнкассацияГруппаСубконто" id="269">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Субконто</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ExtendedTooltip name="ГруппаРасшифровкаПлатежаИнкассацияГруппаСубконтоExtendedTooltip" id="595"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаИнкассацияСубконтоКт1" id="977">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Субконто</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<TypeLink>
+													<xr:DataPath>437:02023637-7868-4a5f-8576-835a76e0c9ba/11</xr:DataPath>
+													<xr:LinkItem>1</xr:LinkItem>
+												</TypeLink>
+												<ContextMenu name="РасшифровкаПлатежаИнкассацияСубконтоКт1КонтекстноеМеню" id="978"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСубконтоКт1РасширеннаяПодсказка" id="979"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаИнкассацияСубконтоКт2" id="980">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<TypeLink>
+													<xr:DataPath>437:02023637-7868-4a5f-8576-835a76e0c9ba/11</xr:DataPath>
+													<xr:LinkItem>2</xr:LinkItem>
+												</TypeLink>
+												<ContextMenu name="РасшифровкаПлатежаИнкассацияСубконтоКт2КонтекстноеМеню" id="981"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСубконтоКт2РасширеннаяПодсказка" id="982"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаИнкассацияСубконтоКт3" id="983">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<TypeLink>
+													<xr:DataPath>437:02023637-7868-4a5f-8576-835a76e0c9ba/11</xr:DataPath>
+													<xr:LinkItem>3</xr:LinkItem>
+												</TypeLink>
+												<ContextMenu name="РасшифровкаПлатежаИнкассацияСубконтоКт3КонтекстноеМеню" id="984"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияСубконтоКт3РасширеннаяПодсказка" id="985"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасшифровкаПлатежаИнкассацияОтступ" id="1054">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>1</Width>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="РасшифровкаПлатежаИнкассацияОтступКонтекстноеМеню" id="1055"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаИнкассацияОтступРасширеннаяПодсказка" id="1056"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаПокупкаВалюты" id="139">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Покупка валюты</v8:content>
+							</v8:item>
+						</Title>
+						<ChildItemsWidth>Equal</ChildItemsWidth>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПокупкаВалютыExtendedTooltip" id="599"/>
+						<ChildItems>
+							<Table name="РасшифровкаПлатежаПокупкаВалюты" id="440">
+								<Representation>List</Representation>
+								<ChangeRowOrder>false</ChangeRowOrder>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыКонтекстноеМеню" id="441"/>
+								<AutoCommandBar name="РасшифровкаПлатежаПокупкаВалютыКоманднаяПанель" id="442"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыExtendedTooltip" id="600"/>
+								<SearchStringAddition name="РасшифровкаПлатежаПокупкаВалютыСтрокаПоиска" id="777">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПокупкаВалюты</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСтрокаПоискаКонтекстноеМеню" id="778"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСтрокаПоискаРасширеннаяПодсказка" id="779"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="РасшифровкаПлатежаПокупкаВалютыСостояниеПросмотра" id="780">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПокупкаВалюты</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСостояниеПросмотраКонтекстноеМеню" id="781"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСостояниеПросмотраРасширеннаяПодсказка" id="782"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="РасшифровкаПлатежаПокупкаВалютыУправлениеПоиском" id="783">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПокупкаВалюты</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыУправлениеПоискомКонтекстноеМеню" id="784"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыУправлениеПоискомРасширеннаяПодсказка" id="785"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="РасшифровкаПлатежаПокупкаВалютыНомерСтроки" id="1042">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ShowInFooter>false</ShowInFooter>
+										<Width>3</Width>
+										<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыНомерСтрокиКонтекстноеМеню" id="1043"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыНомерСтрокиРасширеннаяПодсказка" id="1044"/>
+									</InputField>
+									<ColumnGroup name="РасшифровкаПлатежаПокупкаВалютыГруппаДоговор" id="687">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Договор / Статья ДДС</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыГруппаДоговорРасширеннаяПодсказка" id="688"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаПокупкаВалютыДоговорКонтрагента" id="986">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор / Статья ДДС</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор с банком на приобретение валюты</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<Width>21</Width>
+												<ChoiceParameterLinks>
+													<xr:Link>
+														<xr:Name>Отбор.Владелец</xr:Name>
+														<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+													<xr:Link>
+														<xr:Name>Отбор.Организация</xr:Name>
+														<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+												</ChoiceParameterLinks>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Договор&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыДоговорКонтрагентаКонтекстноеМеню" id="987"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыДоговорКонтрагентаРасширеннаяПодсказка" id="988"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаПокупкаВалютыСтатьяДвиженияДенежныхСредств" id="989">
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Статья движения денежных средств</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>21</Width>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Статья движения ден. средств&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="990"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="991"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасшифровкаПлатежаПокупкаВалютыСуммаПлатежа" id="992">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма (вал.)</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма приобретенной валюты</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>12</Width>
+										<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСуммаПлатежаКонтекстноеМеню" id="993"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСуммаПлатежаРасширеннаяПодсказка" id="994"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПокупкаВалютыВалютаДокумента" id="995">
+										<ReadOnly>true</ReadOnly>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Вал.</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>5</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыВалютаДокументаКонтекстноеМеню" id="996"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыВалютаДокументаРасширеннаяПодсказка" id="997"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПокупкаВалютыКурсВзаиморасчетов" id="998">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Курс банка</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Курс валюты расчетов с банком</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>12</Width>
+										<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыКурсВзаиморасчетовКонтекстноеМеню" id="999"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыКурсВзаиморасчетовРасширеннаяПодсказка" id="1000"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПокупкаВалютыСуммаВзаиморасчетов" id="1001">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма в руб.</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма в рублях по курсу приобретения</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>12</Width>
+										<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСуммаВзаиморасчетовКонтекстноеМеню" id="1002"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСуммаВзаиморасчетовРасширеннаяПодсказка" id="1003"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПокупкаВалютыСчетУчетаРасчетовСКонтрагентом" id="1004">
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Счет расчетов с банком</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>11</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ChoiceParameters>
+											<app:item name="Отбор.Забалансовый">
+												<app:value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:boolean">false</Value>
+												</app:value>
+											</app:item>
+											<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+												<app:value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:boolean">false</Value>
+												</app:value>
+											</app:item>
+										</ChoiceParameters>
+										<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="1005"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="1006"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПокупкаВалютыОтступ" id="1057">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>1</Width>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="РасшифровкаПлатежаПокупкаВалютыОтступКонтекстноеМеню" id="1058"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПокупкаВалютыОтступРасширеннаяПодсказка" id="1059"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаПродажаВалюты" id="398">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Продажа валюты</v8:content>
+							</v8:item>
+						</Title>
+						<ChildItemsWidth>Equal</ChildItemsWidth>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПродажаВалютыExtendedTooltip" id="612"/>
+						<ChildItems>
+							<Table name="РасшифровкаПлатежаПродажаВалюты" id="458">
+								<Representation>List</Representation>
+								<ChangeRowOrder>false</ChangeRowOrder>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="РасшифровкаПлатежаПродажаВалютыКонтекстноеМеню" id="459"/>
+								<AutoCommandBar name="РасшифровкаПлатежаПродажаВалютыКоманднаяПанель" id="460"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыExtendedTooltip" id="613"/>
+								<SearchStringAddition name="РасшифровкаПлатежаПродажаВалютыСтрокаПоиска" id="786">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПродажаВалюты</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСтрокаПоискаКонтекстноеМеню" id="787"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСтрокаПоискаРасширеннаяПодсказка" id="788"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="РасшифровкаПлатежаПродажаВалютыСостояниеПросмотра" id="789">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПродажаВалюты</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСостояниеПросмотраКонтекстноеМеню" id="790"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСостояниеПросмотраРасширеннаяПодсказка" id="791"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="РасшифровкаПлатежаПродажаВалютыУправлениеПоиском" id="792">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПродажаВалюты</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПродажаВалютыУправлениеПоискомКонтекстноеМеню" id="793"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыУправлениеПоискомРасширеннаяПодсказка" id="794"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="РасшифровкаПлатежаПродажаВалютыНомерСтроки" id="1045">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ShowInFooter>false</ShowInFooter>
+										<Width>3</Width>
+										<ContextMenu name="РасшифровкаПлатежаПродажаВалютыНомерСтрокиКонтекстноеМеню" id="1046"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыНомерСтрокиРасширеннаяПодсказка" id="1047"/>
+									</InputField>
+									<ColumnGroup name="РасшифровкаПлатежаГруппаДоговорСтатьяДДС" id="685">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Договор / Статья ДДС</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="РасшифровкаПлатежаГруппаДоговорСтатьяДДСРасширеннаяПодсказка" id="686"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагента" id="1007">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор / Статья ДДС</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор с банком на продажу валюты</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<Width>21</Width>
+												<ChoiceParameterLinks>
+													<xr:Link>
+														<xr:Name>Отбор.Владелец</xr:Name>
+														<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+													<xr:Link>
+														<xr:Name>Отбор.Организация</xr:Name>
+														<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+												</ChoiceParameterLinks>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Договор&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаКонтекстноеМеню" id="1008"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаРасширеннаяПодсказка" id="1009"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаПродажаВалютыСтатьяДвиженияДенежныхСредств" id="1010">
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Статья движения денежных средств</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>21</Width>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>&lt;Статья движения ден. средств&gt;</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="1011"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="1012"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасшифровкаПлатежаПродажаВалютыСуммаВзаиморасчетов" id="1025">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма (вал.)</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>12</Width>
+										<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСуммаВзаиморасчетовКонтекстноеМеню" id="1026"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСуммаВзаиморасчетовРасширеннаяПодсказка" id="1027"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаВалютаВзаиморасчетов" id="1022">
+										<ReadOnly>true</ReadOnly>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Вал.</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Валюта расчетов с банком</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>6</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаВалютаВзаиморасчетовКонтекстноеМеню" id="1023"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыДоговорКонтрагентаВалютаВзаиморасчетовРасширеннаяПодсказка" id="1024"/>
+									</InputField>
+									<ColumnGroup name="РасшифровкаПлатежаПродажаВалютыКурсыВалюты" id="502">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Курсы валюты</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыКурсыВалютыExtendedTooltip" id="618"/>
+										<ChildItems>
+											<InputField name="РасшифровкаПлатежаПродажаВалютыКурсВзаиморасчетов" id="1019">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Курс расчетов / ЦБ РФ</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Курс валюты расчетов с банком</v8:content>
+													</v8:item>
+												</ToolTip>
+												<EditMode>EnterOnInput</EditMode>
+												<Width>17</Width>
+												<ContextMenu name="РасшифровкаПлатежаПродажаВалютыКурсВзаиморасчетовКонтекстноеМеню" id="1020"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыКурсВзаиморасчетовРасширеннаяПодсказка" id="1021"/>
+											</InputField>
+											<InputField name="РасшифровкаПлатежаПродажаВалютыКурсЦБНаДатуРеализацииВалюты" id="1016">
+												<ReadOnly>true</ReadOnly>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Курс ЦБ РФ на дату продажи валюты</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>17</Width>
+												<ContextMenu name="РасшифровкаПлатежаПродажаВалютыКурсЦБНаДатуРеализацииВалютыКонтекстноеМеню" id="1017"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыКурсЦБНаДатуРеализацииВалютыРасширеннаяПодсказка" id="1018"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасшифровкаПлатежаПродажаВалютыСуммаПлатежа" id="1028">
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма проданной валюты</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>12</Width>
+										<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСуммаПлатежаКонтекстноеМеню" id="1029"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСуммаПлатежаРасширеннаяПодсказка" id="1030"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПродажаВалютыСчетУчетаРасчетовСКонтрагентом" id="1031">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>11</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ChoiceParameters>
+											<app:item name="Отбор.Забалансовый">
+												<app:value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:boolean">false</Value>
+												</app:value>
+											</app:item>
+											<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+												<app:value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:boolean">false</Value>
+												</app:value>
+											</app:item>
+										</ChoiceParameters>
+										<ContextMenu name="РасшифровкаПлатежаПродажаВалютыСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="1032"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="1033"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПродажаВалютыОтступ" id="1060">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>1</Width>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="РасшифровкаПлатежаПродажаВалютыОтступКонтекстноеМеню" id="1061"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПродажаВалютыОтступРасширеннаяПодсказка" id="1062"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаПлатежныеКарты" id="421">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Платежные карты</v8:content>
+							</v8:item>
+						</Title>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПлатежныеКартыExtendedTooltip" id="638"/>
+						<ChildItems>
+							<Table name="РасшифровкаПлатежаПлатежныеКарты" id="479">
+								<Representation>List</Representation>
+								<ChangeRowOrder>false</ChangeRowOrder>
+								<Footer>true</Footer>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыКонтекстноеМеню" id="480"/>
+								<AutoCommandBar name="РасшифровкаПлатежаПлатежныеКартыКоманднаяПанель" id="481"/>
+								<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыExtendedTooltip" id="641"/>
+								<SearchStringAddition name="РасшифровкаПлатежаПлатежныеКартыСтрокаПоиска" id="795">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПлатежныеКарты</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСтрокаПоискаКонтекстноеМеню" id="796"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСтрокаПоискаРасширеннаяПодсказка" id="797"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="РасшифровкаПлатежаПлатежныеКартыСостояниеПросмотра" id="798">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПлатежныеКарты</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСостояниеПросмотраКонтекстноеМеню" id="799"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСостояниеПросмотраРасширеннаяПодсказка" id="800"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="РасшифровкаПлатежаПлатежныеКартыУправлениеПоиском" id="801">
+									<AdditionSource>
+										<Item>РасшифровкаПлатежаПлатежныеКарты</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыУправлениеПоискомКонтекстноеМеню" id="802"/>
+									<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыУправлениеПоискомРасширеннаяПодсказка" id="803"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыНомерСтроки" id="1048">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ShowInFooter>false</ShowInFooter>
+										<Width>3</Width>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыНомерСтрокиКонтекстноеМеню" id="1049"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыНомерСтрокиРасширеннаяПодсказка" id="1050"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыДоговорКонтрагента" id="950">
+										<EditMode>EnterOnInput</EditMode>
+										<ChoiceParameterLinks>
+											<xr:Link>
+												<xr:Name>Отбор.Владелец</xr:Name>
+												<xr:DataPath xsi:type="xs:string">24</xr:DataPath>
+												<xr:ValueChange>Clear</xr:ValueChange>
+											</xr:Link>
+											<xr:Link>
+												<xr:Name>Отбор.Организация</xr:Name>
+												<xr:DataPath xsi:type="xs:string">25</xr:DataPath>
+												<xr:ValueChange>Clear</xr:ValueChange>
+											</xr:Link>
+										</ChoiceParameterLinks>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыДоговорКонтрагентаКонтекстноеМеню" id="951"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыДоговорКонтрагентаРасширеннаяПодсказка" id="952"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыСтатьяДвиженияДенежныхСредств" id="962">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="963"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="964"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыСуммаПлатежа" id="953">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма без комиссии</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+										<Width>12</Width>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСуммаПлатежаКонтекстноеМеню" id="954"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСуммаПлатежаРасширеннаяПодсказка" id="955"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыСчетУчетаРасчетовСКонтрагентом" id="956">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>11</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ChoiceParameters>
+											<app:item name="Отбор.Забалансовый">
+												<app:value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:boolean">false</Value>
+												</app:value>
+											</app:item>
+											<app:item name="Отбор.ЗапретитьИспользоватьВПроводках">
+												<app:value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:boolean">false</Value>
+												</app:value>
+											</app:item>
+										</ChoiceParameters>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="957"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="958"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыСуммаУслуг" id="959">
+										<EditMode>EnterOnInput</EditMode>
+										<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+										<Width>12</Width>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСуммаУслугКонтекстноеМеню" id="960"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСуммаУслугРасширеннаяПодсказка" id="961"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыСуммаВозврата" id="1075">
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма возвратов на платежные карты, удержанная банком. Указывается в назначении платежа.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыСуммаВозвратаКонтекстноеМеню" id="1076"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыСуммаВозвратаРасширеннаяПодсказка" id="1077"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПредставление" id="1069">
+										<EditMode>EnterOnInput</EditMode>
+										<ListChoiceMode>true</ListChoiceMode>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПредставлениеКонтекстноеМеню" id="1070"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПредставлениеРасширеннаяПодсказка" id="1071"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПКПредставление" id="1078">
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Порядок отражения дохода по сделкам на патенте с истекшим сроком.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<ListChoiceMode>true</ListChoiceMode>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПКПредставлениеКонтекстноеМеню" id="1079"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыОтражениеДоходаПКПредставлениеРасширеннаяПодсказка" id="1080"/>
+									</InputField>
+									<InputField name="РасшифровкаПлатежаПлатежныеКартыОтступ" id="1063">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>1</Width>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="РасшифровкаПлатежаПлатежныеКартыОтступКонтекстноеМеню" id="1064"/>
+										<ExtendedTooltip name="РасшифровкаПлатежаПлатежныеКартыОтступРасширеннаяПодсказка" id="1065"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>
