@@ -213,9 +213,9 @@
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда" id="99643c2e-1610-47ed-8c14-d73a7e92708b" configVersion="2a53e84f8ee0dc202b7f2b00ec0356b3d03b3540"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.ManagerModule" id="99643c2e-1610-47ed-8c14-d73a7e92708b.2" configVersion="bbdef9a779d249d092192136ace367c6d7a537f5"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_АктПриемкиВыполненныхРаботДоговора" id="77132940-f8c8-4285-bd07-b0f940e6ec9f" configVersion="fc6845225a6f2c4d26d4709b26b4ba7d216ada2e"/>
-		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_АктПриемкиВыполненныхРаботДоговора.Template" id="77132940-f8c8-4285-bd07-b0f940e6ec9f.0" configVersion="919a6c37357571cc31395ae446ec6786cc37959a"/>
+		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_АктПриемкиВыполненныхРаботДоговора.Template" id="77132940-f8c8-4285-bd07-b0f940e6ec9f.0" configVersion="1d2caf3cadaab940cc0123593547451f80779db7"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда" id="aa591390-b66d-48a7-b187-c63948c746a3" configVersion="4e399af3606d91a47a09fb903b7b206a51ad9a9e"/>
-		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда.Template" id="aa591390-b66d-48a7-b187-c63948c746a3.0" configVersion="b088969abf08ef8bfa71f6dcbe67d1121f6e589d"/>
+		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда.Template" id="aa591390-b66d-48a7-b187-c63948c746a3.0" configVersion="7955785668606599c02b869a5081a2b4ca189eea"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг" id="f570b8b8-777e-4022-8063-d3455842ff0c" configVersion="17fb4243d82e5e4d2d9e99f5d6a7f091f27d2c86"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг.ManagerModule" id="f570b8b8-777e-4022-8063-d3455842ff0c.2" configVersion="46b5fdc60d939226ca59832efb0b5d8467872e3d"/>
 		<Metadata name="DataProcessor.ГП_ПечатьНачисленийУслуг.Template.ГП_ПФ_Начисления" id="32b0e43f-4e6a-43cf-8c6d-1cd4cf9bf590" configVersion="fa45a47aa8f918c4820aa26080e0422535f3f93f"/>
