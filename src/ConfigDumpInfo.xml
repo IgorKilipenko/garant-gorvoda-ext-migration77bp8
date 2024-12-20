@@ -83,7 +83,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147" configVersion="97a5cca7afa33902b09de9527fd2fac2894cdf77"/>
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов.Module" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147.0" configVersion="5596c79711f03e52e1a6a690b022a65973d2fa11"/>
 		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов" id="8c21dd53-8726-4d77-94d9-91010f311814" configVersion="08984a7300b22a4076197788abdaf1af7851fdf8"/>
-		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов.Module" id="8c21dd53-8726-4d77-94d9-91010f311814.0" configVersion="afe8c667da378dbe5ddc6d86fbbdc5b4e78ffbeb"/>
+		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов.Module" id="8c21dd53-8726-4d77-94d9-91010f311814.0" configVersion="edc2bdd1075953619566d9ce0f6f8d0452973341"/>
 		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетовОИ" id="19fa5bd6-0f31-4f9e-84b7-38371388723a" configVersion="5e5b142509b879e1e9421ce10179407ef0e5fac7"/>
 		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетовОИ.Module" id="19fa5bd6-0f31-4f9e-84b7-38371388723a.0" configVersion="e42270b5a02f33911f9c219eb59b97ecede34aee"/>
 		<Metadata name="CommonModule.ГП_МиграцияНормПотребления" id="dfdbb180-6dd0-4ac8-8e32-8735ea4d1986" configVersion="e9ea2edc71767de472a7f08b90c1515342758ce7"/>
@@ -127,7 +127,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами" id="9b883fe6-e1bd-4cd2-8341-c5c309534410" configVersion="e8f35c035a714ef77faa7c4ac6f3c6c84b2da787"/>
 		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами.Module" id="9b883fe6-e1bd-4cd2-8341-c5c309534410.0" configVersion="8640bc408693ce4d3cc48ed29e3cd195e9ab6ae6"/>
 		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами" id="cb495c95-3395-4168-9352-d2c71994b0a2" configVersion="f0853eb947353611164df6eef9e6e2b4d41b83a6"/>
-		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами.Module" id="cb495c95-3395-4168-9352-d2c71994b0a2.0" configVersion="aec5106ab0474c58d3504915d44274b3bba97f53"/>
+		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами.Module" id="cb495c95-3395-4168-9352-d2c71994b0a2.0" configVersion="91d6c9e4ea6e70b4558a4c54ea57ef256ebf32f2"/>
 		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480" configVersion="d4ffa137103bb01d687a6b776eac20814232f0eb"/>
 		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг.Module" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480.0" configVersion="bd375507602c838e16080ea2a4730c700aee4e2d"/>
 		<Metadata name="CommonModule.ГП_РаботаСНоменклатурами" id="a5af598b-7bef-4b57-863a-3a48b1fc47d6" configVersion="793139b99ed9f177e2ff87ec0881a337bcbc1201"/>
@@ -181,7 +181,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="def24a19c8d5492fb1fab9aeb71888dcdd9956d2"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="f98f314b193721feceda67603faff3e6167d958c"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ" id="b34330b7-efec-414c-92b8-35b470063181" configVersion="88faec84e48bc8aafc2ace9226a77fd4216fc36b">
 			<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ.TabularSection.ПоказанияСчетчиков.Attribute.КодМКД" id="2dfaa86c-a877-42da-9345-262877687e35"/>
