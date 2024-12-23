@@ -133,7 +133,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСНоменклатурами" id="a5af598b-7bef-4b57-863a-3a48b1fc47d6" configVersion="793139b99ed9f177e2ff87ec0881a337bcbc1201"/>
 		<Metadata name="CommonModule.ГП_РаботаСНоменклатурами.Module" id="a5af598b-7bef-4b57-863a-3a48b1fc47d6.0" configVersion="d4f646ec67362f2fa90a04a62a2797ad5ffc0846"/>
 		<Metadata name="CommonModule.ГП_РаботаСПоступлениемПлатежей" id="d6a082a0-6f19-44c7-8768-9e4a9e3d496c" configVersion="2722c1edeb6171a020c088afdc906eebda2fe52d"/>
-		<Metadata name="CommonModule.ГП_РаботаСПоступлениемПлатежей.Module" id="d6a082a0-6f19-44c7-8768-9e4a9e3d496c.0" configVersion="c9df087c55c34693ee409c54cb21b0d8c6b4eac5"/>
+		<Metadata name="CommonModule.ГП_РаботаСПоступлениемПлатежей.Module" id="d6a082a0-6f19-44c7-8768-9e4a9e3d496c.0" configVersion="048dadc5fb64b8a0fe277c5595b75bccc4d7cd4a"/>
 		<Metadata name="CommonModule.ГП_РаботаСТарифами" id="2d481c17-18d7-4a82-b9dc-dada80da9215" configVersion="f95813ecab9d02ea9bc6a5e468e7d6670f38550d"/>
 		<Metadata name="CommonModule.ГП_РаботаСТарифами.Module" id="2d481c17-18d7-4a82-b9dc-dada80da9215.0" configVersion="4d33bda178f946350f4136551e8a29fa13379349"/>
 		<Metadata name="CommonModule.ГП_РаботаСУслугами" id="6256f17d-b3bd-4efc-b0d3-6f3e7543f1c6" configVersion="a85cd409f277e9264c58ed9c179c5f215757a343"/>
@@ -183,7 +183,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="6812fb4ac55396968c1bd97baf370e4119433a30"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="9ab7aa5774e1f63064155f3163898b58039df10e"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ" id="b34330b7-efec-414c-92b8-35b470063181" configVersion="88faec84e48bc8aafc2ace9226a77fd4216fc36b">
 			<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ.TabularSection.ПоказанияСчетчиков.Attribute.КодМКД" id="2dfaa86c-a877-42da-9345-262877687e35"/>
@@ -261,7 +261,7 @@
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаДокументаОднострочная" id="82faeb65-f91f-4b06-9186-fcbebb7d9186" configVersion="96ffceede4071f590a50977a7c460da50f6ce3a6"/>
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаДокументаОднострочная.Form" id="82faeb65-f91f-4b06-9186-fcbebb7d9186.0" configVersion="0d77eaa3a6103ff2e5783b24492bfe0d088cbed6"/>
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаРасшифровкаПлатежа" id="a79b6c58-74b6-4932-9ace-886f74f4be8b" configVersion="1a986d288d735f0d6ae16331750f0aaca8426beb"/>
-		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаРасшифровкаПлатежа.Form" id="a79b6c58-74b6-4932-9ace-886f74f4be8b.0" configVersion="18abc6a4d90a2a376a9d863c1e9189e735e42d2b"/>
+		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаРасшифровкаПлатежа.Form" id="a79b6c58-74b6-4932-9ace-886f74f4be8b.0" configVersion="88fea3efc3ae693a6f10451b90ba6e244cda66bc"/>
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.ObjectModule" id="8cef1724-e588-4135-8e74-b643de078d73.0" configVersion="f520a75666eee512996ca6bfd1d4383d9e4984b4"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер" id="db8124c7-e48e-470c-ab6a-677a05194602" configVersion="3e2f358a12b54184db89e9661cb3f7dfb9c929da"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокументаОднострочная" id="7a23b90f-32e0-4472-8da9-3fd851e0b063" configVersion="913f6d21fe55a2955fe01afe4ff68f9e002c82f5"/>
