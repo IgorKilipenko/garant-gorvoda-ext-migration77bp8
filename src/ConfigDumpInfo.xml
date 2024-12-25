@@ -256,7 +256,7 @@
 		<Metadata name="Document.ОплатаПлатежнойКартой.Form.ФормаДокументаОднострочная" id="ffb308fe-5afa-44ee-8e28-e9f6f45c8d91" configVersion="96b236b0cbdb4dfd7bf537ca4e61d34571d2d474"/>
 		<Metadata name="Document.ОплатаПлатежнойКартой.Form.ФормаДокументаОднострочная.Form" id="ffb308fe-5afa-44ee-8e28-e9f6f45c8d91.0" configVersion="e8e9c3bbd3a9d708f2172ae4cf9b8680635b144a"/>
 		<Metadata name="Document.ОплатаПлатежнойКартой.Form.ФормаРасшифровкаПлатежа" id="20c6ad27-3dab-47f7-be4a-d2abd9677cfe" configVersion="3f4be603a3f852d77e143841bfe2fb1628ede71f"/>
-		<Metadata name="Document.ОплатаПлатежнойКартой.Form.ФормаРасшифровкаПлатежа.Form" id="20c6ad27-3dab-47f7-be4a-d2abd9677cfe.0" configVersion="48fc5f66452a99934493f65786fc954b802f0b01"/>
+		<Metadata name="Document.ОплатаПлатежнойКартой.Form.ФормаРасшифровкаПлатежа.Form" id="20c6ad27-3dab-47f7-be4a-d2abd9677cfe.0" configVersion="c3acbad10df4d5494e32fa3179394a8f2d47d7e5"/>
 		<Metadata name="Document.ОплатаПлатежнойКартой.ObjectModule" id="9b485ce0-5c16-423a-a93a-780378cbf78d.0" configVersion="87b6b4daf9a58701ed875cf979c3ff0909868fde"/>
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет" id="8cef1724-e588-4135-8e74-b643de078d73" configVersion="ae93be1e3588fa911277dc4a84482ed90de3fe48"/>
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаДокументаОднострочная" id="82faeb65-f91f-4b06-9186-fcbebb7d9186" configVersion="96ffceede4071f590a50977a7c460da50f6ce3a6"/>
