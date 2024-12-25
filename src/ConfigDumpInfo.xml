@@ -124,7 +124,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСДоговорами" id="acf369df-ee00-4cd5-b92f-9fb011a48949" configVersion="fc686a0da2af2dd21ddba4b99b3a43606e0e5459"/>
 		<Metadata name="CommonModule.ГП_РаботаСДоговорами.Module" id="acf369df-ee00-4cd5-b92f-9fb011a48949.0" configVersion="2609055c781c44db2d654534e3f18c8a071c7235"/>
 		<Metadata name="CommonModule.ГП_РаботаСЗависимостямиПриборовУчета" id="0b1d5c48-4450-4356-af3f-0d71f124545a" configVersion="1086689f406a34f4fce10cbe7c755ad8b636f5b7"/>
-		<Metadata name="CommonModule.ГП_РаботаСЗависимостямиПриборовУчета.Module" id="0b1d5c48-4450-4356-af3f-0d71f124545a.0" configVersion="6c623f1a7515ad44b3a2e6f915cc728856904e50"/>
+		<Metadata name="CommonModule.ГП_РаботаСЗависимостямиПриборовУчета.Module" id="0b1d5c48-4450-4356-af3f-0d71f124545a.0" configVersion="470481a07423cf0fab265ff7e6533c624a1d1c05"/>
 		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами" id="9b883fe6-e1bd-4cd2-8341-c5c309534410" configVersion="e8f35c035a714ef77faa7c4ac6f3c6c84b2da787"/>
 		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами.Module" id="9b883fe6-e1bd-4cd2-8341-c5c309534410.0" configVersion="8640bc408693ce4d3cc48ed29e3cd195e9ab6ae6"/>
 		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами" id="cb495c95-3395-4168-9352-d2c71994b0a2" configVersion="f0853eb947353611164df6eef9e6e2b4d41b83a6"/>
@@ -184,7 +184,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="8269f598e1c8541782f8ae919250fbe5b6a2292b"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="675a331ce1e38e766e78019cf5f961b6f9dbd3c2"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ" id="b34330b7-efec-414c-92b8-35b470063181" configVersion="88faec84e48bc8aafc2ace9226a77fd4216fc36b">
 			<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ.TabularSection.ПоказанияСчетчиков.Attribute.КодМКД" id="2dfaa86c-a877-42da-9345-262877687e35"/>
@@ -214,7 +214,7 @@
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.Form.Форма.Form" id="c616b957-8cef-4c5a-aa44-b5edc4899f7c.0" configVersion="2496ad4925915a2f33efd568088bbe57bef3aefe"/>
 		<Metadata name="DataProcessor.ГП_ЗаполнениеУстановкиСчетчиков.ManagerModule" id="3d45d117-481f-40f1-8e6a-0ff380eb0632.2" configVersion="ba85cda3e8551dd85c0b36ac97cc69d5485773f9"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда" id="99643c2e-1610-47ed-8c14-d73a7e92708b" configVersion="2a53e84f8ee0dc202b7f2b00ec0356b3d03b3540"/>
-		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.ManagerModule" id="99643c2e-1610-47ed-8c14-d73a7e92708b.2" configVersion="bbdef9a779d249d092192136ace367c6d7a537f5"/>
+		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.ManagerModule" id="99643c2e-1610-47ed-8c14-d73a7e92708b.2" configVersion="9b23ca36edd3a33fc67acfb89b375dfd25f4cab9"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_АктПриемкиВыполненныхРаботДоговора" id="77132940-f8c8-4285-bd07-b0f940e6ec9f" configVersion="fc6845225a6f2c4d26d4709b26b4ba7d216ada2e"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_АктПриемкиВыполненныхРаботДоговора.Template" id="77132940-f8c8-4285-bd07-b0f940e6ec9f.0" configVersion="1d2caf3cadaab940cc0123593547451f80779db7"/>
 		<Metadata name="DataProcessor.ГП_ПечатьДоговораПодряда.Template.ГП_ПФ_ДоговорПодряда" id="aa591390-b66d-48a7-b187-c63948c746a3" configVersion="4e399af3606d91a47a09fb903b7b206a51ad9a9e"/>
