@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Exch:_1CV8DtUD xmlns:V8Exch="http://www.1c.ru/V8/1CV8DtUD/" xmlns:core="http://v8.1c.ru/data" xmlns:v8="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<V8Exch:Data>
+		<v8:CatalogObject.lc_Водозаборы>
+			<v8:Ref xsi:type="v8:CatalogRef.lc_Водозаборы">028531af-9487-11ef-bca9-18c04d933e13</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000030</v8:Code>
+			<v8:Description>Волокно</v8:Description>
+			<v8:Комментарий/>
+		</v8:CatalogObject.lc_Водозаборы>
+		<v8:CatalogObject.lc_Водозаборы>
+			<v8:Ref xsi:type="v8:CatalogRef.lc_Водозаборы">0890fb5a-9487-11ef-bca9-18c04d933e13</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000031</v8:Code>
+			<v8:Description>Зоринский</v8:Description>
+			<v8:Комментарий/>
+		</v8:CatalogObject.lc_Водозаборы>
+		<v8:CatalogObject.lc_Водозаборы>
+			<v8:Ref xsi:type="v8:CatalogRef.lc_Водозаборы">0890fb6a-9487-11ef-bca9-18c04d933e13</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000032</v8:Code>
+			<v8:Description>КЗТЗ</v8:Description>
+			<v8:Комментарий/>
+		</v8:CatalogObject.lc_Водозаборы>
+		<v8:CatalogObject.lc_Водозаборы>
+			<v8:Ref xsi:type="v8:CatalogRef.lc_Водозаборы">0e80a35e-b60c-11ef-bcae-18c04d933e13</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000033</v8:Code>
+			<v8:Description>Нет водозабора</v8:Description>
+			<v8:Комментарий/>
+		</v8:CatalogObject.lc_Водозаборы>
+	</V8Exch:Data>
+	<PredefinedData/>
+</V8Exch:_1CV8DtUD>
