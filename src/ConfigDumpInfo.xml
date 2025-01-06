@@ -251,7 +251,7 @@
 		<Metadata name="Document.КВП_УстановкаТарифов" id="a9880687-f090-4f44-938b-d810ceb315b6" configVersion="60241877978d056220f39bbc3041d8fc5f307e7a"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента" id="e13f6e84-454a-4bd2-b81e-ae437f132736" configVersion="ca1fec5da57af76fed87fd3b1277f3945129ec20"/>
 		<Metadata name="Document.КВП_УстановкаТарифов.Form.ФормаДокумента.Form" id="e13f6e84-454a-4bd2-b81e-ae437f132736.0" configVersion="e77b0f4ae907c4e48b22930f4a102e558f44466a"/>
-		<Metadata name="Document.КВП_УстановкаТарифов.ObjectModule" id="a9880687-f090-4f44-938b-d810ceb315b6.0" configVersion="bfdc4c2f7b2cd15165070633eaff09a53d05da80"/>
+		<Metadata name="Document.КВП_УстановкаТарифов.ObjectModule" id="a9880687-f090-4f44-938b-d810ceb315b6.0" configVersion="9d5889af47f8dac977c2033629caa000f94e6ab2"/>
 		<Metadata name="Document.ОплатаПлатежнойКартой" id="9b485ce0-5c16-423a-a93a-780378cbf78d" configVersion="b589a7e066980c2e5d4487d912de1cd790039108"/>
 		<Metadata name="Document.ОплатаПлатежнойКартой.Form.ФормаДокументаОднострочная" id="ffb308fe-5afa-44ee-8e28-e9f6f45c8d91" configVersion="96b236b0cbdb4dfd7bf537ca4e61d34571d2d474"/>
 		<Metadata name="Document.ОплатаПлатежнойКартой.Form.ФормаДокументаОднострочная.Form" id="ffb308fe-5afa-44ee-8e28-e9f6f45c8d91.0" configVersion="e8e9c3bbd3a9d708f2172ae4cf9b8680635b144a"/>
