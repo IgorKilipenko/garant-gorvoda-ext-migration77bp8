@@ -71,6 +71,7 @@
 				</Button>
 				<Button name="УстановитьВиртуальныеСчетчики" id="24">
 					<Type>UsualButton</Type>
+					<Enabled>false</Enabled>
 					<CommandName>Form.Command.УстановитьВиртуальныеСчетчики</CommandName>
 					<ExtendedTooltip name="УстановитьВиртуальныеСчетчикиРасширеннаяПодсказка" id="25"/>
 				</Button>
@@ -95,12 +96,14 @@
 				<Button name="СоздатьВиртуальныеСчетчики" id="20">
 					<Type>UsualButton</Type>
 					<Representation>PictureAndText</Representation>
+					<Enabled>false</Enabled>
 					<CommandName>Form.Command.СоздатьВиртуальныеСчетчики</CommandName>
 					<ExtendedTooltip name="СоздатьВиртуальныеСчетчикиРасширеннаяПодсказка" id="21"/>
 				</Button>
 				<Button name="УдалитьВиртуальныеСчетчики" id="22">
 					<Type>UsualButton</Type>
 					<Representation>PictureAndText</Representation>
+					<Enabled>false</Enabled>
 					<CommandName>Form.Command.УдалитьВиртуальныеСчетчики</CommandName>
 					<ExtendedTooltip name="УдалитьВиртуальныеСчетчикиРасширеннаяПодсказка" id="23"/>
 				</Button>
