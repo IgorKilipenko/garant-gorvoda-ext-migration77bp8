@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.9.0.0-mig1</Version>
+			<Version>1.9.1.0-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -65,6 +65,7 @@
 			<Language>Русский</Language>
 			<Subsystem>ГП_МиграцияРазработка</Subsystem>
 			<Subsystem>УПЖКХ_УправлениеЛицевымиСчетами</Subsystem>
+			<Subsystem>УПЖКХ_РаботаСПриборамиУчета</Subsystem>
 			<StyleItem>УПЖКХ_ТекстСправочнойНадписи</StyleItem>
 			<StyleItem>ИтогиФонГруппы</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
@@ -222,6 +223,7 @@
 			<DataProcessor>КВП_ФормированиеОплатПоПлатежнымДокументам</DataProcessor>
 			<DataProcessor>ГП_ВыгрузкаПоказанийСТАРТ</DataProcessor>
 			<DataProcessor>ГП_ПечатьДоговораПодряда</DataProcessor>
+			<DataProcessor>ГП_ЗагрузкаВыгрузкаЗаводскихНомеровСчетчиков</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
