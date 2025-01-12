@@ -86,6 +86,7 @@
 				</InputField>
 				<InputField name="ДанныеОбменаГП_ИдентификаторБП77" id="34">
 					<DataPath>Объект.ДанныеОбмена.ГП_ИдентификаторБП77</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ДанныеОбменаГП_ИдентификаторБП77КонтекстноеМеню" id="35"/>

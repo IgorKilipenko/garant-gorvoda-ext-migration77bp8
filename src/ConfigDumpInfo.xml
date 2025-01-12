@@ -208,7 +208,7 @@
 			<Metadata name="DataProcessor.ГП_ЗагрузкаВыгрузкаЗаводскихНомеровСчетчиков.TabularSection.ДанныеОбмена.Attribute.ГП_ИдентификаторБП77" id="f6c51129-02f5-4c0b-bd1a-b7d6ed3a69ef"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаВыгрузкаЗаводскихНомеровСчетчиков.Form.Форма" id="66ce32e0-f200-42ce-a9b1-6fde8236686c" configVersion="e8302f4136aa441e364d4e07183e5a0958a28712"/>
-		<Metadata name="DataProcessor.ГП_ЗагрузкаВыгрузкаЗаводскихНомеровСчетчиков.Form.Форма.Form" id="66ce32e0-f200-42ce-a9b1-6fde8236686c.0" configVersion="147f892c08715b7e4cc0e17d059e186cb7e1db75"/>
+		<Metadata name="DataProcessor.ГП_ЗагрузкаВыгрузкаЗаводскихНомеровСчетчиков.Form.Форма.Form" id="66ce32e0-f200-42ce-a9b1-6fde8236686c.0" configVersion="aa081b2337cdb3fc53f967009dbe6528793ff671"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77" id="044cc305-d691-4420-9791-59a08b431474" configVersion="b96ca1cc835b7cb3ff99610017d8dab2abee62e2"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма" id="c15578d4-5823-45e9-8234-bff6b4376180" configVersion="d0be907d7407c806f0e709e46e11149a34a72e01"/>
 		<Metadata name="DataProcessor.ГП_ЗагрузкаСчетчиковБП77.Form.Форма.Form" id="c15578d4-5823-45e9-8234-bff6b4376180.0" configVersion="1d307aab698601f74600b301f18a63fd7371601b"/>
