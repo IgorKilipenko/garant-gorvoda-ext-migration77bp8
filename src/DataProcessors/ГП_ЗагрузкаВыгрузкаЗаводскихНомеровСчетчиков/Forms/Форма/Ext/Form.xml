@@ -84,6 +84,13 @@
 					<ContextMenu name="ДанныеОбменаЗаводскойНомерКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="ДанныеОбменаЗаводскойНомерРасширеннаяПодсказка" id="22"/>
 				</InputField>
+				<InputField name="ДанныеОбменаГП_ИдентификаторБП77" id="34">
+					<DataPath>Объект.ДанныеОбмена.ГП_ИдентификаторБП77</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДанныеОбменаГП_ИдентификаторБП77КонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ДанныеОбменаГП_ИдентификаторБП77РасширеннаяПодсказка" id="36"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
