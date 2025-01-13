@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗаписатьЗначенияКодовМКД" id="25">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаписатьЗначенияКодовМКД</CommandName>
+				<BackColor>style:ImportantColor</BackColor>
+				<ExtendedTooltip name="ФормаЗаписатьЗначенияКодовМКДРасширеннаяПодсказка" id="26"/>
+			</Button>
+			<Button name="ФормаВыгрузитьJSON" id="27">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыгрузитьJSON</CommandName>
+				<ExtendedTooltip name="ФормаВыгрузитьJSONРасширеннаяПодсказка" id="28"/>
+			</Button>
+			<Button name="ФормаЗагрузитьJSON" id="29">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗагрузитьJSON</CommandName>
+				<ExtendedTooltip name="ФормаЗагрузитьJSONРасширеннаяПодсказка" id="30"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Table name="ДанныеОбмена" id="1">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ДанныеОбмена</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДанныеОбменаКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ДанныеОбменаКоманднаяПанель" id="3">
+				<ChildItems>
+					<Button name="ДанныеОбменаЗаполнить" id="23">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>Form.Command.Заполнить</CommandName>
+						<ExtendedTooltip name="ДанныеОбменаЗаполнитьРасширеннаяПодсказка" id="24"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДанныеОбменаРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ДанныеОбменаСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ДанныеОбмена</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеОбменаСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ДанныеОбменаСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДанныеОбменаСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ДанныеОбмена</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеОбменаСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ДанныеОбменаСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДанныеОбменаУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ДанныеОбмена</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеОбменаУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ДанныеОбменаУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ДанныеОбменаНомерСтроки" id="31">
+					<DataPath>Объект.ДанныеОбмена.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеОбменаНомерСтрокиКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ДанныеОбменаНомерСтрокиРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<InputField name="ДанныеОбменаЛицевойСчет" id="14">
+					<DataPath>Объект.ДанныеОбмена.ЛицевойСчет</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДанныеОбменаЛицевойСчетКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ДанныеОбменаЛицевойСчетРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="ДанныеОбменаlc_КодМКД" id="17">
+					<DataPath>Объект.ДанныеОбмена.lc_КодМКД</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДанныеОбменаlc_КодМКДКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ДанныеОбменаlc_КодМКДРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ДанныеОбменаИдентификатор" id="20">
+					<DataPath>Объект.ДанныеОбмена.Идентификатор</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДанныеОбменаИдентификаторКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ДанныеОбменаИдентификаторРасширеннаяПодсказка" id="22"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ГП_ЗагрузкаВыгрузкаКодовМКД</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыгрузитьJSON" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить JSON</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить JSON</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьJSON</Action>
+		</Command>
+		<Command name="ЗагрузитьJSON" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить JSON</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить JSON</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьJSON</Action>
+		</Command>
+		<Command name="Заполнить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Заполнить</Action>
+		</Command>
+		<Command name="ЗаписатьЗначенияКодовМКД" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать значения кодов МКД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьЗначенияКодовМКД</Action>
+		</Command>
+	</Commands>
+</Form>
