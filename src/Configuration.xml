@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.9.1.0-rc1</Version>
+			<Version>1.9.2.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -224,6 +224,7 @@
 			<DataProcessor>ГП_ВыгрузкаПоказанийСТАРТ</DataProcessor>
 			<DataProcessor>ГП_ПечатьДоговораПодряда</DataProcessor>
 			<DataProcessor>ГП_ЗагрузкаВыгрузкаЗаводскихНомеровСчетчиков</DataProcessor>
+			<DataProcessor>ГП_ЗагрузкаВыгрузкаКодовМКД</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
