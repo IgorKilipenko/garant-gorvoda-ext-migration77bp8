@@ -179,12 +179,13 @@
 		<Metadata name="CommonPicture.УПЖКХ_КоллекцияЧекОтправлен" id="f1aae349-224d-4022-bd4a-284ed524acaa" configVersion="7ff8a147bca2707f4a84ac8646e1e78cd6636dd4"/>
 		<Metadata name="CommonPicture.УПЖКХ_КоллекцияЧекПробит" id="b007a082-797d-4c59-9ee9-3b0eaa4a2f40" configVersion="c6d986b9eb057ed43c708d6f70d6ca32f8f765aa"/>
 		<Metadata name="CommonPicture.УПЖКХ_ЧекиОтправлены" id="a416cd26-8ab2-4682-b76b-d4f8f59213c1" configVersion="bc8572ddac08afbed9b726016bbc87fbad8db11a"/>
+		<Metadata name="CommonPicture.Шестеренка" id="f7be5e32-8646-49da-95d4-4ae843c2e334" configVersion="d0faf15e5d1fd6bc75702df80c7e3f6ddd639d81"/>
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="e5b423cb-f697-40b7-a78e-0088aa88a215" configVersion="c4f29a407b42569767114ea620c0dee35de9a2b3"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ" id="ba409ae7-84ff-413f-8f2e-91555252c25b" configVersion="c136118af007c94586d31dcbac82b3510316b767"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="8cda243da03bd86b8e1b24d35f66eb88312d4477"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="9345c16de7840ca83bfbca7c8a99ae5d00d0e62e"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ" id="b34330b7-efec-414c-92b8-35b470063181" configVersion="88faec84e48bc8aafc2ace9226a77fd4216fc36b">
 			<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ.TabularSection.ПоказанияСчетчиков.Attribute.КодМКД" id="2dfaa86c-a877-42da-9345-262877687e35"/>
@@ -251,6 +252,9 @@
 		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам" id="24882605-4756-41c7-af47-2dc2c0b3b0d4" configVersion="3f61d4ed365e544f457906def5bc67f5aea7b344"/>
 		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам.Form.Форма" id="837d2de7-6d1e-4132-b730-37e391fa4278" configVersion="c59064e6a66e8557cdff19ec6b825916205f617c"/>
 		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам.Form.Форма.Form" id="837d2de7-6d1e-4132-b730-37e391fa4278.0" configVersion="aa3b829647090ca890c8ebe4d2eebd4746a67a7e"/>
+		<Metadata name="DataProcessor.КлиентБанк" id="946b26b3-a52f-4e45-92b6-3eeaa7ec790d" configVersion="a3fe616bc7334510bc0bc290c90998dce37bd8be"/>
+		<Metadata name="DataProcessor.КлиентБанк.Form.Форма" id="87f91d9f-c329-489f-85cb-9647723a2768" configVersion="0fd8c4e1fccf84ba8724e6a743e4a61b6b56ccd6"/>
+		<Metadata name="DataProcessor.КлиентБанк.Form.Форма.Form" id="87f91d9f-c329-489f-85cb-9647723a2768.0" configVersion="7bcdaadd2f9397a482d08f6f99aed2b40e20a579"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета" id="d724f21c-c991-4000-a1bd-f3d333b2c76d" configVersion="b96397fdefe41ea5261051e937d17b18a5b6d92e"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета.Form.ПомощникОткрытияЛС" id="f93c689a-5437-47a1-8b99-e5e14d31696e" configVersion="418d2b387e32b60fa0731ac413b9d7e4899ec2af"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета.Form.ПомощникОткрытияЛС.Form" id="f93c689a-5437-47a1-8b99-e5e14d31696e.0" configVersion="506d10041eb5fa164c6f7085655a1285fc78d95b"/>
@@ -689,6 +693,8 @@
 		<Metadata name="StyleItem.НеЗаполненноеСубконто" id="7e6171c2-12a9-43c3-8360-8ac4ea8e796a" configVersion="c8ff533764d850f590d0b68cf9bb5b041f6c2cb8"/>
 		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="86b3e4e4-b875-4673-95a1-a3b284a1627b" configVersion="a7378c767de8be26e191efe860b90df72576b092"/>
 		<Metadata name="StyleItem.ПоясняющийОшибкуТекст" id="219ff107-1218-40cb-8c4f-5ef9d8ff0ed1" configVersion="e857a6ad624ed275bb8f37bb109e8ec6e2ddd5e6"/>
+		<Metadata name="StyleItem.ПоясняющийПроблемуТекст" id="44f248cf-4aa8-49f4-995e-65ff33cf4060" configVersion="aaa9313dd2626bea00f169afdf5825ff85263bbe"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="9ef9510b-43b5-4ccb-9e83-9e9a14357003" configVersion="608ccee6219dc2982ed9f9804b1cdc5cf60b2292"/>
 		<Metadata name="StyleItem.СодержаниеУслугиШрифт" id="6b08a0fa-4594-43b0-b431-6f66ad753462" configVersion="18ce1564f5cd14168e62765a970e1a935cc7439e"/>
 		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="354d1d1d-abda-451e-af6e-9a0352ea1906" configVersion="d9da60a1406ee6bff96cb3316e2beeecbaf0007a"/>
 		<Metadata name="StyleItem.УПЖКХ_ТекстСправочнойНадписи" id="dea3fc31-b0d3-4d7d-9fd7-3992e97fc8f5" configVersion="c102855d9104bb368dd5c5803b4920f6aa12c164"/>
