@@ -126,7 +126,7 @@
 			<CommonPicture>СтрелкаВправо</CommonPicture>
 			<CommonPicture>ОчиститьЗначение</CommonPicture>
 			<CommonPicture>Шестеренка</CommonPicture>
-			<Role>ГП_МиграцияПолныеПрава</Role>
+			<Role>ГП_МиграцияПолныеПрава1</Role>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
