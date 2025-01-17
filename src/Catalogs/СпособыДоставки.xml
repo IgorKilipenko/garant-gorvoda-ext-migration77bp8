@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="4652468f-1b3d-422f-93d3-854dbc82f73e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыДоставки" category="Object">
+				<xr:TypeId>d58ae8a8-c9f7-4cbb-a7a2-76700996e2f9</xr:TypeId>
+				<xr:ValueId>d187cc17-1c8e-4c55-a988-e0acb9c4932c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыДоставки" category="Ref">
+				<xr:TypeId>1c9fd226-da72-424c-bd03-1bf5d66cf51f</xr:TypeId>
+				<xr:ValueId>8c9fc912-7401-42a8-899a-902d2330ee1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыДоставки" category="Selection">
+				<xr:TypeId>7e179ae3-8c0e-488c-9dbe-979c7d49af7e</xr:TypeId>
+				<xr:ValueId>291bcf41-d91e-4230-b69b-96c472ef6297</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыДоставки" category="List">
+				<xr:TypeId>c2027399-24e3-4269-b999-4c82d82ab3a7</xr:TypeId>
+				<xr:ValueId>b549dd9b-60eb-4d9e-a0e6-8e967805bcf4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыДоставки" category="Manager">
+				<xr:TypeId>a913da01-fe2e-45c5-939c-a81cf06296b1</xr:TypeId>
+				<xr:ValueId>1b4251ab-4588-43bb-9f73-b7038e80ff37</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыДоставки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>907bfe82-ecfb-44bc-8932-2f4ba436d23e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

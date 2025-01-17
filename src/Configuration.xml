@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.9.5.0-dev1</Version>
+			<Version>1.10.0.0-dev0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -127,6 +127,7 @@
 			<CommonPicture>ОчиститьЗначение</CommonPicture>
 			<CommonPicture>Шестеренка</CommonPicture>
 			<Role>ГП_МиграцияПолныеПрава1</Role>
+			<Role>ГП_МиграцияПолныеПрава2</Role>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
@@ -190,6 +191,8 @@
 			<Catalog>Банки</Catalog>
 			<Catalog>КВП_НормыПотребленияУслуг</Catalog>
 			<Catalog>НоменклатурныеГруппы</Catalog>
+			<Catalog>СпособыДоставки</Catalog>
+			<Catalog>Номенклатура</Catalog>
 			<Document>УПЖКХ_ВводПоказанийСчетчика</Document>
 			<Document>КВП_НачислениеУслуг</Document>
 			<Document>КВП_УстановкаТарифов</Document>
@@ -201,6 +204,7 @@
 			<Document>ПриходныйКассовыйОрдер</Document>
 			<Document>ОплатаПлатежнойКартой</Document>
 			<Document>СчетНаОплатуПокупателю</Document>
+			<Document>СчетФактураВыданный</Document>
 			<DocumentJournal>ГП_ЖурналДокументовНачисленияПоказаний</DocumentJournal>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
