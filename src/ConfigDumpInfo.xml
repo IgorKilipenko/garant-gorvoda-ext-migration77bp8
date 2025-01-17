@@ -187,7 +187,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="70dcc866e9cedeee8a7b3595ea74812db1b18cdd"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="77762b21d459825155ad2ecf4f0fbcc2eb3f30f7"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн" id="d3899362-f37e-4766-aefc-60ef8b0883a4" configVersion="dc52b26ad630ba4a5fa9dfac7ef5e78bad9dbcf9">
 			<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн.TabularSection.РасшифровкаСтрокРегистрациОплат.Attribute.external_id" id="01b1b23d-b696-4131-b1cf-5e02e3c63dd1"/>
@@ -365,6 +365,7 @@
 		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика.Form.ФормаДокумента" id="2cdcc46f-6837-4f62-af57-7507c671f953" configVersion="70ec3a7cf7c9fadc3fa30893fb41790a416ad4bd"/>
 		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика.Form.ФормаДокумента.Form" id="2cdcc46f-6837-4f62-af57-7507c671f953.0" configVersion="2c6dcc9b9957a91bf3275a76d590cbba60ea6ee2"/>
 		<Metadata name="Document.УПЖКХ_ВводПоказанийСчетчика.ObjectModule" id="cd29201c-8fa2-40a1-8ff7-b12562af3e64.0" configVersion="65588bac4bc9aec49a08dedb353a73c5184f4dbd"/>
+		<Metadata name="DocumentJournal.ГП_ЖурналДокументовНачисленияПоказаний" id="f9d8a1b4-8dd4-4107-bb2b-f9b2e7407de8" configVersion="0c70674dbef5e8843307a2b28831a7107107bbdc"/>
 		<Metadata name="Enum.ВидыАктивовДляАвансов" id="7014c6a9-f582-4a5e-9fb6-12d909eb259d" configVersion="ae8c388427c530ba45f11351861ce74a5896667d">
 			<Metadata name="Enum.ВидыАктивовДляАвансов.EnumValue.ОсновныеСредства" id="a2bc9569-d096-4af0-b614-ebf7521a8dbb"/>
 			<Metadata name="Enum.ВидыАктивовДляАвансов.EnumValue.ПрочиеОборотные" id="b8f81c73-a265-402d-b5cb-6e4d3d119073"/>
@@ -737,7 +738,7 @@
 		<Metadata name="Report.КВП_СводнаяВедомость" id="c35c154a-26c8-4ab1-9b80-3be50ab6e117" configVersion="d8f8039b12386fce23fd7f3d6693169a3e89624d"/>
 		<Metadata name="Report.КВП_СводнаяВедомость.ManagerModule" id="c35c154a-26c8-4ab1-9b80-3be50ab6e117.2" configVersion="9634b26455eb34dba4d4cfa94a043b44ce10e617"/>
 		<Metadata name="Role.ГП_МиграцияПолныеПрава1" id="d8e15f0e-f291-46db-b83a-6513ece5b628" configVersion="c2f013a54864dacbd2cbe42ae02d1d87c75cac08"/>
-		<Metadata name="Role.ГП_МиграцияПолныеПрава1.Rights" id="d8e15f0e-f291-46db-b83a-6513ece5b628.0" configVersion="c2ce715b538f47ceaae045a40b4ec29d8a51e526"/>
+		<Metadata name="Role.ГП_МиграцияПолныеПрава1.Rights" id="d8e15f0e-f291-46db-b83a-6513ece5b628.0" configVersion="6f5f6d58f534fd13b24b5ea49634fc5fa84ab353"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="785a8ecd-06b1-430d-b7df-5c2aa1d33181" configVersion="913031b993fdbd7b5e258e76571ff4856e9cadaf"/>
 		<Metadata name="StyleItem.ВажноеСобытие" id="0d98cf21-b9df-4344-a5f6-60135b05b122" configVersion="354de11ec01ded8a14bb316736ed4bb0299c41a2"/>
 		<Metadata name="StyleItem.ГиперссылкаЦвет" id="51558e97-842f-4aa2-a00b-77cca0ed30a8" configVersion="1dc5b1c613c9bf3d49a9028bb9f9ff2ef6be87e7"/>

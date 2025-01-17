@@ -201,6 +201,7 @@
 			<Document>ПриходныйКассовыйОрдер</Document>
 			<Document>ОплатаПлатежнойКартой</Document>
 			<Document>СчетНаОплатуПокупателю</Document>
+			<DocumentJournal>ГП_ЖурналДокументовНачисленияПоказаний</DocumentJournal>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
