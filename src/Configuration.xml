@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.9.2.0-rc1</Version>
+			<Version>1.10.0.0-dev0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -96,6 +96,8 @@
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<StyleItem>ЗаголовкиСтрокЦветТекста</StyleItem>
 			<StyleItem>ЗаголовкиСтрокШрифт</StyleItem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ПоясняющийПроблемуТекст</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -123,7 +125,9 @@
 			<CommonPicture>Отчеты</CommonPicture>
 			<CommonPicture>СтрелкаВправо</CommonPicture>
 			<CommonPicture>ОчиститьЗначение</CommonPicture>
-			<Role>ГП_МиграцияПолныеПрава</Role>
+			<CommonPicture>Шестеренка</CommonPicture>
+			<Role>ГП_МиграцияПолныеПрава1</Role>
+			<Role>ГП_МиграцияПолныеПрава2</Role>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
@@ -168,6 +172,7 @@
 			<CommonModule>ГП_ОбщегоНазначения</CommonModule>
 			<CommonModule>ГП_РаботаСЗависимостямиПриборовУчета</CommonModule>
 			<CommonModule>ГП_РаботаСПоступлениемПлатежей</CommonModule>
+			<CommonModule>ГП_ПереносЗадолженностиПоНегативномуВоздействию</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
@@ -186,6 +191,8 @@
 			<Catalog>Банки</Catalog>
 			<Catalog>КВП_НормыПотребленияУслуг</Catalog>
 			<Catalog>НоменклатурныеГруппы</Catalog>
+			<Catalog>СпособыДоставки</Catalog>
+			<Catalog>Номенклатура</Catalog>
 			<Document>УПЖКХ_ВводПоказанийСчетчика</Document>
 			<Document>КВП_НачислениеУслуг</Document>
 			<Document>КВП_УстановкаТарифов</Document>
@@ -197,6 +204,8 @@
 			<Document>ПриходныйКассовыйОрдер</Document>
 			<Document>ОплатаПлатежнойКартой</Document>
 			<Document>СчетНаОплатуПокупателю</Document>
+			<Document>СчетФактураВыданный</Document>
+			<DocumentJournal>ГП_ЖурналДокументовНачисленияПоказаний</DocumentJournal>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
@@ -225,6 +234,8 @@
 			<DataProcessor>ГП_ПечатьДоговораПодряда</DataProcessor>
 			<DataProcessor>ГП_ЗагрузкаВыгрузкаЗаводскихНомеровСчетчиков</DataProcessor>
 			<DataProcessor>ГП_ЗагрузкаВыгрузкаКодовМКД</DataProcessor>
+			<DataProcessor>КлиентБанк</DataProcessor>
+			<DataProcessor>ГП_APIСервисСчетмашОнлайн</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
