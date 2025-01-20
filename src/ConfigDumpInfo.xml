@@ -188,7 +188,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ" id="ba409ae7-84ff-413f-8f2e-91555252c25b" configVersion="c136118af007c94586d31dcbac82b3510316b767"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетЗаказ.Template" id="ba409ae7-84ff-413f-8f2e-91555252c25b.0" configVersion="8170157af32f3d506ee1b91da35a660d1c6fe2de"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096" id="a156f227-0722-42d3-b4e6-4cad7b1c4096" configVersion="df5b0cebd8093a18bb7ec9632f208ce0b4b98310"/>
-		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="c3b16685eab98659e4e775ef1ba6c38ac1e06ac8"/>
+		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
 		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="1c8634a66467bffb925193e037fa9e5be1d1b739"/>
@@ -397,7 +397,7 @@
 		<Metadata name="Document.ПриходныйКассовыйОрдер.ObjectModule" id="db8124c7-e48e-470c-ab6a-677a05194602.0" configVersion="feb3c9fdfb97fa5f5124df664b2b72962a84fe9d"/>
 		<Metadata name="Document.РеализацияТоваровУслуг" id="099c45b4-33c8-4417-bb33-71dfebc9cdfa" configVersion="5e7e2dcab9c2b7a40a5f45da70b0e26886a16985"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Template.ГП_ПФ_MXL_Акт" id="8be9c053-fe53-4837-b4d8-681510570bb2" configVersion="904bb12d4605ae696dc526846261d24d7dd0cf61"/>
-		<Metadata name="Document.РеализацияТоваровУслуг.Template.ГП_ПФ_MXL_Акт.Template" id="8be9c053-fe53-4837-b4d8-681510570bb2.0" configVersion="6ffb23daa117b776ce0df6e24243ed038f855656"/>
+		<Metadata name="Document.РеализацияТоваровУслуг.Template.ГП_ПФ_MXL_Акт.Template" id="8be9c053-fe53-4837-b4d8-681510570bb2.0" configVersion="f2f2edff1be9453327c203333793f2358eed718f"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю" id="f64521f4-dd16-41a2-89d8-ac3d5a8891d6" configVersion="5400197bd08b63ffd6d9a357c343d98b3e5bad1c"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента" id="f15eb7a6-17f9-4177-bfa0-eca46223b650" configVersion="5a70ab583b5c8fb116ef23aadfe450f6bf09305d"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="f15eb7a6-17f9-4177-bfa0-eca46223b650.0" configVersion="62163868808a44ece7442b7db9dc82d6afe40df6"/>
