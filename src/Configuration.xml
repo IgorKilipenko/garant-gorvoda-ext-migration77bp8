@@ -130,7 +130,7 @@
 			<Role>ГП_МиграцияПолныеПрава2</Role>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
-			<CommonTemplate>ПФ_MXL_СчетФактура1096</CommonTemplate>
+			<CommonTemplate>ГП_ПФ_MXL_СчетФактура1096</CommonTemplate>
 			<CommonModule>ГП_МиграцияПриборовУчета</CommonModule>
 			<CommonModule>ГП_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ГП_МиграцияОбщегоНазначения</CommonModule>
