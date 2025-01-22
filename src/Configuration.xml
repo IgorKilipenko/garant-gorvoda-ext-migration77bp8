@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.0.1.0-rc1</Version>
+			<Version>2.0.2.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -175,6 +175,8 @@
 			<CommonModule>ГП_РаботаСЗависимостямиПриборовУчета</CommonModule>
 			<CommonModule>ГП_РаботаСПоступлениемПлатежей</CommonModule>
 			<CommonModule>ГП_ПереносЗадолженностиПоНегативномуВоздействию</CommonModule>
+			<CommonModule>ПоступлениеНаРасчетныйСчетФормы</CommonModule>
+			<CommonModule>ОплатаПлатежнойКартойФормы</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
