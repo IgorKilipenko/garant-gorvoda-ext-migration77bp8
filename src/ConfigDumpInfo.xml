@@ -84,7 +84,7 @@
 		<Metadata name="CommonModule.ГП_МиграцияЗданий" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb" configVersion="ecbc3eea0958b8f19ac069ab0620a0f2acff6be6"/>
 		<Metadata name="CommonModule.ГП_МиграцияЗданий.Module" id="b60a15c8-9a99-4d5a-9db2-2d6d8954eccb.0" configVersion="c61c4f1649a42bd9897004a8dd47197c6d3d41eb"/>
 		<Metadata name="CommonModule.ГП_МиграцияКонтактнойИнформации" id="74a23224-24fb-4668-802b-3ab0504b3ada" configVersion="374f87a2431a9115265f6a6dbeb73eb349d66314"/>
-		<Metadata name="CommonModule.ГП_МиграцияКонтактнойИнформации.Module" id="74a23224-24fb-4668-802b-3ab0504b3ada.0" configVersion="fb63ce42c49462ffdf8bf9207d2bec64021f5412"/>
+		<Metadata name="CommonModule.ГП_МиграцияКонтактнойИнформации.Module" id="74a23224-24fb-4668-802b-3ab0504b3ada.0" configVersion="24ce2e8e9853cfc9a7279d72a3e5e5d1d426961c"/>
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147" configVersion="97a5cca7afa33902b09de9527fd2fac2894cdf77"/>
 		<Metadata name="CommonModule.ГП_МиграцияКонтрагентов.Module" id="2a3023bd-afaf-49b0-9a3d-db1e42ef2147.0" configVersion="4b695c968c38c1fd587eae323f6b37f6e6e85e75"/>
 		<Metadata name="CommonModule.ГП_МиграцияЛицевыхСчетов" id="8c21dd53-8726-4d77-94d9-91010f311814" configVersion="08984a7300b22a4076197788abdaf1af7851fdf8"/>
