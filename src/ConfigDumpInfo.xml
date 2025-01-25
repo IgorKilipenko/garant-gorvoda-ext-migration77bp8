@@ -26,7 +26,7 @@
 			<Metadata name="Catalog.КВП_ЛицевыеСчета.Attribute.ГП_ИдентификаторБП77" id="b91a3427-02fa-4eae-86f4-39108780b395"/>
 		</Metadata>
 		<Metadata name="Catalog.КВП_ЛицевыеСчета.Form.ФормаСписка" id="1c0d53f3-5078-4c33-abda-ee315d97401b" configVersion="de79826edaa05e8392022c975daa2fd8ee825535"/>
-		<Metadata name="Catalog.КВП_ЛицевыеСчета.Form.ФормаСписка.Form" id="1c0d53f3-5078-4c33-abda-ee315d97401b.0" configVersion="7b4b2761be77ac606b0aaa12d37e80776a036e91"/>
+		<Metadata name="Catalog.КВП_ЛицевыеСчета.Form.ФормаСписка.Form" id="1c0d53f3-5078-4c33-abda-ee315d97401b.0" configVersion="6ae193eadc523f6d177234470c8a3e06bb720116"/>
 		<Metadata name="Catalog.КВП_ЛицевыеСчета.ManagerModule" id="e25d9fe3-0fd6-49ac-8b71-ec2e28e60e4c.3" configVersion="b34891434625451af12001f6a2823b551b0db894"/>
 		<Metadata name="Catalog.КВП_ЛицевыеСчета.ObjectModule" id="e25d9fe3-0fd6-49ac-8b71-ec2e28e60e4c.0" configVersion="33522a22648d3b3bb80b7f29a1a0ed39a20cf488"/>
 		<Metadata name="Catalog.КВП_НормыПотребленияУслуг" id="2327dc78-289d-4def-8fb9-28778427ecec" configVersion="19ddb089543668b286e879b0033e56c9e875510d">
@@ -199,7 +199,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="c6a1125c31663ef26cfcf2e23a64cc3c4f92e45d"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="54273c6b2f6422233ad2ba18e37fcb260866f915"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн" id="d3899362-f37e-4766-aefc-60ef8b0883a4" configVersion="630d2f5211abbf8a9d2c69d5cf30a7ee5f5cf7d6">
 			<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн.TabularSection.ТЗ.Attribute.ОплаченоВсего" id="0119ffa0-96c3-499e-ad2d-44c1fa2ab21d"/>
