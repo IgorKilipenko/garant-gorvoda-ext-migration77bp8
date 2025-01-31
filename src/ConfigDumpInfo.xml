@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
+		<Metadata name="AccumulationRegister.КВП_НачислениеДляОтраженияВРеглУчете" id="22e04d6b-93ea-4672-9351-60b5396a8e7c" configVersion="5b4550fd4f666357325a19c8d80930d284d0dd0c"/>
+		<Metadata name="AccumulationRegister.КВП_НачислениеДляОтраженияВРеглУчете.RecordSetModule" id="22e04d6b-93ea-4672-9351-60b5396a8e7c.1" configVersion="a594b75aadc5888c2884af6bd0388fcbb096e4c3"/>
 		<Metadata name="Catalog.Банки" id="e0073d9b-7999-4b9b-91cc-2a0fc99af375" configVersion="7881045a6c08b18990e83cee85a1f09858e2cf30">
 			<Metadata name="Catalog.Банки.Attribute.ГП_СозданАвтоматически" id="6a86d4e1-cc4a-4348-9624-cfa2c8f500e0"/>
 			<Metadata name="Catalog.Банки.Attribute.ГП_ИдентификаторБП77" id="730cce42-7fb4-44c5-8582-529c55cdeff7"/>
@@ -199,7 +201,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="32380e5b90d7b94d3c8bb3d9cef4fc61f062d1aa"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="87603a6ae2187a7c6f016a4ab851d5173538684b"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн" id="d3899362-f37e-4766-aefc-60ef8b0883a4" configVersion="630d2f5211abbf8a9d2c69d5cf30a7ee5f5cf7d6">
 			<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн.TabularSection.ТЗ.Attribute.ОплаченоВсего" id="0119ffa0-96c3-499e-ad2d-44c1fa2ab21d"/>
