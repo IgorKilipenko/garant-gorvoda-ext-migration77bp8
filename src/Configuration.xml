@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.0.8.1-rc1</Version>
+			<Version>2.0.9.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -98,6 +98,7 @@
 			<StyleItem>ЗаголовкиСтрокШрифт</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ПоясняющийПроблемуТекст</StyleItem>
+			<StyleItem>ЦветФонаНекорректногоКонтрагента</StyleItem>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
@@ -225,6 +226,7 @@
 			<Enum>УПЖКХ_ВариантыРаспределенияОплатыПриРаздельномУчетеКР</Enum>
 			<Enum>ВидыОперацийОплатаПлатежнойКартой</Enum>
 			<Enum>СтатусОплатыСчета</Enum>
+			<Enum>СтавкиНДС</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
@@ -241,6 +243,7 @@
 			<DataProcessor>ГП_ЗагрузкаВыгрузкаКодовМКД</DataProcessor>
 			<DataProcessor>КлиентБанк</DataProcessor>
 			<DataProcessor>ГП_APIСервисСчетмашОнлайн</DataProcessor>
+			<DataProcessor>РегистрацияСчетовФактурНаАванс</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
