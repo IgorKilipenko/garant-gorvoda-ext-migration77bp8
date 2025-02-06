@@ -15,6 +15,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="390d5e4b-e732-4c88-8748-9e211a416984" callType="After">ГП_ПриЧтенииНаСервереПосле</Event>
 		<Event name="OnCreateAtServer" callType="Before">ГП_ПриСозданииНаСервереПеред</Event>
 	</Events>
 	<ChildItems>
