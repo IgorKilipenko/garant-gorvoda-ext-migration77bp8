@@ -116,7 +116,7 @@
 		<Metadata name="CommonModule.ГП_ОбменСоСТАРТ" id="9b10888e-b5be-4ca8-84cd-54bbe0854821" configVersion="9aa433e24123bf86cd2f084f761adc497412674c"/>
 		<Metadata name="CommonModule.ГП_ОбменСоСТАРТ.Module" id="9b10888e-b5be-4ca8-84cd-54bbe0854821.0" configVersion="71ec485a4ede683e34b801bcd430356cbce9fa70"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначения" id="934965e1-967c-447a-ba7f-162ea511b988" configVersion="b975146afab4f7eafeb536b32f41a9cc8a6cfe8e"/>
-		<Metadata name="CommonModule.ГП_ОбщегоНазначения.Module" id="934965e1-967c-447a-ba7f-162ea511b988.0" configVersion="c0b84db4c2064a20fc2601a286dc8d8d00862623"/>
+		<Metadata name="CommonModule.ГП_ОбщегоНазначения.Module" id="934965e1-967c-447a-ba7f-162ea511b988.0" configVersion="24397e6a79ddf246fd20341cfe247b9479ccfbaa"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент" id="4c802860-cccf-4abd-9de0-d70727e6b8d7" configVersion="b1b045cc3ab676d265567ea734aca77835b25364"/>
 		<Metadata name="CommonModule.ГП_ОбщегоНазначенияКлиент.Module" id="4c802860-cccf-4abd-9de0-d70727e6b8d7.0" configVersion="6953ad96628897a0832714450f12159b7f6a0286"/>
 		<Metadata name="CommonModule.ГП_ОтражениеВРегУчетеСлужебный" id="9d7360c4-b39b-44b6-9964-5ab74f67313e" configVersion="e037ac5ce2978a0541de9a6c58994cf795f8c13e"/>
@@ -138,7 +138,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами" id="cb495c95-3395-4168-9352-d2c71994b0a2" configVersion="f0853eb947353611164df6eef9e6e2b4d41b83a6"/>
 		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами.Module" id="cb495c95-3395-4168-9352-d2c71994b0a2.0" configVersion="80206b3cde4bbbc70490c454e1fde477d1d18dc3"/>
 		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480" configVersion="d4ffa137103bb01d687a6b776eac20814232f0eb"/>
-		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг.Module" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480.0" configVersion="659363c512cd3d20395e857b01f594d47681a81b"/>
+		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг.Module" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480.0" configVersion="4e82051d38ce54b0a92f5260db3e5ff2d79e4104"/>
 		<Metadata name="CommonModule.ГП_РаботаСНоменклатурами" id="a5af598b-7bef-4b57-863a-3a48b1fc47d6" configVersion="793139b99ed9f177e2ff87ec0881a337bcbc1201"/>
 		<Metadata name="CommonModule.ГП_РаботаСНоменклатурами.Module" id="a5af598b-7bef-4b57-863a-3a48b1fc47d6.0" configVersion="d4f646ec67362f2fa90a04a62a2797ad5ffc0846"/>
 		<Metadata name="CommonModule.ГП_РаботаСПоступлениемПлатежей" id="d6a082a0-6f19-44c7-8768-9e4a9e3d496c" configVersion="2722c1edeb6171a020c088afdc906eebda2fe52d"/>
@@ -201,7 +201,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="4c4a546830302cc076c5a41ff3f97de2d2156961"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="1936f2875b7cc67a2abc8367fc560add7fa750fd"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн" id="d3899362-f37e-4766-aefc-60ef8b0883a4" configVersion="630d2f5211abbf8a9d2c69d5cf30a7ee5f5cf7d6">
 			<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн.TabularSection.ТЗ.Attribute.ОплаченоВсего" id="0119ffa0-96c3-499e-ad2d-44c1fa2ab21d"/>
@@ -371,6 +371,8 @@
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета" id="d724f21c-c991-4000-a1bd-f3d333b2c76d" configVersion="b96397fdefe41ea5261051e937d17b18a5b6d92e"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета.Form.ПомощникОткрытияЛС" id="f93c689a-5437-47a1-8b99-e5e14d31696e" configVersion="418d2b387e32b60fa0731ac413b9d7e4899ec2af"/>
 		<Metadata name="DataProcessor.УПЖКХ_ПомощникОткрытияЛицевогоСчета.Form.ПомощникОткрытияЛС.Form" id="f93c689a-5437-47a1-8b99-e5e14d31696e.0" configVersion="3d86534b7cbea14cfd4c2218b394445bd894fa37"/>
+		<Metadata name="Document.КВП_КорректировкаНачислений" id="3fc0eb3a-1824-43b1-bd06-272ee66ea156" configVersion="9ece40ed0b4cd3635111c0bca343ddb90b524193"/>
+		<Metadata name="Document.КВП_КорректировкаНачислений.ObjectModule" id="3fc0eb3a-1824-43b1-bd06-272ee66ea156.0" configVersion="ad4dd527a6aee89641c3d86199329ec7db75a5ae"/>
 		<Metadata name="Document.КВП_НачислениеУслуг" id="1f84803c-786c-4c01-a7af-2e198da857f7" configVersion="fd359e1b34f704e1238fb6c4530cdac2a8311b22"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38" configVersion="bdea685f203e180231d447fd9250529bb8d8d598"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента.Form" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38.0" configVersion="5ae398a7ec776c4e5c06321a527cdf2750554072"/>

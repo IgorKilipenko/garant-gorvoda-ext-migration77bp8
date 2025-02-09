@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="3fc0eb3a-1824-43b1-bd06-272ee66ea156">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КВП_КорректировкаНачислений" category="Object">
+				<xr:TypeId>47ba5c23-a880-402d-bf2f-143b383b50aa</xr:TypeId>
+				<xr:ValueId>b800096a-28ca-492c-ab2a-825a6f1ba886</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КВП_КорректировкаНачислений" category="Ref">
+				<xr:TypeId>24bb77fd-ba8b-4be3-a19b-98b4bc568178</xr:TypeId>
+				<xr:ValueId>110368d3-bb49-4e18-b1de-3e599144e105</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КВП_КорректировкаНачислений" category="Selection">
+				<xr:TypeId>df2a7145-b23c-471f-a5d8-5520cfe3cb1b</xr:TypeId>
+				<xr:ValueId>a0f64e2a-b48d-41e1-aa67-aa89987e8917</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КВП_КорректировкаНачислений" category="List">
+				<xr:TypeId>130fc538-3646-421c-a8c4-141a67a9ebd1</xr:TypeId>
+				<xr:ValueId>54f14ff9-c605-4f38-84c0-8a5e77e1ed3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КВП_КорректировкаНачислений" category="Manager">
+				<xr:TypeId>f4faf7d0-d982-4ba9-9937-2b161bfc2430</xr:TypeId>
+				<xr:ValueId>15311a64-d197-437f-a59f-2655690ffc23</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_КорректировкаНачислений</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>83dbb0f8-beb0-4ceb-88c6-4667e841f5a3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
