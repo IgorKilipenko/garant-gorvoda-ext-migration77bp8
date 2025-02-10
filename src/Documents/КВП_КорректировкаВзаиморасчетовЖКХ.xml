@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="6a6ac76e-084b-4e4e-a16f-0c6f4b0017f7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КВП_КорректировкаВзаиморасчетовЖКХ" category="Object">
+				<xr:TypeId>8d856b54-a7d4-4bba-8f25-f16aaee87c0b</xr:TypeId>
+				<xr:ValueId>7cbae6d0-f568-4605-a8e0-30557aa48dcc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КВП_КорректировкаВзаиморасчетовЖКХ" category="Ref">
+				<xr:TypeId>067e70d5-310f-4dab-b799-bc20f34887e0</xr:TypeId>
+				<xr:ValueId>33ec13db-20fe-44dc-bf28-333eb1a7180e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КВП_КорректировкаВзаиморасчетовЖКХ" category="Selection">
+				<xr:TypeId>3bf3a9d1-201d-4c5f-9760-7bb9349193ab</xr:TypeId>
+				<xr:ValueId>51111b1f-13e0-452f-b151-60328e84cd06</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КВП_КорректировкаВзаиморасчетовЖКХ" category="List">
+				<xr:TypeId>22e69c4c-35ab-471f-8d12-aba43ec09cbc</xr:TypeId>
+				<xr:ValueId>12e43be9-d693-480b-9c8a-63a04ac3bda4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КВП_КорректировкаВзаиморасчетовЖКХ" category="Manager">
+				<xr:TypeId>0fb8f160-58b8-4430-9a39-5d40d82898f9</xr:TypeId>
+				<xr:ValueId>da440c8e-957a-4b4c-9d65-d550f3fbdfb8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_КорректировкаВзаиморасчетовЖКХ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e30ee743-8faf-4b3b-8788-84e76b20012c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
