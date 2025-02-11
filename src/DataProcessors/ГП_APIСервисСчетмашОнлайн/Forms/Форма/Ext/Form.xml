@@ -502,6 +502,7 @@
 									</ChildItems>
 								</Pages>
 								<UsualGroup name="ТМА_МояГруппа1" id="352">
+									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
 									<Title>
 										<v8:item>
@@ -670,6 +671,7 @@
 										</Button>
 										<InputField name="БазаДанных" id="398">
 											<DataPath>БазаДанных</DataPath>
+											<Visible>false</Visible>
 											<TitleLocation>Top</TitleLocation>
 											<ListChoiceMode>true</ListChoiceMode>
 											<ChoiceList>
