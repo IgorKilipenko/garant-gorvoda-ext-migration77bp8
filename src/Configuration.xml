@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.0.21.1-rc1</Version>
+			<Version>2.0.22.0-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -180,6 +180,7 @@
 			<CommonModule>ОплатаПлатежнойКартойФормы</CommonModule>
 			<CommonModule>ГП_МиграцияКонтактнойИнформации</CommonModule>
 			<CommonModule>ПриходныйКассовыйОрдерФормы</CommonModule>
+			<CommonModule>ГП_ОбменОФД</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
