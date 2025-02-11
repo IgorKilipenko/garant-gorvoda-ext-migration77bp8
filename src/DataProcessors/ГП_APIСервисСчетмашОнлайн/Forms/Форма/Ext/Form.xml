@@ -991,134 +991,108 @@
 									<Collapsed>true</Collapsed>
 									<ExtendedTooltip name="ГруппаРасшифровкаРегистрацииОплатРасширеннаяПодсказка" id="618"/>
 									<ChildItems>
-										<Table name="ГП_РасшифровкаСтрокРегистрациОплат" id="568">
+										<Table name="РасшифровкаСтрокиРегистрацииОплат" id="619">
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
-											<DataPath>Объект.РасшифровкаСтрокРегистрациОплат</DataPath>
-											<CommandSet>
-												<ExcludedCommand>Add</ExcludedCommand>
-												<ExcludedCommand>Change</ExcludedCommand>
-												<ExcludedCommand>Copy</ExcludedCommand>
-												<ExcludedCommand>Delete</ExcludedCommand>
-												<ExcludedCommand>EndEdit</ExcludedCommand>
-												<ExcludedCommand>MoveDown</ExcludedCommand>
-												<ExcludedCommand>MoveUp</ExcludedCommand>
-												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
-												<ExcludedCommand>SortListAsc</ExcludedCommand>
-												<ExcludedCommand>SortListDesc</ExcludedCommand>
-											</CommandSet>
+											<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат</DataPath>
 											<RowFilter xsi:nil="true"/>
-											<ContextMenu name="ГП_РасшифровкаСтрокРегистрациОплатКонтекстноеМеню" id="569"/>
-											<AutoCommandBar name="ГП_РасшифровкаСтрокРегистрациОплатКоманднаяПанель" id="570"/>
-											<ExtendedTooltip name="ГП_РасшифровкаСтрокРегистрациОплатРасширеннаяПодсказка" id="571"/>
-											<SearchStringAddition name="ГП_РасшифровкаСтрокРегистрациОплатСтрокаПоиска" id="572">
+											<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатКонтекстноеМеню" id="620"/>
+											<AutoCommandBar name="РасшифровкаСтрокиРегистрацииОплатКоманднаяПанель" id="621"/>
+											<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатРасширеннаяПодсказка" id="622"/>
+											<SearchStringAddition name="РасшифровкаСтрокиРегистрацииОплатСтрокаПоиска" id="623">
 												<AdditionSource>
-													<Item>ГП_РасшифровкаСтрокРегистрациОплат</Item>
+													<Item>РасшифровкаСтрокиРегистрацииОплат</Item>
 													<Type>SearchStringRepresentation</Type>
 												</AdditionSource>
-												<ContextMenu name="ГП_РасшифровкаСтрокРегистрациОплатСтрокаПоискаКонтекстноеМеню" id="573"/>
-												<ExtendedTooltip name="ГП_РасшифровкаСтрокРегистрациОплатСтрокаПоискаРасширеннаяПодсказка" id="574"/>
+												<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСтрокаПоискаКонтекстноеМеню" id="624"/>
+												<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСтрокаПоискаРасширеннаяПодсказка" id="625"/>
 											</SearchStringAddition>
-											<ViewStatusAddition name="ГП_РасшифровкаСтрокРегистрациОплатСостояниеПросмотра" id="575">
+											<ViewStatusAddition name="РасшифровкаСтрокиРегистрацииОплатСостояниеПросмотра" id="626">
 												<AdditionSource>
-													<Item>ГП_РасшифровкаСтрокРегистрациОплат</Item>
+													<Item>РасшифровкаСтрокиРегистрацииОплат</Item>
 													<Type>ViewStatusRepresentation</Type>
 												</AdditionSource>
-												<ContextMenu name="ГП_РасшифровкаСтрокРегистрациОплатСостояниеПросмотраКонтекстноеМеню" id="576"/>
-												<ExtendedTooltip name="ГП_РасшифровкаСтрокРегистрациОплатСостояниеПросмотраРасширеннаяПодсказка" id="577"/>
+												<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСостояниеПросмотраКонтекстноеМеню" id="627"/>
+												<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСостояниеПросмотраРасширеннаяПодсказка" id="628"/>
 											</ViewStatusAddition>
-											<SearchControlAddition name="ГП_РасшифровкаСтрокРегистрациОплатУправлениеПоиском" id="578">
+											<SearchControlAddition name="РасшифровкаСтрокиРегистрацииОплатУправлениеПоиском" id="629">
 												<AdditionSource>
-													<Item>ГП_РасшифровкаСтрокРегистрациОплат</Item>
+													<Item>РасшифровкаСтрокиРегистрацииОплат</Item>
 													<Type>SearchControl</Type>
 												</AdditionSource>
-												<ContextMenu name="ГП_РасшифровкаСтрокРегистрациОплатУправлениеПоискомКонтекстноеМеню" id="579"/>
-												<ExtendedTooltip name="ГП_РасшифровкаСтрокРегистрациОплатУправлениеПоискомРасширеннаяПодсказка" id="580"/>
+												<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатУправлениеПоискомКонтекстноеМеню" id="630"/>
+												<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатУправлениеПоискомРасширеннаяПодсказка" id="631"/>
 											</SearchControlAddition>
 											<ChildItems>
-												<LabelField name="РасшифровкаСтрокРегистрациОплат1НомерСтроки" id="581">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.LineNumber</DataPath>
+												<LabelField name="РасшифровкаСтрокиРегистрацииОплатНомерСтроки" id="632">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1НомерСтрокиКонтекстноеМеню" id="582"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1НомерСтрокиРасширеннаяПодсказка" id="583"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатНомерСтрокиКонтекстноеМеню" id="633"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатНомерСтрокиРасширеннаяПодсказка" id="634"/>
 												</LabelField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1ДокРегистрацияОплаты" id="584">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.ДокРегистрацияОплаты</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатДокРегистрацияОплаты" id="635">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.ДокРегистрацияОплаты</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1ДокРегистрацияОплатыКонтекстноеМеню" id="585"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1ДокРегистрацияОплатыРасширеннаяПодсказка" id="586"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатДокРегистрацияОплатыКонтекстноеМеню" id="636"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатДокРегистрацияОплатыРасширеннаяПодсказка" id="637"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1Лицевойсчет" id="587">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.Лицевойсчет</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатЛицевойсчет" id="638">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Лицевойсчет</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1ЛицевойсчетКонтекстноеМеню" id="588"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1ЛицевойсчетРасширеннаяПодсказка" id="589"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатЛицевойсчетКонтекстноеМеню" id="639"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатЛицевойсчетРасширеннаяПодсказка" id="640"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1Сумма" id="590">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.Сумма</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатСумма" id="641">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Сумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1СуммаКонтекстноеМеню" id="591"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1СуммаРасширеннаяПодсказка" id="592"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСуммаКонтекстноеМеню" id="642"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСуммаРасширеннаяПодсказка" id="643"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1Услуга" id="593">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.Услуга</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатУслуга" id="644">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Услуга</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1УслугаКонтекстноеМеню" id="594"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1УслугаРасширеннаяПодсказка" id="595"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатУслугаКонтекстноеМеню" id="645"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатУслугаРасширеннаяПодсказка" id="646"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1МесяцНачисления" id="596">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.МесяцНачисления</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисления" id="647">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.МесяцНачисления</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1МесяцНачисленияКонтекстноеМеню" id="597"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1МесяцНачисленияРасширеннаяПодсказка" id="598"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисленияКонтекстноеМеню" id="648"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисленияРасширеннаяПодсказка" id="649"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1Пени" id="599">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.Пени</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатПени" id="650">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Пени</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1ПениКонтекстноеМеню" id="600"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1ПениРасширеннаяПодсказка" id="601"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатПениКонтекстноеМеню" id="651"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатПениРасширеннаяПодсказка" id="652"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1items_type" id="602">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.items_type</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатitems_type" id="653">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.items_type</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1items_typeКонтекстноеМеню" id="603"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1items_typeРасширеннаяПодсказка" id="604"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатitems_typeКонтекстноеМеню" id="654"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатitems_typeРасширеннаяПодсказка" id="655"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1items_mode" id="605">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.items_mode</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатitems_mode" id="656">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.items_mode</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1items_modeКонтекстноеМеню" id="606"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1items_modeРасширеннаяПодсказка" id="607"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатitems_modeКонтекстноеМеню" id="657"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатitems_modeРасширеннаяПодсказка" id="658"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1Аванс" id="608">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.Аванс</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатАванс" id="659">
+													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Аванс</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1АвансКонтекстноеМеню" id="609"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1АвансРасширеннаяПодсказка" id="610"/>
-												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1Долг" id="611">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.Долг</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1ДолгКонтекстноеМеню" id="612"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1ДолгРасширеннаяПодсказка" id="613"/>
-												</InputField>
-												<InputField name="РасшифровкаСтрокРегистрациОплат1external_id" id="614">
-													<DataPath>Объект.РасшифровкаСтрокРегистрациОплат.external_id</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокРегистрациОплат1external_idКонтекстноеМеню" id="615"/>
-													<ExtendedTooltip name="РасшифровкаСтрокРегистрациОплат1external_idРасширеннаяПодсказка" id="616"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатАвансКонтекстноеМеню" id="660"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатАвансРасширеннаяПодсказка" id="661"/>
 												</InputField>
 											</ChildItems>
 										</Table>
