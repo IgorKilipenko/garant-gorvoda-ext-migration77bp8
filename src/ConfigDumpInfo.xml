@@ -203,7 +203,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="93afc536173a645e6c8516b2d9d5fc45adc7da1e"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="a90b337634196e382ceeb51f24cfaaf919e8ec6f"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн" id="d3899362-f37e-4766-aefc-60ef8b0883a4" configVersion="b90507c4954c70e0a95063d10ec8d3091664f70c">
 			<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн.TabularSection.ТЗ.Attribute.ОплаченоВсего" id="0119ffa0-96c3-499e-ad2d-44c1fa2ab21d"/>
@@ -376,7 +376,7 @@
 		<Metadata name="Document.КВП_КорректировкаВзаиморасчетовЖКХ" id="6a6ac76e-084b-4e4e-a16f-0c6f4b0017f7" configVersion="4da53acc9a669a7bd49ee6f60b07a7c092e6df8d"/>
 		<Metadata name="Document.КВП_КорректировкаВзаиморасчетовЖКХ.ObjectModule" id="6a6ac76e-084b-4e4e-a16f-0c6f4b0017f7.0" configVersion="5b4b7d1c37ad7a22647521407b402a0bd5ddee08"/>
 		<Metadata name="Document.КВП_КорректировкаНачислений" id="3fc0eb3a-1824-43b1-bd06-272ee66ea156" configVersion="9ece40ed0b4cd3635111c0bca343ddb90b524193"/>
-		<Metadata name="Document.КВП_КорректировкаНачислений.ObjectModule" id="3fc0eb3a-1824-43b1-bd06-272ee66ea156.0" configVersion="ad4dd527a6aee89641c3d86199329ec7db75a5ae"/>
+		<Metadata name="Document.КВП_КорректировкаНачислений.ObjectModule" id="3fc0eb3a-1824-43b1-bd06-272ee66ea156.0" configVersion="47fea38fb54050e43e5d5a3ad764ddf5c374d39b"/>
 		<Metadata name="Document.КВП_НачислениеУслуг" id="1f84803c-786c-4c01-a7af-2e198da857f7" configVersion="fd359e1b34f704e1238fb6c4530cdac2a8311b22"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38" configVersion="bdea685f203e180231d447fd9250529bb8d8d598"/>
 		<Metadata name="Document.КВП_НачислениеУслуг.Form.ФормаДокумента.Form" id="bfc22fd5-18be-4cde-8bfb-f7162b93df38.0" configVersion="5ae398a7ec776c4e5c06321a527cdf2750554072"/>
