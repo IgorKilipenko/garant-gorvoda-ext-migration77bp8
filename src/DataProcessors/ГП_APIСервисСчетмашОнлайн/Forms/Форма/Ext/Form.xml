@@ -807,6 +807,8 @@
 							<ExtendedTooltip name="ТЧРасширеннаяПодсказка" id="173"/>
 							<ChildItems>
 								<Table name="СтрокиРегистрацииОплат" id="285">
+									<ReadOnly>true</ReadOnly>
+									<Footer>true</Footer>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>Объект.СтрокиРегистрацииОплат</DataPath>
@@ -853,6 +855,7 @@
 									<ChildItems>
 										<LabelField name="СтрокиРегистрацииОплатНомерСтроки" id="298">
 											<DataPath>Объект.СтрокиРегистрацииОплат.LineNumber</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="СтрокиРегистрацииОплатНомерСтрокиКонтекстноеМеню" id="299"/>
 											<ExtendedTooltip name="СтрокиРегистрацииОплатНомерСтрокиРасширеннаяПодсказка" id="300"/>
@@ -862,6 +865,7 @@
 											<ChildItems>
 												<InputField name="СтрокиРегистрацииОплатid_Чека" id="328">
 													<DataPath>Объект.СтрокиРегистрацииОплат.id_Чека</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -874,6 +878,7 @@
 												</InputField>
 												<InputField name="СтрокиРегистрацииОплатstatus" id="331">
 													<DataPath>Объект.СтрокиРегистрацииОплат.status</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СтрокиРегистрацииОплатstatusКонтекстноеМеню" id="332"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатstatusРасширеннаяПодсказка" id="333"/>
@@ -892,6 +897,12 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<DropListButton>false</DropListButton>
+													<ChoiceButton>false</ChoiceButton>
+													<ClearButton>false</ClearButton>
+													<SpinButton>false</SpinButton>
+													<OpenButton>true</OpenButton>
+													<CreateButton>false</CreateButton>
 													<ContextMenu name="СтрокиРегистрацииОплатДокРегистрацияОплатыКонтекстноеМеню" id="302"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатДокРегистрацияОплатыРасширеннаяПодсказка" id="303"/>
 												</InputField>
@@ -904,6 +915,12 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<DropListButton>false</DropListButton>
+													<ChoiceButton>false</ChoiceButton>
+													<ClearButton>false</ClearButton>
+													<SpinButton>false</SpinButton>
+													<OpenButton>true</OpenButton>
+													<CreateButton>false</CreateButton>
 													<ContextMenu name="СтрокиРегистрацииОплатЛицевойсчетКонтекстноеМеню" id="305"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатЛицевойсчетРасширеннаяПодсказка" id="306"/>
 												</InputField>
@@ -914,12 +931,14 @@
 											<ChildItems>
 												<InputField name="СтрокиРегистрацииОплатexternal_id" id="313">
 													<DataPath>Объект.СтрокиРегистрацииОплат.external_id</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СтрокиРегистрацииОплатexternal_idКонтекстноеМеню" id="314"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатexternal_idРасширеннаяПодсказка" id="315"/>
 												</InputField>
 												<InputField name="СтрокиРегистрацииОплатtimestamp" id="310">
 													<DataPath>Объект.СтрокиРегистрацииОплат.timestamp</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СтрокиРегистрацииОплатtimestampКонтекстноеМеню" id="311"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатtimestampРасширеннаяПодсказка" id="312"/>
@@ -928,7 +947,9 @@
 										</ColumnGroup>
 										<InputField name="СтрокиРегистрацииОплатСумма" id="307">
 											<DataPath>Объект.СтрокиРегистрацииОплат.Сумма</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<FooterDataPath>Объект.СтрокиРегистрацииОплат.TotalСумма</FooterDataPath>
 											<ContextMenu name="СтрокиРегистрацииОплатСуммаКонтекстноеМеню" id="308"/>
 											<ExtendedTooltip name="СтрокиРегистрацииОплатСуммаРасширеннаяПодсказка" id="309"/>
 										</InputField>
@@ -937,12 +958,14 @@
 											<ChildItems>
 												<InputField name="СтрокиРегистрацииОплатphone" id="319">
 													<DataPath>Объект.СтрокиРегистрацииОплат.phone</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СтрокиРегистрацииОплатphoneКонтекстноеМеню" id="320"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатphoneРасширеннаяПодсказка" id="321"/>
 												</InputField>
 												<InputField name="СтрокиРегистрацииОплатemail" id="316">
 													<DataPath>Объект.СтрокиРегистрацииОплат.email</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СтрокиРегистрацииОплатemailКонтекстноеМеню" id="317"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатemailРасширеннаяПодсказка" id="318"/>
@@ -954,12 +977,15 @@
 											<ChildItems>
 												<InputField name="СтрокиРегистрацииОплатtotal" id="322">
 													<DataPath>Объект.СтрокиРегистрацииОплат.total</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<FooterDataPath>Объект.СтрокиРегистрацииОплат.Totaltotal</FooterDataPath>
 													<ContextMenu name="СтрокиРегистрацииОплатtotalКонтекстноеМеню" id="323"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатtotalРасширеннаяПодсказка" id="324"/>
 												</InputField>
 												<InputField name="СтрокиРегистрацииОплатtype" id="325">
 													<DataPath>Объект.СтрокиРегистрацииОплат.type</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СтрокиРегистрацииОплатtypeКонтекстноеМеню" id="326"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатtypeРасширеннаяПодсказка" id="327"/>
@@ -968,6 +994,7 @@
 										</ColumnGroup>
 										<InputField name="СтрокиРегистрацииОплатШирина" id="344">
 											<DataPath>Объект.СтрокиРегистрацииОплат.Ширина</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="СтрокиРегистрацииОплатШиринаКонтекстноеМеню" id="345"/>
 											<ExtendedTooltip name="СтрокиРегистрацииОплатШиринаРасширеннаяПодсказка" id="346"/>
@@ -992,10 +1019,16 @@
 									<ExtendedTooltip name="ГруппаРасшифровкаРегистрацииОплатРасширеннаяПодсказка" id="618"/>
 									<ChildItems>
 										<Table name="РасшифровкаСтрокиРегистрацииОплат" id="619">
+											<Footer>true</Footer>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
 											<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат</DataPath>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+											</CommandSet>
 											<RowFilter xsi:nil="true"/>
 											<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатКонтекстноеМеню" id="620"/>
 											<AutoCommandBar name="РасшифровкаСтрокиРегистрацииОплатКоманднаяПанель" id="621"/>
@@ -1027,12 +1060,14 @@
 											<ChildItems>
 												<LabelField name="РасшифровкаСтрокиРегистрацииОплатНомерСтроки" id="632">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.LineNumber</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатНомерСтрокиКонтекстноеМеню" id="633"/>
 													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатНомерСтрокиРасширеннаяПодсказка" id="634"/>
 												</LabelField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатДокРегистрацияОплаты" id="635">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.ДокРегистрацияОплаты</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатДокРегистрацияОплатыКонтекстноеМеню" id="636"/>
@@ -1041,13 +1076,22 @@
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатЛицевойсчет" id="638">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Лицевойсчет</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<DropListButton>false</DropListButton>
+													<ChoiceButton>false</ChoiceButton>
+													<ClearButton>false</ClearButton>
+													<SpinButton>false</SpinButton>
+													<OpenButton>true</OpenButton>
+													<CreateButton>false</CreateButton>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<TextEdit>false</TextEdit>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатЛицевойсчетКонтекстноеМеню" id="639"/>
 													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатЛицевойсчетРасширеннаяПодсказка" id="640"/>
 												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатСумма" id="641">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Сумма</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<FooterDataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.TotalСумма</FooterDataPath>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСуммаКонтекстноеМеню" id="642"/>
 													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСуммаРасширеннаяПодсказка" id="643"/>
@@ -1055,12 +1099,20 @@
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатУслуга" id="644">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Услуга</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<DropListButton>false</DropListButton>
+													<ChoiceButton>false</ChoiceButton>
+													<ClearButton>false</ClearButton>
+													<SpinButton>false</SpinButton>
+													<OpenButton>true</OpenButton>
+													<CreateButton>false</CreateButton>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<TextEdit>false</TextEdit>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатУслугаКонтекстноеМеню" id="645"/>
 													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатУслугаРасширеннаяПодсказка" id="646"/>
 												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисления" id="647">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.МесяцНачисления</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисленияКонтекстноеМеню" id="648"/>
@@ -1068,13 +1120,16 @@
 												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатПени" id="650">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Пени</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<FooterDataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.TotalПени</FooterDataPath>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатПениКонтекстноеМеню" id="651"/>
 													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатПениРасширеннаяПодсказка" id="652"/>
 												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатitems_type" id="653">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.items_type</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатitems_typeКонтекстноеМеню" id="654"/>
@@ -1082,6 +1137,7 @@
 												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатitems_mode" id="656">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.items_mode</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатitems_modeКонтекстноеМеню" id="657"/>
@@ -1089,7 +1145,9 @@
 												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатАванс" id="659">
 													<DataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.Аванс</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<FooterDataPath>Объект.РасшифровкаСтрокиРегистрацииОплат.TotalАванс</FooterDataPath>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатАвансКонтекстноеМеню" id="660"/>
 													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатАвансРасширеннаяПодсказка" id="661"/>
