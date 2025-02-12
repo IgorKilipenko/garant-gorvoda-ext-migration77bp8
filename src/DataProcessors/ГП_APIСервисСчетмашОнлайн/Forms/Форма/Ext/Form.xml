@@ -807,7 +807,6 @@
 							<ExtendedTooltip name="ТЧРасширеннаяПодсказка" id="173"/>
 							<ChildItems>
 								<Table name="СтрокиРегистрацииОплат" id="285">
-									<ReadOnly>true</ReadOnly>
 									<Footer>true</Footer>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<FileDragMode>AsFile</FileDragMode>
