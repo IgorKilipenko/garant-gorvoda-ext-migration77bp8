@@ -365,7 +365,7 @@
 		<Metadata name="DataProcessor.КВП_ФормированиеОплатПоПлатежнымДокументам.Form.Форма.Form" id="837d2de7-6d1e-4132-b730-37e391fa4278.0" configVersion="aa3b829647090ca890c8ebe4d2eebd4746a67a7e"/>
 		<Metadata name="DataProcessor.КлиентБанк" id="946b26b3-a52f-4e45-92b6-3eeaa7ec790d" configVersion="a3fe616bc7334510bc0bc290c90998dce37bd8be"/>
 		<Metadata name="DataProcessor.КлиентБанк.Form.Форма" id="87f91d9f-c329-489f-85cb-9647723a2768" configVersion="0fd8c4e1fccf84ba8724e6a743e4a61b6b56ccd6"/>
-		<Metadata name="DataProcessor.КлиентБанк.Form.Форма.Form" id="87f91d9f-c329-489f-85cb-9647723a2768.0" configVersion="7bcdaadd2f9397a482d08f6f99aed2b40e20a579"/>
+		<Metadata name="DataProcessor.КлиентБанк.Form.Форма.Form" id="87f91d9f-c329-489f-85cb-9647723a2768.0" configVersion="69fe0f4fc9e8ba870b50a9a8fa27457b2ba81945"/>
 		<Metadata name="DataProcessor.РегистрацияСчетовФактурНаАванс" id="01cf2563-1f0f-4dd0-af92-652a30a109ee" configVersion="85119d787eff34dc02952c0f294bf72df4a336bb"/>
 		<Metadata name="DataProcessor.РегистрацияСчетовФактурНаАванс.Form.Форма" id="de6438a9-8390-4775-9083-05240b98c013" configVersion="f515f2cfc449fb55200ee0b1f02e873fa6c78be2"/>
 		<Metadata name="DataProcessor.РегистрацияСчетовФактурНаАванс.Form.Форма.Form" id="de6438a9-8390-4775-9083-05240b98c013.0" configVersion="bdbf66999eae865d7d018397a8cf9a93892b3af6"/>
