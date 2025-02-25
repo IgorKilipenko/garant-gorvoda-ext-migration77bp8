@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.1.0.2-rc1</Version>
+			<Version>2.2.0.0-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -184,8 +184,10 @@
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
+			<Constant>ГП_ФормироватьЧекиЖКХПоКонтрагентуДокумента</Constant>
 			<CommonForm>ГП_ФормаПечатнойФормыОтчета</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
+			<CommonForm>УПЖКХ_ПечатьЧеков</CommonForm>
 			<Catalog>КВП_Счетчики</Catalog>
 			<Catalog>КВП_ЛицевыеСчета</Catalog>
 			<Catalog>КВП_Подъезды</Catalog>
@@ -230,6 +232,7 @@
 			<Enum>ВидыОперацийОплатаПлатежнойКартой</Enum>
 			<Enum>СтатусОплатыСчета</Enum>
 			<Enum>СтавкиНДС</Enum>
+			<Enum>ТипыРассылкиЭлектронныхЧеков</Enum>
 			<Report>ГП_СчетчикиБП77</Report>
 			<Report>КВП_СводнаяВедомость</Report>
 			<DataProcessor>ГП_ЗагрузкаСчетчиковБП77</DataProcessor>
