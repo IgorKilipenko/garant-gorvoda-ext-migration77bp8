@@ -136,7 +136,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСЗависимостямиПриборовУчета" id="0b1d5c48-4450-4356-af3f-0d71f124545a" configVersion="1086689f406a34f4fce10cbe7c755ad8b636f5b7"/>
 		<Metadata name="CommonModule.ГП_РаботаСЗависимостямиПриборовУчета.Module" id="0b1d5c48-4450-4356-af3f-0d71f124545a.0" configVersion="470481a07423cf0fab265ff7e6533c624a1d1c05"/>
 		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами" id="9b883fe6-e1bd-4cd2-8341-c5c309534410" configVersion="e8f35c035a714ef77faa7c4ac6f3c6c84b2da787"/>
-		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами.Module" id="9b883fe6-e1bd-4cd2-8341-c5c309534410.0" configVersion="8640bc408693ce4d3cc48ed29e3cd195e9ab6ae6"/>
+		<Metadata name="CommonModule.ГП_РаботаСКонтрагентами.Module" id="9b883fe6-e1bd-4cd2-8341-c5c309534410.0" configVersion="2fd418a3636da6be8967844aad63c935b8f71b7d"/>
 		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами" id="cb495c95-3395-4168-9352-d2c71994b0a2" configVersion="f0853eb947353611164df6eef9e6e2b4d41b83a6"/>
 		<Metadata name="CommonModule.ГП_РаботаСЛицевымиСчетами.Module" id="cb495c95-3395-4168-9352-d2c71994b0a2.0" configVersion="80206b3cde4bbbc70490c454e1fde477d1d18dc3"/>
 		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480" configVersion="d4ffa137103bb01d687a6b776eac20814232f0eb"/>
