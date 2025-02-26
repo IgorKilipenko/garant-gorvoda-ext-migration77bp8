@@ -144,7 +144,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480" configVersion="d4ffa137103bb01d687a6b776eac20814232f0eb"/>
 		<Metadata name="CommonModule.ГП_РаботаСНачислениемУслуг.Module" id="6e23605d-bcba-4c9d-b2d8-2e0c4eb60480.0" configVersion="4e82051d38ce54b0a92f5260db3e5ff2d79e4104"/>
 		<Metadata name="CommonModule.ГП_РаботаСНоменклатурами" id="a5af598b-7bef-4b57-863a-3a48b1fc47d6" configVersion="793139b99ed9f177e2ff87ec0881a337bcbc1201"/>
-		<Metadata name="CommonModule.ГП_РаботаСНоменклатурами.Module" id="a5af598b-7bef-4b57-863a-3a48b1fc47d6.0" configVersion="a34f08f2a89bf4bc242313855fc260acf93c5556"/>
+		<Metadata name="CommonModule.ГП_РаботаСНоменклатурами.Module" id="a5af598b-7bef-4b57-863a-3a48b1fc47d6.0" configVersion="df51da08225bc37f91596be08659a7564f0b5189"/>
 		<Metadata name="CommonModule.ГП_РаботаСПоступлениемПлатежей" id="d6a082a0-6f19-44c7-8768-9e4a9e3d496c" configVersion="2722c1edeb6171a020c088afdc906eebda2fe52d"/>
 		<Metadata name="CommonModule.ГП_РаботаСПоступлениемПлатежей.Module" id="d6a082a0-6f19-44c7-8768-9e4a9e3d496c.0" configVersion="ff730fa3da7774a8e8ed8d50b9abb51d72459082"/>
 		<Metadata name="CommonModule.ГП_РаботаСТарифами" id="2d481c17-18d7-4a82-b9dc-dada80da9215" configVersion="f95813ecab9d02ea9bc6a5e468e7d6670f38550d"/>
@@ -207,7 +207,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="6ab2624784abe40e74e73a8e40c2e59321eea098"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="285db0a4cec80de90ea57d6b911f161040d098d1"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="Constant.ГП_ФормироватьЧекиЖКХПоКонтрагентуДокумента" id="893b4caf-ac77-4550-b744-68f4e57eab74" configVersion="e691b20c6b8480974ca9815730357e9eb4e7f059"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн" id="d3899362-f37e-4766-aefc-60ef8b0883a4" configVersion="b90507c4954c70e0a95063d10ec8d3091664f70c">
