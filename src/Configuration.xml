@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.2.0.0-dev2</Version>
+			<Version>2.2.0.0-dev3</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -181,6 +181,7 @@
 			<CommonModule>ГП_МиграцияКонтактнойИнформации</CommonModule>
 			<CommonModule>ПриходныйКассовыйОрдерФормы</CommonModule>
 			<CommonModule>ГП_ОбменОФД</CommonModule>
+			<CommonModule>УПЖКХ_МеханизмыПечатиЧеков</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>

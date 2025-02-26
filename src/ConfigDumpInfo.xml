@@ -74,7 +74,7 @@
 		<Metadata name="CommonForm.ГП_ФормаПечатнойФормыОтчета.Form" id="0955e55e-b48f-4a06-9c7e-ba8d51cc1b2a.0" configVersion="6d290694b84f0dc106c3c1e96a877ba7eab0257e"/>
 		<Metadata name="CommonForm.ГП_ФормаПечатнойФормыОтчета.Help" id="0955e55e-b48f-4a06-9c7e-ba8d51cc1b2a.1" configVersion="887959950fcf4736e26bbb4fd8b3f94bed328697"/>
 		<Metadata name="CommonForm.УПЖКХ_ПечатьЧеков" id="9f72168b-226c-406e-8e03-1f1c0b62477e" configVersion="b42943f0c277b16f2d56b980fd61647155b42596"/>
-		<Metadata name="CommonForm.УПЖКХ_ПечатьЧеков.Form" id="9f72168b-226c-406e-8e03-1f1c0b62477e.0" configVersion="848a0406d3a254e159800204420daa4e11126ad3"/>
+		<Metadata name="CommonForm.УПЖКХ_ПечатьЧеков.Form" id="9f72168b-226c-406e-8e03-1f1c0b62477e.0" configVersion="aa7154328d2f2d4253b21590ca72af0088669e18"/>
 		<Metadata name="CommonModule.ГП_ВводНачальногоСальдоНачислений" id="0b2d67c4-5827-46f2-af5e-2ae41a5d4178" configVersion="28fa84e9f3004e0df0c76131bceccb29c35045d6"/>
 		<Metadata name="CommonModule.ГП_ВводНачальногоСальдоНачислений.Module" id="0b2d67c4-5827-46f2-af5e-2ae41a5d4178.0" configVersion="8ef460adbcf9aff4633b5c6db824baf5d31b6dd7"/>
 		<Metadata name="CommonModule.ГП_МиграцияБанковскихСчетов" id="86347f03-9426-4c1e-8177-ff0ecde3d41b" configVersion="29308f683ffafb5cbdd8907dc21801f8442875aa"/>
@@ -165,6 +165,8 @@
 		<Metadata name="CommonModule.ПоступлениеНаРасчетныйСчетФормы.Module" id="ff43070c-2613-47af-a327-7fe70b432dd3.0" configVersion="096ef56de16e2fcd4d6e935bcd185cbbec30d168"/>
 		<Metadata name="CommonModule.ПриходныйКассовыйОрдерФормы" id="1d6ec61b-ee86-493e-a1a9-2612fb3ce9cb" configVersion="82afc149886bf94f245a6fe4fa37e8962e46b387"/>
 		<Metadata name="CommonModule.ПриходныйКассовыйОрдерФормы.Module" id="1d6ec61b-ee86-493e-a1a9-2612fb3ce9cb.0" configVersion="ec3e36b6e184a70ff9d8819599f13d7333244cf4"/>
+		<Metadata name="CommonModule.УПЖКХ_МеханизмыПечатиЧеков" id="0701acac-1a6d-4b97-8dd4-78f26196f5c1" configVersion="d400d4952843ffd2abf8a3c245a888b4d45cca0b"/>
+		<Metadata name="CommonModule.УПЖКХ_МеханизмыПечатиЧеков.Module" id="0701acac-1a6d-4b97-8dd4-78f26196f5c1.0" configVersion="e5656ca4bffa0ad8c49dd944f17b315d61c9fb55"/>
 		<Metadata name="CommonModule.УПЖКХ_ПериодическиеРегистрыПриборыУчета" id="e01a76c6-bc61-4e20-a123-ee177d5cf4b9" configVersion="d217def34a628840e0027a3b9d543b170b6071a5"/>
 		<Metadata name="CommonModule.УПЖКХ_ПериодическиеРегистрыПриборыУчета.Module" id="e01a76c6-bc61-4e20-a123-ee177d5cf4b9.0" configVersion="2d67e79b92ff79282e91c8095e2cd3a1e853021e"/>
 		<Metadata name="CommonModule.УправлениеПечатью" id="8915e1af-cbd4-4465-bd85-f26aaab5776d" configVersion="90cd4834d521204daf06c5b8cd8012e8e345cb6e"/>
@@ -205,7 +207,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="b01a4fe5ebcefcc0e6382c272649a032e14ca81e"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="3f47cada64957d6e4d8d9ef6431830b1331cab0e"/>
 		<Metadata name="Constant.ГП_РежимМиграцииБП77" id="f9a4efee-078e-48a5-9c05-5dd06f471fa0" configVersion="d6050b23cbf81fb8187dc276910b8ef33ebbcc2d"/>
 		<Metadata name="Constant.ГП_ФормироватьЧекиЖКХПоКонтрагентуДокумента" id="893b4caf-ac77-4550-b744-68f4e57eab74" configVersion="e691b20c6b8480974ca9815730357e9eb4e7f059"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайн" id="d3899362-f37e-4766-aefc-60ef8b0883a4" configVersion="b90507c4954c70e0a95063d10ec8d3091664f70c">
