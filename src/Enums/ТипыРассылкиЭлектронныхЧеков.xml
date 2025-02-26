@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="081500f6-d942-47d4-8509-14a8bf6d2c6a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыРассылкиЭлектронныхЧеков" category="Ref">
+				<xr:TypeId>17fbe795-1b61-46b6-97c4-9e1facc57786</xr:TypeId>
+				<xr:ValueId>2e7f0d9a-bd42-41ac-bad3-085d68016fcb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыРассылкиЭлектронныхЧеков" category="Manager">
+				<xr:TypeId>72b977a4-41a5-4d1c-bd0e-03873455b954</xr:TypeId>
+				<xr:ValueId>d0a0dd4e-9396-47ea-8672-59c5b1820516</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыРассылкиЭлектронныхЧеков" category="List">
+				<xr:TypeId>d2011417-575e-40e3-87d6-72981551d00a</xr:TypeId>
+				<xr:ValueId>9428ce05-2302-47a0-9a5c-b2f4cdd5d56f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыРассылкиЭлектронныхЧеков</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c681cda1-6b36-4015-b560-6347e24aa4c1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="58e8331d-07e2-4419-9731-450349374983">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЭлектронноеПисьмо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aed8ce8c-6e0d-4076-a8d8-401576300197</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="26fc5185-ffea-4bd7-bb8d-5da9ea98560c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СообщениеSMS</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>502701d7-dc64-40d8-9ab3-05ac6082a45a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
