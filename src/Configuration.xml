@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.3.0.0-rc1</Version>
+			<Version>2.3.1.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -219,6 +219,7 @@
 			<Document>СчетФактураВыданный</Document>
 			<Document>КВП_КорректировкаНачислений</Document>
 			<Document>КВП_КорректировкаВзаиморасчетовЖКХ</Document>
+			<Document>КВП_РазовоеНачислениеУслуг</Document>
 			<Enum>КВП_СпособыРасчета</Enum>
 			<Enum>КВП_ВидыОперацийВводаПоказанийСчетчика</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
