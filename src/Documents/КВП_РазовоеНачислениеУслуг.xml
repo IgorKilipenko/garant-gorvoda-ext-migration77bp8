@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="6d4521a7-ac8c-4f29-a1aa-e01bf565e8c3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КВП_РазовоеНачислениеУслуг" category="Object">
+				<xr:TypeId>78ecab9f-0c1b-4e39-bfe8-687724bbdb61</xr:TypeId>
+				<xr:ValueId>d956ed1b-ce28-4034-a2d3-a89f2ad156af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КВП_РазовоеНачислениеУслуг" category="Ref">
+				<xr:TypeId>4537bc5f-2afb-4f2e-983a-de58eb275e8e</xr:TypeId>
+				<xr:ValueId>1860b040-c76a-4d25-b15b-af84c3e1d137</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КВП_РазовоеНачислениеУслуг" category="Selection">
+				<xr:TypeId>da0141f5-f652-4c4d-b32b-36253d50aa94</xr:TypeId>
+				<xr:ValueId>4a34262c-08d8-4a0f-bc2f-3c21e0df8e31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КВП_РазовоеНачислениеУслуг" category="List">
+				<xr:TypeId>123cb468-9a3f-46f4-860f-5cc82f43a948</xr:TypeId>
+				<xr:ValueId>b500ee65-7b0f-48d3-8f1d-6936c003d486</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КВП_РазовоеНачислениеУслуг" category="Manager">
+				<xr:TypeId>0a010f04-a006-40cc-ae1a-6b9b12742531</xr:TypeId>
+				<xr:ValueId>61ff7aae-c744-4b83-a1f7-0ab53671a663</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВП_РазовоеНачислениеУслуг</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>64699d8b-21cc-4350-99c7-e1f91e1e80d1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
