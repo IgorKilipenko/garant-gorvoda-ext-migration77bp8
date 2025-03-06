@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.3.1.1-rc1</Version>
+			<Version>2.3.4.0-dev0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -253,6 +253,7 @@
 			<DataProcessor>КлиентБанк</DataProcessor>
 			<DataProcessor>ГП_APIСервисСчетмашОнлайн</DataProcessor>
 			<DataProcessor>РегистрацияСчетовФактурНаАванс</DataProcessor>
+			<DataProcessor>ГП_APIСервисСчетмашОнлайнВ2</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>

@@ -1,39 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<DataProcessor uuid="d3899362-f37e-4766-aefc-60ef8b0883a4">
+	<DataProcessor uuid="36b7af72-1bb6-483d-ad25-3351aa96d0e4">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.ГП_APIСервисСчетмашОнлайн" category="Object">
-				<xr:TypeId>aad53582-47ee-4616-93e2-042a574c3ab7</xr:TypeId>
-				<xr:ValueId>fea44c59-eaa2-4dfe-aa25-c042136ccf40</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.ГП_APIСервисСчетмашОнлайнВ2" category="Object">
+				<xr:TypeId>719485fb-1c57-4541-bf2e-5dc4b7067adb</xr:TypeId>
+				<xr:ValueId>969f7845-8040-4c63-b4c6-d70167550e8f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.ГП_APIСервисСчетмашОнлайн" category="Manager">
-				<xr:TypeId>1aac2aed-06dd-4113-8d12-be53a3a68e04</xr:TypeId>
-				<xr:ValueId>b521e55c-d455-4311-8a16-2db50be38f47</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorManager.ГП_APIСервисСчетмашОнлайнВ2" category="Manager">
+				<xr:TypeId>386b2fc5-ce40-4935-945c-2ed64a5e08a1</xr:TypeId>
+				<xr:ValueId>e21451b8-bd04-4b4b-95f2-ec941dd15a14</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ГП_APIСервисСчетмашОнлайн</Name>
+			<Name>ГП_APIСервисСчетмашОнлайнВ2</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>(не использовать) Счетмаш онлайн (Гарант+)</v8:content>
+					<v8:content>Счетмаш онлайн в.2 (Гарант+)</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>// Гарант+</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.ГП_APIСервисСчетмашОнлайн.Form.Форма</DefaultForm>
+			<DefaultForm>DataProcessor.ГП_APIСервисСчетмашОнлайнВ2.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
-			<Explanation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адаптация внешней обработки APIСервисСчетмашОнлайн_v7_7</v8:content>
-				</v8:item>
-			</Explanation>
+			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="576c0311-c675-4dab-9298-7cc51b42c8d0">
+			<Attribute uuid="3c2e62cd-25bc-4881-a84f-0e2202d45545">
 				<Properties>
 					<Name>token</Name>
 					<Synonym>
@@ -71,7 +66,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8f40f0cd-dda2-4a67-b74b-1d0211065529">
+			<Attribute uuid="430ed923-979f-41cc-ba25-7b157670fbbc">
 				<Properties>
 					<Name>id_Магазина</Name>
 					<Synonym>
@@ -109,7 +104,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7a3c7bde-9224-4e1e-b229-90d6334cc263">
+			<Attribute uuid="9597c376-5c6e-44bb-adc3-89595f353c75">
 				<Properties>
 					<Name>ДатаНач</Name>
 					<Synonym>
@@ -146,7 +141,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="c0ad3a6e-e08b-4e0a-90b1-4a6cb1cb5aaa">
+			<Attribute uuid="25c1134d-8a3e-4441-995b-4a31bec9c2a0">
 				<Properties>
 					<Name>ДатаКон</Name>
 					<Synonym>
@@ -183,7 +178,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="18d247d1-e9d6-4b14-b14b-087709be63f0">
+			<Attribute uuid="0a8db6ff-7f4d-409c-b113-aa5f62f757d1">
 				<Properties>
 					<Name>КаталогДляВременныхФайлов</Name>
 					<Synonym>
@@ -221,7 +216,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="58676443-7f99-4764-9d85-83947a6ab02e">
+			<Attribute uuid="08172a93-1a4a-4ad7-8f83-9ec135e2fb76">
 				<Properties>
 					<Name>ПрефикНомера</Name>
 					<Synonym>
@@ -259,7 +254,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="aea67785-ebc0-44de-95da-7124de1faa1d">
+			<Attribute uuid="a878868f-f2fc-4271-9a11-2f530f1cbb21">
 				<Properties>
 					<Name>ПоУполчаниюНаименованиеУслуги</Name>
 					<Synonym>
@@ -293,7 +288,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1072d14b-0610-4740-81a3-9d1036b41efe">
+			<Attribute uuid="bd252a4c-e74d-47b6-96ec-fb86d11d8494">
 				<Properties>
 					<Name>Организация</Name>
 					<Synonym>
@@ -327,7 +322,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="492ed9f4-f1c0-4ea9-a1b4-7f2a4b8f3bb2">
+			<Attribute uuid="dcd5f51c-67b0-45ca-a232-2390b30ee163">
 				<Properties>
 					<Name>ДатаВремяПолученияtoken</Name>
 					<Synonym>
@@ -364,7 +359,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9faccf29-493c-473e-bea0-b4a214a8fb12">
+			<Attribute uuid="f795989f-fe02-41e2-8704-d0ed2371d887">
 				<Properties>
 					<Name>login</Name>
 					<Synonym>
@@ -402,7 +397,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6688f546-859b-433b-b971-fa3015a539f4">
+			<Attribute uuid="a4299f58-0f19-4ac9-9b03-5dff02d70328">
 				<Properties>
 					<Name>password</Name>
 					<Synonym>
@@ -440,7 +435,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="0349587c-1c08-4da4-b24e-37a0ef56fc58">
+			<Attribute uuid="5055866c-caf0-4aec-b656-d4834a663887">
 				<Properties>
 					<Name>РасшифровыватьУслуги</Name>
 					<Synonym>
@@ -474,7 +469,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7c0e91b2-ffba-43d9-9683-7e13c41d22b3">
+			<Attribute uuid="bbc76289-1e8a-447f-8a66-ec2338df8553">
 				<Properties>
 					<Name>ПоУмолчанию_type</Name>
 					<Synonym>
@@ -513,7 +508,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8e387d3b-da56-48ec-a64f-e394579d58d6">
+			<Attribute uuid="07cb2e39-1d53-4f3d-a5fc-884dd068ebd5">
 				<Properties>
 					<Name>ПоУмолчанию_ПризнакПредметаРасчета</Name>
 					<Synonym>
@@ -552,7 +547,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="234f9d85-79d5-4b0b-8609-55db83595d0e">
+			<Attribute uuid="c4b0c445-1adb-481a-9aa5-ff48e1d53c9a">
 				<Properties>
 					<Name>ПоУмолчанию_ПризнакСпособаРасчета</Name>
 					<Synonym>
@@ -591,15 +586,15 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="b3931e10-e605-473b-bcee-79a986f63257">
+			<TabularSection uuid="f9f93a7a-78f9-465e-a902-f5243af4dd2c">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайн.СтрокиРегистрацииОплат" category="TabularSection">
-						<xr:TypeId>962759dc-f6f3-402c-a56d-e214cdc9a3f5</xr:TypeId>
-						<xr:ValueId>87d695ce-b26f-4163-a81b-9ae6e7ae871b</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайнВ2.СтрокиРегистрацииОплат" category="TabularSection">
+						<xr:TypeId>4c5f24c7-7268-4e41-b652-0ca244424baa</xr:TypeId>
+						<xr:ValueId>f49ee9fd-28ac-416c-948c-1d5d6d8f3914</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайн.СтрокиРегистрацииОплат" category="TabularSectionRow">
-						<xr:TypeId>cd208f7f-da1a-435d-8187-dcc11d6c47f5</xr:TypeId>
-						<xr:ValueId>b068679e-bbf8-44f5-a644-0c7a372eb9aa</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайнВ2.СтрокиРегистрацииОплат" category="TabularSectionRow">
+						<xr:TypeId>9b19833e-9631-4c14-acee-91923f0dc1f2</xr:TypeId>
+						<xr:ValueId>b8c9f77b-5622-495b-9759-a51292a23e9f</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -644,7 +639,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="2740c0c9-b977-4c32-aadc-e7d9ebb87559">
+					<Attribute uuid="0110e8b0-938e-4ed8-93f5-efcfec253657">
 						<Properties>
 							<Name>ДокРегистрацияОплаты</Name>
 							<Synonym>
@@ -685,7 +680,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2eb22c50-f4eb-486e-a946-69d1034fe8c8">
+					<Attribute uuid="c8724901-ab6c-431a-89db-936ebd2787d1">
 						<Properties>
 							<Name>Лицевойсчет</Name>
 							<Synonym>
@@ -726,7 +721,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4d561ca7-d9b9-4264-a1d0-a8341b7064c4">
+					<Attribute uuid="5f474349-2c59-4032-b924-c4b4c0fd278d">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
@@ -767,7 +762,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="a7b5ca6f-7cf7-4a08-b6c9-981f7de5e6ab">
+					<Attribute uuid="67f9b5ab-4f96-4ec6-b141-a89ab7606a8b">
 						<Properties>
 							<Name>timestamp</Name>
 							<Synonym>
@@ -806,7 +801,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="78ce65b5-ec46-48c0-aa94-48600928fb5e">
+					<Attribute uuid="be3127d7-a33d-4245-a497-0765216de887">
 						<Properties>
 							<Name>external_id</Name>
 							<Synonym>
@@ -846,7 +841,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="f656b945-afaf-429f-bd39-fdada0e22db0">
+					<Attribute uuid="8481d740-3303-45f3-b207-207eadf134af">
 						<Properties>
 							<Name>email</Name>
 							<Synonym>
@@ -886,7 +881,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="66fdd362-19e2-4928-8ad6-88dbe222e82c">
+					<Attribute uuid="ca113ce6-c2d2-4d2a-b897-78ba5ddaa080">
 						<Properties>
 							<Name>phone</Name>
 							<Synonym>
@@ -926,7 +921,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4f443d09-8b0f-4acd-9780-29ed40a1a829">
+					<Attribute uuid="9f1d55c9-3362-4a39-b620-b13d343fa955">
 						<Properties>
 							<Name>total</Name>
 							<Synonym>
@@ -967,7 +962,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0a4a5452-3ebf-434e-becf-1f631a9b06e5">
+					<Attribute uuid="2a3a8edc-e483-42b7-ad68-7126d33a6446">
 						<Properties>
 							<Name>type</Name>
 							<Synonym>
@@ -1008,7 +1003,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="1b8041e4-3d09-4ccc-9149-56f7f29968bc">
+					<Attribute uuid="ef7fe60a-c53e-4028-82fd-abf6b13b2f6a">
 						<Properties>
 							<Name>id_Чека</Name>
 							<Synonym>
@@ -1054,7 +1049,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="a8b3f930-dc3a-4c61-8b79-5ed72e48664e">
+					<Attribute uuid="a73cef9a-542a-47be-9473-fb7c7c47d658">
 						<Properties>
 							<Name>status</Name>
 							<Synonym>
@@ -1094,7 +1089,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5071944b-0e31-48a9-ae32-b761d59fe8eb">
+					<Attribute uuid="c4ee36ff-7db4-4e22-a2d6-d5d1a267de49">
 						<Properties>
 							<Name>База</Name>
 							<Synonym>
@@ -1136,15 +1131,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="961d0720-cbfa-48d9-9937-dde25f045b53">
+			<TabularSection uuid="4ee074b7-b4f1-41ea-9a17-76938fa09eaa">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайн.РасшифровкаСтрокРегистрациОплат" category="TabularSection">
-						<xr:TypeId>b048c234-19ae-4bd7-a8af-67b14db713a5</xr:TypeId>
-						<xr:ValueId>f429b53c-8166-4f8d-a25e-56e326c3c100</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайнВ2.РасшифровкаСтрокРегистрациОплат" category="TabularSection">
+						<xr:TypeId>dbeaf084-8b5b-4714-a548-f140da1c08e1</xr:TypeId>
+						<xr:ValueId>81787d8a-f2f7-4fb8-b7d5-d6b23a9a7288</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайн.РасшифровкаСтрокРегистрациОплат" category="TabularSectionRow">
-						<xr:TypeId>f23c1adb-1a0f-4e37-b693-1ec535157e51</xr:TypeId>
-						<xr:ValueId>26657e8a-85a9-495d-b9f3-4e97ac1f5edc</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайнВ2.РасшифровкаСтрокРегистрациОплат" category="TabularSectionRow">
+						<xr:TypeId>1f2d63e8-0938-4d73-a243-f4fa531b1b91</xr:TypeId>
+						<xr:ValueId>94ee0071-60b2-4410-a3d9-939dc1e19bdd</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -1189,7 +1184,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="fbfd9eab-adc2-4d43-8cc0-8387847c0c85">
+					<Attribute uuid="65c4e66b-49c1-4824-abce-81c6935dcc33">
 						<Properties>
 							<Name>ДокРегистрацияОплаты</Name>
 							<Synonym>
@@ -1230,7 +1225,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5ec9def5-576d-4032-8855-f624855b237e">
+					<Attribute uuid="2fbf7cc5-4900-4c7f-9030-91240921b2ba">
 						<Properties>
 							<Name>Лицевойсчет</Name>
 							<Synonym>
@@ -1271,7 +1266,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="74a630a9-85b8-452f-93e8-f3fb56be20b7">
+					<Attribute uuid="f945ec18-7434-4ede-b896-56e7dc4256c7">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
@@ -1312,7 +1307,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="e9ad5dce-9cf7-456f-9243-18c93205af32">
+					<Attribute uuid="6b8f92d2-aa3b-4bc7-8d40-7f57a7713ca9">
 						<Properties>
 							<Name>Услуга</Name>
 							<Synonym>
@@ -1348,7 +1343,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ab8638ed-54f7-4706-87be-4af7a76996a7">
+					<Attribute uuid="b1eb462c-a150-4af7-a23f-129cf683c2b4">
 						<Properties>
 							<Name>МесяцНачисления</Name>
 							<Synonym>
@@ -1392,7 +1387,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="05bc4f3c-aad9-48af-abcf-773adc594904">
+					<Attribute uuid="f7a4944a-e8b7-4d1a-96c5-75ea8daca785">
 						<Properties>
 							<Name>Пени</Name>
 							<Synonym>
@@ -1433,7 +1428,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="f695f539-dc8d-485e-b0f9-017e189fa7e3">
+					<Attribute uuid="99bd87c5-281f-41d7-b05d-b8cdec319a0b">
 						<Properties>
 							<Name>items_type</Name>
 							<Synonym>
@@ -1474,7 +1469,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ae007b51-131b-4baa-8447-611980f10282">
+					<Attribute uuid="17de7fd7-3533-415b-93c6-a012d77b2b1b">
 						<Properties>
 							<Name>items_mode</Name>
 							<Synonym>
@@ -1515,7 +1510,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="df72516b-fc31-4fbc-9d50-8dad7cadca69">
+					<Attribute uuid="82e60044-cb34-435c-90ef-af3072ab8572">
 						<Properties>
 							<Name>Аванс</Name>
 							<Synonym>
@@ -1556,7 +1551,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2ac07025-12a6-4f9e-8366-b18a931e86f0">
+					<Attribute uuid="9e5ed070-0d44-42e3-8b31-dfe54d6f7f9d">
 						<Properties>
 							<Name>Долг</Name>
 							<Synonym>
@@ -1597,7 +1592,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="01b1b23d-b696-4131-b1cf-5e02e3c63dd1">
+					<Attribute uuid="a0ec99fa-0d11-42c3-b7a1-8bd4171f5c14">
 						<Properties>
 							<Name>external_id</Name>
 							<Synonym>
@@ -1639,15 +1634,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="8ef6f01c-845e-41ce-870b-5453a55c87fe">
+			<TabularSection uuid="32f83fed-d1e9-4515-af05-10239952eaf3">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайн.ТЧЧека" category="TabularSection">
-						<xr:TypeId>a2bc96fb-a28c-45f8-9734-bc3c313b9e53</xr:TypeId>
-						<xr:ValueId>f4ba0eb1-8aa0-458b-b768-f81454f1a9da</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайнВ2.ТЧЧека" category="TabularSection">
+						<xr:TypeId>6349c43e-3644-43dc-8067-650eaf9fab05</xr:TypeId>
+						<xr:ValueId>f6f93993-1bd5-49ac-b06c-d3198ab545f8</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайн.ТЧЧека" category="TabularSectionRow">
-						<xr:TypeId>0ef16bcb-c0f2-48b0-b201-a9ca47890d71</xr:TypeId>
-						<xr:ValueId>f784ed43-f54a-4ad2-84ed-6a57afd510fd</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайнВ2.ТЧЧека" category="TabularSectionRow">
+						<xr:TypeId>8cea6592-dee3-4d19-a79f-c529aac95f34</xr:TypeId>
+						<xr:ValueId>52c66e96-73f8-49f5-84a8-219f01c9e5a8</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -1692,7 +1687,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="cba5d2e2-7050-45ed-b2aa-266fd4662e74">
+					<Attribute uuid="1569fd20-ad83-4ac6-8286-b2651563b789">
 						<Properties>
 							<Name>name</Name>
 							<Synonym>
@@ -1732,7 +1727,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="b645ae03-b6e7-463f-ae9a-06d5debcd168">
+					<Attribute uuid="c2b68af7-983e-4701-b83b-9b64d775eb38">
 						<Properties>
 							<Name>price</Name>
 							<Synonym>
@@ -1773,7 +1768,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="1373f86e-8040-429d-987d-1aaf549a6c7f">
+					<Attribute uuid="14b4e8bc-c8ce-4165-8e33-3ea350b010e7">
 						<Properties>
 							<Name>ЭтоПени</Name>
 							<Synonym>
@@ -1809,7 +1804,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="27089b11-4efa-41ba-82b6-a1d259d9bab5">
+					<Attribute uuid="9e0e9f29-155a-46eb-8554-863bb8b18082">
 						<Properties>
 							<Name>items_type</Name>
 							<Synonym>
@@ -1850,7 +1845,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="acd970c9-2243-4ef7-894d-fbf6c24cedb6">
+					<Attribute uuid="2984daac-6345-418b-a0f6-c882300332ef">
 						<Properties>
 							<Name>items_mode</Name>
 							<Synonym>
@@ -1893,15 +1888,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="5ff598d5-5651-4352-aa17-e06886346bf6">
+			<TabularSection uuid="0cea17dc-96d0-4be1-8cfc-cdf927ca1dea">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайн.ТЗ" category="TabularSection">
-						<xr:TypeId>a47d9bde-d370-43ce-b70d-80e75e68ee93</xr:TypeId>
-						<xr:ValueId>afe20c12-bf13-455c-a648-b66f141e50f5</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайнВ2.ТЗ" category="TabularSection">
+						<xr:TypeId>faab6c37-421d-4ee3-9b6f-4c47ed0ee1b7</xr:TypeId>
+						<xr:ValueId>ffae9842-aff5-4e31-8a18-cb0b21e306a2</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайн.ТЗ" category="TabularSectionRow">
-						<xr:TypeId>81399979-3549-4124-beed-cad2862652c2</xr:TypeId>
-						<xr:ValueId>bdc03aca-e519-4621-a3f3-f7c3c18c1196</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайнВ2.ТЗ" category="TabularSectionRow">
+						<xr:TypeId>5679f5f8-fa12-41c8-a2ee-e5cb880b1145</xr:TypeId>
+						<xr:ValueId>e2295170-f204-43c2-8bc1-ad835240c03a</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -1946,7 +1941,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="ec9ae370-f903-4a3c-912b-221479fb2913">
+					<Attribute uuid="1ab944e7-c6bf-413e-a534-6ac9b16a9e44">
 						<Properties>
 							<Name>ЛицевойСчет</Name>
 							<Synonym>
@@ -1986,7 +1981,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4261977b-a9f1-42d1-8efa-bb244f137ebe">
+					<Attribute uuid="856ee7aa-cc20-4d8a-a7a5-6756daccf6ad">
 						<Properties>
 							<Name>ДатаВыписки</Name>
 							<Synonym>
@@ -2025,7 +2020,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="955ac21e-c877-435a-ab0e-aa97092f0aeb">
+					<Attribute uuid="81d34610-ce34-40bf-abca-4c03f9e4b510">
 						<Properties>
 							<Name>Контрагент</Name>
 							<Synonym>
@@ -2065,7 +2060,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2a8cbfa8-36f2-4f02-9a4c-e9af22c05880">
+					<Attribute uuid="a0297c01-c86e-4736-91f2-d786ce5f243f">
 						<Properties>
 							<Name>Адрес</Name>
 							<Synonym>
@@ -2105,7 +2100,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0119ffa0-96c3-499e-ad2d-44c1fa2ab21d">
+					<Attribute uuid="f50df238-77c1-493a-a46d-b1c7c9c5675f">
 						<Properties>
 							<Name>ОплаченоВсего</Name>
 							<Synonym>
@@ -2146,7 +2141,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="57f901df-bec5-4e7c-9c74-2e6abe6b3827">
+					<Attribute uuid="6eb0011a-7e3c-4a49-9d95-4bbd1c006dc7">
 						<Properties>
 							<Name>ЧастичнаяОплата</Name>
 							<Synonym>
@@ -2187,7 +2182,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="df1b1a30-a6f6-4f1f-9f30-b2318be06fda">
+					<Attribute uuid="1a1dc3cb-bc47-4001-b964-080902304247">
 						<Properties>
 							<Name>Аванс</Name>
 							<Synonym>
@@ -2228,7 +2223,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2de75eab-3312-4d1f-a862-1b80fd622678">
+					<Attribute uuid="37ddeeab-a556-48db-807d-72cdb698e168">
 						<Properties>
 							<Name>Пени</Name>
 							<Synonym>
@@ -2269,7 +2264,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2e8b136d-f8a3-4ae7-80f2-07a7a29ab4dd">
+					<Attribute uuid="80570acc-a4e0-4405-81a8-ce5a687e9f7d">
 						<Properties>
 							<Name>НомерВыписки</Name>
 							<Synonym>
@@ -2309,7 +2304,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="acb15487-bd6f-44e1-898c-ec3d87b7ca7c">
+					<Attribute uuid="6f0561d1-e7e4-4843-8c29-0836fd6814e4">
 						<Properties>
 							<Name>ПолнаяОплата</Name>
 							<Synonym>
@@ -2350,7 +2345,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="092aea62-58fb-47e2-a600-3a7dbbae6f36">
+					<Attribute uuid="166b43ed-3d0a-4b46-859d-51597e228a95">
 						<Properties>
 							<Name>ЛицевойСчетНомер</Name>
 							<Synonym>
@@ -2390,7 +2385,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="979c087c-7ec6-4e97-9948-e2e3648b0c34">
+					<Attribute uuid="bc1456ac-aa5e-43f9-83fe-a05d271f9986">
 						<Properties>
 							<Name>Комментарий</Name>
 							<Synonym>
@@ -2432,15 +2427,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="83281ff2-3ae5-4172-ad17-278076425388">
+			<TabularSection uuid="59834c6c-9be0-49b2-b2bd-02ef7a8eb6f6">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайн.РасшифровкаСтрокиРегистрацииОплат" category="TabularSection">
-						<xr:TypeId>6bb571a9-8144-40b4-8d6a-c104850d53be</xr:TypeId>
-						<xr:ValueId>852784b5-c232-44ab-8d7e-6f56f9e853e1</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайнВ2.РасшифровкаСтрокиРегистрацииОплат" category="TabularSection">
+						<xr:TypeId>904258c3-6d56-4e87-b5e6-947ffbf25472</xr:TypeId>
+						<xr:ValueId>1bb56cde-3cc1-4456-af0f-f9636437c865</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайн.РасшифровкаСтрокиРегистрацииОплат" category="TabularSectionRow">
-						<xr:TypeId>18ece28e-602f-4fe7-83da-5842aadd63ef</xr:TypeId>
-						<xr:ValueId>2401732d-dbb2-46fd-b7f8-b9735bc36a5f</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайнВ2.РасшифровкаСтрокиРегистрацииОплат" category="TabularSectionRow">
+						<xr:TypeId>b3567a20-8350-4cc0-8cf5-ac2031f1ba95</xr:TypeId>
+						<xr:ValueId>a31a01dc-1b38-4aff-b5ed-d4a3e7f9661f</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -2485,7 +2480,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="99a852b4-6ca4-4bff-b03f-94fa48a03c40">
+					<Attribute uuid="9896dfa7-1073-4e69-9210-90237409a6d6">
 						<Properties>
 							<Name>ДокРегистрацияОплаты</Name>
 							<Synonym>
@@ -2526,7 +2521,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="032a1e0c-064f-4f1f-8981-d53be52fd738">
+					<Attribute uuid="466fcc05-3154-424d-9c21-60be6fdd5976">
 						<Properties>
 							<Name>Лицевойсчет</Name>
 							<Synonym>
@@ -2567,7 +2562,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5560ff84-20a2-4b0a-bec8-9e1c61d28339">
+					<Attribute uuid="c908891b-08f9-4395-a391-e9c6823506bf">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
@@ -2608,7 +2603,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="08822084-3c1a-4bba-944d-a39a91ece37e">
+					<Attribute uuid="d9fb5902-c5e8-4e08-8fb9-37754fc70a22">
 						<Properties>
 							<Name>Услуга</Name>
 							<Synonym>
@@ -2644,7 +2639,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="53a6383d-61d0-4399-ac58-46efbec59bad">
+					<Attribute uuid="8def3731-c624-4eeb-b824-0d7c9ce0c1e8">
 						<Properties>
 							<Name>МесяцНачисления</Name>
 							<Synonym>
@@ -2688,7 +2683,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9c7e7acb-c408-487e-a87b-84957e5cc7e3">
+					<Attribute uuid="45a2a1ef-9eff-43e3-8864-02bad4dcdc84">
 						<Properties>
 							<Name>Пени</Name>
 							<Synonym>
@@ -2729,7 +2724,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="db7ef66a-792b-456c-9e8a-840356bb164a">
+					<Attribute uuid="ed8734f6-5f9b-4db0-a4c4-534cfab5f119">
 						<Properties>
 							<Name>items_type</Name>
 							<Synonym>
@@ -2770,7 +2765,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4ad0e7bc-225a-4f38-a5cc-7adacb95e618">
+					<Attribute uuid="5018e57c-3f6b-4370-b0aa-1b022169b9d0">
 						<Properties>
 							<Name>items_mode</Name>
 							<Synonym>
@@ -2811,7 +2806,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5061cf1c-6ef2-409a-ac9f-70723dcfacd7">
+					<Attribute uuid="b95fa236-8168-43a4-b754-993abb0c3236">
 						<Properties>
 							<Name>Аванс</Name>
 							<Synonym>
@@ -2854,15 +2849,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="71a866c7-89b0-48b6-9435-56436e525ab2">
+			<TabularSection uuid="91636cb8-c46c-4a92-a398-010ffd278f82">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайн.ОбщаяТаблицаРасшифровкиОплат" category="TabularSection">
-						<xr:TypeId>07b57813-7557-48ce-8ce2-c122456a5adf</xr:TypeId>
-						<xr:ValueId>4eaad7cc-83ce-4d22-9c38-63353de8a054</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайнВ2.ОбщаяТаблицаРасшифровкиОплат" category="TabularSection">
+						<xr:TypeId>077a3eec-1b79-44c7-947f-d39ebf2ff3cf</xr:TypeId>
+						<xr:ValueId>a0d70fbf-a571-404a-a21e-dae685f6ba40</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайн.ОбщаяТаблицаРасшифровкиОплат" category="TabularSectionRow">
-						<xr:TypeId>be00dcfb-7fd8-4c69-8c81-d2fbb887fdf2</xr:TypeId>
-						<xr:ValueId>d1079726-7584-4896-98e8-3d8972dcfefc</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайнВ2.ОбщаяТаблицаРасшифровкиОплат" category="TabularSectionRow">
+						<xr:TypeId>37870011-a934-42e2-a12f-66d6f16f41e4</xr:TypeId>
+						<xr:ValueId>9fd0efca-03bc-4295-84c7-dd4e3633a6a5</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -2907,7 +2902,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="e09cdd6c-e5d3-41af-8929-b5033a217397">
+					<Attribute uuid="5896cb6a-3e1d-4cff-b37c-506ee0771e19">
 						<Properties>
 							<Name>Ссылка</Name>
 							<Synonym>
@@ -2943,7 +2938,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="a02e4bc3-0a77-4bdf-be7f-15ab420de8c4">
+					<Attribute uuid="d7bf3934-5715-4097-a1be-a15917bfd41f">
 						<Properties>
 							<Name>Объект</Name>
 							<Synonym>
@@ -2979,7 +2974,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5550d4c2-cddb-4f06-bf59-47e55b520259">
+					<Attribute uuid="15dc90f1-16bd-4fae-8e80-592bf246b70b">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
@@ -3020,7 +3015,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2e4ff7f4-a24d-49a1-8a94-a7dabd91c140">
+					<Attribute uuid="c017d933-4784-4b93-968f-2b0ea1a605fb">
 						<Properties>
 							<Name>Услуга</Name>
 							<Synonym>
@@ -3056,7 +3051,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2ba81a64-9f6f-4a21-bafa-13f819e247bc">
+					<Attribute uuid="5729d09f-7ebf-448a-8613-23fc879f9cfa">
 						<Properties>
 							<Name>МесяцНачисления</Name>
 							<Synonym>
@@ -3100,7 +3095,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="099053ef-296f-4f13-86db-deedcac6aefe">
+					<Attribute uuid="75316131-b0cf-4f30-acb8-a8ec8f898bba">
 						<Properties>
 							<Name>Пени</Name>
 							<Synonym>
@@ -3141,7 +3136,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="246b326a-a630-49e6-a385-cf2a78cd35ab">
+					<Attribute uuid="2e2380fc-8456-4fa5-a7db-74fc971d49ef">
 						<Properties>
 							<Name>АвансСумма</Name>
 							<Synonym>
@@ -3182,7 +3177,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="76901a45-e532-4f9a-9916-ac11086bd43c">
+					<Attribute uuid="dff6702f-48c2-4d98-ab0b-9977cf838b53">
 						<Properties>
 							<Name>ДолгСумма</Name>
 							<Synonym>
@@ -3223,7 +3218,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="deffecdb-4d3a-4b4e-82c0-f674c875fce4">
+					<Attribute uuid="f502c9f4-179e-4e24-a70b-15c66fb54556">
 						<Properties>
 							<Name>ЭтоАванс</Name>
 							<Synonym>
@@ -3265,15 +3260,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="a0560b3a-ff7d-4188-a0e5-675383c8402a">
+			<TabularSection uuid="cd2f0bc0-9eb7-40a3-b070-3dcbc22004fd">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайн.ТаблицаОстатков" category="TabularSection">
-						<xr:TypeId>912a2434-6cb6-494b-91cb-2a811e3c8225</xr:TypeId>
-						<xr:ValueId>0618e81b-2f53-411f-9490-82706ac9daef</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSection.ГП_APIСервисСчетмашОнлайнВ2.ТаблицаОстатков" category="TabularSection">
+						<xr:TypeId>5fde15bd-6b70-49bb-aa1b-6ab13623c90d</xr:TypeId>
+						<xr:ValueId>56dbc7be-4fc9-4997-a777-6b4d3b6321da</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайн.ТаблицаОстатков" category="TabularSectionRow">
-						<xr:TypeId>0926ba9e-c7b7-4b78-b421-8b7e2f83592d</xr:TypeId>
-						<xr:ValueId>a668a758-a74e-4a11-937b-154f49fb5eca</xr:ValueId>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_APIСервисСчетмашОнлайнВ2.ТаблицаОстатков" category="TabularSectionRow">
+						<xr:TypeId>d5498035-d303-4624-a75e-c7de44dc30d8</xr:TypeId>
+						<xr:ValueId>0bb174a0-80b6-4a63-b9ac-49d4367aa7e8</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -3318,7 +3313,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="da6531f0-28d6-47c5-a5a5-b44ba1453b81">
+					<Attribute uuid="5b139c61-9287-41c7-b906-cb1ce0c01e78">
 						<Properties>
 							<Name>ЛицевойСчет</Name>
 							<Synonym>
@@ -3354,7 +3349,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5303b207-32a5-4b9c-85b3-01c7173995ce">
+					<Attribute uuid="36195a53-2c49-4560-aa6e-cc90482a7955">
 						<Properties>
 							<Name>Услуга</Name>
 							<Synonym>
@@ -3390,7 +3385,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5f710fbb-1bd6-4b89-8fe1-8096dee31928">
+					<Attribute uuid="d9eb279b-3125-4cb8-b490-05a856e7ba8b">
 						<Properties>
 							<Name>СуммаНачисленияОстаток</Name>
 							<Synonym>
@@ -3435,7 +3430,6 @@
 			</TabularSection>
 			<Form>Форма</Form>
 			<Form>ФормаДоступа</Form>
-			<Form>ПодключениеКБазе</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
