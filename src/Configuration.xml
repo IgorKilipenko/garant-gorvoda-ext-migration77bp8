@@ -184,6 +184,8 @@
 			<CommonModule>УПЖКХ_МеханизмыПечатиЧеков</CommonModule>
 			<CommonModule>УПЖКХ_ОбщегоНазначенияСервер</CommonModule>
 			<CommonModule>ГП_СчетмашAPI</CommonModule>
+			<CommonModule>ГП_СчетмашОнлайнФорма</CommonModule>
+			<CommonModule>ГП_СчетмашAPIКлиент</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
