@@ -679,6 +679,108 @@
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
 									<ExtendedTooltip name="ГруппаРасшифровкаРегистрацииОплатРасширеннаяПодсказка" id="618"/>
+									<ChildItems>
+										<Table name="РасшифровкаСтрокиРегистрацииОплат" id="619">
+											<Representation>List</Representation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>РасшифровкаСтрокиРегистрацииОплат</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатКонтекстноеМеню" id="620"/>
+											<AutoCommandBar name="РасшифровкаСтрокиРегистрацииОплатКоманднаяПанель" id="621"/>
+											<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатРасширеннаяПодсказка" id="622"/>
+											<SearchStringAddition name="РасшифровкаСтрокиРегистрацииОплатСтрокаПоиска" id="623">
+												<AdditionSource>
+													<Item>РасшифровкаСтрокиРегистрацииОплат</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСтрокаПоискаКонтекстноеМеню" id="624"/>
+												<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСтрокаПоискаРасширеннаяПодсказка" id="625"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="РасшифровкаСтрокиРегистрацииОплатСостояниеПросмотра" id="626">
+												<AdditionSource>
+													<Item>РасшифровкаСтрокиРегистрацииОплат</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСостояниеПросмотраКонтекстноеМеню" id="627"/>
+												<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСостояниеПросмотраРасширеннаяПодсказка" id="628"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="РасшифровкаСтрокиРегистрацииОплатУправлениеПоиском" id="629">
+												<AdditionSource>
+													<Item>РасшифровкаСтрокиРегистрацииОплат</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатУправлениеПоискомКонтекстноеМеню" id="630"/>
+												<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатУправлениеПоискомРасширеннаяПодсказка" id="631"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатДокумент" id="632">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Документ</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатДокументКонтекстноеМеню" id="633"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатДокументРасширеннаяПодсказка" id="634"/>
+												</InputField>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатКонтрагент" id="635">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Контрагент</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатКонтрагентКонтекстноеМеню" id="636"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатКонтрагентРасширеннаяПодсказка" id="637"/>
+												</InputField>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатЛицевойСчет" id="638">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.ЛицевойСчет</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатЛицевойСчетКонтекстноеМеню" id="639"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатЛицевойСчетРасширеннаяПодсказка" id="640"/>
+												</InputField>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатСумма" id="641">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Сумма</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСуммаКонтекстноеМеню" id="642"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСуммаРасширеннаяПодсказка" id="643"/>
+												</InputField>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатexternal_id" id="644">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.external_id</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатexternal_idКонтекстноеМеню" id="645"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатexternal_idРасширеннаяПодсказка" id="646"/>
+												</InputField>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатУслуга" id="647">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Услуга</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатУслугаКонтекстноеМеню" id="648"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатУслугаРасширеннаяПодсказка" id="649"/>
+												</InputField>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатАванс" id="650">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Аванс</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатАвансКонтекстноеМеню" id="651"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатАвансРасширеннаяПодсказка" id="652"/>
+												</InputField>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатПени" id="653">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Пени</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатПениКонтекстноеМеню" id="654"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатПениРасширеннаяПодсказка" id="655"/>
+												</InputField>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисления" id="656">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.МесяцНачисления</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисленияКонтекстноеМеню" id="657"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисленияРасширеннаяПодсказка" id="658"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
@@ -989,6 +1091,17 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТестовыйРежим" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тестовый режим</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

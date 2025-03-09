@@ -190,6 +190,8 @@
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
 			<Constant>ГП_ФормироватьЧекиЖКХПоКонтрагентуДокумента</Constant>
+			<Constant>ГП_КлючАвторизацииСчетмаш</Constant>
+			<Constant>ГП_КлючАвторизацииСчетмашДемо</Constant>
 			<CommonForm>ГП_ФормаПечатнойФормыОтчета</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>УПЖКХ_ПечатьЧеков</CommonForm>
