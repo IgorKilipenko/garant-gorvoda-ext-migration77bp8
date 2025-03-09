@@ -158,7 +158,7 @@
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный" id="34c816ec-c726-4aee-9b43-08da739f5c15" configVersion="16638a5e74879db9b940c09de8220806fc65081d"/>
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный.Module" id="34c816ec-c726-4aee-9b43-08da739f5c15.0" configVersion="9995382f05ee1c719531aac25e04d7f08402c70e"/>
 		<Metadata name="CommonModule.ГП_СчетмашAPI" id="7da6da19-b4e6-4dd5-b7ef-63167e26bce6" configVersion="61f9e00a2412ed498912fee612457b2e2a63934c"/>
-		<Metadata name="CommonModule.ГП_СчетмашAPI.Module" id="7da6da19-b4e6-4dd5-b7ef-63167e26bce6.0" configVersion="ee4ceafc60224fa08ad2fd76315be7f01660ae61"/>
+		<Metadata name="CommonModule.ГП_СчетмашAPI.Module" id="7da6da19-b4e6-4dd5-b7ef-63167e26bce6.0" configVersion="edf044c395bace03699166976122404b99801113"/>
 		<Metadata name="CommonModule.ГП_СчетмашAPIКлиент" id="23636d0f-868c-40b9-b583-75b773d0cd04" configVersion="0338ec0a7c4980fd5927096b72c192079f9345c4"/>
 		<Metadata name="CommonModule.ГП_СчетмашAPIКлиент.Module" id="23636d0f-868c-40b9-b583-75b773d0cd04.0" configVersion="1d3632da0e2ae185dc303fe7a9fa7fc11663f3c8"/>
 		<Metadata name="CommonModule.ГП_СчетмашОнлайнФорма" id="66ba366d-dc5c-4651-a9a6-495949baf2cf" configVersion="47ab1e6b6a99f5876172cffb0a6aef83de091f2b"/>
