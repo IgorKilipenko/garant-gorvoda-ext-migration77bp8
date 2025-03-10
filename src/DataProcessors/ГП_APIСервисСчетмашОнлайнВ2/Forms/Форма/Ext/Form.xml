@@ -314,6 +314,13 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВыборПериодаРасширеннаяПодсказка" id="82"/>
 									<ChildItems>
+										<InputField name="Контрагент" id="673">
+											<DataPath>Контрагент</DataPath>
+											<ClearButton>true</ClearButton>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="КонтрагентКонтекстноеМеню" id="674"/>
+											<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="675"/>
+										</InputField>
 										<InputField name="ДатаНачала" id="83">
 											<DataPath>Объект.ДатаНачала</DataPath>
 											<Title>
