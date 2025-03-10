@@ -112,6 +112,7 @@
 												<Button name="ПроверкаСтатусовЧеков" id="369">
 													<Type>UsualButton</Type>
 													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
 													<CommandName>Form.Command.ПроверкаСтатусовЧеков</CommandName>
 													<ExtendedTooltip name="ПроверкаСтатусовЧековРасширеннаяПодсказка" id="370"/>
 												</Button>
@@ -137,6 +138,7 @@
 														<Button name="КоррекцияПриходаВсехСтрок" id="373">
 															<Type>UsualButton</Type>
 															<Representation>PictureAndText</Representation>
+															<Enabled>false</Enabled>
 															<CommandName>Form.Command.ВозвратПриходаВсехСтрок</CommandName>
 															<Picture>
 																<xr:Ref>StdPicture.DataHistory</xr:Ref>
@@ -160,6 +162,7 @@
 											</ChildItems>
 										</Page>
 										<Page name="РегистрацияЧековДляТекущейСтроки" id="377">
+											<Enabled>false</Enabled>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -717,6 +720,7 @@
 											<ChildItems>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатДокумент" id="632">
 													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Документ</DataPath>
+													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатДокументКонтекстноеМеню" id="633"/>
@@ -724,6 +728,7 @@
 												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатКонтрагент" id="635">
 													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Контрагент</DataPath>
+													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатКонтрагентКонтекстноеМеню" id="636"/>
@@ -736,20 +741,6 @@
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатЛицевойСчетКонтекстноеМеню" id="639"/>
 													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатЛицевойСчетРасширеннаяПодсказка" id="640"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокиРегистрацииОплатСумма" id="641">
-													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Сумма</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСуммаКонтекстноеМеню" id="642"/>
-													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСуммаРасширеннаяПодсказка" id="643"/>
-												</InputField>
-												<InputField name="РасшифровкаСтрокиРегистрацииОплатexternal_id" id="644">
-													<DataPath>РасшифровкаСтрокиРегистрацииОплат.external_id</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатexternal_idКонтекстноеМеню" id="645"/>
-													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатexternal_idРасширеннаяПодсказка" id="646"/>
-												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатУслуга" id="647">
 													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Услуга</DataPath>
 													<EditMode>EnterOnInput</EditMode>
@@ -757,22 +748,62 @@
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатУслугаКонтекстноеМеню" id="648"/>
 													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатУслугаРасширеннаяПодсказка" id="649"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокиРегистрацииОплатАванс" id="650">
-													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Аванс</DataPath>
+												<ColumnGroup name="РасшифровкаСтрокиРегистрацииОплатГруппаСуммы" id="671">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Расшифровка строки регистрации оплат группа суммы</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Расшифровка строки регистрации оплат группа суммы</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Horizontal</Group>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатГруппаСуммыРасширеннаяПодсказка" id="672"/>
+													<ChildItems>
+														<InputField name="РасшифровкаСтрокиРегистрацииОплатСумма" id="641">
+															<DataPath>РасшифровкаСтрокиРегистрацииОплат.Сумма</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСуммаКонтекстноеМеню" id="642"/>
+															<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСуммаРасширеннаяПодсказка" id="643"/>
+														</InputField>
+														<InputField name="РасшифровкаСтрокиРегистрацииОплатАванс" id="665">
+															<DataPath>РасшифровкаСтрокиРегистрацииОплат.Аванс</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатАвансКонтекстноеМеню" id="666"/>
+															<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатАвансРасширеннаяПодсказка" id="667"/>
+														</InputField>
+														<InputField name="РасшифровкаСтрокиРегистрацииОплатПени" id="668">
+															<DataPath>РасшифровкаСтрокиРегистрацииОплат.Пени</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатПениКонтекстноеМеню" id="669"/>
+															<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатПениРасширеннаяПодсказка" id="670"/>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатПризнакСпособаРасчета" id="662">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.ПризнакСпособаРасчета</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатАвансКонтекстноеМеню" id="651"/>
-													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатАвансРасширеннаяПодсказка" id="652"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатПризнакСпособаРасчетаКонтекстноеМеню" id="663"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатПризнакСпособаРасчетаРасширеннаяПодсказка" id="664"/>
 												</InputField>
-												<InputField name="РасшифровкаСтрокиРегистрацииОплатПени" id="653">
-													<DataPath>РасшифровкаСтрокиРегистрацииОплат.Пени</DataPath>
+												<InputField name="РасшифровкаСтрокиРегистрацииОплатПризнакПредметаРасчета" id="659">
+													<DataPath>РасшифровкаСтрокиРегистрацииОплат.ПризнакПредметаРасчета</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатПениКонтекстноеМеню" id="654"/>
-													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатПениРасширеннаяПодсказка" id="655"/>
+													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатПризнакПредметаРасчетаКонтекстноеМеню" id="660"/>
+													<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатПризнакПредметаРасчетаРасширеннаяПодсказка" id="661"/>
 												</InputField>
 												<InputField name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисления" id="656">
 													<DataPath>РасшифровкаСтрокиРегистрацииОплат.МесяцНачисления</DataPath>
+													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатМесяцНачисленияКонтекстноеМеню" id="657"/>
@@ -1030,7 +1061,43 @@
 						<v8:Type>cfg:CatalogRef.КВП_Услуги</v8:Type>
 					</Type>
 				</Column>
-				<Column name="Аванс" id="7">
+				<Column name="МесяцНачисления" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Месяц начисления</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПризнакПредметаРасчета" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Признак предмета расчета</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПризнакиПредметаРасчета</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПризнакСпособаРасчета" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Признак способа расчета</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПризнакиСпособаРасчета</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Аванс" id="10">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1046,7 +1113,7 @@
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
-				<Column name="Пени" id="8">
+				<Column name="Пени" id="11">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1060,20 +1127,6 @@
 							<v8:FractionDigits>2</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
-					</Type>
-				</Column>
-				<Column name="МесяцНачисления" id="9">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Месяц начисления</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
-						</v8:DateQualifiers>
 					</Type>
 				</Column>
 			</Columns>
