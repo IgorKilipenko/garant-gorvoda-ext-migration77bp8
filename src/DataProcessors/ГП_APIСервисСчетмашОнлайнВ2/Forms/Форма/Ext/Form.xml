@@ -207,23 +207,29 @@
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаПриходРасширеннаяПодсказка" id="382"/>
 															<ChildItems>
-																<Button name="ДляТекущейСтрокиРегистрацияЧека_Приход" id="383">
+																<Button name="ВыполнитьПробитеЧека" id="383">
 																	<Type>UsualButton</Type>
 																	<Representation>PictureAndText</Representation>
-																	<CommandName>Form.Command.ДляТекущейСтрокиРегистрацияЧека_Приход</CommandName>
+																	<CommandName>Form.Command.ВыполнитьПробитеЧека</CommandName>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Приход</v8:content>
 																		</v8:item>
 																	</Title>
-																	<ExtendedTooltip name="ДляТекущейСтрокиРегистрацияЧека_ПриходРасширеннаяПодсказка" id="384"/>
+																	<ExtendedTooltip name="ВыполнитьПробитеЧекаРасширеннаяПодсказка" id="384"/>
 																</Button>
-																<Button name="ПроверкаСтатусаЧека" id="385">
+																<Button name="ВыполнитьПроверкуСтатусаЧека" id="385">
 																	<Type>UsualButton</Type>
 																	<Representation>PictureAndText</Representation>
-																	<CommandName>Form.Command.ПроверкаСтатусаЧека</CommandName>
-																	<ExtendedTooltip name="ПроверкаСтатусаЧекаРасширеннаяПодсказка" id="386"/>
+																	<CommandName>Form.Command.ВыполнитьПроверкуСтатусаЧека</CommandName>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Обновить статус</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ExtendedTooltip name="ВыполнитьПроверкуСтатусаЧекаРасширеннаяПодсказка" id="386"/>
 																</Button>
 															</ChildItems>
 														</UsualGroup>
@@ -249,12 +255,17 @@
 																<Button name="КоррекцияПрихода" id="389">
 																	<Type>UsualButton</Type>
 																	<Representation>PictureAndText</Representation>
-																	<Enabled>false</Enabled>
 																	<CommandName>Form.Command.КоррекцияПрихода</CommandName>
 																	<Picture>
 																		<xr:Ref>StdPicture.DataHistory</xr:Ref>
 																		<xr:LoadTransparent>true</xr:LoadTransparent>
 																	</Picture>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Коррекция чека</v8:content>
+																		</v8:item>
+																	</Title>
 																	<ExtendedTooltip name="КоррекцияПриходаРасширеннаяПодсказка" id="390"/>
 																</Button>
 																<Button name="ВозвратПрихода" id="391">
@@ -265,6 +276,12 @@
 																		<xr:Ref>StdPicture.UndoPosting</xr:Ref>
 																		<xr:LoadTransparent>true</xr:LoadTransparent>
 																	</Picture>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Возврат чека</v8:content>
+																		</v8:item>
+																	</Title>
 																	<ExtendedTooltip name="ВозвратПриходаРасширеннаяПодсказка" id="392"/>
 																</Button>
 															</ChildItems>
@@ -429,11 +446,17 @@
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
-								<Button name="Заполнить" id="93">
+								<Button name="ВыполнитьЗаполнениеДанныеОплат" id="93">
 									<Type>UsualButton</Type>
 									<Representation>PictureAndText</Representation>
-									<CommandName>Form.Command.Заполнить</CommandName>
-									<ExtendedTooltip name="ЗаполнитьРасширеннаяПодсказка" id="94"/>
+									<CommandName>Form.Command.ВыполнитьЗаполнениеДанныеОплат</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заполнить</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ВыполнитьЗаполнениеДанныеОплатРасширеннаяПодсказка" id="94"/>
 								</Button>
 							</ChildItems>
 						</UsualGroup>
@@ -1337,20 +1360,20 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ДляТекущейСтрокиРегистрацияЧека_Приход" id="1">
+		<Command name="ВыполнитьПробитеЧека" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Для текущей строки регистрация чека приход</v8:content>
+					<v8:content>Пробить чек</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Для текущей строки регистрация чека приход</v8:content>
+					<v8:content>Выполнить пробите чека</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ДляТекущейСтрокиРегистрацияЧека_Приход</Action>
+			<Action>ВыполнитьПробитиеЧека</Action>
 		</Command>
 		<Command name="ВозвратПрихода" id="2">
 			<Title>
@@ -1365,7 +1388,7 @@
 					<v8:content>Возврат прихода</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ВозвратПрихода</Action>
+			<Action>ВыполнитьВозвратПриходаЧека</Action>
 		</Command>
 		<Command name="КоррекцияПрихода" id="3">
 			<Title>
@@ -1380,22 +1403,26 @@
 					<v8:content>Коррекция прихода</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>КоррекцияПрихода</Action>
+			<Action>ВыполнитьКоррекциюПрихода</Action>
 		</Command>
-		<Command name="ПроверкаСтатусаЧека" id="4">
+		<Command name="ВыполнитьПроверкуСтатусаЧека" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Проверка статуса чека</v8:content>
+					<v8:content>Обновить статусы чеков</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Проверка статуса чека</v8:content>
+					<v8:content>Выполнить проверку статуса чека</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПроверкаСтатусаЧека</Action>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыполнитьПроверкуСтатусаЧека</Action>
 		</Command>
 		<Command name="ВыбратьПериод" id="5">
 			<Title>
@@ -1412,30 +1439,30 @@
 			</ToolTip>
 			<Action>ВыборПериода</Action>
 		</Command>
-		<Command name="Заполнить" id="6">
+		<Command name="ВыполнитьЗаполнениеДанныеОплат" id="6">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить</v8:content>
+					<v8:content>Выполнить заполнение данные оплат</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить</v8:content>
+					<v8:content>Выполнить заполнение данные оплат</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
 				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>Заполнить</Action>
+			<Action>ВыполнитьЗаполнениеДанныеОплат</Action>
 		</Command>
 		<Command name="ДляВсехСтрок_РегистрацияЧека_Приход" id="7">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Для всех строк регистрация чека приход</v8:content>
+					<v8:content>Приход</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
