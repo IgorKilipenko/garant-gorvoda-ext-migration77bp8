@@ -136,27 +136,26 @@
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКорректировок1РасширеннаяПодсказка" id="372"/>
 													<ChildItems>
+														<Button name="ВозвратПриходаВсехСтрок" id="375">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Form.Command.КоррекцияПриходаВсехСтрок</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.DataHistory</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<ExtendedTooltip name="ВозвратПриходаВсехСтрокРасширеннаяПодсказка" id="376"/>
+														</Button>
 														<Button name="КоррекцияПриходаВсехСтрок" id="373">
 															<Type>UsualButton</Type>
 															<Representation>PictureAndText</Representation>
 															<Enabled>false</Enabled>
 															<CommandName>Form.Command.ВозвратПриходаВсехСтрок</CommandName>
 															<Picture>
-																<xr:Ref>StdPicture.DataHistory</xr:Ref>
-																<xr:LoadTransparent>true</xr:LoadTransparent>
-															</Picture>
-															<ExtendedTooltip name="КоррекцияПриходаВсехСтрокРасширеннаяПодсказка" id="374"/>
-														</Button>
-														<Button name="ВозвратПриходаВсехСтрок" id="375">
-															<Type>UsualButton</Type>
-															<Visible>false</Visible>
-															<Representation>PictureAndText</Representation>
-															<CommandName>Form.Command.КоррекцияПриходаВсехСтрок</CommandName>
-															<Picture>
 																<xr:Ref>StdPicture.UndoPosting</xr:Ref>
 																<xr:LoadTransparent>true</xr:LoadTransparent>
 															</Picture>
-															<ExtendedTooltip name="ВозвратПриходаВсехСтрокРасширеннаяПодсказка" id="376"/>
+															<ExtendedTooltip name="КоррекцияПриходаВсехСтрокРасширеннаяПодсказка" id="374"/>
 														</Button>
 													</ChildItems>
 												</UsualGroup>
@@ -249,8 +248,8 @@
 															<ChildItems>
 																<Button name="КоррекцияПрихода" id="389">
 																	<Type>UsualButton</Type>
-																	<Visible>false</Visible>
 																	<Representation>PictureAndText</Representation>
+																	<Enabled>false</Enabled>
 																	<CommandName>Form.Command.КоррекцияПрихода</CommandName>
 																	<Picture>
 																		<xr:Ref>StdPicture.DataHistory</xr:Ref>
@@ -261,7 +260,6 @@
 																<Button name="ВозвратПрихода" id="391">
 																	<Type>UsualButton</Type>
 																	<Representation>PictureAndText</Representation>
-																	<Enabled>false</Enabled>
 																	<CommandName>Form.Command.ВозвратПрихода</CommandName>
 																	<Picture>
 																		<xr:Ref>StdPicture.UndoPosting</xr:Ref>
@@ -1507,21 +1505,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КоррекцияПриходаВсехСтрок</Action>
-		</Command>
-		<Command name="ОчиститьОтбор" id="12">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Очистить отбор</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Очистить отбор</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОчиститьОтбор</Action>
 		</Command>
 	</Commands>
 </Form>
