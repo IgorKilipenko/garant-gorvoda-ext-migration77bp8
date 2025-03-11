@@ -160,7 +160,7 @@
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный" id="34c816ec-c726-4aee-9b43-08da739f5c15" configVersion="16638a5e74879db9b940c09de8220806fc65081d"/>
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный.Module" id="34c816ec-c726-4aee-9b43-08da739f5c15.0" configVersion="6abf9dc8b2ceae27000e3d539cabff114f7dfb6a"/>
 		<Metadata name="CommonModule.ГП_СчетмашAPI" id="7da6da19-b4e6-4dd5-b7ef-63167e26bce6" configVersion="61f9e00a2412ed498912fee612457b2e2a63934c"/>
-		<Metadata name="CommonModule.ГП_СчетмашAPI.Module" id="7da6da19-b4e6-4dd5-b7ef-63167e26bce6.0" configVersion="dfa5565a8c777b8a426b8618a15ff92f67e5e947"/>
+		<Metadata name="CommonModule.ГП_СчетмашAPI.Module" id="7da6da19-b4e6-4dd5-b7ef-63167e26bce6.0" configVersion="b18e6423b477cb4d93a4862030e399b2c5c0a158"/>
 		<Metadata name="CommonModule.ГП_СчетмашAPIКлиентСервер" id="2d28383a-3258-4a49-a725-97224adb19af" configVersion="25e11518ab9c0356c45915552903b5a70876d254"/>
 		<Metadata name="CommonModule.ГП_СчетмашAPIКлиентСервер.Module" id="2d28383a-3258-4a49-a725-97224adb19af.0" configVersion="c1cd80f77fb9f1dd7dba4f15d1aaaf0715de7a7c"/>
 		<Metadata name="CommonModule.ГП_СчетмашОнлайнФорма" id="66ba366d-dc5c-4651-a9a6-495949baf2cf" configVersion="47ab1e6b6a99f5876172cffb0a6aef83de091f2b"/>
@@ -217,7 +217,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="21c69546392d46a97049817e6f0d46fcbf1d6eab"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="7584cd579b56b393dbddac8f34a6aefeedcdae79"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш" id="438bb286-cbaf-43b4-b0e9-357418e20d91" configVersion="3fc8d1582b732384f9958a81dcd71fc1c26a91a1"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш.ManagerModule" id="438bb286-cbaf-43b4-b0e9-357418e20d91.1" configVersion="6c56d7f5169261a031628feaab6f6573404f1438"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмашДемо" id="a1f41721-c531-45f5-ba63-6a7f136aa3fc" configVersion="249b9899bf57c621dc82b55a06b69228ed5efdde"/>
