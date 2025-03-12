@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.3.5.6-rc2</Version>
+			<Version>2.3.5.7-rc2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -194,6 +194,7 @@
 			<Constant>ГП_ФормироватьЧекиЖКХПоКонтрагентуДокумента</Constant>
 			<Constant>ГП_КлючАвторизацииСчетмаш</Constant>
 			<Constant>ГП_КлючАвторизацииСчетмашДемо</Constant>
+			<Constant>ГП_ВключенОсновнойРежимРаботыВебКассыСчетмаш</Constant>
 			<CommonForm>ГП_ФормаПечатнойФормыОтчета</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>УПЖКХ_ПечатьЧеков</CommonForm>
