@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.3.5.5-rc2</Version>
+			<Version>2.3.5.6-rc2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -187,7 +187,6 @@
 			<CommonModule>УПЖКХ_ОбщегоНазначенияСервер</CommonModule>
 			<CommonModule>ГП_СчетмашAPI</CommonModule>
 			<CommonModule>ГП_СчетмашAPIКлиентСервер</CommonModule>
-			<CommonModule>ГП_СчетмашОнлайнФорма</CommonModule>
 			<CommonModule>ГП_ВспомогательныеФункцииКлиентСервер</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>

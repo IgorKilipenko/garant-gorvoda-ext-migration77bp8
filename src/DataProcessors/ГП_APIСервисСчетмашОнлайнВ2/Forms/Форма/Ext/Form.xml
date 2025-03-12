@@ -1475,66 +1475,6 @@
 			</Picture>
 			<Action>ВыполнитьЗаполнениеДанныеОплат</Action>
 		</Command>
-		<Command name="ДляВсехСтрок_РегистрацияЧека_Приход" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Приход</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Для всех строк регистрация чека приход</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ДляВсехСтрок_РегистрацияЧека_Приход</Action>
-		</Command>
-		<Command name="ВыбратьКаталогВременныхФайлов" id="8">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выбрать каталог временных файлов</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выбрать каталог временных файлов</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ВыбратьКаталогВременныхФайлов</Action>
-		</Command>
-		<Command name="ВозвратПриходаВсехСтрок" id="10">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Возврат прихода</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Возврат прихода</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ВозвратПриходаВсехСтрок</Action>
-		</Command>
-		<Command name="КоррекцияПриходаВсехСтрок" id="11">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Коррекция прихода</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Коррекция прихода</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>КоррекцияПриходаВсехСтрок</Action>
-		</Command>
 		<Command name="ВыполнитьПроверкуСтатусаЧекаДляВсехСтрок" id="9">
 			<Title>
 				<v8:item>
