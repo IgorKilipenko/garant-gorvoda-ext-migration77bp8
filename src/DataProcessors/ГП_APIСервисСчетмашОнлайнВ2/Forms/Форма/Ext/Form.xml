@@ -81,91 +81,11 @@
 									<PagesRepresentation>TabsOnTop</PagesRepresentation>
 									<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="364"/>
 									<ChildItems>
-										<Page name="РегистрацияЧеков" id="365">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Регистрация чеков</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Регистрация чеков</v8:content>
-												</v8:item>
-											</ToolTip>
-											<Group>AlwaysHorizontal</Group>
-											<ExtendedTooltip name="РегистрацияЧековРасширеннаяПодсказка" id="366"/>
-											<ChildItems>
-												<Button name="ДляВсехСтрок_РегистрацияЧека_Приход" id="367">
-													<Type>UsualButton</Type>
-													<Representation>PictureAndText</Representation>
-													<Enabled>false</Enabled>
-													<CommandName>Form.Command.ДляВсехСтрок_РегистрацияЧека_Приход</CommandName>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Приход</v8:content>
-														</v8:item>
-													</Title>
-													<ExtendedTooltip name="ДляВсехСтрок_РегистрацияЧека_ПриходРасширеннаяПодсказка" id="368"/>
-												</Button>
-												<Button name="ВыполнитьПроверкуСтатусаЧекаДляВсехСтрок" id="369">
-													<Type>UsualButton</Type>
-													<Representation>PictureAndText</Representation>
-													<CommandName>Form.Command.ВыполнитьПроверкуСтатусаЧекаДляВсехСтрок</CommandName>
-													<ExtendedTooltip name="ВыполнитьПроверкуСтатусаЧекаДляВсехСтрокРасширеннаяПодсказка" id="370"/>
-												</Button>
-												<UsualGroup name="ГруппаКорректировок1" id="371">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа корректировок</v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа корректировок</v8:content>
-														</v8:item>
-													</ToolTip>
-													<Group>AlwaysHorizontal</Group>
-													<Behavior>Usual</Behavior>
-													<Representation>StrongSeparation</Representation>
-													<ShowTitle>false</ShowTitle>
-													<ExtendedTooltip name="ГруппаКорректировок1РасширеннаяПодсказка" id="372"/>
-													<ChildItems>
-														<Button name="ВозвратПриходаВсехСтрок" id="375">
-															<Type>UsualButton</Type>
-															<Representation>PictureAndText</Representation>
-															<Enabled>false</Enabled>
-															<CommandName>Form.Command.КоррекцияПриходаВсехСтрок</CommandName>
-															<Picture>
-																<xr:Ref>StdPicture.DataHistory</xr:Ref>
-																<xr:LoadTransparent>true</xr:LoadTransparent>
-															</Picture>
-															<ExtendedTooltip name="ВозвратПриходаВсехСтрокРасширеннаяПодсказка" id="376"/>
-														</Button>
-														<Button name="КоррекцияПриходаВсехСтрок" id="373">
-															<Type>UsualButton</Type>
-															<Representation>PictureAndText</Representation>
-															<Enabled>false</Enabled>
-															<CommandName>Form.Command.ВозвратПриходаВсехСтрок</CommandName>
-															<Picture>
-																<xr:Ref>StdPicture.UndoPosting</xr:Ref>
-																<xr:LoadTransparent>true</xr:LoadTransparent>
-															</Picture>
-															<ExtendedTooltip name="КоррекцияПриходаВсехСтрокРасширеннаяПодсказка" id="374"/>
-														</Button>
-													</ChildItems>
-												</UsualGroup>
-											</ChildItems>
-										</Page>
 										<Page name="РегистрацияЧековДляТекущейСтроки" id="377">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Регистрация чеков для текущей строки</v8:content>
+													<v8:content>Регистрация чеков (для текущей строки)</v8:content>
 												</v8:item>
 											</Title>
 											<ToolTip>
@@ -175,6 +95,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>AlwaysHorizontal</Group>
+											<BackColor>style:NavigationColor</BackColor>
 											<ExtendedTooltip name="РегистрацияЧековДляТекущейСтрокиРасширеннаяПодсказка" id="378"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаДляТекущейСтроки" id="379">
@@ -252,10 +173,10 @@
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаКорректировокРасширеннаяПодсказка" id="388"/>
 															<ChildItems>
-																<Button name="КоррекцияПрихода" id="389">
+																<Button name="ВыполнитьКоррекциюПрихода" id="389">
 																	<Type>UsualButton</Type>
 																	<Representation>PictureAndText</Representation>
-																	<CommandName>Form.Command.КоррекцияПрихода</CommandName>
+																	<CommandName>Form.Command.ВыполнитьКоррекциюПрихода</CommandName>
 																	<Picture>
 																		<xr:Ref>StdPicture.DataHistory</xr:Ref>
 																		<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -266,12 +187,12 @@
 																			<v8:content>Коррекция чека</v8:content>
 																		</v8:item>
 																	</Title>
-																	<ExtendedTooltip name="КоррекцияПриходаРасширеннаяПодсказка" id="390"/>
+																	<ExtendedTooltip name="ВыполнитьКоррекциюПриходаРасширеннаяПодсказка" id="390"/>
 																</Button>
-																<Button name="ВозвратПрихода" id="391">
+																<Button name="ВыполнитьВозвратПриходаЧека" id="391">
 																	<Type>UsualButton</Type>
 																	<Representation>PictureAndText</Representation>
-																	<CommandName>Form.Command.ВозвратПрихода</CommandName>
+																	<CommandName>Form.Command.ВыполнитьВозвратПриходаЧека</CommandName>
 																	<Picture>
 																		<xr:Ref>StdPicture.UndoPosting</xr:Ref>
 																		<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -282,10 +203,101 @@
 																			<v8:content>Возврат чека</v8:content>
 																		</v8:item>
 																	</Title>
-																	<ExtendedTooltip name="ВозвратПриходаРасширеннаяПодсказка" id="392"/>
+																	<ExtendedTooltip name="ВыполнитьВозвратПриходаЧекаРасширеннаяПодсказка" id="392"/>
 																</Button>
 															</ChildItems>
 														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</Page>
+										<Page name="РегистрацияЧеков" id="365">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Регистрация чеков</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Регистрация чеков</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<ExtendedTooltip name="РегистрацияЧековРасширеннаяПодсказка" id="366"/>
+											<ChildItems>
+												<Button name="ВыполнитьПробитеЧекаДляВсехСтрок" id="367">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.ВыполнитьПробитеЧекаДляВсехСтрок</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Приход</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ВыполнитьПробитеЧекаДляВсехСтрокРасширеннаяПодсказка" id="368"/>
+												</Button>
+												<Button name="ВыполнитьПроверкуСтатусаЧекаДляВсехСтрок" id="369">
+													<Type>UsualButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.ВыполнитьПроверкуСтатусаЧекаДляВсехСтрок</CommandName>
+													<ExtendedTooltip name="ВыполнитьПроверкуСтатусаЧекаДляВсехСтрокРасширеннаяПодсказка" id="370"/>
+												</Button>
+												<UsualGroup name="ГруппаКорректировок1" id="371">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа корректировок</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа корректировок</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>StrongSeparation</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаКорректировок1РасширеннаяПодсказка" id="372"/>
+													<ChildItems>
+														<Button name="ВыполнитьКоррекциюПриходаДляВсехСтрок" id="375">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<Enabled>false</Enabled>
+															<CommandName>Form.Command.ВыполнитьКоррекциюПриходаДляВсехСтрок</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.DataHistory</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Коррекция чеков</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ВыполнитьКоррекциюПриходаДляВсехСтрокРасширеннаяПодсказка" id="376"/>
+														</Button>
+														<Button name="ВыполнитьВозвратПриходаЧекаДляВсехСтрок" id="373">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<Enabled>false</Enabled>
+															<CommandName>Form.Command.ВыполнитьВозвратПриходаЧекаДляВсехСтрок</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.UndoPosting</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Возврат чеков</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ВыполнитьВозвратПриходаЧекаДляВсехСтрокРасширеннаяПодсказка" id="374"/>
+														</Button>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -1376,34 +1388,38 @@
 			</ToolTip>
 			<Action>ВыполнитьПробитиеЧека</Action>
 		</Command>
-		<Command name="ВозвратПрихода" id="2">
+		<Command name="ВыполнитьВозвратПриходаЧека" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Возврат прихода</v8:content>
+					<v8:content>Возврат прихода чека</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Возврат прихода</v8:content>
+					<v8:content>Выполнить возврат прихода чека</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьВозвратПриходаЧека</Action>
 		</Command>
-		<Command name="КоррекцияПрихода" id="3">
+		<Command name="ВыполнитьКоррекциюПрихода" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Коррекция прихода</v8:content>
+					<v8:content>Выполнить коррекцию прихода</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Коррекция прихода</v8:content>
+					<v8:content>Выполнить коррекцию прихода</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DataHistory</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>ВыполнитьКоррекциюПрихода</Action>
 		</Command>
 		<Command name="ВыполнитьПроверкуСтатусаЧека" id="4">
@@ -1537,6 +1553,55 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ВыполнитьПроверкуСтатусаЧека</Action>
+		</Command>
+		<Command name="ВыполнитьПробитеЧекаДляВсехСтрок" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить пробите чеков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить пробите чека для всех строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьПробитиеЧека</Action>
+		</Command>
+		<Command name="ВыполнитьКоррекциюПриходаДляВсехСтрок" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить коррекцию приходов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить коррекцию прихода для всех строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DataHistory</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыполнитьКоррекциюПрихода</Action>
+		</Command>
+		<Command name="ВыполнитьВозвратПриходаЧекаДляВсехСтрок" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Возврат прихода чеков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить возврат прихода чека для всех строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьВозвратПриходаЧека</Action>
 		</Command>
 	</Commands>
 </Form>
