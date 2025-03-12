@@ -82,7 +82,6 @@
 									<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="364"/>
 									<ChildItems>
 										<Page name="РегистрацияЧеков" id="365">
-											<Enabled>false</Enabled>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -101,6 +100,7 @@
 												<Button name="ДляВсехСтрок_РегистрацияЧека_Приход" id="367">
 													<Type>UsualButton</Type>
 													<Representation>PictureAndText</Representation>
+													<Enabled>false</Enabled>
 													<CommandName>Form.Command.ДляВсехСтрок_РегистрацияЧека_Приход</CommandName>
 													<Title>
 														<v8:item>
@@ -110,12 +110,11 @@
 													</Title>
 													<ExtendedTooltip name="ДляВсехСтрок_РегистрацияЧека_ПриходРасширеннаяПодсказка" id="368"/>
 												</Button>
-												<Button name="ПроверкаСтатусовЧеков" id="369">
+												<Button name="ВыполнитьПроверкуСтатусаЧекаДляВсехСтрок" id="369">
 													<Type>UsualButton</Type>
 													<Representation>PictureAndText</Representation>
-													<Enabled>false</Enabled>
-													<CommandName>Form.Command.ПроверкаСтатусовЧеков</CommandName>
-													<ExtendedTooltip name="ПроверкаСтатусовЧековРасширеннаяПодсказка" id="370"/>
+													<CommandName>Form.Command.ВыполнитьПроверкуСтатусаЧекаДляВсехСтрок</CommandName>
+													<ExtendedTooltip name="ВыполнитьПроверкуСтатусаЧекаДляВсехСтрокРасширеннаяПодсказка" id="370"/>
 												</Button>
 												<UsualGroup name="ГруппаКорректировок1" id="371">
 													<Title>
@@ -139,6 +138,7 @@
 														<Button name="ВозвратПриходаВсехСтрок" id="375">
 															<Type>UsualButton</Type>
 															<Representation>PictureAndText</Representation>
+															<Enabled>false</Enabled>
 															<CommandName>Form.Command.КоррекцияПриходаВсехСтрок</CommandName>
 															<Picture>
 																<xr:Ref>StdPicture.DataHistory</xr:Ref>
@@ -1489,21 +1489,6 @@
 			</ToolTip>
 			<Action>ВыбратьКаталогВременныхФайлов</Action>
 		</Command>
-		<Command name="ПроверкаСтатусовЧеков" id="9">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Проверка статусов чеков</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Проверка статусов чеков</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ПроверкаСтатусовЧеков</Action>
-		</Command>
 		<Command name="ВозвратПриходаВсехСтрок" id="10">
 			<Title>
 				<v8:item>
@@ -1533,6 +1518,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КоррекцияПриходаВсехСтрок</Action>
+		</Command>
+		<Command name="ВыполнитьПроверкуСтатусаЧекаДляВсехСтрок" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить статусы чеков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить проверку статуса чека для всех строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыполнитьПроверкуСтатусаЧека</Action>
 		</Command>
 	</Commands>
 </Form>

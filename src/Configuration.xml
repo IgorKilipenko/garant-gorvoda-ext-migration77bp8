@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.3.5.4-rc1</Version>
+			<Version>2.3.5.5-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -66,6 +66,7 @@
 			<Subsystem>ГП_МиграцияРазработка</Subsystem>
 			<Subsystem>УПЖКХ_УправлениеЛицевымиСчетами</Subsystem>
 			<Subsystem>УПЖКХ_РаботаСПриборамиУчета</Subsystem>
+			<Subsystem>УПЖКХ_НачисленияУслуг</Subsystem>
 			<StyleItem>УПЖКХ_ТекстСправочнойНадписи</StyleItem>
 			<StyleItem>ИтогиФонГруппы</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
@@ -130,6 +131,7 @@
 			<Role>ГП_МиграцияПолныеПрава1</Role>
 			<Role>ГП_МиграцияПолныеПрава2</Role>
 			<Role>ГП_РасширенныйУчетВЖКХ_Использование</Role>
+			<Role>ГП_ВебКассаСчетмашПолныеПрава</Role>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура534</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетЗаказ</CommonTemplate>
 			<CommonTemplate>ГП_ПФ_MXL_СчетФактура1096</CommonTemplate>

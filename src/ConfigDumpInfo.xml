@@ -217,7 +217,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="11346cfd78552210321001e60f114424a0e0b6e0"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="d4a964cc4aab0df03f60afafc13d4a4afbfdd11c"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш" id="438bb286-cbaf-43b4-b0e9-357418e20d91" configVersion="3fc8d1582b732384f9958a81dcd71fc1c26a91a1"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш.ManagerModule" id="438bb286-cbaf-43b4-b0e9-357418e20d91.1" configVersion="6c56d7f5169261a031628feaab6f6573404f1438"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмашДемо" id="a1f41721-c531-45f5-ba63-6a7f136aa3fc" configVersion="249b9899bf57c621dc82b55a06b69228ed5efdde"/>
@@ -378,7 +378,7 @@
 			<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнВ2.TabularSection.ТаблицаИсходныхДанных.Attribute.Документ" id="fdecd8d9-d2f9-420f-b9fc-036b864733e4"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнВ2.Form.Форма" id="e38fc6e2-334b-49e0-bb0d-ad9a5398d1da" configVersion="920c8d82ff871e322343f6d358a7b59f562cb962"/>
-		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнВ2.Form.Форма.Form" id="e38fc6e2-334b-49e0-bb0d-ad9a5398d1da.0" configVersion="e4fb7b7f1d59c7248447cac05cd6ca419157a91c"/>
+		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнВ2.Form.Форма.Form" id="e38fc6e2-334b-49e0-bb0d-ad9a5398d1da.0" configVersion="8a7d05216dddfb27409425f885648eeedb09dcf1"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнВ2.Form.ФормаДоступа" id="21d2560a-1894-4944-b6fe-f8f5c313cf85" configVersion="8e7a55735bd242c9442253d512697b5aa30fd48a"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнВ2.Form.ФормаДоступа.Form" id="21d2560a-1894-4944-b6fe-f8f5c313cf85.0" configVersion="44fdb4718c9f92485c50d3942f529cdb883d78cb"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнВ2.Help" id="36b7af72-1bb6-483d-ad25-3351aa96d0e4.1" configVersion="ad3480837d3798bfcf8bd57e939375914403dcb4"/>
@@ -898,10 +898,12 @@
 		<Metadata name="Report.ГП_СчетчикиБП77.Template.ОсновнаяСхемаКомпоновкиДанных1.Template" id="720ce7ba-eca5-4aaf-8fb9-3d890926683c.0" configVersion="5c3ba609b0a277cf09793a9a063b3d7a89642a6f"/>
 		<Metadata name="Report.КВП_СводнаяВедомость" id="c35c154a-26c8-4ab1-9b80-3be50ab6e117" configVersion="d8f8039b12386fce23fd7f3d6693169a3e89624d"/>
 		<Metadata name="Report.КВП_СводнаяВедомость.ManagerModule" id="c35c154a-26c8-4ab1-9b80-3be50ab6e117.2" configVersion="9634b26455eb34dba4d4cfa94a043b44ce10e617"/>
+		<Metadata name="Role.ГП_ВебКассаСчетмашПолныеПрава" id="c1ef430b-3ff0-4daa-9e98-1dce3ba186e9" configVersion="46afef447ff4fc9d2c05f6edfde6f56999c49830"/>
+		<Metadata name="Role.ГП_ВебКассаСчетмашПолныеПрава.Rights" id="c1ef430b-3ff0-4daa-9e98-1dce3ba186e9.0" configVersion="b43ca2535af7867470858377dc9fd3198f455887"/>
 		<Metadata name="Role.ГП_МиграцияПолныеПрава1" id="d8e15f0e-f291-46db-b83a-6513ece5b628" configVersion="c2f013a54864dacbd2cbe42ae02d1d87c75cac08"/>
-		<Metadata name="Role.ГП_МиграцияПолныеПрава1.Rights" id="d8e15f0e-f291-46db-b83a-6513ece5b628.0" configVersion="6f5f6d58f534fd13b24b5ea49634fc5fa84ab353"/>
+		<Metadata name="Role.ГП_МиграцияПолныеПрава1.Rights" id="d8e15f0e-f291-46db-b83a-6513ece5b628.0" configVersion="c7c7eb54e8f30c8c71f0b0a705b923fceffe78c5"/>
 		<Metadata name="Role.ГП_МиграцияПолныеПрава2" id="deb6cf89-e70d-4ee7-8cda-090273e3dfaa" configVersion="1605ac73973671f508541116f8880f06dee01d9e"/>
-		<Metadata name="Role.ГП_МиграцияПолныеПрава2.Rights" id="deb6cf89-e70d-4ee7-8cda-090273e3dfaa.0" configVersion="120e61adabd72fcf91bbbe49e173d1f54efedec3"/>
+		<Metadata name="Role.ГП_МиграцияПолныеПрава2.Rights" id="deb6cf89-e70d-4ee7-8cda-090273e3dfaa.0" configVersion="09237b7abecedab5ac738df4152ecd6193063b9a"/>
 		<Metadata name="Role.ГП_РасширенныйУчетВЖКХ_Использование" id="9e64a1d6-064f-4828-8cb6-23d1e79f907b" configVersion="c0c2b3eac268a4b014b3d08b0fadcae3d21f4a3a"/>
 		<Metadata name="Role.ГП_РасширенныйУчетВЖКХ_Использование.Rights" id="9e64a1d6-064f-4828-8cb6-23d1e79f907b.0" configVersion="9d15c704b96690f5206f0ab12ad9277db0915dc7"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="785a8ecd-06b1-430d-b7df-5c2aa1d33181" configVersion="913031b993fdbd7b5e258e76571ff4856e9cadaf"/>
@@ -939,6 +941,8 @@
 		<Metadata name="StyleItem.ШрифтЗаголовкаРазделаМонитораРуководителя" id="777f2a17-99be-45da-b647-a94b91865c14" configVersion="a633e36e89b56335304589bdd72d4dfa9531e3d1"/>
 		<Metadata name="Subsystem.ГП_МиграцияРазработка" id="fdc75fdb-9bf5-4f9e-b742-33b858564549" configVersion="4aaa70816ec21869165b8a9661a8b49c8c0330b6"/>
 		<Metadata name="Subsystem.ГП_МиграцияРазработка.CommandInterface" id="fdc75fdb-9bf5-4f9e-b742-33b858564549.1" configVersion="e6194b9fd0d692d26cc4851a0ef90d36a48972b4"/>
+		<Metadata name="Subsystem.УПЖКХ_НачисленияУслуг" id="8f15e34b-428e-4900-9ea4-2049fe76247d" configVersion="5b9665552401f3cf5224d9613280cdfaf55dfea9"/>
+		<Metadata name="Subsystem.УПЖКХ_НачисленияУслуг.Subsystem.УПЖКХ_Оплата" id="8b198068-218f-4e01-aae8-e9f3f3b3ed8d" configVersion="7a94ffbff981060cb0c77f245f67b34f5db1229f"/>
 		<Metadata name="Subsystem.УПЖКХ_РаботаСПриборамиУчета" id="69583307-d4e4-4d4b-9de6-b64f6d2e66cf" configVersion="d21c6d862bc755b6569f6b88b7abd0864d74979e"/>
 		<Metadata name="Subsystem.УПЖКХ_УправлениеЛицевымиСчетами" id="e324e4b1-9a36-4750-9796-4d50e7e498ac" configVersion="96bb7daefb40c2e21afb6420415322498e6b3a9c"/>
 	</ConfigVersions>
