@@ -676,7 +676,6 @@
 														<xr:Ref>CommonPicture.УПЖКХ_ЧекиОтправлены</xr:Ref>
 														<xr:LoadTransparent>true</xr:LoadTransparent>
 													</HeaderPicture>
-													<ShowInFooter>false</ShowInFooter>
 													<TextColor>style:НедоступныеДанныеЦвет</TextColor>
 													<ContextMenu name="СтрокиРегистрацииОплатid_ЧекаКонтекстноеМеню" id="329"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатid_ЧекаРасширеннаяПодсказка" id="330"/>
@@ -706,7 +705,6 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<ShowInFooter>false</ShowInFooter>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>false</ChoiceButton>
 													<ClearButton>false</ClearButton>
@@ -762,7 +760,6 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<ShowInFooter>false</ShowInFooter>
 													<TextColor>style:НедоступныеДанныеЦвет</TextColor>
 													<ContextMenu name="СтрокиРегистрацииОплатexternal_idКонтекстноеМеню" id="314"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатexternal_idРасширеннаяПодсказка" id="315"/>
@@ -792,7 +789,6 @@
 												<InputField name="СтрокиРегистрацииОплатphone" id="319">
 													<DataPath>Объект.СтрокиРегистрацииОплат.phone</DataPath>
 													<EditMode>EnterOnInput</EditMode>
-													<ShowInFooter>false</ShowInFooter>
 													<ContextMenu name="СтрокиРегистрацииОплатphoneКонтекстноеМеню" id="320"/>
 													<ExtendedTooltip name="СтрокиРегистрацииОплатphoneРасширеннаяПодсказка" id="321"/>
 												</InputField>
@@ -857,6 +853,7 @@
 									<ChildItems>
 										<Table name="РасшифровкаСтрокиРегистрацииОплат" id="619">
 											<Representation>List</Representation>
+											<Footer>true</Footer>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -978,6 +975,13 @@
 															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 															<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатАвансКонтекстноеМеню" id="666"/>
 															<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатАвансРасширеннаяПодсказка" id="667"/>
+														</InputField>
+														<InputField name="РасшифровкаСтрокиРегистрацииОплатСуммаНДС" id="713">
+															<DataPath>РасшифровкаСтрокиРегистрацииОплат.СуммаНДС</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСуммаНДСКонтекстноеМеню" id="714"/>
+															<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСуммаНДСРасширеннаяПодсказка" id="715"/>
 														</InputField>
 													</ChildItems>
 												</ColumnGroup>
@@ -1199,6 +1203,21 @@
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
 							<v8:Length>128</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаНДС" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма НДС</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
