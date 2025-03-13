@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.3.6.0-dev1</Version>
+			<Version>2.3.6.1-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -183,11 +183,13 @@
 			<CommonModule>ГП_МиграцияКонтактнойИнформации</CommonModule>
 			<CommonModule>ПриходныйКассовыйОрдерФормы</CommonModule>
 			<CommonModule>ГП_ОбменОФД</CommonModule>
+			<CommonModule>ГП_ОбменОФДПрочиеУслуги</CommonModule>
 			<CommonModule>УПЖКХ_МеханизмыПечатиЧеков</CommonModule>
 			<CommonModule>УПЖКХ_ОбщегоНазначенияСервер</CommonModule>
 			<CommonModule>ГП_СчетмашAPI</CommonModule>
 			<CommonModule>ГП_СчетмашAPIКлиентСервер</CommonModule>
 			<CommonModule>ГП_ВспомогательныеФункцииКлиентСервер</CommonModule>
+			<CommonModule>ГП_ВспомогательныеФункции</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
@@ -264,6 +266,7 @@
 			<DataProcessor>ГП_APIСервисСчетмашОнлайн</DataProcessor>
 			<DataProcessor>РегистрацияСчетовФактурНаАванс</DataProcessor>
 			<DataProcessor>ГП_APIСервисСчетмашОнлайнВ2</DataProcessor>
+			<DataProcessor>ГП_APIСервисСчетмашОнлайнПрочиеУслуги</DataProcessor>
 			<InformationRegister>ГП_СчетчикиБП77</InformationRegister>
 			<InformationRegister>ГП_УслугиБП77</InformationRegister>
 			<InformationRegister>ГП_ПоказанияСчетчиковБП77</InformationRegister>
