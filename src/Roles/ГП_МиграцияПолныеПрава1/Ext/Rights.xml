@@ -4,6 +4,39 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.Услуга</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.email</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ГП_ВключенОсновнойРежимРаботыВебКассыСчетмаш</name>
 		<right>
 			<name>Read</name>
@@ -51,6 +84,61 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.timestamp</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.external_id</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.Сумма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Attribute.УстановленТестовыйРежимРаботы</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.ЭтоАванс</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнВ2</name>
 		<right>
 			<name>Use</name>
@@ -58,6 +146,17 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.Аванс</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -109,6 +208,182 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.external_id</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Attribute.Логин</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Attribute.ДатаОкончания</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.ПризнакПредметаРасчета</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.Лицевойсчет</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.Контрагент</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.type</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.status</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.Контрагент</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.СтавкаНДС</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.Документ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.СуммаНДС</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.Документ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Attribute.Организация</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ГП_КлючАвторизацииСчетмашДемо</name>
 		<right>
 			<name>Read</name>
@@ -156,6 +431,83 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.ВидУслугиПредставление</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.ПризнакСпособаРасчета</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Attribute.ИдентификаторМагазина</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.Сумма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.РасшифровкаРегистрацийОплат.Attribute.ЗначениеСтавкиНДС</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.total</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Attribute.ДатаНачала</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ГП_APIСервисСчетмашОнлайн</name>
 		<right>
 			<name>Use</name>
@@ -163,6 +515,17 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.id_Чека</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -211,6 +574,17 @@
 		<right>
 			<name>Output</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.phone</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 </Rights>

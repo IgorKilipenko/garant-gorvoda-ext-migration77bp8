@@ -3,7 +3,7 @@
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
-			<v8:content>Регистрация чеков(new version)</v8:content>
+			<v8:content>Регистрация чеков</v8:content>
 		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
@@ -986,6 +986,7 @@
 															<DataPath>РасшифровкаСтрокиРегистрацииОплат.Сумма</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<FooterHorizontalAlign>Right</FooterHorizontalAlign>
 															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 															<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСуммаКонтекстноеМеню" id="642"/>
 															<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСуммаРасширеннаяПодсказка" id="643"/>
@@ -994,13 +995,16 @@
 															<DataPath>РасшифровкаСтрокиРегистрацииОплат.Аванс</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<FooterHorizontalAlign>Right</FooterHorizontalAlign>
 															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 															<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатАвансКонтекстноеМеню" id="666"/>
 															<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатАвансРасширеннаяПодсказка" id="667"/>
 														</InputField>
 														<InputField name="РасшифровкаСтрокиРегистрацииОплатСуммаНДС" id="713">
 															<DataPath>РасшифровкаСтрокиРегистрацииОплат.СуммаНДС</DataPath>
+															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<FooterHorizontalAlign>Right</FooterHorizontalAlign>
 															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 															<ContextMenu name="РасшифровкаСтрокиРегистрацииОплатСуммаНДСКонтекстноеМеню" id="714"/>
 															<ExtendedTooltip name="РасшифровкаСтрокиРегистрацииОплатСуммаНДСРасширеннаяПодсказка" id="715"/>

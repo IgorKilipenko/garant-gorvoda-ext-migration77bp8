@@ -109,6 +109,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ГП_КлючАвторизацииСчетмашДемо</name>
 		<right>
 			<name>Read</name>
