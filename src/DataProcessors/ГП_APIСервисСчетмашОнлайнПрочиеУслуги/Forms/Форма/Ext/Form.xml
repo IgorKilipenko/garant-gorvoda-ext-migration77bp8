@@ -373,11 +373,50 @@
 									<v8:content>Группа отборы</v8:content>
 								</v8:item>
 							</ToolTip>
-							<Group>AlwaysHorizontal</Group>
+							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтборыРасширеннаяПодсказка" id="90"/>
 							<ChildItems>
+								<UsualGroup name="ГруппаДополнительныеОтборы" id="718">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа дополнительные отборы</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа дополнительные отборы</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаДополнительныеОтборыРасширеннаяПодсказка" id="719"/>
+									<ChildItems>
+										<InputField name="МассивИсключенийВидовДоговоровДополнительных" id="720">
+											<DataPath>Объект.МассивИсключенийВидовДоговоровДополнительных</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Фильтр (исключая) виды дог-ов (доп.)</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Top</TitleLocation>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="МассивИсключенийВидовДоговоровДополнительныхКонтекстноеМеню" id="721"/>
+											<ExtendedTooltip name="МассивИсключенийВидовДоговоровДополнительныхРасширеннаяПодсказка" id="722"/>
+										</InputField>
+										<InputField name="Контрагент" id="673">
+											<DataPath>Контрагент</DataPath>
+											<ClearButton>true</ClearButton>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="КонтрагентКонтекстноеМеню" id="674"/>
+											<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="675"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 								<UsualGroup name="ГруппаВыборПериода" id="81">
 									<Title>
 										<v8:item>
@@ -396,13 +435,6 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВыборПериодаРасширеннаяПодсказка" id="82"/>
 									<ChildItems>
-										<InputField name="Контрагент" id="673">
-											<DataPath>Контрагент</DataPath>
-											<ClearButton>true</ClearButton>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="КонтрагентКонтекстноеМеню" id="674"/>
-											<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="675"/>
-										</InputField>
 										<InputField name="ДатаНачала" id="83">
 											<DataPath>Объект.ДатаНачала</DataPath>
 											<Title>
@@ -509,20 +541,20 @@
 											<ContextMenu name="БазаДанныхКонтекстноеМеню" id="399"/>
 											<ExtendedTooltip name="БазаДанныхРасширеннаяПодсказка" id="400"/>
 										</InputField>
+										<Button name="ВыполнитьЗаполнениеДанныеОплат" id="93">
+											<Type>UsualButton</Type>
+											<Representation>PictureAndText</Representation>
+											<CommandName>Form.Command.ВыполнитьЗаполнениеДанныеОплат</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заполнить</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ВыполнитьЗаполнениеДанныеОплатРасширеннаяПодсказка" id="94"/>
+										</Button>
 									</ChildItems>
 								</UsualGroup>
-								<Button name="ВыполнитьЗаполнениеДанныеОплат" id="93">
-									<Type>UsualButton</Type>
-									<Representation>PictureAndText</Representation>
-									<CommandName>Form.Command.ВыполнитьЗаполнениеДанныеОплат</CommandName>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Заполнить</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ВыполнитьЗаполнениеДанныеОплатРасширеннаяПодсказка" id="94"/>
-								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ТЧ" id="172">
@@ -1055,6 +1087,7 @@
 			<Save>
 				<Field>Объект.ДатаНачала</Field>
 				<Field>Объект.ДатаОкончания</Field>
+				<Field>Объект.МассивИсключенийВидовДоговоровДополнительных</Field>
 				<Field>Объект.Организация</Field>
 			</Save>
 			<Columns>
