@@ -3,7 +3,7 @@
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
-			<v8:content>Регистрация чеков</v8:content>
+			<v8:content>Регистрация чеков (Прочие услуги)</v8:content>
 		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
@@ -35,9 +35,10 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Основное</v8:content>
+							<v8:content>Прочие услуги</v8:content>
 						</v8:item>
 					</Title>
+					<TitleFont ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
