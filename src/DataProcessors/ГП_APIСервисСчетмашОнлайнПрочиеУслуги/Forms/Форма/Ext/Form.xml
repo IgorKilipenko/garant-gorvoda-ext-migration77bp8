@@ -201,6 +201,7 @@
 																		<Button name="ВыполнитьКоррекциюПрихода" id="389">
 																			<Type>UsualButton</Type>
 																			<Representation>PictureAndText</Representation>
+																			<Enabled>false</Enabled>
 																			<CommandName>Form.Command.ВыполнитьКоррекциюПрихода</CommandName>
 																			<Picture>
 																				<xr:Ref>StdPicture.DataHistory</xr:Ref>
@@ -217,6 +218,7 @@
 																		<Button name="ВыполнитьВозвратПриходаЧека" id="391">
 																			<Type>UsualButton</Type>
 																			<Representation>PictureAndText</Representation>
+																			<Enabled>false</Enabled>
 																			<CommandName>Form.Command.ВыполнитьВозвратПриходаЧека</CommandName>
 																			<Picture>
 																				<xr:Ref>StdPicture.UndoPosting</xr:Ref>
