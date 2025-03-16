@@ -349,16 +349,62 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСостоянияРасширеннаяПодсказка" id="707"/>
 									<ChildItems>
-										<LabelDecoration name="ДекорацияРежимДоступа" id="708">
-											<Title formatted="false">
+										<UsualGroup name="ГруппаСотояниеПоключения" id="744">
+											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Режим доступа</v8:content>
+													<v8:content>Группа сотояние поключения</v8:content>
 												</v8:item>
-											</Title>
-											<ContextMenu name="ДекорацияРежимДоступаКонтекстноеМеню" id="709"/>
-											<ExtendedTooltip name="ДекорацияРежимДоступаРасширеннаяПодсказка" id="710"/>
-										</LabelDecoration>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаСотояниеПоключенияРасширеннаяПодсказка" id="745"/>
+											<ChildItems>
+												<LabelDecoration name="ДекорацияРежимДоступа" id="708">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Режим доступа</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияРежимДоступаКонтекстноеМеню" id="709"/>
+													<ExtendedTooltip name="ДекорацияРежимДоступаРасширеннаяПодсказка" id="710"/>
+												</LabelDecoration>
+												<LabelDecoration name="ДекорацияСтатусПодключенияЗаголовок" id="738">
+													<Visible>false</Visible>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Статус подключения: </v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияСтатусПодключенияЗаголовокКонтекстноеМеню" id="739"/>
+													<ExtendedTooltip name="ДекорацияСтатусПодключенияЗаголовокРасширеннаяПодсказка" id="740"/>
+												</LabelDecoration>
+												<PictureDecoration name="ДекорацияСтатусПодключенияЗначение" id="741">
+													<Visible>false</Visible>
+													<Picture>
+														<xr:Ref>CommonPicture.УПЖКХ_КоллекцияЧекОтправлен</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ContextMenu name="ДекорацияСтатусПодключенияЗначениеКонтекстноеМеню" id="742"/>
+													<ExtendedTooltip name="ДекорацияСтатусПодключенияЗначениеРасширеннаяПодсказка" id="743"/>
+												</PictureDecoration>
+												<PictureField name="СтатусПодключенияЗначение" id="746">
+													<DataPath>СостояниеПодключения</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<HorizontalStretch>false</HorizontalStretch>
+													<VerticalStretch>false</VerticalStretch>
+													<ValuesPicture>
+														<xr:Ref>CommonPicture.УПЖКХ_КоллекцияЧекОтправлен</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</ValuesPicture>
+													<ContextMenu name="СтатусПодключенияЗначениеКонтекстноеМеню" id="747"/>
+													<ExtendedTooltip name="СтатусПодключенияЗначениеРасширеннаяПодсказка" id="748"/>
+												</PictureField>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
 							</ChildItems>
@@ -1395,6 +1441,22 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СостояниеПодключения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние подключения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

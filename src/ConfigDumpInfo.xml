@@ -424,7 +424,7 @@
 			<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.TabularSection.СтрокиРегистрацииОплат.Attribute.phone" id="f69827bd-b888-4c93-b811-9df5bed5bb37"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Form.Форма" id="85d6337b-43a1-46e6-9c39-e271ea17edf2" configVersion="a03d0f5f04a241bd2db1edaf13463bf729282281"/>
-		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Form.Форма.Form" id="85d6337b-43a1-46e6-9c39-e271ea17edf2.0" configVersion="af9fe7ac16ca8f1521aac5a3a5f3b97cd28e2949"/>
+		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Form.Форма.Form" id="85d6337b-43a1-46e6-9c39-e271ea17edf2.0" configVersion="bb560d95728aec4ad75c0f05e58766616861e0ea"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.Help" id="72363e1b-78ab-40af-985f-dd2934f31752.1" configVersion="db0d15a477102b1cf77444bcd20dc25fddf13811"/>
 		<Metadata name="DataProcessor.ГП_APIСервисСчетмашОнлайнПрочиеУслуги.ObjectModule" id="72363e1b-78ab-40af-985f-dd2934f31752.0" configVersion="7fa3d21c3b781169d02feaec4c67a3d7bc6ce0cd"/>
 		<Metadata name="DataProcessor.ГП_ВыгрузкаПоказанийСТАРТ" id="b34330b7-efec-414c-92b8-35b470063181" configVersion="88faec84e48bc8aafc2ace9226a77fd4216fc36b">
