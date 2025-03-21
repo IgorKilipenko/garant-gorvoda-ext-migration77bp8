@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.3.8.0-dev1</Version>
+			<Version>2.3.8.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -160,6 +160,7 @@
 			<CommonModule>ГП_РаботаСФормамиКлиентСервер</CommonModule>
 			<CommonModule>ГП_РаботаСЛицевымиСчетами</CommonModule>
 			<CommonModule>ГП_РегистрацияОплатыСлужебный</CommonModule>
+			<CommonModule>ГП_РегистрацияОплатыСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ГП_МиграцияСчетчиковОИ</CommonModule>
 			<CommonModule>ГП_МиграцияСчетчиковПотериВоды</CommonModule>
 			<CommonModule>ГП_НазначениеУслуг</CommonModule>
@@ -190,7 +191,6 @@
 			<CommonModule>ГП_СчетмашAPIКлиентСервер</CommonModule>
 			<CommonModule>ГП_ВспомогательныеФункцииКлиентСервер</CommonModule>
 			<CommonModule>ГП_ВспомогательныеФункции</CommonModule>
-			<CommonModule>ГП_РегистрацияОплатыСлужебныйКлиентСервер</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
