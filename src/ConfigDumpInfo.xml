@@ -162,7 +162,7 @@
 		<Metadata name="CommonModule.ГП_РаботаСФормамиКлиентСервер" id="9dd64aa4-2ab3-4c3c-8be9-fa1000a07834" configVersion="0e3b3ac2bb6739b32035b61f978b0244363e2f57"/>
 		<Metadata name="CommonModule.ГП_РаботаСФормамиКлиентСервер.Module" id="9dd64aa4-2ab3-4c3c-8be9-fa1000a07834.0" configVersion="93e0a547ab4a87a7aa78444d5b03c24487706998"/>
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный" id="34c816ec-c726-4aee-9b43-08da739f5c15" configVersion="16638a5e74879db9b940c09de8220806fc65081d"/>
-		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный.Module" id="34c816ec-c726-4aee-9b43-08da739f5c15.0" configVersion="6abf9dc8b2ceae27000e3d539cabff114f7dfb6a"/>
+		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебный.Module" id="34c816ec-c726-4aee-9b43-08da739f5c15.0" configVersion="c28f7ed5a77dbccb9b996e7e111b1d947a0846fd"/>
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебныйКлиентСервер" id="1832e7b2-537e-4177-ab95-58bb02a2971e" configVersion="7a2fbfa5d3b0c707a5c347e0d1080e82bc6ccbac"/>
 		<Metadata name="CommonModule.ГП_РегистрацияОплатыСлужебныйКлиентСервер.Module" id="1832e7b2-537e-4177-ab95-58bb02a2971e.0" configVersion="5c3071c2712f7a015b1fa90e3fbe056d34033b9e"/>
 		<Metadata name="CommonModule.ГП_СчетмашAPI" id="7da6da19-b4e6-4dd5-b7ef-63167e26bce6" configVersion="61f9e00a2412ed498912fee612457b2e2a63934c"/>
@@ -221,7 +221,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="7027f010b34df71ff9ed5c2b75fc599c8f3085e6"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="d1d32c681c8905918989390aefceb3ea3c444fb7"/>
 		<Metadata name="Constant.ГП_ВключенОсновнойРежимРаботыВебКассыСчетмаш" id="15305909-185c-461e-942a-e7a9a2b85de1" configVersion="6d84bf88b2488ff44869405935417263a1cbb17d"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш" id="438bb286-cbaf-43b4-b0e9-357418e20d91" configVersion="3fc8d1582b732384f9958a81dcd71fc1c26a91a1"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш.ManagerModule" id="438bb286-cbaf-43b4-b0e9-357418e20d91.1" configVersion="6c56d7f5169261a031628feaab6f6573404f1438"/>
@@ -522,7 +522,7 @@
 		<Metadata name="Document.КВП_РазовоеНачислениеУслуг.ObjectModule" id="6d4521a7-ac8c-4f29-a1aa-e01bf565e8c3.0" configVersion="dfd9f2085a2cbab1ff2f31fc20972b079d724245"/>
 		<Metadata name="Document.КВП_РегистрацияОплаты" id="9f93e9c9-ab03-4e5b-a5f8-351d69cbe52b" configVersion="a1cd4988bf7cf27f228ca445dea2e18e8dbf265c"/>
 		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента" id="226fc755-c8b6-446a-9c82-7dbf1cb283db" configVersion="e00052b0b44059512c8e7c8a171a77d01804a031"/>
-		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента.Form" id="226fc755-c8b6-446a-9c82-7dbf1cb283db.0" configVersion="6ffe00a2c28c750e60860e191fd09dc174360d07"/>
+		<Metadata name="Document.КВП_РегистрацияОплаты.Form.ФормаДокумента.Form" id="226fc755-c8b6-446a-9c82-7dbf1cb283db.0" configVersion="2090f6af703bb073ef531bc5229a3501d8ef9d53"/>
 		<Metadata name="Document.КВП_РегистрацияОплаты.ManagerModule" id="9f93e9c9-ab03-4e5b-a5f8-351d69cbe52b.2" configVersion="3deee18b42b2aa24463b53070043c6fb47cd4963"/>
 		<Metadata name="Document.КВП_РегистрацияОплаты.ObjectModule" id="9f93e9c9-ab03-4e5b-a5f8-351d69cbe52b.0" configVersion="c24a069f11d8281e23edc1a68ed4fa68d49f8588"/>
 		<Metadata name="Document.КВП_УстановкаСчетчика" id="ef910a01-e439-460d-b43f-fcb8bba86704" configVersion="ee40d76105932cbea9423b034af4780d89210bd2"/>
