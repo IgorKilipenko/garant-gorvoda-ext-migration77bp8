@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.3.9.0-rc1</Version>
+			<Version>2.4.0.0-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -128,6 +128,8 @@
 			<CommonPicture>СтрелкаВправо</CommonPicture>
 			<CommonPicture>ОчиститьЗначение</CommonPicture>
 			<CommonPicture>Шестеренка</CommonPicture>
+			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
+			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
 			<Role>ГП_МиграцияПолныеПрава1</Role>
 			<Role>ГП_МиграцияПолныеПрава2</Role>
 			<Role>ГП_РасширенныйУчетВЖКХ_Использование</Role>

@@ -1,0 +1,2727 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ИзменитьИдентификатор" id="386">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Change</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Изменить значение идентификатора</v8:content>
+					</v8:item>
+				</Title>
+				<RepresentationInContextMenu>None</RepresentationInContextMenu>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ИзменитьИдентификаторРасширеннаяПодсказка" id="387"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="390d5e4b-e732-4c88-8748-9e211a416984" callType="After">ГП_ПриЧтенииНаСервереПосле</Event>
+		<Event name="OnCreateAtServer" callType="Before">ГП_ПриСозданииНаСервереПеред</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ПанельИнформации" id="48">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель информации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель информации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnLeftHorizontal</PagesRepresentation>
+			<ExtendedTooltip name="ПанельИнформацииExtendedTooltip" id="148"/>
+			<ChildItems>
+				<Page name="Общая" id="49">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общие данные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОбщаяExtendedTooltip" id="149"/>
+					<ChildItems>
+						<InputField name="Родитель" id="5">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="РодительExtendedTooltip" id="150"/>
+						</InputField>
+						<InputField name="Наименование" id="3">
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+							<ExtendedTooltip name="НаименованиеExtendedTooltip" id="152"/>
+						</InputField>
+						<LabelField name="ТекЗдание" id="56">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Здание</v8:content>
+								</v8:item>
+							</Title>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ТекЗданиеКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ТекЗданиеExtendedTooltip" id="157"/>
+						</LabelField>
+						<LabelField name="Адрес" id="7">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Помещение</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="АдресКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="АдресExtendedTooltip" id="158"/>
+						</LabelField>
+						<LabelField name="ТекВладелецОбъекта" id="89">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ответственный собственник, 
+наниматель</v8:content>
+								</v8:item>
+							</Title>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Height>1</Height>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ТекВладелецОбъектаКонтекстноеМеню" id="90"/>
+							<ExtendedTooltip name="ТекВладелецОбъектаExtendedTooltip" id="182"/>
+						</LabelField>
+						<UsualGroup name="ГруппаКоличествоЖильцов" id="265">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа количество жильцов</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа количество жильцов</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКоличествоЖильцовРасширеннаяПодсказка" id="266"/>
+							<ChildItems>
+								<InputField name="КоличествоПроживающих" id="64">
+									<ReadOnly>true</ReadOnly>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КоличествоПроживающихКонтекстноеМеню" id="65"/>
+									<ExtendedTooltip name="КоличествоПроживающихExtendedTooltip" id="162"/>
+								</InputField>
+								<InputField name="КоличествоЗарегистрированных" id="66">
+									<ReadOnly>true</ReadOnly>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КоличествоЗарегистрированныхКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="КоличествоЗарегистрированныхРасширеннаяПодсказка" id="163"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДатаОткрытияЗакрытия" id="58">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дата открытия закрытия</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дата открытия закрытия</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДатаОткрытияЗакрытияExtendedTooltip" id="164"/>
+							<ChildItems>
+								<InputField name="ДатаОткрытия" id="59">
+									<ReadOnly>true</ReadOnly>
+									<ChoiceButton>false</ChoiceButton>
+									<OpenButton>true</OpenButton>
+									<ContextMenu name="ДатаОткрытияКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="ДатаОткрытияExtendedTooltip" id="165"/>
+								</InputField>
+								<InputField name="ДатаЗакрытия" id="61">
+									<ReadOnly>true</ReadOnly>
+									<ChoiceButton>false</ChoiceButton>
+									<OpenButton>true</OpenButton>
+									<ContextMenu name="ДатаЗакрытияКонтекстноеМеню" id="62"/>
+									<ExtendedTooltip name="ДатаЗакрытияExtendedTooltip" id="166"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДанныеДляВзаиморасчетов" id="70">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сведения для взаиморасчетов</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сведения для взаиморасчетов</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаДанныеДляВзаиморасчетовExtendedTooltip" id="168"/>
+							<ChildItems>
+								<Button name="ОткрытьСведенияДляВзаиморасчетов" id="252">
+									<Type>Hyperlink</Type>
+									<CommandName>0</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>История изменения</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОткрытьСведенияДляВзаиморасчетовРасширеннаяПодсказка" id="253"/>
+								</Button>
+								<LabelField name="ТекОрганизация" id="257">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Организация</v8:content>
+										</v8:item>
+									</Title>
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="ТекОрганизацияКонтекстноеМеню" id="258"/>
+									<ExtendedTooltip name="ТекОрганизацияРасширеннаяПодсказка" id="259"/>
+								</LabelField>
+								<LabelField name="ТекКонтрагент" id="254">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контрагент</v8:content>
+										</v8:item>
+									</Title>
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="ТекКонтрагентКонтекстноеМеню" id="255"/>
+									<ExtendedTooltip name="ТекКонтрагентРасширеннаяПодсказка" id="256"/>
+								</LabelField>
+								<LabelField name="ТекДоговор" id="260">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Договор контрагента</v8:content>
+										</v8:item>
+									</Title>
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="ТекДоговорКонтекстноеМеню" id="261"/>
+									<ExtendedTooltip name="ТекДоговорРасширеннаяПодсказка" id="262"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДанныеОСобственности" id="75">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Данные о собственности</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные о собственности</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаДанныеОСобственностиExtendedTooltip" id="172"/>
+							<ChildItems>
+								<LabelField name="ТекВидСобственности" id="76">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вид собственности</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ТекВидСобственностиКонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="ТекВидСобственностиExtendedTooltip" id="173"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДоляСобственности" id="78">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа доля собственности</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ThroughAlign>DontUse</ThroughAlign>
+							<ExtendedTooltip name="ГруппаДоляСобственностиExtendedTooltip" id="174"/>
+							<ChildItems>
+								<InputField name="ДоляЛСЧислитель" id="79">
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доля собственности Л/С</v8:content>
+										</v8:item>
+									</Title>
+									<Width>5</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<ContextMenu name="ДоляЛСЧислительКонтекстноеМеню" id="80"/>
+									<ExtendedTooltip name="ДоляЛСЧислительExtendedTooltip" id="175"/>
+								</InputField>
+								<LabelDecoration name="ДекорацияДробь" id="85">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>/</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияДробьКонтекстноеМеню" id="86"/>
+									<ExtendedTooltip name="ДекорацияДробьExtendedTooltip" id="176"/>
+								</LabelDecoration>
+								<InputField name="ДоляЛСЗнаменатель" id="81">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<Width>5</Width>
+									<ContextMenu name="ДоляЛСЗнаменательКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="ДоляЛСЗнаменательExtendedTooltip" id="177"/>
+								</InputField>
+								<LabelDecoration name="ДекорацияРавно" id="87">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>=</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияРавноКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="ДекорацияРавноExtendedTooltip" id="178"/>
+								</LabelDecoration>
+								<InputField name="ДоляЛС" id="83">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<Width>5</Width>
+									<ContextMenu name="ДоляЛСКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ДоляЛСExtendedTooltip" id="179"/>
+								</InputField>
+								<Button name="ИзменитьДолюЛС" id="100">
+									<Type>UsualButton</Type>
+									<CommandName>0</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Изменить</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИзменитьДолюЛСExtendedTooltip" id="180"/>
+								</Button>
+								<Button name="ИсторияДолиЛС" id="101">
+									<Type>Hyperlink</Type>
+									<CommandName>0</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>История</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ИсторияДолиЛСExtendedTooltip" id="181"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаАдресДоставки" id="99">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки квитанций</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont ref="style:LargeTextFont" kind="StyleItem" scale="90"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки квитанций</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ThroughAlign>DontUse</ThroughAlign>
+							<ExtendedTooltip name="ГруппаАдресДоставкиExtendedTooltip" id="159"/>
+							<ChildItems>
+								<LabelField name="КонтактнаяИнформацияПолеУПЖКХ_АдресДоставкиСчетовИКвитанцийЛицевогоСчета" id="27">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Адрес доставки счетов
+и квитанций</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Left</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="КонтактнаяИнформацияПолеУПЖКХ_АдресДоставкиСчетовИКвитанцийЛицевогоСчетаКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="КонтактнаяИнформацияПолеУПЖКХ_АдресДоставкиСчетовИКвитанцийЛицевогоСчетаРасширеннаяПодсказка" id="160"/>
+								</LabelField>
+								<CheckBoxField name="НеПечататьКвитанцииНаБумажныхНосителях" id="278">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Печать квитанций на бумажных носителях</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Данный признак позволяет подобрать лицевые счета при печати платежных документов. Подбор доступен при выборе варианта «Подбор объектов» в поле «Объекты» платежных документов.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<CheckBoxType>Tumbler</CheckBoxType>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>БЛ=Печатать; БИ='Не печатать'</v8:content>
+										</v8:item>
+									</EditFormat>
+									<ContextMenu name="НеПечататьКвитанцииНаБумажныхНосителяхКонтекстноеМеню" id="279"/>
+									<ExtendedTooltip name="НеПечататьКвитанцииНаБумажныхНосителяхРасширеннаяПодсказка" id="280"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПрочее" id="97">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Прочее</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont ref="style:LargeTextFont" kind="StyleItem" scale="90"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа прочее</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаПрочееРасширеннаяПодсказка" id="154"/>
+							<ChildItems>
+								<InputField name="Идентификатор" id="9">
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<ContextMenu name="ИдентификаторКонтекстноеМеню" id="10"/>
+									<ExtendedTooltip name="ИдентификаторExtendedTooltip" id="155">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Идентификатор лицевого счета используется при загрузке реестров платежей и показаний счетчиков, а также для обмена 
+с банковскими сервисами, мобильным приложением, сайтом ЖКХ, ГИС ЖКХ, ОСЗН, системой Город.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</InputField>
+								<Button name="ЗаполнитьИдентификатор" id="96">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<CommandName>0</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="ЗаполнитьИдентификаторExtendedTooltip" id="156"/>
+								</Button>
+								<InputField name="Код" id="1">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="КодExtendedTooltip" id="153"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="КИ" id="341">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контакты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КИ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КИРасширеннаяПодсказка" id="342"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаТелефонИЭлектроннаяПочта" id="329">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Телефон и email лицевого счета</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа телефон и электронная почта</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаТелефонИЭлектроннаяПочтаРасширеннаяПодсказка" id="330"/>
+							<ChildItems>
+								<InputField name="Телефон" id="331">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ТелефонКонтекстноеМеню" id="332"/>
+									<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="333"/>
+								</InputField>
+								<UsualGroup name="ГруппаЭлектроннаяПочта" id="334">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа электронная почта</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа электронная почта</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЭлектроннаяПочтаРасширеннаяПодсказка" id="335"/>
+									<ChildItems>
+										<InputField name="АдресЭлектроннойПочты" id="336">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Email</v8:content>
+												</v8:item>
+											</Title>
+											<Width>20</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>example@server.ru</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="АдресЭлектроннойПочтыКонтекстноеМеню" id="337"/>
+											<ExtendedTooltip name="АдресЭлектроннойПочтыРасширеннаяПодсказка" id="338"/>
+										</InputField>
+										<Button name="СоздатьЭлектронноеПисьмо" id="339">
+											<Type>UsualButton</Type>
+											<Representation>Picture</Representation>
+											<CommandName>0</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ЭлектронноеПисьмо</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="СоздатьЭлектронноеПисьмоРасширеннаяПодсказка" id="340"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаКИСобственников" id="343">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Телефоны, email собственников и жильцов</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаКИСобственниковРасширеннаяПодсказка" id="344"/>
+							<ChildItems>
+								<Table name="КИСобственников" id="345">
+									<Representation>List</Representation>
+									<CommandBarLocation>None</CommandBarLocation>
+									<ReadOnly>true</ReadOnly>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<SelectionMode>SingleRow</SelectionMode>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<FileDragMode>AsFile</FileDragMode>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контактная информация собственников</v8:content>
+										</v8:item>
+									</Title>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="КИСобственниковКонтекстноеМеню" id="346"/>
+									<AutoCommandBar name="КИСобственниковКоманднаяПанель" id="347"/>
+									<ExtendedTooltip name="КИСобственниковРасширеннаяПодсказка" id="348"/>
+									<SearchStringAddition name="КИСобственниковСтрокаПоиска" id="349">
+										<AdditionSource>
+											<Item>КИСобственников</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="КИСобственниковСтрокаПоискаКонтекстноеМеню" id="350"/>
+										<ExtendedTooltip name="КИСобственниковСтрокаПоискаРасширеннаяПодсказка" id="351"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="КИСобственниковСостояниеПросмотра" id="352">
+										<AdditionSource>
+											<Item>КИСобственников</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="КИСобственниковСостояниеПросмотраКонтекстноеМеню" id="353"/>
+										<ExtendedTooltip name="КИСобственниковСостояниеПросмотраРасширеннаяПодсказка" id="354"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="КИСобственниковУправлениеПоиском" id="355">
+										<AdditionSource>
+											<Item>КИСобственников</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="КИСобственниковУправлениеПоискомКонтекстноеМеню" id="356"/>
+										<ExtendedTooltip name="КИСобственниковУправлениеПоискомРасширеннаяПодсказка" id="357"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="КИСобственниковПредставление" id="358">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ФИО/Наименование</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<CellHyperlink>true</CellHyperlink>
+											<AutoCellHeight>true</AutoCellHeight>
+											<Font ref="style:NormalTextFont" bold="false" italic="false" underline="true" strikeout="false" kind="StyleItem"/>
+											<ContextMenu name="КИСобственниковПредставлениеКонтекстноеМеню" id="359"/>
+											<ExtendedTooltip name="КИСобственниковПредставлениеРасширеннаяПодсказка" id="360"/>
+										</LabelField>
+										<InputField name="КИСобственниковТелефоны" id="361">
+											<EditMode>EnterOnInput</EditMode>
+											<AutoCellHeight>true</AutoCellHeight>
+											<ContextMenu name="КИСобственниковТелефоныКонтекстноеМеню" id="362"/>
+											<ExtendedTooltip name="КИСобственниковТелефоныРасширеннаяПодсказка" id="363"/>
+										</InputField>
+										<ColumnGroup name="КИСобственниковГруппаАдресов" id="376">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Email</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отправка email</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>InCell</Group>
+											<ExtendedTooltip name="КИСобственниковГруппаАдресовРасширеннаяПодсказка" id="377"/>
+											<ChildItems>
+												<PictureField name="КИСобственниковКартинкаОтправки" id="373">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Картинка email</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>None</TitleLocation>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Создать электронное письмо</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+													<EditMode>EnterOnInput</EditMode>
+													<CellHyperlink>true</CellHyperlink>
+													<AutoCellHeight>true</AutoCellHeight>
+													<HeaderPicture>
+														<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</HeaderPicture>
+													<PictureSize>Proportionally</PictureSize>
+													<ValuesPicture>
+														<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</ValuesPicture>
+													<FileDragMode>AsFile</FileDragMode>
+													<ContextMenu name="КИСобственниковКартинкаОтправкиКонтекстноеМеню" id="374"/>
+													<ExtendedTooltip name="КИСобственниковКартинкаОтправкиРасширеннаяПодсказка" id="375"/>
+												</PictureField>
+												<InputField name="КИСобственниковАдресаЭлектроннойПочты" id="364">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Email</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoCellHeight>true</AutoCellHeight>
+													<ContextMenu name="КИСобственниковАдресаЭлектроннойПочтыКонтекстноеМеню" id="365"/>
+													<ExtendedTooltip name="КИСобственниковАдресаЭлектроннойПочтыРасширеннаяПодсказка" id="366"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<InputField name="КИСобственниковСсылка" id="367">
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="КИСобственниковСсылкаКонтекстноеМеню" id="368"/>
+											<ExtendedTooltip name="КИСобственниковСсылкаРасширеннаяПодсказка" id="369"/>
+										</InputField>
+										<InputField name="КИСобственниковОтступ" id="370">
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отступ</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="КИСобственниковОтступКонтекстноеМеню" id="371"/>
+											<ExtendedTooltip name="КИСобственниковОтступРасширеннаяПодсказка" id="372"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Документы" id="50">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные по документам</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДокументыExtendedTooltip" id="183"/>
+					<ChildItems>
+						<InputField name="ДатаДоговораОПриватизации" id="11">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаДоговораОПриватизацииКонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="ДатаДоговораОПриватизацииExtendedTooltip" id="184"/>
+						</InputField>
+						<InputField name="ДатаВыдачиДокНаЖилье" id="13">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата выдачи документа на жилье</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаВыдачиДокНаЖильеКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ДатаВыдачиДокНаЖильеExtendedTooltip" id="185"/>
+						</InputField>
+						<InputField name="ДокументОснованиеЛС" id="19">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Документ-основание</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="ДокументОснованиеЛСКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ДокументОснованиеЛСExtendedTooltip" id="189"/>
+						</InputField>
+						<InputField name="НомерДоговораОПриватизации" id="21">
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ContextMenu name="НомерДоговораОПриватизацииКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="НомерДоговораОПриватизацииExtendedTooltip" id="190"/>
+						</InputField>
+						<InputField name="НомерОрдераДокумента" id="23">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер ордера и др. докум.</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ContextMenu name="НомерОрдераДокументаКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="НомерОрдераДокументаExtendedTooltip" id="191"/>
+						</InputField>
+						<UsualGroup name="ГруппаПриостановкаРегистрационныхДействий" id="384">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа приостановка регистрационных действий</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа приостановка регистрационных действий</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПриостановкаРегистрационныхДействийРасширеннаяПодсказка" id="385"/>
+							<ChildItems>
+								<CheckBoxField name="ПриостановкаРегистрационныхДействий" id="378">
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПриостановкаРегистрационныхДействийКонтекстноеМеню" id="379"/>
+									<ExtendedTooltip name="ПриостановкаРегистрационныхДействийРасширеннаяПодсказка" id="380"/>
+								</CheckBoxField>
+								<InputField name="ОснованиеПриостановкиРегистрационныхДействий" id="381">
+									<ContextMenu name="ОснованиеПриостановкиРегистрационныхДействийКонтекстноеМеню" id="382"/>
+									<ExtendedTooltip name="ОснованиеПриостановкиРегистрационныхДействийРасширеннаяПодсказка" id="383"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНормыПотребленияУслуг" id="51">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нормы потребления услуг</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нормы потребления услуг</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаНормыПотребленияУслугРасширеннаяПодсказка" id="192"/>
+					<ChildItems>
+						<Table name="НормыПотребленияУслуг" id="296">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="НормыПотребленияУслугКонтекстноеМеню" id="297"/>
+							<AutoCommandBar name="НормыПотребленияУслугКоманднаяПанель" id="298">
+								<ChildItems>
+									<Button name="КнопкаПоказатьВсеНормы" id="327">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать все</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КнопкаПоказатьВсеНормыРасширеннаяПодсказка" id="328"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="НормыПотребленияУслугРасширеннаяПодсказка" id="299"/>
+							<SearchStringAddition name="НормыПотребленияУслугСтрокаПоиска" id="300">
+								<AdditionSource>
+									<Item>НормыПотребленияУслуг</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НормыПотребленияУслугСтрокаПоискаКонтекстноеМеню" id="301"/>
+								<ExtendedTooltip name="НормыПотребленияУслугСтрокаПоискаРасширеннаяПодсказка" id="302"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НормыПотребленияУслугСостояниеПросмотра" id="303">
+								<AdditionSource>
+									<Item>НормыПотребленияУслуг</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НормыПотребленияУслугСостояниеПросмотраКонтекстноеМеню" id="304"/>
+								<ExtendedTooltip name="НормыПотребленияУслугСостояниеПросмотраРасширеннаяПодсказка" id="305"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НормыПотребленияУслугУправлениеПоиском" id="306">
+								<AdditionSource>
+									<Item>НормыПотребленияУслуг</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НормыПотребленияУслугУправлениеПоискомКонтекстноеМеню" id="307"/>
+								<ExtendedTooltip name="НормыПотребленияУслугУправлениеПоискомРасширеннаяПодсказка" id="308"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="НормыПотребленияУслугПериод" id="312">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НормыПотребленияУслугПериодКонтекстноеМеню" id="313"/>
+									<ExtendedTooltip name="НормыПотребленияУслугПериодРасширеннаяПодсказка" id="314"/>
+								</InputField>
+								<InputField name="НормыПотребленияУслугУслуга" id="315">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НормыПотребленияУслугУслугаКонтекстноеМеню" id="316"/>
+									<ExtendedTooltip name="НормыПотребленияУслугУслугаРасширеннаяПодсказка" id="317"/>
+								</InputField>
+								<InputField name="НормыПотребленияУслугНормаПотребления" id="318">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НормыПотребленияУслугНормаПотребленияКонтекстноеМеню" id="319"/>
+									<ExtendedTooltip name="НормыПотребленияУслугНормаПотребленияРасширеннаяПодсказка" id="320"/>
+								</InputField>
+								<InputField name="НормыПотребленияУслугРазмер" id="321">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НормыПотребленияУслугРазмерКонтекстноеМеню" id="322"/>
+									<ExtendedTooltip name="НормыПотребленияУслугРазмерРасширеннаяПодсказка" id="323"/>
+								</InputField>
+								<CheckBoxField name="НормыПотребленияУслугАктуальность" id="324">
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НормыПотребленияУслугАктуальностьКонтекстноеМеню" id="325"/>
+									<ExtendedTooltip name="НормыПотребленияУслугАктуальностьРасширеннаяПодсказка" id="326"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Комнаты" id="52">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комнаты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комнаты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КомнатыExtendedTooltip" id="200"/>
+					<ChildItems>
+						<Table name="СвязанныеКомнаты" id="119">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СвязанныеКомнатыКонтекстноеМеню" id="120"/>
+							<AutoCommandBar name="СвязанныеКомнатыКоманднаяПанель" id="121">
+								<ChildItems>
+									<Button name="СвязанныеКомнатыОбновитьСписокКомнат" id="126">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>0</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.Refresh</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обновить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СвязанныеКомнатыОбновитьСписокКомнатExtendedTooltip" id="201"/>
+									</Button>
+									<Button name="ИзменитьДолюЛС1" id="127">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ИзменитьДолюЛС1ExtendedTooltip" id="202"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СвязанныеКомнатыExtendedTooltip" id="203"/>
+							<SearchStringAddition name="СвязанныеКомнатыСтрокаПоиска" id="238">
+								<AdditionSource>
+									<Item>СвязанныеКомнаты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СвязанныеКомнатыСтрокаПоискаКонтекстноеМеню" id="239"/>
+								<ExtendedTooltip name="СвязанныеКомнатыСтрокаПоискаРасширеннаяПодсказка" id="240"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СвязанныеКомнатыСостояниеПросмотра" id="241">
+								<AdditionSource>
+									<Item>СвязанныеКомнаты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СвязанныеКомнатыСостояниеПросмотраКонтекстноеМеню" id="242"/>
+								<ExtendedTooltip name="СвязанныеКомнатыСостояниеПросмотраРасширеннаяПодсказка" id="243"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СвязанныеКомнатыУправлениеПоиском" id="244">
+								<AdditionSource>
+									<Item>СвязанныеКомнаты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СвязанныеКомнатыУправлениеПоискомКонтекстноеМеню" id="245"/>
+								<ExtendedTooltip name="СвязанныеКомнатыУправлениеПоискомРасширеннаяПодсказка" id="246"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СвязанныеКомнатыКомната" id="122">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СвязанныеКомнатыКомнатаКонтекстноеМеню" id="123"/>
+									<ExtendedTooltip name="СвязанныеКомнатыКомнатаExtendedTooltip" id="204"/>
+								</InputField>
+								<InputField name="СвязанныеКомнатыПлощадь" id="124">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СвязанныеКомнатыПлощадьКонтекстноеМеню" id="125"/>
+									<ExtendedTooltip name="СвязанныеКомнатыПлощадьExtendedTooltip" id="205"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СведенияОСобственнике" id="53">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения о собственнике</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения о собственнике</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СведенияОСобственникеExtendedTooltip" id="206"/>
+					<ChildItems>
+						<LabelField name="Собственник" id="91">
+							<TitleLocation>None</TitleLocation>
+							<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+							<ContextMenu name="СобственникКонтекстноеМеню" id="92"/>
+							<ExtendedTooltip name="СобственникExtendedTooltip" id="207"/>
+						</LabelField>
+						<UsualGroup name="ГруппаДанныеДляДоступаНаСайт" id="93">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Данные для доступа на сайт</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные для доступа на сайт</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаДанныеДляДоступаНаСайтExtendedTooltip" id="208"/>
+							<ChildItems>
+								<InputField name="Идентификатор1" id="94">
+									<Enabled>false</Enabled>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Логин</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Идентификатор1КонтекстноеМеню" id="95"/>
+									<ExtendedTooltip name="Идентификатор1ExtendedTooltip" id="209"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДокументыСобственника" id="147">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Данные по документу, удостоверяющему личность</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа документы собственника</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаДокументыСобственникаExtendedTooltip" id="213"/>
+							<ChildItems>
+								<Pages name="ПанельСобственник" id="130">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Панель собственник</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Панель собственник</v8:content>
+										</v8:item>
+									</ToolTip>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="ПанельСобственникExtendedTooltip" id="214"/>
+									<ChildItems>
+										<Page name="СтраницаПроживающий" id="131">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница проживающий</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница проживающий</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="СтраницаПроживающийExtendedTooltip" id="215"/>
+											<ChildItems>
+												<InputField name="ВидДокумента" id="133">
+													<ReadOnly>true</ReadOnly>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ВидДокументаКонтекстноеМеню" id="134"/>
+													<ExtendedTooltip name="ВидДокументаExtendedTooltip" id="216"/>
+												</InputField>
+												<InputField name="СерияДокумента" id="135">
+													<ReadOnly>true</ReadOnly>
+													<Width>15</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="СерияДокументаКонтекстноеМеню" id="136"/>
+													<ExtendedTooltip name="СерияДокументаExtendedTooltip" id="217"/>
+												</InputField>
+												<InputField name="НомерДокумента" id="137">
+													<ReadOnly>true</ReadOnly>
+													<Width>15</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="НомерДокументаКонтекстноеМеню" id="138"/>
+													<ExtendedTooltip name="НомерДокументаExtendedTooltip" id="218"/>
+												</InputField>
+												<InputField name="ДатаВыдачиДокумента" id="139">
+													<ReadOnly>true</ReadOnly>
+													<ContextMenu name="ДатаВыдачиДокументаКонтекстноеМеню" id="140"/>
+													<ExtendedTooltip name="ДатаВыдачиДокументаExtendedTooltip" id="219"/>
+												</InputField>
+												<InputField name="КемВыданДокумент" id="141">
+													<ReadOnly>true</ReadOnly>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<AutoMaxHeight>false</AutoMaxHeight>
+													<ContextMenu name="КемВыданДокументКонтекстноеМеню" id="142"/>
+													<ExtendedTooltip name="КемВыданДокументExtendedTooltip" id="220"/>
+												</InputField>
+												<InputField name="КодПодразделения" id="143">
+													<ReadOnly>true</ReadOnly>
+													<Width>15</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="КодПодразделенияКонтекстноеМеню" id="144"/>
+													<ExtendedTooltip name="КодПодразделенияExtendedTooltip" id="221"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+										<Page name="СтраницаКонтрагент" id="132">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница контрагент</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница контрагент</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="СтраницаКонтрагентExtendedTooltip" id="222"/>
+											<ChildItems>
+												<InputField name="ДокументУдостоверяющийЛичность" id="145">
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Документ удостоверяющий личность</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Top</TitleLocation>
+													<ContextMenu name="ДокументУдостоверяющийЛичностьКонтекстноеМеню" id="146"/>
+													<ExtendedTooltip name="ДокументУдостоверяющийЛичностьExtendedTooltip" id="223"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СведенияДляГИСЖКХ" id="267">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения для ГИС ЖКХ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения для ГИСЖКХ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СведенияДляГИСЖКХРасширеннаяПодсказка" id="268"/>
+					<ChildItems>
+						<InputField name="ЕдиныйЛицевойСчет" id="275">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="ЕдиныйЛицевойСчетКонтекстноеМеню" id="276"/>
+							<ExtendedTooltip name="ЕдиныйЛицевойСчетРасширеннаяПодсказка" id="277"/>
+						</InputField>
+						<InputField name="ИдентификаторЖКУ" id="269">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<ContextMenu name="ИдентификаторЖКУКонтекстноеМеню" id="270"/>
+							<ExtendedTooltip name="ИдентификаторЖКУРасширеннаяПодсказка" id="271"/>
+						</InputField>
+						<LabelDecoration name="ДекорацияПояснениеИДЖКУ" id="272">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификатор ЖКУ используется для идентификации лицевого счета в ГИС ЖКХ при выгрузке платежных документов и присваивается на стороне ГИС ЖКХ при первой выгрузке лицевого счета.
+</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияПояснениеИДЖКУКонтекстноеМеню" id="273"/>
+							<ExtendedTooltip name="ДекорацияПояснениеИДЖКУРасширеннаяПодсказка" id="274"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаИдентификаторыКР" id="285">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификаторы лицевых счетов капитального ремонта</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа идентификаторы КР</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Collapsible</Behavior>
+							<CollapsedRepresentationTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификаторы отдельных лицевых счетов капитального ремонта</v8:content>
+								</v8:item>
+							</CollapsedRepresentationTitle>
+							<Collapsed>true</Collapsed>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<ExtendedTooltip name="ГруппаИдентификаторыКРРасширеннаяПодсказка" id="286"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияПояснениеОтдельныхИдентификаторовКР" id="287">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>В случае, когда организация ведет раздельный учет услуг капитального ремонта (КР), и печатает отдельные платежные документы по капитальному ремонту, необходимо заполнить идентификаторы лицевых счетов капитального ремонта:
+- Если лицевой счет создан &lt;b&gt;только для начисления услуг капитального ремонта&lt;/&gt;, то выгрузку в ГИС лицевых счетов необходимо выполнять с установленной настройкой "Выгружать лицевые счета капитального ремонта", а загрузку идентификаторов по таким лицевым счетам необходимо выполнять с установленной настройкой "Загружать идентификаторы лицевых счетов капитального ремонта". При этом при загрузке идентификаторов будут заполняться идентификаторы ЕЛС КР и ЖКУ КР.
+
+- Если для начисления услуг капитального ремонта &lt;b&gt;отдельные лицевые счета не создаются&lt;/&gt;, но при этом печатаются отдельные &lt;b&gt;платежные документы по КР&lt;/&gt;, то выгрузку таких лицевых счетов, а также загрузку идентификаторов таких лицевых счетов необходимо выполнить дважды:
+1) Выполнить выгрузку лицевых счетов с установленной настройкой "Выгружать лицевые счета капитального ремонта", а затем загрузить с портала ГИС идентификаторы лицевых счетов КР, выбрав настройку "Загружать идентификаторы лицевых счетов капитального ремонта". При этом при загрузке идентификаторов будут заполняться идентификаторы ЕЛС КР и ЖКУ КР.
+2) Выполнить выгрузку лицевых счетов с установленной настройкой "Выгружать лицевые счета управляющей организации", а затем загрузить с портала ГИС идентификаторы лицевых счетов УО, выбрав настройку "Загружать идентификаторы лицевых счетов управляющей организации". При этом при загрузке идентификаторов будут заполняться идентификаторы ЕЛС и ЖКУ.
+Таким образом в ГИС ЖКХ будут созданы 2 лицевых счета с разными типами (ЛС УО и ЛС КР), но с одинаковым наименованием.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияПояснениеОтдельныхИдентификаторовКРКонтекстноеМеню" id="288"/>
+									<ExtendedTooltip name="ДекорацияПояснениеОтдельныхИдентификаторовКРРасширеннаяПодсказка" id="289"/>
+								</LabelDecoration>
+								<InputField name="ЕдиныйЛицевойСчетКР" id="290">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="ЕдиныйЛицевойСчетКРКонтекстноеМеню" id="291"/>
+									<ExtendedTooltip name="ЕдиныйЛицевойСчетКРРасширеннаяПодсказка" id="292"/>
+								</InputField>
+								<InputField name="ИдентификаторЖКУКР" id="293">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<ContextMenu name="ИдентификаторЖКУКРКонтекстноеМеню" id="294"/>
+									<ExtendedTooltip name="ИдентификаторЖКУКРРасширеннаяПодсказка" id="295"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаДополнительныеРеквизиты" id="283">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительные реквизиты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="284"/>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>НормыПотребленияУслугПериод</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НормыПотребленияУслугУслуга</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НормыПотребленияУслугНормаПотребления</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НормыПотребленияУслугРазмер</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">НормыПотребленияУслуг.Актуальность</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:Gray</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.18">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ИзменитьИдентификатор" id="386">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.Change</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменить значение идентификатора</v8:content>
+						</v8:item>
+					</Title>
+					<RepresentationInContextMenu>None</RepresentationInContextMenu>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ИзменитьИдентификаторРасширеннаяПодсказка" id="387"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<Pages name="ПанельИнформации" id="48">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Панель информации</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Панель информации</v8:content>
+					</v8:item>
+				</ToolTip>
+				<PagesRepresentation>TabsOnLeftHorizontal</PagesRepresentation>
+				<ExtendedTooltip name="ПанельИнформацииExtendedTooltip" id="148"/>
+				<ChildItems>
+					<Page name="Общая" id="49">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Общие данные</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Общая</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ОбщаяExtendedTooltip" id="149"/>
+						<ChildItems>
+							<InputField name="Родитель" id="5">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="РодительExtendedTooltip" id="150"/>
+							</InputField>
+							<InputField name="Наименование" id="3">
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+								<ExtendedTooltip name="НаименованиеExtendedTooltip" id="152"/>
+							</InputField>
+							<LabelField name="ТекЗдание" id="56">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Здание</v8:content>
+									</v8:item>
+								</Title>
+								<Hiperlink>true</Hiperlink>
+								<ContextMenu name="ТекЗданиеКонтекстноеМеню" id="57"/>
+								<ExtendedTooltip name="ТекЗданиеExtendedTooltip" id="157"/>
+							</LabelField>
+							<LabelField name="Адрес" id="7">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Помещение</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Hiperlink>true</Hiperlink>
+								<ContextMenu name="АдресКонтекстноеМеню" id="8"/>
+								<ExtendedTooltip name="АдресExtendedTooltip" id="158"/>
+							</LabelField>
+							<LabelField name="ТекВладелецОбъекта" id="89">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Ответственный собственник, 
+наниматель</v8:content>
+									</v8:item>
+								</Title>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Height>1</Height>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<Hiperlink>true</Hiperlink>
+								<ContextMenu name="ТекВладелецОбъектаКонтекстноеМеню" id="90"/>
+								<ExtendedTooltip name="ТекВладелецОбъектаExtendedTooltip" id="182"/>
+							</LabelField>
+							<UsualGroup name="ГруппаКоличествоЖильцов" id="265">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа количество жильцов</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа количество жильцов</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаКоличествоЖильцовРасширеннаяПодсказка" id="266"/>
+								<ChildItems>
+									<InputField name="КоличествоПроживающих" id="64">
+										<ReadOnly>true</ReadOnly>
+										<HorizontalAlign>Center</HorizontalAlign>
+										<Width>3</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КоличествоПроживающихКонтекстноеМеню" id="65"/>
+										<ExtendedTooltip name="КоличествоПроживающихExtendedTooltip" id="162"/>
+									</InputField>
+									<InputField name="КоличествоЗарегистрированных" id="66">
+										<ReadOnly>true</ReadOnly>
+										<HorizontalAlign>Center</HorizontalAlign>
+										<Width>3</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КоличествоЗарегистрированныхКонтекстноеМеню" id="67"/>
+										<ExtendedTooltip name="КоличествоЗарегистрированныхРасширеннаяПодсказка" id="163"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаДатаОткрытияЗакрытия" id="58">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа дата открытия закрытия</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа дата открытия закрытия</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаДатаОткрытияЗакрытияExtendedTooltip" id="164"/>
+								<ChildItems>
+									<InputField name="ДатаОткрытия" id="59">
+										<ReadOnly>true</ReadOnly>
+										<ChoiceButton>false</ChoiceButton>
+										<OpenButton>true</OpenButton>
+										<ContextMenu name="ДатаОткрытияКонтекстноеМеню" id="60"/>
+										<ExtendedTooltip name="ДатаОткрытияExtendedTooltip" id="165"/>
+									</InputField>
+									<InputField name="ДатаЗакрытия" id="61">
+										<ReadOnly>true</ReadOnly>
+										<ChoiceButton>false</ChoiceButton>
+										<OpenButton>true</OpenButton>
+										<ContextMenu name="ДатаЗакрытияКонтекстноеМеню" id="62"/>
+										<ExtendedTooltip name="ДатаЗакрытияExtendedTooltip" id="166"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаДанныеДляВзаиморасчетов" id="70">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сведения для взаиморасчетов</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа сведения для взаиморасчетов</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаДанныеДляВзаиморасчетовExtendedTooltip" id="168"/>
+								<ChildItems>
+									<Button name="ОткрытьСведенияДляВзаиморасчетов" id="252">
+										<Type>Hyperlink</Type>
+										<CommandName>0</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>История изменения</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ОткрытьСведенияДляВзаиморасчетовРасширеннаяПодсказка" id="253"/>
+									</Button>
+									<LabelField name="ТекОрганизация" id="257">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Организация</v8:content>
+											</v8:item>
+										</Title>
+										<Hiperlink>true</Hiperlink>
+										<ContextMenu name="ТекОрганизацияКонтекстноеМеню" id="258"/>
+										<ExtendedTooltip name="ТекОрганизацияРасширеннаяПодсказка" id="259"/>
+									</LabelField>
+									<LabelField name="ТекКонтрагент" id="254">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Контрагент</v8:content>
+											</v8:item>
+										</Title>
+										<Hiperlink>true</Hiperlink>
+										<ContextMenu name="ТекКонтрагентКонтекстноеМеню" id="255"/>
+										<ExtendedTooltip name="ТекКонтрагентРасширеннаяПодсказка" id="256"/>
+									</LabelField>
+									<LabelField name="ТекДоговор" id="260">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Договор контрагента</v8:content>
+											</v8:item>
+										</Title>
+										<Hiperlink>true</Hiperlink>
+										<ContextMenu name="ТекДоговорКонтекстноеМеню" id="261"/>
+										<ExtendedTooltip name="ТекДоговорРасширеннаяПодсказка" id="262"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаДанныеОСобственности" id="75">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Данные о собственности</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа данные о собственности</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаДанныеОСобственностиExtendedTooltip" id="172"/>
+								<ChildItems>
+									<LabelField name="ТекВидСобственности" id="76">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Вид собственности</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ТекВидСобственностиКонтекстноеМеню" id="77"/>
+										<ExtendedTooltip name="ТекВидСобственностиExtendedTooltip" id="173"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаДоляСобственности" id="78">
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа доля собственности</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ThroughAlign>DontUse</ThroughAlign>
+								<ExtendedTooltip name="ГруппаДоляСобственностиExtendedTooltip" id="174"/>
+								<ChildItems>
+									<InputField name="ДоляЛСЧислитель" id="79">
+										<ReadOnly>true</ReadOnly>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Доля собственности Л/С</v8:content>
+											</v8:item>
+										</Title>
+										<Width>5</Width>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<ContextMenu name="ДоляЛСЧислительКонтекстноеМеню" id="80"/>
+										<ExtendedTooltip name="ДоляЛСЧислительExtendedTooltip" id="175"/>
+									</InputField>
+									<LabelDecoration name="ДекорацияДробь" id="85">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>/</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияДробьКонтекстноеМеню" id="86"/>
+										<ExtendedTooltip name="ДекорацияДробьExtendedTooltip" id="176"/>
+									</LabelDecoration>
+									<InputField name="ДоляЛСЗнаменатель" id="81">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<Width>5</Width>
+										<ContextMenu name="ДоляЛСЗнаменательКонтекстноеМеню" id="82"/>
+										<ExtendedTooltip name="ДоляЛСЗнаменательExtendedTooltip" id="177"/>
+									</InputField>
+									<LabelDecoration name="ДекорацияРавно" id="87">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>=</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияРавноКонтекстноеМеню" id="88"/>
+										<ExtendedTooltip name="ДекорацияРавноExtendedTooltip" id="178"/>
+									</LabelDecoration>
+									<InputField name="ДоляЛС" id="83">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<Width>5</Width>
+										<ContextMenu name="ДоляЛСКонтекстноеМеню" id="84"/>
+										<ExtendedTooltip name="ДоляЛСExtendedTooltip" id="179"/>
+									</InputField>
+									<Button name="ИзменитьДолюЛС" id="100">
+										<Type>UsualButton</Type>
+										<CommandName>0</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ИзменитьДолюЛСExtendedTooltip" id="180"/>
+									</Button>
+									<Button name="ИсторияДолиЛС" id="101">
+										<Type>Hyperlink</Type>
+										<CommandName>0</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>История</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ИсторияДолиЛСExtendedTooltip" id="181"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаАдресДоставки" id="99">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настройки квитанций</v8:content>
+									</v8:item>
+								</Title>
+								<TitleFont ref="style:LargeTextFont" kind="StyleItem" scale="90"/>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа настройки квитанций</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ThroughAlign>DontUse</ThroughAlign>
+								<ExtendedTooltip name="ГруппаАдресДоставкиExtendedTooltip" id="159"/>
+								<ChildItems>
+									<LabelField name="КонтактнаяИнформацияПолеУПЖКХ_АдресДоставкиСчетовИКвитанцийЛицевогоСчета" id="27">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Адрес доставки счетов
+и квитанций</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Left</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<Hiperlink>true</Hiperlink>
+										<ContextMenu name="КонтактнаяИнформацияПолеУПЖКХ_АдресДоставкиСчетовИКвитанцийЛицевогоСчетаКонтекстноеМеню" id="28"/>
+										<ExtendedTooltip name="КонтактнаяИнформацияПолеУПЖКХ_АдресДоставкиСчетовИКвитанцийЛицевогоСчетаРасширеннаяПодсказка" id="160"/>
+									</LabelField>
+									<CheckBoxField name="НеПечататьКвитанцииНаБумажныхНосителях" id="278">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Печать квитанций на бумажных носителях</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Данный признак позволяет подобрать лицевые счета при печати платежных документов. Подбор доступен при выборе варианта «Подбор объектов» в поле «Объекты» платежных документов.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<CheckBoxType>Tumbler</CheckBoxType>
+										<EditFormat>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>БЛ=Печатать; БИ='Не печатать'</v8:content>
+											</v8:item>
+										</EditFormat>
+										<ContextMenu name="НеПечататьКвитанцииНаБумажныхНосителяхКонтекстноеМеню" id="279"/>
+										<ExtendedTooltip name="НеПечататьКвитанцииНаБумажныхНосителяхРасширеннаяПодсказка" id="280"/>
+									</CheckBoxField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаПрочее" id="97">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Прочее</v8:content>
+									</v8:item>
+								</Title>
+								<TitleFont ref="style:LargeTextFont" kind="StyleItem" scale="90"/>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа прочее</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="ГруппаПрочееРасширеннаяПодсказка" id="154"/>
+								<ChildItems>
+									<InputField name="Идентификатор" id="9">
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<ContextMenu name="ИдентификаторКонтекстноеМеню" id="10"/>
+										<ExtendedTooltip name="ИдентификаторExtendedTooltip" id="155">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идентификатор лицевого счета используется при загрузке реестров платежей и показаний счетчиков, а также для обмена 
+с банковскими сервисами, мобильным приложением, сайтом ЖКХ, ГИС ЖКХ, ОСЗН, системой Город.</v8:content>
+												</v8:item>
+											</Title>
+										</ExtendedTooltip>
+									</InputField>
+									<Button name="ЗаполнитьИдентификатор" id="96">
+										<Type>UsualButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>0</CommandName>
+										<Picture>
+											<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ЗаполнитьИдентификаторExtendedTooltip" id="156"/>
+									</Button>
+									<InputField name="Код" id="1">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+										<ExtendedTooltip name="КодExtendedTooltip" id="153"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="КИ" id="341">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Контакты</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>КИ</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="КИРасширеннаяПодсказка" id="342"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаТелефонИЭлектроннаяПочта" id="329">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Телефон и email лицевого счета</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа телефон и электронная почта</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаТелефонИЭлектроннаяПочтаРасширеннаяПодсказка" id="330"/>
+								<ChildItems>
+									<InputField name="Телефон" id="331">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>20</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ТелефонКонтекстноеМеню" id="332"/>
+										<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="333"/>
+									</InputField>
+									<UsualGroup name="ГруппаЭлектроннаяПочта" id="334">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа электронная почта</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа электронная почта</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаЭлектроннаяПочтаРасширеннаяПодсказка" id="335"/>
+										<ChildItems>
+											<InputField name="АдресЭлектроннойПочты" id="336">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Email</v8:content>
+													</v8:item>
+												</Title>
+												<Width>20</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>example@server.ru</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="АдресЭлектроннойПочтыКонтекстноеМеню" id="337"/>
+												<ExtendedTooltip name="АдресЭлектроннойПочтыРасширеннаяПодсказка" id="338"/>
+											</InputField>
+											<Button name="СоздатьЭлектронноеПисьмо" id="339">
+												<Type>UsualButton</Type>
+												<Representation>Picture</Representation>
+												<CommandName>0</CommandName>
+												<Picture>
+													<xr:Ref>CommonPicture.ЭлектронноеПисьмо</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="СоздатьЭлектронноеПисьмоРасширеннаяПодсказка" id="340"/>
+											</Button>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаКИСобственников" id="343">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Телефоны, email собственников и жильцов</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаКИСобственниковРасширеннаяПодсказка" id="344"/>
+								<ChildItems>
+									<Table name="КИСобственников" id="345">
+										<Representation>List</Representation>
+										<CommandBarLocation>None</CommandBarLocation>
+										<ReadOnly>true</ReadOnly>
+										<ChangeRowSet>false</ChangeRowSet>
+										<ChangeRowOrder>false</ChangeRowOrder>
+										<SelectionMode>SingleRow</SelectionMode>
+										<RowSelectionMode>Row</RowSelectionMode>
+										<UseAlternationRowColor>true</UseAlternationRowColor>
+										<AutoInsertNewRow>true</AutoInsertNewRow>
+										<FileDragMode>AsFile</FileDragMode>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Контактная информация собственников</v8:content>
+											</v8:item>
+										</Title>
+										<RowFilter xsi:nil="true"/>
+										<ContextMenu name="КИСобственниковКонтекстноеМеню" id="346"/>
+										<AutoCommandBar name="КИСобственниковКоманднаяПанель" id="347"/>
+										<ExtendedTooltip name="КИСобственниковРасширеннаяПодсказка" id="348"/>
+										<SearchStringAddition name="КИСобственниковСтрокаПоиска" id="349">
+											<AdditionSource>
+												<Item>КИСобственников</Item>
+												<Type>SearchStringRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="КИСобственниковСтрокаПоискаКонтекстноеМеню" id="350"/>
+											<ExtendedTooltip name="КИСобственниковСтрокаПоискаРасширеннаяПодсказка" id="351"/>
+										</SearchStringAddition>
+										<ViewStatusAddition name="КИСобственниковСостояниеПросмотра" id="352">
+											<AdditionSource>
+												<Item>КИСобственников</Item>
+												<Type>ViewStatusRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="КИСобственниковСостояниеПросмотраКонтекстноеМеню" id="353"/>
+											<ExtendedTooltip name="КИСобственниковСостояниеПросмотраРасширеннаяПодсказка" id="354"/>
+										</ViewStatusAddition>
+										<SearchControlAddition name="КИСобственниковУправлениеПоиском" id="355">
+											<AdditionSource>
+												<Item>КИСобственников</Item>
+												<Type>SearchControl</Type>
+											</AdditionSource>
+											<ContextMenu name="КИСобственниковУправлениеПоискомКонтекстноеМеню" id="356"/>
+											<ExtendedTooltip name="КИСобственниковУправлениеПоискомРасширеннаяПодсказка" id="357"/>
+										</SearchControlAddition>
+										<ChildItems>
+											<LabelField name="КИСобственниковПредставление" id="358">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>ФИО/Наименование</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<CellHyperlink>true</CellHyperlink>
+												<AutoCellHeight>true</AutoCellHeight>
+												<Font ref="style:NormalTextFont" bold="false" italic="false" underline="true" strikeout="false" kind="StyleItem"/>
+												<ContextMenu name="КИСобственниковПредставлениеКонтекстноеМеню" id="359"/>
+												<ExtendedTooltip name="КИСобственниковПредставлениеРасширеннаяПодсказка" id="360"/>
+											</LabelField>
+											<InputField name="КИСобственниковТелефоны" id="361">
+												<EditMode>EnterOnInput</EditMode>
+												<AutoCellHeight>true</AutoCellHeight>
+												<ContextMenu name="КИСобственниковТелефоныКонтекстноеМеню" id="362"/>
+												<ExtendedTooltip name="КИСобственниковТелефоныРасширеннаяПодсказка" id="363"/>
+											</InputField>
+											<ColumnGroup name="КИСобственниковГруппаАдресов" id="376">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Email</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Отправка email</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>InCell</Group>
+												<ExtendedTooltip name="КИСобственниковГруппаАдресовРасширеннаяПодсказка" id="377"/>
+												<ChildItems>
+													<PictureField name="КИСобственниковКартинкаОтправки" id="373">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Картинка email</v8:content>
+															</v8:item>
+														</Title>
+														<TitleLocation>None</TitleLocation>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Создать электронное письмо</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+														<EditMode>EnterOnInput</EditMode>
+														<CellHyperlink>true</CellHyperlink>
+														<AutoCellHeight>true</AutoCellHeight>
+														<HeaderPicture>
+															<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</HeaderPicture>
+														<PictureSize>Proportionally</PictureSize>
+														<ValuesPicture>
+															<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</ValuesPicture>
+														<FileDragMode>AsFile</FileDragMode>
+														<ContextMenu name="КИСобственниковКартинкаОтправкиКонтекстноеМеню" id="374"/>
+														<ExtendedTooltip name="КИСобственниковКартинкаОтправкиРасширеннаяПодсказка" id="375"/>
+													</PictureField>
+													<InputField name="КИСобственниковАдресаЭлектроннойПочты" id="364">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Email</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<AutoCellHeight>true</AutoCellHeight>
+														<ContextMenu name="КИСобственниковАдресаЭлектроннойПочтыКонтекстноеМеню" id="365"/>
+														<ExtendedTooltip name="КИСобственниковАдресаЭлектроннойПочтыРасширеннаяПодсказка" id="366"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+											<InputField name="КИСобственниковСсылка" id="367">
+												<Visible>false</Visible>
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="КИСобственниковСсылкаКонтекстноеМеню" id="368"/>
+												<ExtendedTooltip name="КИСобственниковСсылкаРасширеннаяПодсказка" id="369"/>
+											</InputField>
+											<InputField name="КИСобственниковОтступ" id="370">
+												<ReadOnly>true</ReadOnly>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Отступ</v8:content>
+													</v8:item>
+												</Title>
+												<TitleLocation>None</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="КИСобственниковОтступКонтекстноеМеню" id="371"/>
+												<ExtendedTooltip name="КИСобственниковОтступРасширеннаяПодсказка" id="372"/>
+											</InputField>
+										</ChildItems>
+									</Table>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="Документы" id="50">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Данные по документам</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Документы</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ДокументыExtendedTooltip" id="183"/>
+						<ChildItems>
+							<InputField name="ДатаДоговораОПриватизации" id="11">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ДатаДоговораОПриватизацииКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="ДатаДоговораОПриватизацииExtendedTooltip" id="184"/>
+							</InputField>
+							<InputField name="ДатаВыдачиДокНаЖилье" id="13">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата выдачи документа на жилье</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ДатаВыдачиДокНаЖильеКонтекстноеМеню" id="14"/>
+								<ExtendedTooltip name="ДатаВыдачиДокНаЖильеExtendedTooltip" id="185"/>
+							</InputField>
+							<InputField name="ДокументОснованиеЛС" id="19">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Документ-основание</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<HorizontalStretch>true</HorizontalStretch>
+								<ContextMenu name="ДокументОснованиеЛСКонтекстноеМеню" id="20"/>
+								<ExtendedTooltip name="ДокументОснованиеЛСExtendedTooltip" id="189"/>
+							</InputField>
+							<InputField name="НомерДоговораОПриватизации" id="21">
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ContextMenu name="НомерДоговораОПриватизацииКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="НомерДоговораОПриватизацииExtendedTooltip" id="190"/>
+							</InputField>
+							<InputField name="НомерОрдераДокумента" id="23">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Номер ордера и др. докум.</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ContextMenu name="НомерОрдераДокументаКонтекстноеМеню" id="24"/>
+								<ExtendedTooltip name="НомерОрдераДокументаExtendedTooltip" id="191"/>
+							</InputField>
+							<UsualGroup name="ГруппаПриостановкаРегистрационныхДействий" id="384">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа приостановка регистрационных действий</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа приостановка регистрационных действий</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаПриостановкаРегистрационныхДействийРасширеннаяПодсказка" id="385"/>
+								<ChildItems>
+									<CheckBoxField name="ПриостановкаРегистрационныхДействий" id="378">
+										<TitleLocation>Right</TitleLocation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ПриостановкаРегистрационныхДействийКонтекстноеМеню" id="379"/>
+										<ExtendedTooltip name="ПриостановкаРегистрационныхДействийРасширеннаяПодсказка" id="380"/>
+									</CheckBoxField>
+									<InputField name="ОснованиеПриостановкиРегистрационныхДействий" id="381">
+										<ContextMenu name="ОснованиеПриостановкиРегистрационныхДействийКонтекстноеМеню" id="382"/>
+										<ExtendedTooltip name="ОснованиеПриостановкиРегистрационныхДействийРасширеннаяПодсказка" id="383"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаНормыПотребленияУслуг" id="51">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Нормы потребления услуг</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Нормы потребления услуг</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="СтраницаНормыПотребленияУслугРасширеннаяПодсказка" id="192"/>
+						<ChildItems>
+							<Table name="НормыПотребленияУслуг" id="296">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="НормыПотребленияУслугКонтекстноеМеню" id="297"/>
+								<AutoCommandBar name="НормыПотребленияУслугКоманднаяПанель" id="298">
+									<ChildItems>
+										<Button name="КнопкаПоказатьВсеНормы" id="327">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Показать все</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КнопкаПоказатьВсеНормыРасширеннаяПодсказка" id="328"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="НормыПотребленияУслугРасширеннаяПодсказка" id="299"/>
+								<SearchStringAddition name="НормыПотребленияУслугСтрокаПоиска" id="300">
+									<AdditionSource>
+										<Item>НормыПотребленияУслуг</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="НормыПотребленияУслугСтрокаПоискаКонтекстноеМеню" id="301"/>
+									<ExtendedTooltip name="НормыПотребленияУслугСтрокаПоискаРасширеннаяПодсказка" id="302"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="НормыПотребленияУслугСостояниеПросмотра" id="303">
+									<AdditionSource>
+										<Item>НормыПотребленияУслуг</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="НормыПотребленияУслугСостояниеПросмотраКонтекстноеМеню" id="304"/>
+									<ExtendedTooltip name="НормыПотребленияУслугСостояниеПросмотраРасширеннаяПодсказка" id="305"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="НормыПотребленияУслугУправлениеПоиском" id="306">
+									<AdditionSource>
+										<Item>НормыПотребленияУслуг</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="НормыПотребленияУслугУправлениеПоискомКонтекстноеМеню" id="307"/>
+									<ExtendedTooltip name="НормыПотребленияУслугУправлениеПоискомРасширеннаяПодсказка" id="308"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="НормыПотребленияУслугПериод" id="312">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НормыПотребленияУслугПериодКонтекстноеМеню" id="313"/>
+										<ExtendedTooltip name="НормыПотребленияУслугПериодРасширеннаяПодсказка" id="314"/>
+									</InputField>
+									<InputField name="НормыПотребленияУслугУслуга" id="315">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НормыПотребленияУслугУслугаКонтекстноеМеню" id="316"/>
+										<ExtendedTooltip name="НормыПотребленияУслугУслугаРасширеннаяПодсказка" id="317"/>
+									</InputField>
+									<InputField name="НормыПотребленияУслугНормаПотребления" id="318">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НормыПотребленияУслугНормаПотребленияКонтекстноеМеню" id="319"/>
+										<ExtendedTooltip name="НормыПотребленияУслугНормаПотребленияРасширеннаяПодсказка" id="320"/>
+									</InputField>
+									<InputField name="НормыПотребленияУслугРазмер" id="321">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НормыПотребленияУслугРазмерКонтекстноеМеню" id="322"/>
+										<ExtendedTooltip name="НормыПотребленияУслугРазмерРасширеннаяПодсказка" id="323"/>
+									</InputField>
+									<CheckBoxField name="НормыПотребленияУслугАктуальность" id="324">
+										<Visible>false</Visible>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="НормыПотребленияУслугАктуальностьКонтекстноеМеню" id="325"/>
+										<ExtendedTooltip name="НормыПотребленияУслугАктуальностьРасширеннаяПодсказка" id="326"/>
+									</CheckBoxField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="Комнаты" id="52">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Комнаты</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Комнаты</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="КомнатыExtendedTooltip" id="200"/>
+						<ChildItems>
+							<Table name="СвязанныеКомнаты" id="119">
+								<Representation>List</Representation>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="СвязанныеКомнатыКонтекстноеМеню" id="120"/>
+								<AutoCommandBar name="СвязанныеКомнатыКоманднаяПанель" id="121">
+									<ChildItems>
+										<Button name="СвязанныеКомнатыОбновитьСписокКомнат" id="126">
+											<Type>CommandBarButton</Type>
+											<Representation>PictureAndText</Representation>
+											<CommandName>0</CommandName>
+											<Picture>
+												<xr:Ref>StdPicture.Refresh</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Обновить</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СвязанныеКомнатыОбновитьСписокКомнатExtendedTooltip" id="201"/>
+										</Button>
+										<Button name="ИзменитьДолюЛС1" id="127">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Изменить</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ИзменитьДолюЛС1ExtendedTooltip" id="202"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="СвязанныеКомнатыExtendedTooltip" id="203"/>
+								<SearchStringAddition name="СвязанныеКомнатыСтрокаПоиска" id="238">
+									<AdditionSource>
+										<Item>СвязанныеКомнаты</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СвязанныеКомнатыСтрокаПоискаКонтекстноеМеню" id="239"/>
+									<ExtendedTooltip name="СвязанныеКомнатыСтрокаПоискаРасширеннаяПодсказка" id="240"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="СвязанныеКомнатыСостояниеПросмотра" id="241">
+									<AdditionSource>
+										<Item>СвязанныеКомнаты</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СвязанныеКомнатыСостояниеПросмотраКонтекстноеМеню" id="242"/>
+									<ExtendedTooltip name="СвязанныеКомнатыСостояниеПросмотраРасширеннаяПодсказка" id="243"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="СвязанныеКомнатыУправлениеПоиском" id="244">
+									<AdditionSource>
+										<Item>СвязанныеКомнаты</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="СвязанныеКомнатыУправлениеПоискомКонтекстноеМеню" id="245"/>
+									<ExtendedTooltip name="СвязанныеКомнатыУправлениеПоискомРасширеннаяПодсказка" id="246"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="СвязанныеКомнатыКомната" id="122">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СвязанныеКомнатыКомнатаКонтекстноеМеню" id="123"/>
+										<ExtendedTooltip name="СвязанныеКомнатыКомнатаExtendedTooltip" id="204"/>
+									</InputField>
+									<InputField name="СвязанныеКомнатыПлощадь" id="124">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СвязанныеКомнатыПлощадьКонтекстноеМеню" id="125"/>
+										<ExtendedTooltip name="СвязанныеКомнатыПлощадьExtendedTooltip" id="205"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="СведенияОСобственнике" id="53">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сведения о собственнике</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сведения о собственнике</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="СведенияОСобственникеExtendedTooltip" id="206"/>
+						<ChildItems>
+							<LabelField name="Собственник" id="91">
+								<TitleLocation>None</TitleLocation>
+								<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								<ContextMenu name="СобственникКонтекстноеМеню" id="92"/>
+								<ExtendedTooltip name="СобственникExtendedTooltip" id="207"/>
+							</LabelField>
+							<UsualGroup name="ГруппаДанныеДляДоступаНаСайт" id="93">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Данные для доступа на сайт</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа данные для доступа на сайт</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаДанныеДляДоступаНаСайтExtendedTooltip" id="208"/>
+								<ChildItems>
+									<InputField name="Идентификатор1" id="94">
+										<Enabled>false</Enabled>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Логин</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Идентификатор1КонтекстноеМеню" id="95"/>
+										<ExtendedTooltip name="Идентификатор1ExtendedTooltip" id="209"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаДокументыСобственника" id="147">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Данные по документу, удостоверяющему личность</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа документы собственника</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаДокументыСобственникаExtendedTooltip" id="213"/>
+								<ChildItems>
+									<Pages name="ПанельСобственник" id="130">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Панель собственник</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Панель собственник</v8:content>
+											</v8:item>
+										</ToolTip>
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="ПанельСобственникExtendedTooltip" id="214"/>
+										<ChildItems>
+											<Page name="СтраницаПроживающий" id="131">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница проживающий</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница проживающий</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="СтраницаПроживающийExtendedTooltip" id="215"/>
+												<ChildItems>
+													<InputField name="ВидДокумента" id="133">
+														<ReadOnly>true</ReadOnly>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ВидДокументаКонтекстноеМеню" id="134"/>
+														<ExtendedTooltip name="ВидДокументаExtendedTooltip" id="216"/>
+													</InputField>
+													<InputField name="СерияДокумента" id="135">
+														<ReadOnly>true</ReadOnly>
+														<Width>15</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="СерияДокументаКонтекстноеМеню" id="136"/>
+														<ExtendedTooltip name="СерияДокументаExtendedTooltip" id="217"/>
+													</InputField>
+													<InputField name="НомерДокумента" id="137">
+														<ReadOnly>true</ReadOnly>
+														<Width>15</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="НомерДокументаКонтекстноеМеню" id="138"/>
+														<ExtendedTooltip name="НомерДокументаExtendedTooltip" id="218"/>
+													</InputField>
+													<InputField name="ДатаВыдачиДокумента" id="139">
+														<ReadOnly>true</ReadOnly>
+														<ContextMenu name="ДатаВыдачиДокументаКонтекстноеМеню" id="140"/>
+														<ExtendedTooltip name="ДатаВыдачиДокументаExtendedTooltip" id="219"/>
+													</InputField>
+													<InputField name="КемВыданДокумент" id="141">
+														<ReadOnly>true</ReadOnly>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<AutoMaxHeight>false</AutoMaxHeight>
+														<ContextMenu name="КемВыданДокументКонтекстноеМеню" id="142"/>
+														<ExtendedTooltip name="КемВыданДокументExtendedTooltip" id="220"/>
+													</InputField>
+													<InputField name="КодПодразделения" id="143">
+														<ReadOnly>true</ReadOnly>
+														<Width>15</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="КодПодразделенияКонтекстноеМеню" id="144"/>
+														<ExtendedTooltip name="КодПодразделенияExtendedTooltip" id="221"/>
+													</InputField>
+												</ChildItems>
+											</Page>
+											<Page name="СтраницаКонтрагент" id="132">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница контрагент</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница контрагент</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="СтраницаКонтрагентExtendedTooltip" id="222"/>
+												<ChildItems>
+													<InputField name="ДокументУдостоверяющийЛичность" id="145">
+														<ReadOnly>true</ReadOnly>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Документ удостоверяющий личность</v8:content>
+															</v8:item>
+														</Title>
+														<TitleLocation>Top</TitleLocation>
+														<ContextMenu name="ДокументУдостоверяющийЛичностьКонтекстноеМеню" id="146"/>
+														<ExtendedTooltip name="ДокументУдостоверяющийЛичностьExtendedTooltip" id="223"/>
+													</InputField>
+												</ChildItems>
+											</Page>
+										</ChildItems>
+									</Pages>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СведенияДляГИСЖКХ" id="267">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сведения для ГИС ЖКХ</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сведения для ГИСЖКХ</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="СведенияДляГИСЖКХРасширеннаяПодсказка" id="268"/>
+						<ChildItems>
+							<InputField name="ЕдиныйЛицевойСчет" id="275">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<HorizontalStretch>true</HorizontalStretch>
+								<ContextMenu name="ЕдиныйЛицевойСчетКонтекстноеМеню" id="276"/>
+								<ExtendedTooltip name="ЕдиныйЛицевойСчетРасширеннаяПодсказка" id="277"/>
+							</InputField>
+							<InputField name="ИдентификаторЖКУ" id="269">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<ContextMenu name="ИдентификаторЖКУКонтекстноеМеню" id="270"/>
+								<ExtendedTooltip name="ИдентификаторЖКУРасширеннаяПодсказка" id="271"/>
+							</InputField>
+							<LabelDecoration name="ДекорацияПояснениеИДЖКУ" id="272">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Идентификатор ЖКУ используется для идентификации лицевого счета в ГИС ЖКХ при выгрузке платежных документов и присваивается на стороне ГИС ЖКХ при первой выгрузке лицевого счета.
+</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ДекорацияПояснениеИДЖКУКонтекстноеМеню" id="273"/>
+								<ExtendedTooltip name="ДекорацияПояснениеИДЖКУРасширеннаяПодсказка" id="274"/>
+							</LabelDecoration>
+							<UsualGroup name="ГруппаИдентификаторыКР" id="285">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Идентификаторы лицевых счетов капитального ремонта</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа идентификаторы КР</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Collapsible</Behavior>
+								<CollapsedRepresentationTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Идентификаторы отдельных лицевых счетов капитального ремонта</v8:content>
+									</v8:item>
+								</CollapsedRepresentationTitle>
+								<Collapsed>true</Collapsed>
+								<ControlRepresentation>Picture</ControlRepresentation>
+								<ExtendedTooltip name="ГруппаИдентификаторыКРРасширеннаяПодсказка" id="286"/>
+								<ChildItems>
+									<LabelDecoration name="ДекорацияПояснениеОтдельныхИдентификаторовКР" id="287">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<TextColor>style:УПЖКХ_ТекстСправочнойНадписи</TextColor>
+										<Title formatted="true">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>В случае, когда организация ведет раздельный учет услуг капитального ремонта (КР), и печатает отдельные платежные документы по капитальному ремонту, необходимо заполнить идентификаторы лицевых счетов капитального ремонта:
+- Если лицевой счет создан &lt;b&gt;только для начисления услуг капитального ремонта&lt;/&gt;, то выгрузку в ГИС лицевых счетов необходимо выполнять с установленной настройкой "Выгружать лицевые счета капитального ремонта", а загрузку идентификаторов по таким лицевым счетам необходимо выполнять с установленной настройкой "Загружать идентификаторы лицевых счетов капитального ремонта". При этом при загрузке идентификаторов будут заполняться идентификаторы ЕЛС КР и ЖКУ КР.
+
+- Если для начисления услуг капитального ремонта &lt;b&gt;отдельные лицевые счета не создаются&lt;/&gt;, но при этом печатаются отдельные &lt;b&gt;платежные документы по КР&lt;/&gt;, то выгрузку таких лицевых счетов, а также загрузку идентификаторов таких лицевых счетов необходимо выполнить дважды:
+1) Выполнить выгрузку лицевых счетов с установленной настройкой "Выгружать лицевые счета капитального ремонта", а затем загрузить с портала ГИС идентификаторы лицевых счетов КР, выбрав настройку "Загружать идентификаторы лицевых счетов капитального ремонта". При этом при загрузке идентификаторов будут заполняться идентификаторы ЕЛС КР и ЖКУ КР.
+2) Выполнить выгрузку лицевых счетов с установленной настройкой "Выгружать лицевые счета управляющей организации", а затем загрузить с портала ГИС идентификаторы лицевых счетов УО, выбрав настройку "Загружать идентификаторы лицевых счетов управляющей организации". При этом при загрузке идентификаторов будут заполняться идентификаторы ЕЛС и ЖКУ.
+Таким образом в ГИС ЖКХ будут созданы 2 лицевых счета с разными типами (ЛС УО и ЛС КР), но с одинаковым наименованием.</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияПояснениеОтдельныхИдентификаторовКРКонтекстноеМеню" id="288"/>
+										<ExtendedTooltip name="ДекорацияПояснениеОтдельныхИдентификаторовКРРасширеннаяПодсказка" id="289"/>
+									</LabelDecoration>
+									<InputField name="ЕдиныйЛицевойСчетКР" id="290">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="ЕдиныйЛицевойСчетКРКонтекстноеМеню" id="291"/>
+										<ExtendedTooltip name="ЕдиныйЛицевойСчетКРРасширеннаяПодсказка" id="292"/>
+									</InputField>
+									<InputField name="ИдентификаторЖКУКР" id="293">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<ContextMenu name="ИдентификаторЖКУКРКонтекстноеМеню" id="294"/>
+										<ExtendedTooltip name="ИдентификаторЖКУКРРасширеннаяПодсказка" id="295"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаДополнительныеРеквизиты" id="283">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дополнительные реквизиты</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа дополнительные реквизиты</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Horizontal</Group>
+						<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="284"/>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>НормыПотребленияУслугПериод</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НормыПотребленияУслугУслуга</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НормыПотребленияУслугНормаПотребления</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НормыПотребленияУслугРазмер</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">НормыПотребленияУслуг.Актуальность</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:Gray</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>
