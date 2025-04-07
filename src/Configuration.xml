@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>2.5.1.0-dev1</Version>
+			<Version>2.5.1.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -193,6 +193,8 @@
 			<CommonModule>ГП_СчетмашAPIКлиентСервер</CommonModule>
 			<CommonModule>ГП_ВспомогательныеФункцииКлиентСервер</CommonModule>
 			<CommonModule>ГП_ВспомогательныеФункции</CommonModule>
+			<CommonModule>ШаблоныФискальныхДокументовСлужебный</CommonModule>
+			<CommonModule>ПечатьФискальныхДокументов</CommonModule>
 			<CommandGroup>ГП_ДанныеБП77</CommandGroup>
 			<CommandGroup>ГП_ЗагрузкаДанныхБП77</CommandGroup>
 			<Constant>ГП_РежимМиграцииБП77</Constant>
