@@ -229,7 +229,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="5c10e2a91fe75301035578971076e8c9526ca701"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="c287eb1ba3d7b97b48d7e505ec7143e93921df09"/>
 		<Metadata name="Constant.ГП_ВключенОсновнойРежимРаботыВебКассыСчетмаш" id="15305909-185c-461e-942a-e7a9a2b85de1" configVersion="6d84bf88b2488ff44869405935417263a1cbb17d"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш" id="438bb286-cbaf-43b4-b0e9-357418e20d91" configVersion="3fc8d1582b732384f9958a81dcd71fc1c26a91a1"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш.ManagerModule" id="438bb286-cbaf-43b4-b0e9-357418e20d91.1" configVersion="6c56d7f5169261a031628feaab6f6573404f1438"/>
@@ -554,7 +554,7 @@
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.ObjectModule" id="8cef1724-e588-4135-8e74-b643de078d73.0" configVersion="f520a75666eee512996ca6bfd1d4383d9e4984b4"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер" id="db8124c7-e48e-470c-ab6a-677a05194602" configVersion="3e2f358a12b54184db89e9661cb3f7dfb9c929da"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокументаОднострочная" id="7a23b90f-32e0-4472-8da9-3fd851e0b063" configVersion="913f6d21fe55a2955fe01afe4ff68f9e002c82f5"/>
-		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокументаОднострочная.Form" id="7a23b90f-32e0-4472-8da9-3fd851e0b063.0" configVersion="cb19f315415530c588d97deb529983736489c7d2"/>
+		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокументаОднострочная.Form" id="7a23b90f-32e0-4472-8da9-3fd851e0b063.0" configVersion="210c2f01912d9ccc794098dc14655736215fabc2"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаРасшифровкаПлатежа" id="cc7f1fe4-a37e-45a9-a219-34ead7854709" configVersion="ab363b300f23cc2f753b327ee9b7e8d88cd8efb6"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаРасшифровкаПлатежа.Form" id="cc7f1fe4-a37e-45a9-a219-34ead7854709.0" configVersion="e0e19a01c0e91f0147be4185100c9612d6f25e31"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер.ObjectModule" id="db8124c7-e48e-470c-ab6a-677a05194602.0" configVersion="feb3c9fdfb97fa5f5124df664b2b72962a84fe9d"/>
