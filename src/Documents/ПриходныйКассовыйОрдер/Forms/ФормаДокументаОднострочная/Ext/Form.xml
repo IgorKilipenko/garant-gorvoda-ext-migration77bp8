@@ -161,6 +161,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnCreateAtServer" callType="Before">ГП_ПриСозданииНаСервереПеред</Event>
+		<Event name="OnCreateAtServer" callType="After">ГП_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаПредупреждениеНастройкиНалоговИОтчетов" id="894">
@@ -643,6 +644,36 @@
 											</Title>
 											<ContextMenu name="НадписьЧекОжидаетОтправкиКонтекстноеМеню" id="868"/>
 											<ExtendedTooltip name="НадписьЧекОжидаетОтправкиРасширеннаяПодсказка" id="869"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаЧекОжиданиеДанных" id="907">
+									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ожидание данных</v8:content>
+										</v8:item>
+									</Title>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЧекОжиданиеДанныхРасширеннаяПодсказка" id="908"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаЧекОжиданиеДанных" id="909">
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаЧекОжиданиеДанныхКонтекстноеМеню" id="910"/>
+											<ExtendedTooltip name="КартинкаЧекОжиданиеДанныхРасширеннаяПодсказка" id="911"/>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьЧекОжиданиеДанных" id="912">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Обновляем чек по данным сервиса Мой налог...</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="НадписьЧекОжиданиеДанныхКонтекстноеМеню" id="913"/>
+											<ExtendedTooltip name="НадписьЧекОжиданиеДанныхРасширеннаяПодсказка" id="914"/>
 										</LabelDecoration>
 									</ChildItems>
 								</UsualGroup>
@@ -2321,6 +2352,36 @@
 												</Title>
 												<ContextMenu name="НадписьЧекОжидаетОтправкиКонтекстноеМеню" id="868"/>
 												<ExtendedTooltip name="НадписьЧекОжидаетОтправкиРасширеннаяПодсказка" id="869"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаЧекОжиданиеДанных" id="907">
+										<Visible>false</Visible>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Ожидание данных</v8:content>
+											</v8:item>
+										</Title>
+										<Group>AlwaysHorizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаЧекОжиданиеДанныхРасширеннаяПодсказка" id="908"/>
+										<ChildItems>
+											<PictureDecoration name="КартинкаЧекОжиданиеДанных" id="909">
+												<FileDragMode>AsFile</FileDragMode>
+												<ContextMenu name="КартинкаЧекОжиданиеДанныхКонтекстноеМеню" id="910"/>
+												<ExtendedTooltip name="КартинкаЧекОжиданиеДанныхРасширеннаяПодсказка" id="911"/>
+											</PictureDecoration>
+											<LabelDecoration name="НадписьЧекОжиданиеДанных" id="912">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Обновляем чек по данным сервиса Мой налог...</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="НадписьЧекОжиданиеДанныхКонтекстноеМеню" id="913"/>
+												<ExtendedTooltip name="НадписьЧекОжиданиеДанныхРасширеннаяПодсказка" id="914"/>
 											</LabelDecoration>
 										</ChildItems>
 									</UsualGroup>
