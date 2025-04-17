@@ -122,7 +122,7 @@
 		<Metadata name="CommonModule.ГП_НачислениеУслуг" id="0e52925f-f011-423f-a900-b6a0c961ef5b" configVersion="cb73500fde431556c8f2c85ed7d8cf512ac5249f"/>
 		<Metadata name="CommonModule.ГП_НачислениеУслуг.Module" id="0e52925f-f011-423f-a900-b6a0c961ef5b.0" configVersion="055526093c93fae0c04b22cc1c59a75193fe89a6"/>
 		<Metadata name="CommonModule.ГП_ОбменОФД" id="bfed78c0-5ce1-4730-bc55-7c53b04fa452" configVersion="e3d277b504f9b7ed44098fa3691465bf4a977dc2"/>
-		<Metadata name="CommonModule.ГП_ОбменОФД.Module" id="bfed78c0-5ce1-4730-bc55-7c53b04fa452.0" configVersion="5248f24b0044ad94f3d4d38034c184e0024a3d13"/>
+		<Metadata name="CommonModule.ГП_ОбменОФД.Module" id="bfed78c0-5ce1-4730-bc55-7c53b04fa452.0" configVersion="88c45e3575cc3aaeca8bc1bb3299a0e130a44172"/>
 		<Metadata name="CommonModule.ГП_ОбменОФДПрочиеУслуги" id="1b219a83-32b8-4ab7-aadd-cea4d6691a99" configVersion="d131d837dfd0a4cf122c4f1357b908f0ea41fc84"/>
 		<Metadata name="CommonModule.ГП_ОбменОФДПрочиеУслуги.Module" id="1b219a83-32b8-4ab7-aadd-cea4d6691a99.0" configVersion="dd9c678e30e6d639758c853300e606dcb89b9952"/>
 		<Metadata name="CommonModule.ГП_ОбменСоСТАРТ" id="9b10888e-b5be-4ca8-84cd-54bbe0854821" configVersion="9aa433e24123bf86cd2f084f761adc497412674c"/>
@@ -229,7 +229,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="9018510fa54deb6e2519abee5593c1a20a2952ff"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="3e4ecd1f37f90ba052229a0a2b491f8ff3f0abab"/>
 		<Metadata name="Constant.ГП_ВключенОсновнойРежимРаботыВебКассыСчетмаш" id="15305909-185c-461e-942a-e7a9a2b85de1" configVersion="6d84bf88b2488ff44869405935417263a1cbb17d"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш" id="438bb286-cbaf-43b4-b0e9-357418e20d91" configVersion="3fc8d1582b732384f9958a81dcd71fc1c26a91a1"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш.ManagerModule" id="438bb286-cbaf-43b4-b0e9-357418e20d91.1" configVersion="6c56d7f5169261a031628feaab6f6573404f1438"/>
