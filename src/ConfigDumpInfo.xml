@@ -174,13 +174,13 @@
 		<Metadata name="CommonModule.ОплатаПлатежнойКартойФормы" id="605cacec-f9f0-4638-a0d7-8bff188cc550" configVersion="bd565f4388badde88583ff883a86fca627dd36bb"/>
 		<Metadata name="CommonModule.ОплатаПлатежнойКартойФормы.Module" id="605cacec-f9f0-4638-a0d7-8bff188cc550.0" configVersion="c775878782b76f8f58a5fb28b3624a3f7a08552b"/>
 		<Metadata name="CommonModule.ПечатьТорговыхДокументов" id="64a8d982-c364-42fe-80b2-d6371c249c40" configVersion="6fa59aaf62d2e09333a948f92a76dd38c1af30a2"/>
-		<Metadata name="CommonModule.ПечатьТорговыхДокументов.Module" id="64a8d982-c364-42fe-80b2-d6371c249c40.0" configVersion="b5622e2858493089053ce2a34933c81901b0b30e"/>
+		<Metadata name="CommonModule.ПечатьТорговыхДокументов.Module" id="64a8d982-c364-42fe-80b2-d6371c249c40.0" configVersion="03366af70c9130cc64693d7e8214a9e20701152f"/>
 		<Metadata name="CommonModule.ПечатьФискальныхДокументов" id="dc16a0f0-cb7a-46e1-a0c9-1eea0b75872c" configVersion="ad17f50b5f444c06e4a1963af21e0c637b4955cf"/>
 		<Metadata name="CommonModule.ПечатьФискальныхДокументов.Module" id="dc16a0f0-cb7a-46e1-a0c9-1eea0b75872c.0" configVersion="bc0453cb752315a5f3fc093dee91de743d34c205"/>
-		<Metadata name="CommonModule.ПоступлениеНаРасчетныйСчетФормы" id="ff43070c-2613-47af-a327-7fe70b432dd3" configVersion="1f3a12eb3f5da11050af8222037a4650e1f2a934"/>
-		<Metadata name="CommonModule.ПоступлениеНаРасчетныйСчетФормы.Module" id="ff43070c-2613-47af-a327-7fe70b432dd3.0" configVersion="096ef56de16e2fcd4d6e935bcd185cbbec30d168"/>
-		<Metadata name="CommonModule.ПриходныйКассовыйОрдерФормы" id="1d6ec61b-ee86-493e-a1a9-2612fb3ce9cb" configVersion="d7159e02992886e68bcffc71d00626037078b5fe"/>
-		<Metadata name="CommonModule.ПриходныйКассовыйОрдерФормы.Module" id="1d6ec61b-ee86-493e-a1a9-2612fb3ce9cb.0" configVersion="095c437931c7c2732241dde876fa719d4caaae6c"/>
+		<Metadata name="CommonModule.ПоступлениеНаРасчетныйСчетФормы" id="ff43070c-2613-47af-a327-7fe70b432dd3" configVersion="b84c610dbbd5a82fdcc651df463651743c49de11"/>
+		<Metadata name="CommonModule.ПоступлениеНаРасчетныйСчетФормы.Module" id="ff43070c-2613-47af-a327-7fe70b432dd3.0" configVersion="bf0c6e7a734e1b166584fdab539f0279738e977e"/>
+		<Metadata name="CommonModule.ПриходныйКассовыйОрдерФормы" id="1d6ec61b-ee86-493e-a1a9-2612fb3ce9cb" configVersion="82afc149886bf94f245a6fe4fa37e8962e46b387"/>
+		<Metadata name="CommonModule.ПриходныйКассовыйОрдерФормы.Module" id="1d6ec61b-ee86-493e-a1a9-2612fb3ce9cb.0" configVersion="b92ca3dea03419582ab37abd899021e42a1ef7e6"/>
 		<Metadata name="CommonModule.УПЖКХ_МеханизмыПечатиЧеков" id="0701acac-1a6d-4b97-8dd4-78f26196f5c1" configVersion="f95571b9e69b9414c34b96d76e192cf9fa1be3bd"/>
 		<Metadata name="CommonModule.УПЖКХ_МеханизмыПечатиЧеков.Module" id="0701acac-1a6d-4b97-8dd4-78f26196f5c1.0" configVersion="2ec3c3b95c3f0ccb0d6ba6c2fa97802f17362d65"/>
 		<Metadata name="CommonModule.УПЖКХ_ОбщегоНазначенияСервер" id="2a49fb44-2910-4337-9140-91a78b0c2a41" configVersion="e8c976d3c56098da4dcaf42fdf19287d80c04c6f"/>
@@ -229,7 +229,7 @@
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура1096.Template" id="a156f227-0722-42d3-b4e6-4cad7b1c4096.0" configVersion="efbc4643622cfa911fd7ff17c09b0460ba398835"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534" id="0111134b-5a25-499c-8b89-43d1c3b64283" configVersion="ed87342db1a31a14e98202e1bb1b66d41bf3837a"/>
 		<Metadata name="CommonTemplate.ГП_ПФ_MXL_СчетФактура534.Template" id="0111134b-5a25-499c-8b89-43d1c3b64283.0" configVersion="8ef7daf1d3e668a3020c85414d18960820f6264a"/>
-		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="3e4ecd1f37f90ba052229a0a2b491f8ff3f0abab"/>
+		<Metadata name="Configuration.ГП_МиграцияБП77_Разработка" id="e3c25890-1210-4ff0-bd9a-ca756757ccf6" configVersion="b256da399c939fc7a88b02b33b0a55004b7c5859"/>
 		<Metadata name="Constant.ГП_ВключенОсновнойРежимРаботыВебКассыСчетмаш" id="15305909-185c-461e-942a-e7a9a2b85de1" configVersion="6d84bf88b2488ff44869405935417263a1cbb17d"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш" id="438bb286-cbaf-43b4-b0e9-357418e20d91" configVersion="3fc8d1582b732384f9958a81dcd71fc1c26a91a1"/>
 		<Metadata name="Constant.ГП_КлючАвторизацииСчетмаш.ManagerModule" id="438bb286-cbaf-43b4-b0e9-357418e20d91.1" configVersion="6c56d7f5169261a031628feaab6f6573404f1438"/>
